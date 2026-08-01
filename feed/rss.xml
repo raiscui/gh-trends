@@ -5,8 +5,22 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Aug 2026 12:39:19 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 13:06:52 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>QoderAI/better-harness</title>
+      <link>https://github.com/QoderAI/better-harness</link>
+      <description>Better Harness turns project and session evidence into loop-level insights, prioritized improvements, and verifiable next steps—inside the coding agent you already use.</description>
+      <pubDate>Sat, 01 Aug 2026 13:06:52 GMT</pubDate>
+      <guid isPermaLink="false">QoderAI/better-harness</guid>
+    </item>
+    <item>
+      <title>agiwhitelist/auteur</title>
+      <link>https://github.com/agiwhitelist/auteur</link>
+      <description>The Claude Code skill that directs a website like a film. Commit-sheet, generated assets, build, and an executable anti-slop linter that gates every ship.</description>
+      <pubDate>Sat, 01 Aug 2026 13:06:52 GMT</pubDate>
+      <guid isPermaLink="false">agiwhitelist/auteur</guid>
+    </item>
     <item>
       <title>MoonshotAI/Kimi-K3</title>
       <link>https://github.com/MoonshotAI/Kimi-K3</link>
@@ -108,7 +122,7 @@
     <item>
       <title>bryanthaboi/gen1recomp</title>
       <link>https://github.com/bryanthaboi/gen1recomp</link>
-      <description>Gen1Recomp - A native Lua / LÖVE2D recreation of Gen 1 Poke </description>
+      <description>Gen1Recomp - A native Lua / LÖVE2D recreation of Gen 1 Poke</description>
       <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
       <guid isPermaLink="false">bryanthaboi/gen1recomp</guid>
     </item>

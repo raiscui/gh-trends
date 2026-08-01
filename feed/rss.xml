@@ -5,329 +5,147 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2026 03:54:35 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 12:39:19 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
     <item>
-      <title>crawlseo/crawlseo</title>
-      <link>https://github.com/crawlseo/crawlseo</link>
-      <description>Open-source SEO monitoring. GSC + Site Crawler + Core Web Vitals in one dashboard.</description>
-      <pubDate>Wed, 22 Jul 2026 03:54:35 GMT</pubDate>
-      <guid isPermaLink="false">crawlseo/crawlseo</guid>
+      <title>MoonshotAI/Kimi-K3</title>
+      <link>https://github.com/MoonshotAI/Kimi-K3</link>
+      <description>Open Frontier Intelligence</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">MoonshotAI/Kimi-K3</guid>
     </item>
     <item>
-      <title>Jakubantalik/thinking-orbs</title>
-      <link>https://github.com/Jakubantalik/thinking-orbs</link>
-      <description>Dotted thought-orb loading indicators for AI &amp; agent UIs — six tuned states, two sizes, auto dark/light</description>
-      <pubDate>Wed, 22 Jul 2026 03:54:35 GMT</pubDate>
-      <guid isPermaLink="false">Jakubantalik/thinking-orbs</guid>
+      <title>openai/codex-security</title>
+      <link>https://github.com/openai/codex-security</link>
+      <description>OpenAI&apos;s Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">openai/codex-security</guid>
     </item>
     <item>
-      <title>penecho/penecho</title>
-      <link>https://github.com/penecho/penecho</link>
-      <description>Think with AI beyond the chat box. A shared canvas for handwriting, equations, diagrams, and spatial reasoning.</description>
-      <pubDate>Wed, 22 Jul 2026 03:54:35 GMT</pubDate>
-      <guid isPermaLink="false">penecho/penecho</guid>
-    </item>
-    <item>
-      <title>block/buzz</title>
-      <link>https://github.com/block/buzz</link>
-      <description>A hive mind communication platform</description>
-      <pubDate>Wed, 22 Jul 2026 03:54:35 GMT</pubDate>
-      <guid isPermaLink="false">block/buzz</guid>
-    </item>
-    <item>
-      <title>Blaizzy/nativ</title>
-      <link>https://github.com/Blaizzy/nativ</link>
-      <description>Local AI, native to your Mac. Chat, serve, monitor, and connect MLX models from one macOS app.</description>
-      <pubDate>Tue, 21 Jul 2026 14:32:07 GMT</pubDate>
-      <guid isPermaLink="false">Blaizzy/nativ</guid>
-    </item>
-    <item>
-      <title>unicity-aos/capsule-identity</title>
-      <link>https://github.com/unicity-aos/capsule-identity</link>
-      <description>System prompt builder. Assembles agent identity from workspace config and spark.toml. Part of Unicity AOS.</description>
-      <pubDate>Tue, 21 Jul 2026 14:32:07 GMT</pubDate>
-      <guid isPermaLink="false">unicity-aos/capsule-identity</guid>
-    </item>
-    <item>
-      <title>unicity-aos/capsule-fs</title>
-      <link>https://github.com/unicity-aos/capsule-fs</link>
-      <description>Filesystem tools for agents. Read, write, replace, grep, list, create, delete, move via VFS airlock. Part of Unicity AOS.</description>
-      <pubDate>Tue, 21 Jul 2026 14:32:07 GMT</pubDate>
-      <guid isPermaLink="false">unicity-aos/capsule-fs</guid>
-    </item>
-    <item>
-      <title>mesamirh/MovieBox-Tui</title>
-      <link>https://github.com/mesamirh/MovieBox-Tui</link>
-      <description>A modern Rust based terminal user interface for MovieBox. Fast, lightweight, keyboard first, and cross-platform.</description>
-      <pubDate>Tue, 21 Jul 2026 14:32:07 GMT</pubDate>
-      <guid isPermaLink="false">mesamirh/MovieBox-Tui</guid>
-    </item>
-    <item>
-      <title>Julian-adv/OpenMMO</title>
-      <link>https://github.com/Julian-adv/OpenMMO</link>
-      <description>(no description)</description>
-      <pubDate>Tue, 21 Jul 2026 03:54:04 GMT</pubDate>
-      <guid isPermaLink="false">Julian-adv/OpenMMO</guid>
-    </item>
-    <item>
-      <title>unicity-aos/aos-ce</title>
-      <link>https://github.com/unicity-aos/aos-ce</link>
-      <description>AOS Community Edition: the open agent operating system.</description>
-      <pubDate>Tue, 21 Jul 2026 03:54:04 GMT</pubDate>
-      <guid isPermaLink="false">unicity-aos/aos-ce</guid>
-    </item>
-    <item>
-      <title>Sahir619/fable-method</title>
-      <link>https://github.com/Sahir619/fable-method</link>
-      <description>The Fable Workflow: how Claude Fable 5 worked, distilled into skills any model can run, with the eval that keeps it honest. Think / act / prove.</description>
-      <pubDate>Tue, 21 Jul 2026 03:54:04 GMT</pubDate>
-      <guid isPermaLink="false">Sahir619/fable-method</guid>
-    </item>
-    <item>
-      <title>unicity-aos/capsule-memory</title>
-      <link>https://github.com/unicity-aos/capsule-memory</link>
-      <description>Cross-session memory. Reads local memory state and injects it into the system prompt through hooks. Part of Unicity AOS.</description>
-      <pubDate>Mon, 20 Jul 2026 14:38:18 GMT</pubDate>
-      <guid isPermaLink="false">unicity-aos/capsule-memory</guid>
-    </item>
-    <item>
-      <title>oblien/openship</title>
-      <link>https://github.com/oblien/openship</link>
-      <description>Self-hosted deployment platform</description>
-      <pubDate>Mon, 20 Jul 2026 04:13:30 GMT</pubDate>
-      <guid isPermaLink="false">oblien/openship</guid>
-    </item>
-    <item>
-      <title>anomalyco/browser-control</title>
-      <link>https://github.com/anomalyco/browser-control</link>
-      <description>Local browser driver for trusted agents: control your existing Chromium browser through a small extension and local relay</description>
-      <pubDate>Mon, 20 Jul 2026 04:13:30 GMT</pubDate>
-      <guid isPermaLink="false">anomalyco/browser-control</guid>
-    </item>
-    <item>
-      <title>hoainho/img2threejs</title>
-      <link>https://github.com/hoainho/img2threejs</link>
+      <title>img2threejs/img2threejs</title>
+      <link>https://github.com/img2threejs/img2threejs</link>
       <description>Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.</description>
-      <pubDate>Mon, 20 Jul 2026 04:13:30 GMT</pubDate>
-      <guid isPermaLink="false">hoainho/img2threejs</guid>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">img2threejs/img2threejs</guid>
     </item>
     <item>
-      <title>isene/frame</title>
-      <link>https://github.com/isene/frame</link>
-      <description>Pure-asm X11 display server for the CHasm desktop. No libc, no Mesa, no Xlib — just NASM, syscalls, and the X11 wire protocol.</description>
-      <pubDate>Mon, 20 Jul 2026 04:13:30 GMT</pubDate>
-      <guid isPermaLink="false">isene/frame</guid>
-    </item>
-    <item>
-      <title>SirAllap/agentglass</title>
-      <link>https://github.com/SirAllap/agentglass</link>
-      <description>🛰 A loupe for your agents — a real-time Mission-Control dashboard and workspace for AI coding agents, across every provider and every project on your machine</description>
-      <pubDate>Sun, 19 Jul 2026 13:59:16 GMT</pubDate>
-      <guid isPermaLink="false">SirAllap/agentglass</guid>
-    </item>
-    <item>
-      <title>lopopolo/harness-engineering</title>
-      <link>https://github.com/lopopolo/harness-engineering</link>
-      <description>🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering</description>
-      <pubDate>Sun, 19 Jul 2026 13:59:16 GMT</pubDate>
-      <guid isPermaLink="false">lopopolo/harness-engineering</guid>
-    </item>
-    <item>
-      <title>pablostanley/yoinks</title>
-      <link>https://github.com/pablostanley/yoinks</link>
-      <description>yoink any video from your terminal. no shady ads.</description>
-      <pubDate>Sun, 19 Jul 2026 13:59:16 GMT</pubDate>
-      <guid isPermaLink="false">pablostanley/yoinks</guid>
-    </item>
-    <item>
-      <title>tokio-rs/topcoat</title>
-      <link>https://github.com/tokio-rs/topcoat</link>
-      <description>A batteries-included framework for building web apps</description>
-      <pubDate>Sun, 19 Jul 2026 04:04:39 GMT</pubDate>
-      <guid isPermaLink="false">tokio-rs/topcoat</guid>
-    </item>
-    <item>
-      <title>erickong/penecho</title>
-      <link>https://github.com/erickong/penecho</link>
-      <description>Think with AI beyond the chat box. A shared canvas for handwriting, equations, diagrams, and spatial reasoning.</description>
-      <pubDate>Sun, 19 Jul 2026 04:04:39 GMT</pubDate>
-      <guid isPermaLink="false">erickong/penecho</guid>
-    </item>
-    <item>
-      <title>Icex0/wp2shell-poc</title>
-      <link>https://github.com/Icex0/wp2shell-poc</link>
-      <description>wp2shell (CVE-2026-63030 &amp; CVE-2026-60137) - full RCE chain</description>
-      <pubDate>Sun, 19 Jul 2026 04:04:39 GMT</pubDate>
-      <guid isPermaLink="false">Icex0/wp2shell-poc</guid>
-    </item>
-    <item>
-      <title>katipally/openlive</title>
-      <link>https://github.com/katipally/openlive</link>
-      <description>Live voice + vision AI assistant — on-device voice pipeline, thin LLM proxy</description>
-      <pubDate>Sun, 19 Jul 2026 04:04:39 GMT</pubDate>
-      <guid isPermaLink="false">katipally/openlive</guid>
-    </item>
-    <item>
-      <title>xiejunjie524/handdraw-story-video</title>
-      <link>https://github.com/xiejunjie524/handdraw-story-video</link>
-      <description>Turn hand-drawn story illustrations into 35–45 second line-reveal and gradual-coloring videos with HyperFrames.</description>
-      <pubDate>Sun, 19 Jul 2026 04:04:39 GMT</pubDate>
-      <guid isPermaLink="false">xiejunjie524/handdraw-story-video</guid>
-    </item>
-    <item>
-      <title>yaojingang/GEORank</title>
-      <link>https://github.com/yaojingang/GEORank</link>
-      <description>Open-source GEO ranking and generative engine optimization platform.</description>
-      <pubDate>Sun, 19 Jul 2026 04:04:39 GMT</pubDate>
-      <guid isPermaLink="false">yaojingang/GEORank</guid>
-    </item>
-    <item>
-      <title>KytyPS5/KytyPS5</title>
-      <link>https://github.com/KytyPS5/KytyPS5</link>
-      <description>PlayStation 5 emulator for Windows</description>
-      <pubDate>Sun, 19 Jul 2026 04:04:39 GMT</pubDate>
-      <guid isPermaLink="false">KytyPS5/KytyPS5</guid>
-    </item>
-    <item>
-      <title>Fei-Away/Codex-Dream-Skin</title>
-      <link>https://github.com/Fei-Away/Codex-Dream-Skin</link>
-      <description>Codex Dream Skin</description>
-      <pubDate>Fri, 17 Jul 2026 03:46:14 GMT</pubDate>
-      <guid isPermaLink="false">Fei-Away/Codex-Dream-Skin</guid>
-    </item>
-    <item>
-      <title>KnockOutEZ/wigolo</title>
-      <link>https://github.com/KnockOutEZ/wigolo</link>
-      <description>The go-to web for your AI coding agent — local-first search, fetch, crawl &amp; research over MCP. No API keys, no cloud, $0/query. Public beta.</description>
-      <pubDate>Fri, 17 Jul 2026 03:46:14 GMT</pubDate>
-      <guid isPermaLink="false">KnockOutEZ/wigolo</guid>
-    </item>
-    <item>
-      <title>microsoft/comic-chat</title>
-      <link>https://github.com/microsoft/comic-chat</link>
-      <description>Source code for the Microsoft Comic Chat IRC client</description>
-      <pubDate>Fri, 17 Jul 2026 03:46:14 GMT</pubDate>
-      <guid isPermaLink="false">microsoft/comic-chat</guid>
-    </item>
-    <item>
-      <title>tandpfun/wardrobe</title>
-      <link>https://github.com/tandpfun/wardrobe</link>
-      <description>Your clothes, extracted and organized with gpt-image.</description>
-      <pubDate>Fri, 17 Jul 2026 03:46:14 GMT</pubDate>
-      <guid isPermaLink="false">tandpfun/wardrobe</guid>
-    </item>
-    <item>
-      <title>stackblitz/bolt-slides</title>
-      <link>https://github.com/stackblitz/bolt-slides</link>
-      <description>Use any agent to create stunning, interactive presentations</description>
-      <pubDate>Fri, 17 Jul 2026 03:46:14 GMT</pubDate>
-      <guid isPermaLink="false">stackblitz/bolt-slides</guid>
-    </item>
-    <item>
-      <title>Skyvern-AI/rustwright</title>
-      <link>https://github.com/Skyvern-AI/rustwright</link>
-      <description>Playwright&apos;s API on a Rust CDP engine — Chromium browser automation for Python &amp; Node, no driver subprocess. (Alpha)</description>
-      <pubDate>Fri, 17 Jul 2026 03:46:14 GMT</pubDate>
-      <guid isPermaLink="false">Skyvern-AI/rustwright</guid>
-    </item>
-    <item>
-      <title>tldraw/tldraw-offline</title>
-      <link>https://github.com/tldraw/tldraw-offline</link>
-      <description>A desktop app for using tldraw with local files.</description>
-      <pubDate>Fri, 17 Jul 2026 03:46:14 GMT</pubDate>
-      <guid isPermaLink="false">tldraw/tldraw-offline</guid>
-    </item>
-    <item>
-      <title>shibco/ableton-linux</title>
-      <link>https://github.com/shibco/ableton-linux</link>
-      <description>Run Ableton 12 and Push on Linux</description>
-      <pubDate>Fri, 17 Jul 2026 03:46:14 GMT</pubDate>
-      <guid isPermaLink="false">shibco/ableton-linux</guid>
-    </item>
-    <item>
-      <title>vshulcz/deja-vu</title>
-      <link>https://github.com/vshulcz/deja-vu</link>
-      <description>Memory layer for coding agents: search, MCP recall, auto-context, secret redaction, stats, share and sync over the session logs Claude Code, Codex and opencode already write. One zero-dep binary.</description>
-      <pubDate>Fri, 17 Jul 2026 03:46:14 GMT</pubDate>
-      <guid isPermaLink="false">vshulcz/deja-vu</guid>
-    </item>
-    <item>
-      <title>oversecured/Samsung_Vulnerabilities</title>
-      <link>https://github.com/oversecured/Samsung_Vulnerabilities</link>
-      <description>176 vulnerabilities in Samsung preinstalled Android apps</description>
-      <pubDate>Fri, 17 Jul 2026 03:46:14 GMT</pubDate>
-      <guid isPermaLink="false">oversecured/Samsung_Vulnerabilities</guid>
-    </item>
-    <item>
-      <title>xai-org/grok-build</title>
-      <link>https://github.com/xai-org/grok-build</link>
-      <description>SpaceXAI&apos;s coding agent harness and TUI. Fullscreen, mouse interactive, extensible.</description>
-      <pubDate>Thu, 16 Jul 2026 03:45:48 GMT</pubDate>
-      <guid isPermaLink="false">xai-org/grok-build</guid>
-    </item>
-    <item>
-      <title>pixel-point/aval</title>
-      <link>https://github.com/pixel-point/aval</link>
-      <description>A new open-source format for interactive video on the web, with a built-in state machine, frame-accurate transitions, and packed-alpha transparency.</description>
-      <pubDate>Thu, 16 Jul 2026 03:45:48 GMT</pubDate>
-      <guid isPermaLink="false">pixel-point/aval</guid>
-    </item>
-    <item>
-      <title>kitlangton/skills</title>
-      <link>https://github.com/kitlangton/skills</link>
-      <description>Here are some skills I use. Maybe you&apos;ll find them useful. Maybe not. Goodbye.</description>
-      <pubDate>Thu, 16 Jul 2026 03:45:48 GMT</pubDate>
-      <guid isPermaLink="false">kitlangton/skills</guid>
-    </item>
-    <item>
-      <title>Stack-Cairn/LiveAgent</title>
-      <link>https://github.com/Stack-Cairn/LiveAgent</link>
-      <description>A fully functional AI Agent desktop client that supports Webui access and can be creatively customized and expanded!</description>
-      <pubDate>Thu, 16 Jul 2026 03:45:48 GMT</pubDate>
-      <guid isPermaLink="false">Stack-Cairn/LiveAgent</guid>
-    </item>
-    <item>
-      <title>oil-oil/beautify-github-readme</title>
-      <link>https://github.com/oil-oil/beautify-github-readme</link>
-      <description>Design clear, theme-specific GitHub README homepages with SVG titles, real proof, and maintainable Markdown</description>
-      <pubDate>Thu, 16 Jul 2026 03:45:48 GMT</pubDate>
-      <guid isPermaLink="false">oil-oil/beautify-github-readme</guid>
-    </item>
-    <item>
-      <title>sharpemu/sharpemu</title>
-      <link>https://github.com/sharpemu/sharpemu</link>
-      <description>An experimental PlayStation 5 emulator for Windows, Linux and macOS.</description>
-      <pubDate>Thu, 16 Jul 2026 03:45:48 GMT</pubDate>
-      <guid isPermaLink="false">sharpemu/sharpemu</guid>
-    </item>
-    <item>
-      <title>TobiasLee/Rebuttal-Skill</title>
-      <link>https://github.com/TobiasLee/Rebuttal-Skill</link>
+      <title>dimmas893/github-runner-single</title>
+      <link>https://github.com/dimmas893/github-runner-single</link>
       <description>(no description)</description>
-      <pubDate>Thu, 16 Jul 2026 03:45:48 GMT</pubDate>
-      <guid isPermaLink="false">TobiasLee/Rebuttal-Skill</guid>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">dimmas893/github-runner-single</guid>
     </item>
     <item>
-      <title>iptvorganization/TV-AutoBuild</title>
-      <link>https://github.com/iptvorganization/TV-AutoBuild</link>
-      <description>Monitored public GitHub Actions builds for iptvorganization TV Mobile and Leanback APKs</description>
-      <pubDate>Thu, 16 Jul 2026 03:45:48 GMT</pubDate>
-      <guid isPermaLink="false">iptvorganization/TV-AutoBuild</guid>
+      <title>digimata/quill</title>
+      <link>https://github.com/digimata/quill</link>
+      <description>Ultra-minimalist macOS recording + transcription.</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">digimata/quill</guid>
     </item>
     <item>
-      <title>MatinSenPai/Aether-GUI</title>
-      <link>https://github.com/MatinSenPai/Aether-GUI</link>
-      <description>One-click desktop GUI for the Aether censorship-circumvention tunnel — Tauri v2, React 19, Rust</description>
-      <pubDate>Thu, 16 Jul 2026 03:45:48 GMT</pubDate>
-      <guid isPermaLink="false">MatinSenPai/Aether-GUI</guid>
+      <title>drumih/turbo-fieldfare</title>
+      <link>https://github.com/drumih/turbo-fieldfare</link>
+      <description>Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">drumih/turbo-fieldfare</guid>
     </item>
     <item>
-      <title>composio-community/awesome-codex-skills</title>
-      <link>https://github.com/composio-community/awesome-codex-skills</link>
-      <description>A curated list of practical Codex skills for automating workflows across the Codex CLI and API.</description>
-      <pubDate>Thu, 16 Jul 2026 03:45:48 GMT</pubDate>
-      <guid isPermaLink="false">composio-community/awesome-codex-skills</guid>
+      <title>dimmas893/kasir</title>
+      <link>https://github.com/dimmas893/kasir</link>
+      <description>(no description)</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">dimmas893/kasir</guid>
+    </item>
+    <item>
+      <title>dimmas893/pos-backend</title>
+      <link>https://github.com/dimmas893/pos-backend</link>
+      <description>(no description)</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">dimmas893/pos-backend</guid>
+    </item>
+    <item>
+      <title>vercel-labs/scriptc</title>
+      <link>https://github.com/vercel-labs/scriptc</link>
+      <description>TypeScript-to-Native Compiler</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">vercel-labs/scriptc</guid>
+    </item>
+    <item>
+      <title>kvcache-ai/AgentENV</title>
+      <link>https://github.com/kvcache-ai/AgentENV</link>
+      <description>AgentENV (AENV) is a distributed platform for running agent environments at scale.</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">kvcache-ai/AgentENV</guid>
+    </item>
+    <item>
+      <title>jakubkrehel/skills</title>
+      <link>https://github.com/jakubkrehel/skills</link>
+      <description>A collection of agent skills that help with various parts of building a great interface. From animation and UI polish to accessibility and product writing.</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">jakubkrehel/skills</guid>
+    </item>
+    <item>
+      <title>yc-software/qm</title>
+      <link>https://github.com/yc-software/qm</link>
+      <description>Multiplayer agent harness for work</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">yc-software/qm</guid>
+    </item>
+    <item>
+      <title>dimmas893/github-runner-organizations</title>
+      <link>https://github.com/dimmas893/github-runner-organizations</link>
+      <description>(no description)</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">dimmas893/github-runner-organizations</guid>
+    </item>
+    <item>
+      <title>mshumer/Claude-of-Duty</title>
+      <link>https://github.com/mshumer/Claude-of-Duty</link>
+      <description>A Call of Duty-quality FPS in Three.js, built from a single prompt.</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">mshumer/Claude-of-Duty</guid>
+    </item>
+    <item>
+      <title>bryanthaboi/gen1recomp</title>
+      <link>https://github.com/bryanthaboi/gen1recomp</link>
+      <description>Gen1Recomp - A native Lua / LÖVE2D recreation of Gen 1 Poke </description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">bryanthaboi/gen1recomp</guid>
+    </item>
+    <item>
+      <title>bashalarmistalt/decimen-optical-transfer</title>
+      <link>https://github.com/bashalarmistalt/decimen-optical-transfer</link>
+      <description>(no description)</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">bashalarmistalt/decimen-optical-transfer</guid>
+    </item>
+    <item>
+      <title>YTwsy/OpenSurge-for-Mac</title>
+      <link>https://github.com/YTwsy/OpenSurge-for-Mac</link>
+      <description>Surge-style whole-home gateway and control plane for macOS — mihomo TUN, dnsmasq-powered DHCP/DNS, per-device routing, and an agent-friendly validation workspace.</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">YTwsy/OpenSurge-for-Mac</guid>
+    </item>
+    <item>
+      <title>NodePassProject/Nowhere</title>
+      <link>https://github.com/NodePassProject/Nowhere</link>
+      <description>Split-direction TLS / QUIC relay in Rust</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">NodePassProject/Nowhere</guid>
+    </item>
+    <item>
+      <title>diwenne/openreply</title>
+      <link>https://github.com/diwenne/openreply</link>
+      <description>open sourced Manychat: comment-dm automation + account analytics. the link below will not allow you to oauth; you must self-host with your own api keys.</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">diwenne/openreply</guid>
+    </item>
+    <item>
+      <title>sqliteai/waste</title>
+      <link>https://github.com/sqliteai/waste</link>
+      <description>Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.</description>
+      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
+      <guid isPermaLink="false">sqliteai/waste</guid>
     </item>
   </channel>
 </rss>

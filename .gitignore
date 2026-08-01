@@ -18,6 +18,10 @@ coverage/
 .env.*.local
 .env.production
 
+# direnv local files (may contain secrets via .envrc.private)
+.envrc
+.envrc.private
+
 # OS generated files
 .DS_Store
 .DS_Store?

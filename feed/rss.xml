@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Aug 2026 13:06:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 03:46:24 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>cloudflare/computer</title>
+      <link>https://github.com/cloudflare/computer</link>
+      <description>Give your agent a computer 👾</description>
+      <pubDate>Thu, 06 Aug 2026 03:46:24 GMT</pubDate>
+      <guid isPermaLink="false">cloudflare/computer</guid>
+    </item>
+    <item>
+      <title>cloudflare/cloudflare-os</title>
+      <link>https://github.com/cloudflare/cloudflare-os</link>
+      <description>Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.</description>
+      <pubDate>Thu, 06 Aug 2026 03:46:24 GMT</pubDate>
+      <guid isPermaLink="false">cloudflare/cloudflare-os</guid>
+    </item>
+    <item>
+      <title>firecrawl/anydoc</title>
+      <link>https://github.com/firecrawl/anydoc</link>
+      <description>Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.</description>
+      <pubDate>Thu, 06 Aug 2026 03:46:24 GMT</pubDate>
+      <guid isPermaLink="false">firecrawl/anydoc</guid>
+    </item>
+    <item>
+      <title>chuspeeism/dashi-taskboard</title>
+      <link>https://github.com/chuspeeism/dashi-taskboard</link>
+      <description>(no description)</description>
+      <pubDate>Thu, 06 Aug 2026 03:46:24 GMT</pubDate>
+      <guid isPermaLink="false">chuspeeism/dashi-taskboard</guid>
+    </item>
+    <item>
+      <title>Accio-Lab/RealReplicaBench</title>
+      <link>https://github.com/Accio-Lab/RealReplicaBench</link>
+      <description>RealReplicaBench: Benchmarking Long-Horizon Agents in High-Fidelity, Stateful, and Reproducible Replicas of Real Online Services</description>
+      <pubDate>Thu, 06 Aug 2026 03:46:24 GMT</pubDate>
+      <guid isPermaLink="false">Accio-Lab/RealReplicaBench</guid>
+    </item>
+    <item>
+      <title>DramaticShape/DramaticShapeVoxelMod</title>
+      <link>https://github.com/DramaticShape/DramaticShapeVoxelMod</link>
+      <description>(no description)</description>
+      <pubDate>Thu, 06 Aug 2026 03:46:24 GMT</pubDate>
+      <guid isPermaLink="false">DramaticShape/DramaticShapeVoxelMod</guid>
+    </item>
+    <item>
+      <title>xerj-org/xerj</title>
+      <link>https://github.com/xerj-org/xerj</link>
+      <description>XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.</description>
+      <pubDate>Wed, 05 Aug 2026 03:40:52 GMT</pubDate>
+      <guid isPermaLink="false">xerj-org/xerj</guid>
+    </item>
+    <item>
+      <title>microsoft/skill-recorder</title>
+      <link>https://github.com/microsoft/skill-recorder</link>
+      <description>Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio.</description>
+      <pubDate>Wed, 05 Aug 2026 03:40:52 GMT</pubDate>
+      <guid isPermaLink="false">microsoft/skill-recorder</guid>
+    </item>
+    <item>
+      <title>herdrdev/herdr</title>
+      <link>https://github.com/herdrdev/herdr</link>
+      <description>the runtime your coding agents live on</description>
+      <pubDate>Wed, 05 Aug 2026 03:40:52 GMT</pubDate>
+      <guid isPermaLink="false">herdrdev/herdr</guid>
+    </item>
+    <item>
+      <title>dimmas893/pos-frontend</title>
+      <link>https://github.com/dimmas893/pos-frontend</link>
+      <description>(no description)</description>
+      <pubDate>Wed, 05 Aug 2026 03:40:52 GMT</pubDate>
+      <guid isPermaLink="false">dimmas893/pos-frontend</guid>
+    </item>
+    <item>
+      <title>hongjin-he/MicroWorld</title>
+      <link>https://github.com/hongjin-he/MicroWorld</link>
+      <description>A multi-agent world model of US equity markets — simulating institutional players, information asymmetry, and emergent price dynamics</description>
+      <pubDate>Wed, 05 Aug 2026 03:40:52 GMT</pubDate>
+      <guid isPermaLink="false">hongjin-he/MicroWorld</guid>
+    </item>
+    <item>
+      <title>joeseesun/qiaomu-seo</title>
+      <link>https://github.com/joeseesun/qiaomu-seo</link>
+      <description>Audit, diagnose, research, plan, implement, experiment on, and verify website SEO across Google, Bing, and AI-search surfaces. Use for technical SEO,</description>
+      <pubDate>Wed, 05 Aug 2026 03:40:52 GMT</pubDate>
+      <guid isPermaLink="false">joeseesun/qiaomu-seo</guid>
+    </item>
+    <item>
+      <title>zairuilab/consulting-deck</title>
+      <link>https://github.com/zairuilab/consulting-deck</link>
+      <description>McKinsey-style, evidence-first, chart-led, natively editable consulting PowerPoint Agent Skill.</description>
+      <pubDate>Wed, 05 Aug 2026 03:40:52 GMT</pubDate>
+      <guid isPermaLink="false">zairuilab/consulting-deck</guid>
+    </item>
+    <item>
+      <title>thebuggeddev/anatomy</title>
+      <link>https://github.com/thebuggeddev/anatomy</link>
+      <description>An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol</description>
+      <pubDate>Tue, 04 Aug 2026 03:44:33 GMT</pubDate>
+      <guid isPermaLink="false">thebuggeddev/anatomy</guid>
+    </item>
+    <item>
+      <title>FareedKhan-dev/kimi-k3-in-c</title>
+      <link>https://github.com/FareedKhan-dev/kimi-k3-in-c</link>
+      <description>A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.</description>
+      <pubDate>Tue, 04 Aug 2026 03:44:33 GMT</pubDate>
+      <guid isPermaLink="false">FareedKhan-dev/kimi-k3-in-c</guid>
+    </item>
+    <item>
+      <title>digimata/parrot</title>
+      <link>https://github.com/digimata/parrot</link>
+      <description>Ultra-minimalist macOS dictation.</description>
+      <pubDate>Tue, 04 Aug 2026 03:44:33 GMT</pubDate>
+      <guid isPermaLink="false">digimata/parrot</guid>
+    </item>
+    <item>
+      <title>trycompai/crm</title>
+      <link>https://github.com/trycompai/crm</link>
+      <description>An open-source, agentic-first CRM.</description>
+      <pubDate>Mon, 03 Aug 2026 04:02:41 GMT</pubDate>
+      <guid isPermaLink="false">trycompai/crm</guid>
+    </item>
+    <item>
+      <title>0xwilliamortiz/humanizer-cli</title>
+      <link>https://github.com/0xwilliamortiz/humanizer-cli</link>
+      <description>33 ways to spot AI-written text, right in your terminal. Before/after examples, draft checker, zero dependencies.</description>
+      <pubDate>Mon, 03 Aug 2026 04:02:41 GMT</pubDate>
+      <guid isPermaLink="false">0xwilliamortiz/humanizer-cli</guid>
+    </item>
+    <item>
+      <title>DannyMac180/sol-advisor</title>
+      <link>https://github.com/DannyMac180/sol-advisor</link>
+      <description>Codex-native architect orchestration with Luna and Terra implementation lanes and mandatory fresh Sol review.</description>
+      <pubDate>Mon, 03 Aug 2026 04:02:41 GMT</pubDate>
+      <guid isPermaLink="false">DannyMac180/sol-advisor</guid>
+    </item>
+    <item>
+      <title>abue-ammar/tinycast</title>
+      <link>https://github.com/abue-ammar/tinycast</link>
+      <description>Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history</description>
+      <pubDate>Sun, 02 Aug 2026 04:00:44 GMT</pubDate>
+      <guid isPermaLink="false">abue-ammar/tinycast</guid>
+    </item>
     <item>
       <title>QoderAI/better-harness</title>
       <link>https://github.com/QoderAI/better-harness</link>

@@ -5,8 +5,36 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Aug 2026 13:06:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 04:02:41 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>trycompai/crm</title>
+      <link>https://github.com/trycompai/crm</link>
+      <description>An open-source, agentic-first CRM.</description>
+      <pubDate>Mon, 03 Aug 2026 04:02:41 GMT</pubDate>
+      <guid isPermaLink="false">trycompai/crm</guid>
+    </item>
+    <item>
+      <title>0xwilliamortiz/humanizer-cli</title>
+      <link>https://github.com/0xwilliamortiz/humanizer-cli</link>
+      <description>33 ways to spot AI-written text, right in your terminal. Before/after examples, draft checker, zero dependencies.</description>
+      <pubDate>Mon, 03 Aug 2026 04:02:41 GMT</pubDate>
+      <guid isPermaLink="false">0xwilliamortiz/humanizer-cli</guid>
+    </item>
+    <item>
+      <title>DannyMac180/sol-advisor</title>
+      <link>https://github.com/DannyMac180/sol-advisor</link>
+      <description>Codex-native architect orchestration with Luna and Terra implementation lanes and mandatory fresh Sol review.</description>
+      <pubDate>Mon, 03 Aug 2026 04:02:41 GMT</pubDate>
+      <guid isPermaLink="false">DannyMac180/sol-advisor</guid>
+    </item>
+    <item>
+      <title>abue-ammar/tinycast</title>
+      <link>https://github.com/abue-ammar/tinycast</link>
+      <description>Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history</description>
+      <pubDate>Sun, 02 Aug 2026 04:00:44 GMT</pubDate>
+      <guid isPermaLink="false">abue-ammar/tinycast</guid>
+    </item>
     <item>
       <title>QoderAI/better-harness</title>
       <link>https://github.com/QoderAI/better-harness</link>

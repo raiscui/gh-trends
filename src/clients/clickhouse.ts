@@ -71,7 +71,7 @@ export class ClickHouseClient {
       FROM github.events
       WHERE event_type = 'WatchEvent' AND created_at <= END_DATE
       GROUP BY repoName
-      HAVING starsWithin / starsBefore > MIN_GROWTH_RATE
+      HAVING starsBefore > 0 AND starsWithin / starsBefore > MIN_GROWTH_RATE
       ORDER BY starsWithin DESC
       LIMIT LIMIT_N
       FORMAT JSON

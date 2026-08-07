@@ -27,7 +27,7 @@ You can subscribe via one of the these channels:
 
 ### Github notifications <img src="https://img.shields.io/badge/-Recommended-brightgreen" valign="middle">
 
-*Cadence*: weekly (every Monday)
+*Cadence*: daily
 
 The recommend channel is *Github release*:
 

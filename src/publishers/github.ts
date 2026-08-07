@@ -7,7 +7,8 @@ import { ScoredRepo } from '../pipeline/select';
 export class GitHubPublisher extends Publisher {
   readonly name = 'github-releases';
 
-  // The date of the very first issue; happen to be my birthday!
+  // ponytail: epoch 只用作"算日距"的参考点;真正的 tag 用日期而不是序号。
+  // 跟 weekly 时代兼容(2025-07-21 当 day 0),但 daily schedule 下每天天然唯一。
   readonly epoch = '2025-07-21';
 
   enabled(): boolean {
@@ -31,8 +32,7 @@ export class GitHubPublisher extends Publisher {
     const tag = this.releaseTag();
     const client = new GitHubClient(process.env.GITHUB_TOKEN);
 
-    // ponytail: 同周内 schedule daily 跑会命中同一 tag,
-    // 1 次 GET 比 422 + 手工 skip 更省事,也保留原本 weekly 单一 release 语义。
+    // ponytail: 同一日重跑(retry / schedule 抖动)才命中,正常 cron 每日独立 tag。
     const existing = await client.getReleaseByTag(repo, tag);
     if (existing) {
       logInfo('github-releases', `release ${tag} already published (id=${existing.id}); skip`);
@@ -52,27 +52,27 @@ export class GitHubPublisher extends Publisher {
   }
 
   subject(): string {
-    return `GitHub trends #${this.issueNumber()}`;
+    return `GitHub trends — ${this.dayTag()}`;
   }
 
   private releaseTag(): string {
-    return `week-${this.issueNumber().toString().padStart(2, '0')}`;
+    return `daily-${this.dayTag()}`;
   }
 
-  private issueNumber(): number {
-    const start = new Date(this.epoch);
+  // YYYY-MM-DD (UTC):把 eval date 锚到 epoch 0 点后按整天取整。
+  // 既保证历史回放 (SCAN_EVAL_DATE) 可复现,也保证不同时区跑出来仍是同一天 tag。
+  private dayTag(): string {
     const evalDateStr = process.env.SCAN_EVAL_DATE || new Date().toISOString();
     const now = new Date(evalDateStr);
 
-    // Calculate weeks since start
-    const MillisInWeek = 1000 * 60 * 60 * 24 * 7;
-    const diffInMillis = now.getTime() - start.getTime();
-
-    if (diffInMillis < 0) {
-      throw new Error('Release date is in the future. Cannot calculate issue number.');
+    const startMs = new Date(this.epoch).getTime();
+    if (now.getTime() < startMs) {
+      throw new Error('Release date is before epoch. Cannot calculate day tag.');
     }
 
-    const weeksPassed = Math.floor(diffInMillis / MillisInWeek);
-    return weeksPassed + 1;
+    const dayInMillis = 1000 * 60 * 60 * 24;
+    const daysPassed = Math.floor((now.getTime() - startMs) / dayInMillis);
+    const dayDate = new Date(startMs + daysPassed * dayInMillis);
+    return dayDate.toISOString().slice(0, 10);
   }
 }

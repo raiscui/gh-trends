@@ -122,7 +122,7 @@ describe('gh-release.ts', () => {
       const [, options] = mockFetch.mock.calls[1]!;
       const parsedBody = JSON.parse(options.body as string);
       expect(parsedBody).toEqual({
-        tag_name: expect.stringMatching(/^week-\d{2}$/), // e.g. week-01
+        tag_name: expect.stringMatching(/^daily-\d{4}-\d{2}-\d{2}$/), // e.g. daily-2026-08-07
         name: instance.subject(),
         body: content,
         draft: false,
@@ -178,7 +178,7 @@ describe('gh-release.ts', () => {
       // 只调一次 fetch,必须命中 GET release-by-tag,不能再去 POST create
       expect(mockFetch).toHaveBeenCalledTimes(1);
       expect(mockFetch).toHaveBeenCalledWith(
-        expect.stringContaining('/releases/tags/week-'),
+        expect.stringContaining('/releases/tags/daily-'),
         expect.objectContaining({ method: 'GET' })
       );
     });
@@ -196,7 +196,7 @@ describe('gh-release.ts', () => {
       expect(mockFetch).toHaveBeenCalledTimes(2);
     });
 
-    describe('issueNumber', () => {
+    describe('dayTag', () => {
       let instance: GitHubPublisher;
 
       beforeEach(() => {
@@ -208,25 +208,22 @@ describe('gh-release.ts', () => {
         vi.useRealTimers();
       });
 
-      it('increments the issue number in the subject after one week', () => {
-        // Freeze time (any date works; we just compare relative change).
-        const start = new Date('2025-07-21T00:00:00Z');
-        vi.setSystemTime(start);
+      it('emits the epoch day on release day 0', () => {
+        vi.setSystemTime(new Date('2025-07-21T00:00:00Z'));
 
-        const first = instance.subject(); // should be "GitHub trends #1"
-        console.log(first);
-        const firstNum = Number(first.match(/(\d+)$/)![1]);
+        expect(instance.subject()).toBe('GitHub trends — 2025-07-21');
+      });
 
-        expect(firstNum).toBe(1);
+      it('rolls over the date after crossing midnight UTC', () => {
+        vi.setSystemTime(new Date('2025-07-21T23:59:59Z'));
 
-        // Advance exactly one week
-        const weekInMillis = 7 * 24 * 60 * 60 * 1000;
-        vi.setSystemTime(new Date(start.getTime() + weekInMillis));
+        const beforeMidnight = instance.subject();
+        vi.setSystemTime(new Date('2025-07-22T00:00:01Z'));
 
-        const second = instance.subject(); // should be "GitHub trends #2"
-        const secondNum = Number(second.match(/(\d+)$/)![1]);
+        const afterMidnight = instance.subject();
 
-        expect(secondNum).toBe(2);
+        expect(beforeMidnight).toBe('GitHub trends — 2025-07-21');
+        expect(afterMidnight).toBe('GitHub trends — 2025-07-22');
       });
     });
   });

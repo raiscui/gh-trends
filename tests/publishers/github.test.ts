@@ -92,9 +92,18 @@ describe('gh-release.ts', () => {
     it('should make well-formed request', async () => {
       const id = 99;
 
-      mockFetch.mockResolvedValue({
-        ok: true,
-        json: vi.fn().mockResolvedValue({ id }),
+      // Publish() first calls GET (tag lookup -> 404 in this test),
+
+      // then POST create -> 200 with id.
+
+      let n = 0;
+
+      mockFetch.mockImplementation(async () => {
+        n++;
+
+        if (n === 1) return { ok: false, status: 404, json: vi.fn().mockResolvedValue({}) };
+
+        return { ok: true, json: vi.fn().mockResolvedValue({ id }) };
       });
 
       await expect(instance.publish(repos)).resolves.toBe(id.toString());
@@ -110,7 +119,7 @@ describe('gh-release.ts', () => {
         })
       );
 
-      const [, options] = mockFetch.mock.calls[0]!;
+      const [, options] = mockFetch.mock.calls[1]!;
       const parsedBody = JSON.parse(options.body as string);
       expect(parsedBody).toEqual({
         tag_name: expect.stringMatching(/^week-\d{2}$/), // e.g. week-01
@@ -153,6 +162,38 @@ describe('gh-release.ts', () => {
       mockFetch.mockRejectedValue(new Error('network down'));
 
       await expect(instance.publish(repos)).rejects.toThrow('network down');
+    });
+
+    it('skips publishing when release tag already exists', async () => {
+      const existingId = '7777';
+
+      // getReleaseByTag -> 200 with id; createRelease is NOT called
+      mockFetch.mockResolvedValueOnce({
+        ok: true,
+        json: vi.fn().mockResolvedValue({ id: existingId }),
+      });
+
+      await expect(instance.publish(repos)).resolves.toBe(`release-already-exists-${existingId}`);
+
+      // 只调一次 fetch,必须命中 GET release-by-tag,不能再去 POST create
+      expect(mockFetch).toHaveBeenCalledTimes(1);
+      expect(mockFetch).toHaveBeenCalledWith(
+        expect.stringContaining('/releases/tags/week-'),
+        expect.objectContaining({ method: 'GET' })
+      );
+    });
+
+    it('treats 404 on tag lookup as "allow publish"', async () => {
+      // getReleaseByTag -> 404 (not found) -> then createRelease -> 200 with id
+      let n = 0;
+      mockFetch.mockImplementation(async () => {
+        n++;
+        if (n === 1) return { ok: false, status: 404, json: vi.fn().mockResolvedValue({}) };
+        return { ok: true, json: vi.fn().mockResolvedValue({ id: 88 }) };
+      });
+
+      await expect(instance.publish(repos)).resolves.toBe('88');
+      expect(mockFetch).toHaveBeenCalledTimes(2);
     });
 
     describe('issueNumber', () => {

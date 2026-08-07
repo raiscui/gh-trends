@@ -70,6 +70,9 @@ describe('scan.ts', () => {
       expect(options!.method).toBe('POST');
       expect(options!.body).toContain('INTERVAL 7 DAY');
       expect(options!.body).toContain('10 AS LIMIT_N');
+      // Regression: trending query must exclude zero-baseline repos so
+      // the filter() guardrail doesn't fire on viral one-off spikes.
+      expect(options!.body).toContain('starsBefore > 0');
     });
 
     it('should handle empty results', async () => {

@@ -1,4 +1,4 @@
-import { TaggedError } from '../utils/logging';
+import { logInfo, TaggedError } from '../utils/logging';
 import { Publisher } from '../types/publisher';
 import { render } from '../pipeline/render';
 import { GitHubClient } from '../clients/github';
@@ -28,10 +28,20 @@ export class GitHubPublisher extends Publisher {
       );
     }
 
-    const content = this.render(repos);
+    const tag = this.releaseTag();
     const client = new GitHubClient(process.env.GITHUB_TOKEN);
+
+    // ponytail: 同周内 schedule daily 跑会命中同一 tag,
+    // 1 次 GET 比 422 + 手工 skip 更省事,也保留原本 weekly 单一 release 语义。
+    const existing = await client.getReleaseByTag(repo, tag);
+    if (existing) {
+      logInfo('github-releases', `release ${tag} already published (id=${existing.id}); skip`);
+      return `release-already-exists-${existing.id}`;
+    }
+
+    const content = this.render(repos);
     const result = await client.createRelease(repo, {
-      tag_name: this.releaseTag(),
+      tag_name: tag,
       name: this.subject(),
       body: content,
       draft: false,

@@ -5,8 +5,29 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Aug 2026 02:25:31 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 03:03:58 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>PrimeIntellect-ai/prime-agent</title>
+      <link>https://github.com/PrimeIntellect-ai/prime-agent</link>
+      <description>A self-improving RLM agent for coding workflows and long-running autonomous tasks.</description>
+      <pubDate>Thu, 13 Aug 2026 03:03:58 GMT</pubDate>
+      <guid isPermaLink="false">PrimeIntellect-ai/prime-agent</guid>
+    </item>
+    <item>
+      <title>Wyzer-Lang/wyzer</title>
+      <link>https://github.com/Wyzer-Lang/wyzer</link>
+      <description>The Wyzer Programming Language</description>
+      <pubDate>Tue, 11 Aug 2026 02:31:59 GMT</pubDate>
+      <guid isPermaLink="false">Wyzer-Lang/wyzer</guid>
+    </item>
+    <item>
+      <title>semantica-agi/semantica</title>
+      <link>https://github.com/semantica-agi/semantica</link>
+      <description>Graph-Native Infrastructure for Context and Accountable AI Systems</description>
+      <pubDate>Tue, 11 Aug 2026 02:31:59 GMT</pubDate>
+      <guid isPermaLink="false">semantica-agi/semantica</guid>
+    </item>
     <item>
       <title>talivia-group/talivia</title>
       <link>https://github.com/talivia-group/talivia</link>
@@ -69,258 +90,6 @@
       <description>(no description)</description>
       <pubDate>Thu, 06 Aug 2026 03:46:24 GMT</pubDate>
       <guid isPermaLink="false">DramaticShape/DramaticShapeVoxelMod</guid>
-    </item>
-    <item>
-      <title>xerj-org/xerj</title>
-      <link>https://github.com/xerj-org/xerj</link>
-      <description>XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.</description>
-      <pubDate>Wed, 05 Aug 2026 03:40:52 GMT</pubDate>
-      <guid isPermaLink="false">xerj-org/xerj</guid>
-    </item>
-    <item>
-      <title>microsoft/skill-recorder</title>
-      <link>https://github.com/microsoft/skill-recorder</link>
-      <description>Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio.</description>
-      <pubDate>Wed, 05 Aug 2026 03:40:52 GMT</pubDate>
-      <guid isPermaLink="false">microsoft/skill-recorder</guid>
-    </item>
-    <item>
-      <title>herdrdev/herdr</title>
-      <link>https://github.com/herdrdev/herdr</link>
-      <description>the runtime your coding agents live on</description>
-      <pubDate>Wed, 05 Aug 2026 03:40:52 GMT</pubDate>
-      <guid isPermaLink="false">herdrdev/herdr</guid>
-    </item>
-    <item>
-      <title>dimmas893/pos-frontend</title>
-      <link>https://github.com/dimmas893/pos-frontend</link>
-      <description>(no description)</description>
-      <pubDate>Wed, 05 Aug 2026 03:40:52 GMT</pubDate>
-      <guid isPermaLink="false">dimmas893/pos-frontend</guid>
-    </item>
-    <item>
-      <title>hongjin-he/MicroWorld</title>
-      <link>https://github.com/hongjin-he/MicroWorld</link>
-      <description>A multi-agent world model of US equity markets — simulating institutional players, information asymmetry, and emergent price dynamics</description>
-      <pubDate>Wed, 05 Aug 2026 03:40:52 GMT</pubDate>
-      <guid isPermaLink="false">hongjin-he/MicroWorld</guid>
-    </item>
-    <item>
-      <title>joeseesun/qiaomu-seo</title>
-      <link>https://github.com/joeseesun/qiaomu-seo</link>
-      <description>Audit, diagnose, research, plan, implement, experiment on, and verify website SEO across Google, Bing, and AI-search surfaces. Use for technical SEO,</description>
-      <pubDate>Wed, 05 Aug 2026 03:40:52 GMT</pubDate>
-      <guid isPermaLink="false">joeseesun/qiaomu-seo</guid>
-    </item>
-    <item>
-      <title>zairuilab/consulting-deck</title>
-      <link>https://github.com/zairuilab/consulting-deck</link>
-      <description>McKinsey-style, evidence-first, chart-led, natively editable consulting PowerPoint Agent Skill.</description>
-      <pubDate>Wed, 05 Aug 2026 03:40:52 GMT</pubDate>
-      <guid isPermaLink="false">zairuilab/consulting-deck</guid>
-    </item>
-    <item>
-      <title>thebuggeddev/anatomy</title>
-      <link>https://github.com/thebuggeddev/anatomy</link>
-      <description>An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol</description>
-      <pubDate>Tue, 04 Aug 2026 03:44:33 GMT</pubDate>
-      <guid isPermaLink="false">thebuggeddev/anatomy</guid>
-    </item>
-    <item>
-      <title>FareedKhan-dev/kimi-k3-in-c</title>
-      <link>https://github.com/FareedKhan-dev/kimi-k3-in-c</link>
-      <description>A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.</description>
-      <pubDate>Tue, 04 Aug 2026 03:44:33 GMT</pubDate>
-      <guid isPermaLink="false">FareedKhan-dev/kimi-k3-in-c</guid>
-    </item>
-    <item>
-      <title>digimata/parrot</title>
-      <link>https://github.com/digimata/parrot</link>
-      <description>Ultra-minimalist macOS dictation.</description>
-      <pubDate>Tue, 04 Aug 2026 03:44:33 GMT</pubDate>
-      <guid isPermaLink="false">digimata/parrot</guid>
-    </item>
-    <item>
-      <title>trycompai/crm</title>
-      <link>https://github.com/trycompai/crm</link>
-      <description>An open-source, agentic-first CRM.</description>
-      <pubDate>Mon, 03 Aug 2026 04:02:41 GMT</pubDate>
-      <guid isPermaLink="false">trycompai/crm</guid>
-    </item>
-    <item>
-      <title>0xwilliamortiz/humanizer-cli</title>
-      <link>https://github.com/0xwilliamortiz/humanizer-cli</link>
-      <description>33 ways to spot AI-written text, right in your terminal. Before/after examples, draft checker, zero dependencies.</description>
-      <pubDate>Mon, 03 Aug 2026 04:02:41 GMT</pubDate>
-      <guid isPermaLink="false">0xwilliamortiz/humanizer-cli</guid>
-    </item>
-    <item>
-      <title>DannyMac180/sol-advisor</title>
-      <link>https://github.com/DannyMac180/sol-advisor</link>
-      <description>Codex-native architect orchestration with Luna and Terra implementation lanes and mandatory fresh Sol review.</description>
-      <pubDate>Mon, 03 Aug 2026 04:02:41 GMT</pubDate>
-      <guid isPermaLink="false">DannyMac180/sol-advisor</guid>
-    </item>
-    <item>
-      <title>abue-ammar/tinycast</title>
-      <link>https://github.com/abue-ammar/tinycast</link>
-      <description>Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history</description>
-      <pubDate>Sun, 02 Aug 2026 04:00:44 GMT</pubDate>
-      <guid isPermaLink="false">abue-ammar/tinycast</guid>
-    </item>
-    <item>
-      <title>QoderAI/better-harness</title>
-      <link>https://github.com/QoderAI/better-harness</link>
-      <description>Better Harness turns project and session evidence into loop-level insights, prioritized improvements, and verifiable next steps—inside the coding agent you already use.</description>
-      <pubDate>Sat, 01 Aug 2026 13:06:52 GMT</pubDate>
-      <guid isPermaLink="false">QoderAI/better-harness</guid>
-    </item>
-    <item>
-      <title>agiwhitelist/auteur</title>
-      <link>https://github.com/agiwhitelist/auteur</link>
-      <description>The Claude Code skill that directs a website like a film. Commit-sheet, generated assets, build, and an executable anti-slop linter that gates every ship.</description>
-      <pubDate>Sat, 01 Aug 2026 13:06:52 GMT</pubDate>
-      <guid isPermaLink="false">agiwhitelist/auteur</guid>
-    </item>
-    <item>
-      <title>MoonshotAI/Kimi-K3</title>
-      <link>https://github.com/MoonshotAI/Kimi-K3</link>
-      <description>Open Frontier Intelligence</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">MoonshotAI/Kimi-K3</guid>
-    </item>
-    <item>
-      <title>openai/codex-security</title>
-      <link>https://github.com/openai/codex-security</link>
-      <description>OpenAI&apos;s Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">openai/codex-security</guid>
-    </item>
-    <item>
-      <title>img2threejs/img2threejs</title>
-      <link>https://github.com/img2threejs/img2threejs</link>
-      <description>Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">img2threejs/img2threejs</guid>
-    </item>
-    <item>
-      <title>dimmas893/github-runner-single</title>
-      <link>https://github.com/dimmas893/github-runner-single</link>
-      <description>(no description)</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">dimmas893/github-runner-single</guid>
-    </item>
-    <item>
-      <title>digimata/quill</title>
-      <link>https://github.com/digimata/quill</link>
-      <description>Ultra-minimalist macOS recording + transcription.</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">digimata/quill</guid>
-    </item>
-    <item>
-      <title>drumih/turbo-fieldfare</title>
-      <link>https://github.com/drumih/turbo-fieldfare</link>
-      <description>Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">drumih/turbo-fieldfare</guid>
-    </item>
-    <item>
-      <title>dimmas893/kasir</title>
-      <link>https://github.com/dimmas893/kasir</link>
-      <description>(no description)</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">dimmas893/kasir</guid>
-    </item>
-    <item>
-      <title>dimmas893/pos-backend</title>
-      <link>https://github.com/dimmas893/pos-backend</link>
-      <description>(no description)</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">dimmas893/pos-backend</guid>
-    </item>
-    <item>
-      <title>vercel-labs/scriptc</title>
-      <link>https://github.com/vercel-labs/scriptc</link>
-      <description>TypeScript-to-Native Compiler</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">vercel-labs/scriptc</guid>
-    </item>
-    <item>
-      <title>kvcache-ai/AgentENV</title>
-      <link>https://github.com/kvcache-ai/AgentENV</link>
-      <description>AgentENV (AENV) is a distributed platform for running agent environments at scale.</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">kvcache-ai/AgentENV</guid>
-    </item>
-    <item>
-      <title>jakubkrehel/skills</title>
-      <link>https://github.com/jakubkrehel/skills</link>
-      <description>A collection of agent skills that help with various parts of building a great interface. From animation and UI polish to accessibility and product writing.</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">jakubkrehel/skills</guid>
-    </item>
-    <item>
-      <title>yc-software/qm</title>
-      <link>https://github.com/yc-software/qm</link>
-      <description>Multiplayer agent harness for work</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">yc-software/qm</guid>
-    </item>
-    <item>
-      <title>dimmas893/github-runner-organizations</title>
-      <link>https://github.com/dimmas893/github-runner-organizations</link>
-      <description>(no description)</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">dimmas893/github-runner-organizations</guid>
-    </item>
-    <item>
-      <title>mshumer/Claude-of-Duty</title>
-      <link>https://github.com/mshumer/Claude-of-Duty</link>
-      <description>A Call of Duty-quality FPS in Three.js, built from a single prompt.</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">mshumer/Claude-of-Duty</guid>
-    </item>
-    <item>
-      <title>bryanthaboi/gen1recomp</title>
-      <link>https://github.com/bryanthaboi/gen1recomp</link>
-      <description>Gen1Recomp - A native Lua / LÖVE2D recreation of Gen 1 Poke</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">bryanthaboi/gen1recomp</guid>
-    </item>
-    <item>
-      <title>bashalarmistalt/decimen-optical-transfer</title>
-      <link>https://github.com/bashalarmistalt/decimen-optical-transfer</link>
-      <description>(no description)</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">bashalarmistalt/decimen-optical-transfer</guid>
-    </item>
-    <item>
-      <title>YTwsy/OpenSurge-for-Mac</title>
-      <link>https://github.com/YTwsy/OpenSurge-for-Mac</link>
-      <description>Surge-style whole-home gateway and control plane for macOS — mihomo TUN, dnsmasq-powered DHCP/DNS, per-device routing, and an agent-friendly validation workspace.</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">YTwsy/OpenSurge-for-Mac</guid>
-    </item>
-    <item>
-      <title>NodePassProject/Nowhere</title>
-      <link>https://github.com/NodePassProject/Nowhere</link>
-      <description>Split-direction TLS / QUIC relay in Rust</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">NodePassProject/Nowhere</guid>
-    </item>
-    <item>
-      <title>diwenne/openreply</title>
-      <link>https://github.com/diwenne/openreply</link>
-      <description>open sourced Manychat: comment-dm automation + account analytics. the link below will not allow you to oauth; you must self-host with your own api keys.</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">diwenne/openreply</guid>
-    </item>
-    <item>
-      <title>sqliteai/waste</title>
-      <link>https://github.com/sqliteai/waste</link>
-      <description>Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.</description>
-      <pubDate>Sat, 01 Aug 2026 12:39:19 GMT</pubDate>
-      <guid isPermaLink="false">sqliteai/waste</guid>
     </item>
   </channel>
 </rss>

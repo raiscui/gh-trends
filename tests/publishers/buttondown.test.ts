@@ -3,14 +3,18 @@ import { HttpError } from '../../src/utils/logging';
 import { ButtondownPublisher } from '../../src/publishers/buttondown';
 import { ButtondownClient } from '../../src/clients/buttondown';
 import { mockRepos } from '../../src/mocks/repos';
-import { ScoredRepo } from '../../src/pipeline/select';
+import { ReleaseSections } from '../../src/pipeline/render';
 
 describe('buttondown.ts', () => {
   const mockFetch = vi.fn();
   let instance: ButtondownPublisher;
 
   const content = 'hello world';
-  const repos: ScoredRepo[] = mockRepos.map(repo => ({ ...repo, score: 0 }));
+  const sections: ReleaseSections = {
+    main: mockRepos.map(repo => ({ ...repo, score: 0 })),
+    rust: [],
+    agent: [],
+  };
 
   beforeEach(() => {
     instance = new ButtondownPublisher();
@@ -48,7 +52,7 @@ describe('buttondown.ts', () => {
     it('should throw when BUTTONDOWN_API_KEY is missing', async () => {
       vi.stubEnv('BUTTONDOWN_API_KEY', undefined);
 
-      await expect(instance.publish(repos)).rejects.toThrow('BUTTONDOWN_API_KEY');
+      await expect(instance.publish(sections)).rejects.toThrow('BUTTONDOWN_API_KEY');
 
       expect(mockFetch).not.toHaveBeenCalled();
     });
@@ -56,7 +60,7 @@ describe('buttondown.ts', () => {
     it('should throw when BUTTONDOWN_API_KEY is empty', async () => {
       vi.stubEnv('BUTTONDOWN_API_KEY', '');
 
-      await expect(instance.publish(repos)).rejects.toThrow('BUTTONDOWN_API_KEY');
+      await expect(instance.publish(sections)).rejects.toThrow('BUTTONDOWN_API_KEY');
 
       expect(mockFetch).not.toHaveBeenCalled();
     });
@@ -77,7 +81,7 @@ describe('buttondown.ts', () => {
         json: vi.fn().mockResolvedValue({ id }),
       });
 
-      await expect(instance.publish(repos)).resolves.toBe(id);
+      await expect(instance.publish(sections)).resolves.toBe(id);
 
       expect(mockFetch).toHaveBeenCalledWith(
         ButtondownClient.baseUrl,
@@ -106,7 +110,7 @@ describe('buttondown.ts', () => {
         json: vi.fn().mockResolvedValue({}), // no id
       });
 
-      await expect(instance.publish(repos)).resolves.toBeUndefined();
+      await expect(instance.publish(sections)).resolves.toBeUndefined();
     });
 
     it('should throw on JSON parsing errors', async () => {
@@ -115,7 +119,7 @@ describe('buttondown.ts', () => {
         json: vi.fn().mockRejectedValue(new Error('invalid JSON')),
       });
 
-      await expect(instance.publish(repos)).rejects.toThrow('invalid JSON');
+      await expect(instance.publish(sections)).rejects.toThrow('invalid JSON');
     });
 
     it('should throw on 5xx HTTP error', async () => {
@@ -125,13 +129,13 @@ describe('buttondown.ts', () => {
         text: vi.fn().mockResolvedValue('internal server error'),
       });
 
-      await expect(instance.publish(repos)).rejects.toThrowError(HttpError);
+      await expect(instance.publish(sections)).rejects.toThrowError(HttpError);
     });
 
     it('should throw on network errors', async () => {
       mockFetch.mockRejectedValue(new Error('network down'));
 
-      await expect(instance.publish(repos)).rejects.toThrow('network down');
+      await expect(instance.publish(sections)).rejects.toThrow('network down');
     });
   });
 });

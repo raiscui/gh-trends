@@ -4,7 +4,7 @@ import { RSSPublisher } from '../publishers/rss';
 import { logInfo } from '../utils/logging';
 import { Publisher } from '../types/publisher';
 import { ResendPublisher } from '../publishers/resend';
-import { ScoredRepo } from './select';
+import { ReleaseSections } from './render';
 
 const publishers = [
   // Executes in order
@@ -15,7 +15,7 @@ const publishers = [
 ];
 
 export async function publishAll(
-  repos: ScoredRepo[],
+  sections: ReleaseSections,
   // Don't use below argument in production code
   // Enables injecting custom publishers for testing
   pubs: Publisher[] = publishers
@@ -27,19 +27,24 @@ export async function publishAll(
     return [];
   }
 
-  if (repos.length === 0) {
+  const totalRepos = sections.main.length + sections.rust.length + sections.agent.length;
+  if (totalRepos === 0) {
     logInfo('publish', 'no repositories to publish, skipping publication');
     return [];
   }
 
   logInfo('publish', `starting publication via ${enabledPubs.map(p => p.name).join(', ')}`);
+  logInfo(
+    'publish',
+    `sections: main=${sections.main.length}, rust=${sections.rust.length}, agent=${sections.agent.length}`
+  );
 
   // Run all publishers in parallel
   // Promise.allSettled always resolve, even if some promises reject
   const results = await Promise.allSettled(
     enabledPubs.map(async pub => {
       logInfo('publish', `publishing via ${pub.name}`);
-      const messageId = await pub.publish(repos);
+      const messageId = await pub.publish(sections);
       logInfo('publish', `${pub.name} published successfully (ID: ${messageId})`);
       return messageId;
     })

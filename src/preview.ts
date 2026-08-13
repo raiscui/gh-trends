@@ -3,6 +3,7 @@
 import 'dotenv-flow/config';
 import { scan } from './pipeline/scan';
 import { select } from './pipeline/select';
+import { selectRust, selectAgent } from './pipeline/vertical';
 import { render } from './pipeline/render';
 import { logInfo } from './utils/logging';
 import { handleProcessError } from './utils/common';
@@ -21,12 +22,22 @@ async function preview() {
   logInfo(`filter`, `${filteredRepos.length} repos remain after filtering`);
 
   console.log('\n', '🏆 Ranking to select the best');
-  const scoredRepos = select(filteredRepos);
-  logInfo('select', `${scoredRepos.length} repos selected`);
+  // 跟 run.ts 保持一致:三段 select → render sections。
+  const mainRepos = select(filteredRepos);
+  const rustRepos = selectRust(filteredRepos);
+  const agentRepos = selectAgent(filteredRepos);
+  logInfo(
+    'select',
+    `selected: main=${mainRepos.length}, rust=${rustRepos.length}, agent=${agentRepos.length}`
+  );
 
   console.log('\n', '✍️ Crafting release content');
   const templateName = process.env.TEMPLATE_NAME || 'text.hbs';
-  const content = render(templateName, scoredRepos);
+  const content = render(templateName, {
+    main: mainRepos,
+    rust: rustRepos,
+    agent: agentRepos,
+  });
   logInfo('render', `rendered release`);
 
   console.log('\n', '─'.repeat(50));

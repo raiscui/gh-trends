@@ -3,6 +3,7 @@
 import 'dotenv-flow/config';
 import { scan } from './pipeline/scan';
 import { select } from './pipeline/select';
+import { selectRust, selectAgent } from './pipeline/vertical';
 import { publishAll } from './pipeline/publish';
 import { logInfo, TaggedError } from './utils/logging';
 import { handleProcessError } from './utils/common';
@@ -35,11 +36,25 @@ export async function main(): Promise<void> {
   }
 
   console.log('\n', '🏆 Ranking to select the best');
-  const scoredRepos = select(filteredRepos);
-  logInfo('score', `${scoredRepos.length} repos selected`);
+  // 共享 filter 后的 repo pool,做三道 sub-select:
+  //   - 主榜: rankAndSlice(filtered, RELEASE_TOP_N=20)
+  //   - Rust 榜: filter(primaryLanguage=Rust) → rankAndSlice(RELEASE_TOP_N_RUST=15)
+  //   - Agent 榜: filter(isAgentRepo) → rankAndSlice(RELEASE_TOP_N_AGENT=15)
+  // 三榜单评分口径一致(fresh bucket + starsPerHour × medianAge),D4 = X1 允许重叠。
+  const mainRepos = select(filteredRepos);
+  const rustRepos = selectRust(filteredRepos);
+  const agentRepos = selectAgent(filteredRepos);
+  logInfo(
+    'score',
+    `selected: main=${mainRepos.length}, rust=${rustRepos.length}, agent=${agentRepos.length}`
+  );
 
   console.log('\n', '📮 Publishing to all enabled channels');
-  const messageIds = await publishAll(scoredRepos);
+  const messageIds = await publishAll({
+    main: mainRepos,
+    rust: rustRepos,
+    agent: agentRepos,
+  });
   logInfo('publish', `published release (IDs: ${messageIds.join(', ')})`);
 }
 

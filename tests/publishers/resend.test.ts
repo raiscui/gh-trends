@@ -4,13 +4,17 @@ import { HttpError } from '../../src/utils/logging';
 import { ResendPublisher } from '../../src/publishers/resend';
 import { ResendClient } from '../../src/clients/resend';
 import { mockRepos } from '../../src/mocks/repos';
-import { ScoredRepo } from '../../src/pipeline/select';
+import { ReleaseSections } from '../../src/pipeline/render';
 
 describe('resend.ts', () => {
   const mockFetch = vi.fn();
   let instance: ResendPublisher;
 
-  const repos: ScoredRepo[] = mockRepos.map(repo => ({ ...repo, score: 0 }));
+  const sections: ReleaseSections = {
+    main: mockRepos.map(repo => ({ ...repo, score: 0 })),
+    rust: [],
+    agent: [],
+  };
   const content = {
     html: '<p>Hello world</p>',
     text: 'Hello world',
@@ -54,7 +58,7 @@ describe('resend.ts', () => {
       vi.stubEnv('RESEND_AUDIENCE_ID', 'aud_123');
       vi.stubEnv('RESEND_API_KEY', 're_live_key_123');
 
-      await expect(instance.publish(repos)).rejects.toThrow('RESEND_FROM');
+      await expect(instance.publish(sections)).rejects.toThrow('RESEND_FROM');
 
       expect(mockFetch).not.toHaveBeenCalled();
     });
@@ -64,7 +68,7 @@ describe('resend.ts', () => {
       vi.stubEnv('RESEND_AUDIENCE_ID', 'aud_123');
       vi.stubEnv('RESEND_API_KEY', 're_live_key_123');
 
-      await expect(instance.publish(repos)).rejects.toThrow('RESEND_FROM');
+      await expect(instance.publish(sections)).rejects.toThrow('RESEND_FROM');
 
       expect(mockFetch).not.toHaveBeenCalled();
     });
@@ -74,7 +78,7 @@ describe('resend.ts', () => {
       vi.stubEnv('RESEND_AUDIENCE_ID', undefined);
       vi.stubEnv('RESEND_API_KEY', 're_live_key_123');
 
-      await expect(instance.publish(repos)).rejects.toThrow('RESEND_AUDIENCE_ID');
+      await expect(instance.publish(sections)).rejects.toThrow('RESEND_AUDIENCE_ID');
 
       expect(mockFetch).not.toHaveBeenCalled();
     });
@@ -84,7 +88,7 @@ describe('resend.ts', () => {
       vi.stubEnv('RESEND_AUDIENCE_ID', '');
       vi.stubEnv('RESEND_API_KEY', 're_live_key_123');
 
-      await expect(instance.publish(repos)).rejects.toThrow('RESEND_AUDIENCE_ID');
+      await expect(instance.publish(sections)).rejects.toThrow('RESEND_AUDIENCE_ID');
 
       expect(mockFetch).not.toHaveBeenCalled();
     });
@@ -94,7 +98,7 @@ describe('resend.ts', () => {
       vi.stubEnv('RESEND_AUDIENCE_ID', 'aud_123');
       vi.stubEnv('RESEND_API_KEY', undefined);
 
-      await expect(instance.publish(repos)).rejects.toThrow('RESEND_API_KEY');
+      await expect(instance.publish(sections)).rejects.toThrow('RESEND_API_KEY');
 
       expect(mockFetch).not.toHaveBeenCalled();
     });
@@ -104,7 +108,7 @@ describe('resend.ts', () => {
       vi.stubEnv('RESEND_AUDIENCE_ID', 'aud_123');
       vi.stubEnv('RESEND_API_KEY', '');
 
-      await expect(instance.publish(repos)).rejects.toThrow('RESEND_API_KEY');
+      await expect(instance.publish(sections)).rejects.toThrow('RESEND_API_KEY');
 
       expect(mockFetch).not.toHaveBeenCalled();
     });
@@ -136,7 +140,7 @@ describe('resend.ts', () => {
           json: vi.fn().mockResolvedValue({ status: 'sent' }),
         });
 
-      await expect(instance.publish(repos)).resolves.toBe(id);
+      await expect(instance.publish(sections)).resolves.toBe(id);
 
       // 1st request: create broadcast
       expect(mockFetch).toHaveBeenNthCalledWith(
@@ -185,7 +189,7 @@ describe('resend.ts', () => {
         json: vi.fn().mockResolvedValue({ id }),
       });
 
-      await expect(instance.publish(repos)).resolves.toBe(id);
+      await expect(instance.publish(sections)).resolves.toBe(id);
 
       // Only one call (no /send)
       expect(mockFetch).toHaveBeenCalledTimes(1);
@@ -203,7 +207,7 @@ describe('resend.ts', () => {
         json: vi.fn().mockResolvedValue({}), // no id
       });
 
-      await expect(instance.publish(repos)).rejects.toThrowError(HttpError);
+      await expect(instance.publish(sections)).rejects.toThrowError(HttpError);
 
       expect(mockFetch).toHaveBeenCalledTimes(1);
     });
@@ -214,7 +218,7 @@ describe('resend.ts', () => {
         json: vi.fn().mockRejectedValue(new Error('invalid JSON')),
       });
 
-      await expect(instance.publish(repos)).rejects.toThrow('invalid JSON');
+      await expect(instance.publish(sections)).rejects.toThrow('invalid JSON');
     });
 
     it('should throw on 5xx HTTP error (draft request)', async () => {
@@ -224,7 +228,7 @@ describe('resend.ts', () => {
         text: vi.fn().mockResolvedValue('internal server error'),
       });
 
-      await expect(instance.publish(repos)).rejects.toThrowError(HttpError);
+      await expect(instance.publish(sections)).rejects.toThrowError(HttpError);
     });
 
     it('should throw on 5xx HTTP error (send request)', async () => {
@@ -241,13 +245,13 @@ describe('resend.ts', () => {
           text: vi.fn().mockResolvedValue('internal server error'),
         });
 
-      await expect(instance.publish(repos)).rejects.toThrowError(HttpError);
+      await expect(instance.publish(sections)).rejects.toThrowError(HttpError);
     });
 
     it('should throw on network errors (draft request)', async () => {
       mockFetch.mockRejectedValueOnce(new Error('network down'));
 
-      await expect(instance.publish(repos)).rejects.toThrow('network down');
+      await expect(instance.publish(sections)).rejects.toThrow('network down');
     });
 
     it('should throw on network errors (send request)', async () => {
@@ -260,7 +264,7 @@ describe('resend.ts', () => {
         })
         .mockRejectedValueOnce(new Error('network down'));
 
-      await expect(instance.publish(repos)).rejects.toThrow('network down');
+      await expect(instance.publish(sections)).rejects.toThrow('network down');
     });
   });
 });

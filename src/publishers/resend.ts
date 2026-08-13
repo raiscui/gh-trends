@@ -1,8 +1,7 @@
 import { Publisher } from '../types/publisher';
 import { ResendClient } from '../clients/resend';
 import { TaggedError } from '../utils/logging';
-import { render } from '../pipeline/render';
-import { ScoredRepo } from '../pipeline/select';
+import { render, ReleaseSections } from '../pipeline/render';
 
 export class ResendPublisher extends Publisher {
   readonly name = 'resend';
@@ -11,14 +10,14 @@ export class ResendPublisher extends Publisher {
     return process.env.RESEND_ENABLED === 'true';
   }
 
-  render(repos: ScoredRepo[]) {
+  render(sections: ReleaseSections) {
     return {
-      html: render('html.hbs', repos),
-      text: render('text.hbs', repos),
+      html: render('html.hbs', sections),
+      text: render('text.hbs', sections),
     };
   }
 
-  async publish(repos: ScoredRepo[]): Promise<string> {
+  async publish(sections: ReleaseSections): Promise<string> {
     const from = process.env.RESEND_FROM;
     if (!from) {
       throw new TaggedError('config', 'RESEND_FROM required when RESEND_ENABLED=true');
@@ -29,7 +28,7 @@ export class ResendPublisher extends Publisher {
       throw new TaggedError('config', 'RESEND_AUDIENCE_ID required when RESEND_ENABLED=true');
     }
 
-    const content = this.render(repos);
+    const content = this.render(sections);
     const client = new ResendClient(process.env.RESEND_API_KEY);
 
     const replyTo = process.env.RESEND_REPLY_TO;

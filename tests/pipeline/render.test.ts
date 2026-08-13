@@ -3,12 +3,18 @@ import { render } from '../../src/pipeline/render';
 import { mockRepos } from '../../src/mocks/repos';
 import { ScoredRepo } from '../../src/pipeline/select';
 
+// 测试 helper:把所有 mock repos 装进 sections.main,空 rust / agent 让 markdown.hbs
+// 里那两个 section 渲染空 tier 表格(模板自带空保护,不会报错)。
+function toSections(repos: ScoredRepo[]) {
+  return { main: repos, rust: [], agent: [] };
+}
+
 describe('render.ts', () => {
   const template = 'markdown.hbs';
   const mockDate = new Date('2025-08-15T10:00:00.000Z'); // friday, Week 33
 
   const mockScoredRepos: ScoredRepo[] = mockRepos.map((repo, index) => ({
-    ...repo, // spread the original props
+    ...repo,
     score: 0.9 - index * 0.1,
   }));
 
@@ -27,20 +33,20 @@ describe('render.ts', () => {
     });
 
     it('should render release with single repo', () => {
-      const content = render(template, [mockScoredRepos[0]!]);
+      const content = render(template, toSections([mockScoredRepos[0]!]));
 
       expect(content).toContain(mockScoredRepos[0]!.nameWithOwner);
     });
 
     it('should render release with multiple repos', () => {
-      const content = render(template, [mockScoredRepos[0]!, mockScoredRepos[1]!]);
+      const content = render(template, toSections([mockScoredRepos[0]!, mockScoredRepos[1]!]));
 
       expect(content).toContain(mockScoredRepos[0]!.nameWithOwner);
       expect(content).toContain(mockScoredRepos[1]!.nameWithOwner);
     });
 
     it('should include key information', () => {
-      const content = render(template, [mockScoredRepos[0]!]);
+      const content = render(template, toSections([mockScoredRepos[0]!]));
 
       expect(content).toContain(mockScoredRepos[0]!.nameWithOwner);
       expect(content).toContain(mockScoredRepos[0]!.description);
@@ -49,13 +55,16 @@ describe('render.ts', () => {
     });
 
     it('should handle repos with null optionals', () => {
-      const content = render(template, [
-        {
-          ...mockScoredRepos[0]!,
-          description: null,
-          primaryLanguage: null,
-        },
-      ]);
+      const content = render(
+        template,
+        [
+          {
+            ...mockScoredRepos[0]!,
+            description: null,
+            primaryLanguage: null,
+          },
+        ].map(r => ({ main: [r], rust: [], agent: [] }))[0]!
+      );
 
       expect(content).toContain('(no description)');
     });
@@ -66,9 +75,9 @@ describe('render.ts', () => {
         description: 'Tool with "quotes" and <tags> & special chars',
       };
 
-      const content = render(template, [specialCharRepo]);
+      const content = render(template, toSections([specialCharRepo]));
 
-      expect(content).toBeTruthy(); // should not break rendering
+      expect(content).toBeTruthy();
     });
 
     it('should handle unicode chars in descriptions', () => {
@@ -77,10 +86,18 @@ describe('render.ts', () => {
         description: 'A project with emojis 🚀 and unicode chars 你好',
       };
 
-      const content = render(template, [unicodeRepo]);
+      const content = render(template, toSections([unicodeRepo]));
 
       expect(content).toContain('🚀');
       expect(content).toContain('你好');
+    });
+
+    it('should render all three section headers (main / rust / agent)', () => {
+      const content = render(template, toSections(mockScoredRepos));
+
+      expect(content).toContain('🔥 GitHub trends');
+      expect(content).toContain('🦀 Rust trends');
+      expect(content).toContain('🤖 Agent trends');
     });
   });
 });

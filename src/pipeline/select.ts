@@ -6,12 +6,13 @@ export interface ScoredRepo extends GithubRepo {
   score: number;
 }
 
-export function select(repos: GithubRepo[]): ScoredRepo[] {
-  const topN = parseInt(process.env.RELEASE_TOP_N!);
-
-  // ponytail: 7d trending 全集,select 阶段把"过去 24h 内才首次出现"的 repo
-  // 排在同 score 的老 repo 前,这样 daily release 的 top-20 每天都会刷新一遍。
-  // SCAN_WINDOW_DAYS=7 留原作者 SQL 不动;SELECT_FRESH_HOURS 让新鲜度可调。
+// 内部 helper:对已 filter 过的 repo 做 fresh bucket + score 排序,取 top-N。
+// 被 select() 和 vertical.ts(selectRust / selectAgent)共用,以保证三榜单评分口径一致。
+//
+// ponytail: 把"打分 + fresh bucket + sort + slice"作为单一可复用单元;
+// 比起把 sort 逻辑暴露成 Sort 工厂 / Strategy 接口,这种 rankAndSlice(repos, topN)
+// 是更小、更直接的多态方式。如果未来评分公式变了,改这一处即可。
+export function rankAndSlice(repos: GithubRepo[], topN: number): ScoredRepo[] {
   const freshHours = parseInt(process.env.SELECT_FRESH_HOURS ?? '24');
 
   const maxHours = parseInt(process.env.SCAN_WINDOW_DAYS!) * 24;
@@ -52,4 +53,10 @@ export function select(repos: GithubRepo[]): ScoredRepo[] {
   logInfo('score', `${selected.length} selected, ${freshInTop} within last ${freshHours}h`);
 
   return selected.map(s => ({ ...s.repo, score: s.score }));
+}
+
+// 主榜单入口:从 RELEASE_TOP_N 取 top-N。
+export function select(repos: GithubRepo[]): ScoredRepo[] {
+  const topN = parseInt(process.env.RELEASE_TOP_N!);
+  return rankAndSlice(repos, topN);
 }

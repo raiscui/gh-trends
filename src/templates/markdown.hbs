@@ -9,7 +9,7 @@
 
 ## 🥇 **Tier 1**
 
-{{#each repos}}
+{{#each sections.main}}
 {{#if (lt @index 10)}}
 **[{{nameWithOwner}}]({{url}})** {{#if primaryLanguage.name}}`{{primaryLanguage.name}}`{{/if}} `⭐ {{formatNumber stargazerCount}}`
 {{#if description}}*{{truncate description ../descLimit}}*{{else}}*(no description)*{{/if}}
@@ -22,8 +22,80 @@
 
 ## 🥈 **Tier 2**
 
-{{#each repos}}
+{{#each sections.main}}
 {{#if (and (gte @index 10) (lt @index 20))}}
+**[{{nameWithOwner}}]({{url}})** {{#if primaryLanguage.name}}`{{primaryLanguage.name}}`{{/if}} `⭐ {{formatNumber stargazerCount}}`
+{{#if description}}*{{truncate description ../descLimit}}*{{else}}*(no description)*{{/if}}
+
+{{/if}}
+{{/each}}
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🦀 Rust trends
+*top Rust repositories trending this week*
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+## 🥇 **Tier 1**
+
+{{#each sections.rust}}
+{{#if (lt @index 8)}}
+**[{{nameWithOwner}}]({{url}})** {{#if primaryLanguage.name}}`{{primaryLanguage.name}}`{{/if}} `⭐ {{formatNumber stargazerCount}}`
+{{#if description}}*{{truncate description ../descLimit}}*{{else}}*(no description)*{{/if}}
+
+{{/if}}
+{{/each}}
+
+</td>
+<td width="50%" valign="top">
+
+## 🥈 **Tier 2**
+
+{{#each sections.rust}}
+{{#if (and (gte @index 8) (lt @index 15))}}
+**[{{nameWithOwner}}]({{url}})** {{#if primaryLanguage.name}}`{{primaryLanguage.name}}`{{/if}} `⭐ {{formatNumber stargazerCount}}`
+{{#if description}}*{{truncate description ../descLimit}}*{{else}}*(no description)*{{/if}}
+
+{{/if}}
+{{/each}}
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🤖 Agent trends
+*top LLM agent / MCP / Claude Code / Copilot repositories trending this week*
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+## 🥇 **Tier 1**
+
+{{#each sections.agent}}
+{{#if (lt @index 8)}}
+**[{{nameWithOwner}}]({{url}})** {{#if primaryLanguage.name}}`{{primaryLanguage.name}}`{{/if}} `⭐ {{formatNumber stargazerCount}}`
+{{#if description}}*{{truncate description ../descLimit}}*{{else}}*(no description)*{{/if}}
+
+{{/if}}
+{{/each}}
+
+</td>
+<td width="50%" valign="top">
+
+## 🥈 **Tier 2**
+
+{{#each sections.agent}}
+{{#if (and (gte @index 8) (lt @index 15))}}
 **[{{nameWithOwner}}]({{url}})** {{#if primaryLanguage.name}}`{{primaryLanguage.name}}`{{/if}} `⭐ {{formatNumber stargazerCount}}`
 {{#if description}}*{{truncate description ../descLimit}}*{{else}}*(no description)*{{/if}}
 

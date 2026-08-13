@@ -2,6 +2,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { publishAll } from '../../src/pipeline/publish';
 import { mockRepos } from '../../src/mocks/repos';
 import { ScoredRepo } from '../../src/pipeline/select';
+import { ReleaseSections } from '../../src/pipeline/render';
 
 const publisher01 = {
   name: 'publisher-01',
@@ -22,7 +23,13 @@ const publisher02 = {
 const pubs = [publisher01, publisher02];
 
 describe('publish.ts', () => {
-  const repos: ScoredRepo[] = mockRepos.map(repo => ({ ...repo, score: 0 }));
+  // 共享 mock sections:主榜是 mock repos,Rust / Agent 故意空,用来验证 publishAll
+  // 在 section 完全为空时仍能正常触发各 publisher。
+  const sections: ReleaseSections = {
+    main: mockRepos.map(repo => ({ ...repo, score: 0 }) as ScoredRepo),
+    rust: [],
+    agent: [],
+  };
 
   beforeEach(async () => {
     vi.clearAllMocks();
@@ -30,7 +37,7 @@ describe('publish.ts', () => {
   });
 
   it('should handle zero publisher enabled', async () => {
-    const result = await publishAll(repos, pubs);
+    const result = await publishAll(sections, pubs);
 
     expect(result).toEqual([]);
     expect(publisher01.publish).not.toHaveBeenCalled();
@@ -41,10 +48,10 @@ describe('publish.ts', () => {
     publisher01.enabled.mockReturnValue(true);
     publisher01.publish.mockResolvedValueOnce('bd_123');
 
-    const result = await publishAll(repos, pubs);
+    const result = await publishAll(sections, pubs);
 
     expect(result).toEqual(['bd_123']);
-    expect(publisher01.publish).toHaveBeenCalledWith(repos);
+    expect(publisher01.publish).toHaveBeenCalledWith(sections);
     expect(publisher02.publish).not.toHaveBeenCalled();
   });
 
@@ -54,7 +61,7 @@ describe('publish.ts', () => {
     publisher01.publish.mockResolvedValueOnce('bd_123');
     publisher02.publish.mockResolvedValueOnce('gh_456');
 
-    const result = await publishAll(repos, pubs);
+    const result = await publishAll(sections, pubs);
 
     expect(result).toEqual(['bd_123', 'gh_456']);
   });
@@ -66,7 +73,7 @@ describe('publish.ts', () => {
     publisher01.publish.mockRejectedValueOnce(new Error('publisher-01'));
     publisher02.publish.mockResolvedValueOnce('gh_456');
 
-    await expect(publishAll(repos, pubs)).rejects.toThrow('publisher-01');
+    await expect(publishAll(sections, pubs)).rejects.toThrow('publisher-01');
   });
 
   it('should throw when multiple publishers fail (first error wins)', async () => {
@@ -76,6 +83,16 @@ describe('publish.ts', () => {
     publisher01.publish.mockRejectedValueOnce(new Error('publisher-01'));
     publisher02.publish.mockRejectedValueOnce(new Error('publisher-02'));
 
-    await expect(publishAll(repos, pubs)).rejects.toThrow('publisher-01');
+    await expect(publishAll(sections, pubs)).rejects.toThrow('publisher-01');
+  });
+
+  it('should skip publication when all sections are empty', async () => {
+    publisher01.enabled.mockReturnValue(true);
+
+    const emptySections: ReleaseSections = { main: [], rust: [], agent: [] };
+    const result = await publishAll(emptySections, pubs);
+
+    expect(result).toEqual([]);
+    expect(publisher01.publish).not.toHaveBeenCalled();
   });
 });

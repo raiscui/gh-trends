@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { XMLParser, XMLBuilder } from 'fast-xml-parser';
 import { Publisher } from '../types/publisher';
 import { logInfo } from '../utils/logging';
-import { ScoredRepo } from '../pipeline/select';
+import { ReleaseSections } from '../pipeline/render';
 
 interface RSSItem {
   title: string;
@@ -29,9 +29,12 @@ export class RSSPublisher extends Publisher {
     return process.env.RSS_ENABLED === 'true';
   }
 
-  async publish(repos: ScoredRepo[]): Promise<string> {
+  async publish(sections: ReleaseSections): Promise<string> {
+    // RSS 跟 GitHub release 走同一份 feed(ADR D5 = E5:单一 release,三段 section)。
+    // 主榜已经是 release body 的主体;RSS item 用 main 即可,Rust/Agent section
+    // 由 GitHub release 渲染承担。RSS 不重复 Rust/Agent 避免双重订阅噪声。
     const existingItems = this.loadExistingItems();
-    const newItems = this.createRSSItems(repos);
+    const newItems = this.createRSSItems(sections.main);
 
     const dedupedItems = this.dedupeItems(existingItems, newItems);
     const filteredItems = this.filterByWindow(dedupedItems);
@@ -79,7 +82,7 @@ export class RSSPublisher extends Publisher {
     }
   }
 
-  private createRSSItems(repos: ScoredRepo[]): RSSItem[] {
+  private createRSSItems(repos: ReleaseSections['main']): RSSItem[] {
     const now = new Date();
 
     return repos.map(repo => ({

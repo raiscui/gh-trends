@@ -1,8 +1,7 @@
 import { logInfo, TaggedError } from '../utils/logging';
 import { Publisher } from '../types/publisher';
-import { render } from '../pipeline/render';
+import { render, ReleaseSections } from '../pipeline/render';
 import { GitHubClient } from '../clients/github';
-import { ScoredRepo } from '../pipeline/select';
 
 export class GitHubPublisher extends Publisher {
   readonly name = 'github-releases';
@@ -15,11 +14,11 @@ export class GitHubPublisher extends Publisher {
     return process.env.GITHUB_RELEASES_ENABLED === 'true';
   }
 
-  render(repos: ScoredRepo[]): string {
-    return render('markdown.hbs', repos);
+  render(sections: ReleaseSections): string {
+    return render('markdown.hbs', sections);
   }
 
-  async publish(repos: ScoredRepo[]): Promise<string> {
+  async publish(sections: ReleaseSections): Promise<string> {
     const repo = process.env.GITHUB_RELEASES_REPO;
 
     if (!repo) {
@@ -39,7 +38,7 @@ export class GitHubPublisher extends Publisher {
       return `release-already-exists-${existing.id}`;
     }
 
-    const content = this.render(repos);
+    const content = this.render(sections);
     const result = await client.createRelease(repo, {
       tag_name: tag,
       name: this.subject(),

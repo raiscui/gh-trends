@@ -5,7 +5,7 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2026 03:03:58 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 03:03:05 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
     <item>
       <title>PrimeIntellect-ai/prime-agent</title>
@@ -48,48 +48,6 @@
       <description>Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.</description>
       <pubDate>Fri, 07 Aug 2026 14:08:02 GMT</pubDate>
       <guid isPermaLink="false">huangruiteng/loopx</guid>
-    </item>
-    <item>
-      <title>cloudflare/computer</title>
-      <link>https://github.com/cloudflare/computer</link>
-      <description>Give your agent a computer 👾</description>
-      <pubDate>Thu, 06 Aug 2026 03:46:24 GMT</pubDate>
-      <guid isPermaLink="false">cloudflare/computer</guid>
-    </item>
-    <item>
-      <title>cloudflare/cloudflare-os</title>
-      <link>https://github.com/cloudflare/cloudflare-os</link>
-      <description>Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.</description>
-      <pubDate>Thu, 06 Aug 2026 03:46:24 GMT</pubDate>
-      <guid isPermaLink="false">cloudflare/cloudflare-os</guid>
-    </item>
-    <item>
-      <title>firecrawl/anydoc</title>
-      <link>https://github.com/firecrawl/anydoc</link>
-      <description>Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.</description>
-      <pubDate>Thu, 06 Aug 2026 03:46:24 GMT</pubDate>
-      <guid isPermaLink="false">firecrawl/anydoc</guid>
-    </item>
-    <item>
-      <title>chuspeeism/dashi-taskboard</title>
-      <link>https://github.com/chuspeeism/dashi-taskboard</link>
-      <description>(no description)</description>
-      <pubDate>Thu, 06 Aug 2026 03:46:24 GMT</pubDate>
-      <guid isPermaLink="false">chuspeeism/dashi-taskboard</guid>
-    </item>
-    <item>
-      <title>Accio-Lab/RealReplicaBench</title>
-      <link>https://github.com/Accio-Lab/RealReplicaBench</link>
-      <description>RealReplicaBench: Benchmarking Long-Horizon Agents in High-Fidelity, Stateful, and Reproducible Replicas of Real Online Services</description>
-      <pubDate>Thu, 06 Aug 2026 03:46:24 GMT</pubDate>
-      <guid isPermaLink="false">Accio-Lab/RealReplicaBench</guid>
-    </item>
-    <item>
-      <title>DramaticShape/DramaticShapeVoxelMod</title>
-      <link>https://github.com/DramaticShape/DramaticShapeVoxelMod</link>
-      <description>(no description)</description>
-      <pubDate>Thu, 06 Aug 2026 03:46:24 GMT</pubDate>
-      <guid isPermaLink="false">DramaticShape/DramaticShapeVoxelMod</guid>
     </item>
   </channel>
 </rss>

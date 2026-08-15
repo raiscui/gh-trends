@@ -63,8 +63,8 @@
 |------------------------|--------|----------------------------------------------|
 | SCAN_LIMIT             | 300    | trending pool 上限(主榜 + Rust + Agent 共享)     |
 | SCAN_WINDOW_DAYS       | 7      | trending 时间窗                                |
-| SCAN_MIN_GROWTH_RATE   | 3.0    | 7 天 star 增长倍数下限                            |
-| FILTER_MIN_STARS       | 100    | repo 总 star 下限                                |
+| SCAN_MIN_GROWTH_RATE   | 0.5    | trending 增长倍数下限;0.5 是经验值,数据稀疏时降低 |
+| FILTER_MIN_STARS       | 200    | repo 总 star 下限;跟 SCAN_MIN_GROWTH_RATE=0.5 配套,保证质量 |
 | SELECT_FRESH_HOURS     | 24     | fresh-firstSeen bucket 时长                      |
 | RELEASE_TOP_N          | 20     | 主榜 top-N                                    |
 | RELEASE_TOP_N_RUST     | 15     | Rust 榜 top-N(待加)                            |

@@ -5,8 +5,127 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Aug 2026 01:53:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 02:00:51 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>cordiverse/cordis</title>
+      <link>https://github.com/cordiverse/cordis</link>
+      <description>Meta-Framework of Spatiotemporal Composability</description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">cordiverse/cordis</guid>
+    </item>
+    <item>
+      <title>MiniMax-AI/MiniMax-H3</title>
+      <link>https://github.com/MiniMax-AI/MiniMax-H3</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">MiniMax-AI/MiniMax-H3</guid>
+    </item>
+    <item>
+      <title>herdrdev/herdr</title>
+      <link>https://github.com/herdrdev/herdr</link>
+      <description>the runtime your coding agents live on</description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">herdrdev/herdr</guid>
+    </item>
+    <item>
+      <title>Zeejay0/gathered-scenes-zine-skill</title>
+      <link>https://github.com/Zeejay0/gathered-scenes-zine-skill</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">Zeejay0/gathered-scenes-zine-skill</guid>
+    </item>
+    <item>
+      <title>ZzzLc0405/photo-abstract-editorial</title>
+      <link>https://github.com/ZzzLc0405/photo-abstract-editorial</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">ZzzLc0405/photo-abstract-editorial</guid>
+    </item>
+    <item>
+      <title>Devin-AXIS/iPolloWork</title>
+      <link>https://github.com/Devin-AXIS/iPolloWork</link>
+      <description>A next-generation, source-available AI workspace with a self-evolving agent runtime for editable code, design, presentations, websites, and video—a Codex alternative that integrates DeepSeek Harness for subagent delegation, combining iPolloWork’s complete AI workbench with DSH’s specialized agents and both plugin ecosystems in one workflow.</description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">Devin-AXIS/iPolloWork</guid>
+    </item>
+    <item>
+      <title>NanoNets/Graft</title>
+      <link>https://github.com/NanoNets/Graft</link>
+      <description>Turbocharge Claude Code, Cursor, Codex, Gemini &amp; every coding agent: faster, cheaper, with contextual understanding specific to your codebase.</description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">NanoNets/Graft</guid>
+    </item>
+    <item>
+      <title>miqdadbadjuber/anti-slop</title>
+      <link>https://github.com/miqdadbadjuber/anti-slop</link>
+      <description>Design rules to stop AI coding agents from generating generic &quot;AI slop&quot; UI.</description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">miqdadbadjuber/anti-slop</guid>
+    </item>
+    <item>
+      <title>Flaminis/Dalaran</title>
+      <link>https://github.com/Flaminis/Dalaran</link>
+      <description>Dalaran — Apache-2.0, robotics-first visualization and data infrastructure for multimodal time-series. ROS 2 native, reads existing .rrd recordings. A hard fork of Rerun.</description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">Flaminis/Dalaran</guid>
+    </item>
+    <item>
+      <title>chuspeeism/dashi-taskboard</title>
+      <link>https://github.com/chuspeeism/dashi-taskboard</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">chuspeeism/dashi-taskboard</guid>
+    </item>
+    <item>
+      <title>Jwuthri/Tracely</title>
+      <link>https://github.com/Jwuthri/Tracely</link>
+      <description>Trace-native CI/CD for AI agents — production failures become regression tests that block the PR. Auto-detect, cluster, freeze into hermetic cases, replay in CI for $0.</description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">Jwuthri/Tracely</guid>
+    </item>
+    <item>
+      <title>gloom-sh/gloomberb</title>
+      <link>https://github.com/gloom-sh/gloomberb</link>
+      <description>Finance terminal, in your terminal.</description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">gloom-sh/gloomberb</guid>
+    </item>
+    <item>
+      <title>aipoch/open-science</title>
+      <link>https://github.com/aipoch/open-science</link>
+      <description>Open Science is an open-source, local-first, model-agnostic AI research workbench with scientific agents for reproducible research and discovery. </description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">aipoch/open-science</guid>
+    </item>
+    <item>
+      <title>wallquailrespect/claude-ai-ultimate</title>
+      <link>https://github.com/wallquailrespect/claude-ai-ultimate</link>
+      <description>Claude AI Ultimate</description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">wallquailrespect/claude-ai-ultimate</guid>
+    </item>
+    <item>
+      <title>CodebuffAI/freebuff</title>
+      <link>https://github.com/CodebuffAI/freebuff</link>
+      <description>The free coding agent</description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">CodebuffAI/freebuff</guid>
+    </item>
+    <item>
+      <title>litu54/DevOps-Interview-Guide</title>
+      <link>https://github.com/litu54/DevOps-Interview-Guide</link>
+      <description> DevOps Interview Guide</description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">litu54/DevOps-Interview-Guide</guid>
+    </item>
+    <item>
+      <title>danyuchn/asd-ste100-skill</title>
+      <link>https://github.com/danyuchn/asd-ste100-skill</link>
+      <description>ASD-STE100 Simplified Technical English rules, repurposed as a Claude Code skill for rewriting ambiguous agent-facing English.</description>
+      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
+      <guid isPermaLink="false">danyuchn/asd-ste100-skill</guid>
+    </item>
     <item>
       <title>spinabot/brigade</title>
       <link>https://github.com/spinabot/brigade</link>
@@ -41,20 +160,6 @@
       <description>Graph-Native Infrastructure for Context and Accountable AI Systems</description>
       <pubDate>Tue, 11 Aug 2026 02:31:59 GMT</pubDate>
       <guid isPermaLink="false">semantica-agi/semantica</guid>
-    </item>
-    <item>
-      <title>talivia-group/talivia</title>
-      <link>https://github.com/talivia-group/talivia</link>
-      <description>Open-source, self-hosted revenue-first analytics for founders: web analytics, Session Replay, revenue attribution, and customer revenue integrations. datafast alternative</description>
-      <pubDate>Sat, 08 Aug 2026 02:25:31 GMT</pubDate>
-      <guid isPermaLink="false">talivia-group/talivia</guid>
-    </item>
-    <item>
-      <title>ronaldo-avalos/Maya</title>
-      <link>https://github.com/ronaldo-avalos/Maya</link>
-      <description>🖥️ 📱 ▶️ Wrap your iPhone screen recordings in a beautiful device frame, add cinematic zoom moments, and export ready-to-share videos.</description>
-      <pubDate>Sat, 08 Aug 2026 02:25:31 GMT</pubDate>
-      <guid isPermaLink="false">ronaldo-avalos/Maya</guid>
     </item>
   </channel>
 </rss>

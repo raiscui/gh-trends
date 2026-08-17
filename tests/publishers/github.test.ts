@@ -14,6 +14,7 @@ describe('gh-release.ts', () => {
     main: mockRepos.map(repo => ({ ...repo, score: 0 })),
     rust: [],
     agent: [],
+    deepseekHarness: [],
   };
 
   beforeEach(() => {

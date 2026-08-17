@@ -14,6 +14,7 @@ describe('resend.ts', () => {
     main: mockRepos.map(repo => ({ ...repo, score: 0 })),
     rust: [],
     agent: [],
+    deepseekHarness: [],
   };
   const content = {
     html: '<p>Hello world</p>',

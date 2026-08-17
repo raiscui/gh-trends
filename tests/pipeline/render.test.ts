@@ -6,7 +6,7 @@ import { ScoredRepo } from '../../src/pipeline/select';
 // 测试 helper:把所有 mock repos 装进 sections.main,空 rust / agent 让 markdown.hbs
 // 里那两个 section 渲染空 tier 表格(模板自带空保护,不会报错)。
 function toSections(repos: ScoredRepo[]) {
-  return { main: repos, rust: [], agent: [] };
+  return { main: repos, rust: [], agent: [], deepseekHarness: [] };
 }
 
 describe('render.ts', () => {
@@ -63,7 +63,7 @@ describe('render.ts', () => {
             description: null,
             primaryLanguage: null,
           },
-        ].map(r => ({ main: [r], rust: [], agent: [] }))[0]!
+        ].map(r => ({ main: [r], rust: [], agent: [], deepseekHarness: [] }))[0]!
       );
 
       expect(content).toContain('(no description)');
@@ -98,6 +98,7 @@ describe('render.ts', () => {
       expect(content).toContain('🔥 GitHub trends');
       expect(content).toContain('🦀 Rust trends');
       expect(content).toContain('🤖 Agent trends');
+      expect(content).toContain('🧠 DeepSeek Harness trends');
     });
   });
 });

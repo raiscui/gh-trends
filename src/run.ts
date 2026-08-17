@@ -3,7 +3,7 @@
 import 'dotenv-flow/config';
 import { scan } from './pipeline/scan';
 import { select } from './pipeline/select';
-import { selectRust, selectAgent } from './pipeline/vertical';
+import { selectRust, selectAgent, selectDeepSeekHarness } from './pipeline/vertical';
 import { publishAll } from './pipeline/publish';
 import { logInfo, TaggedError } from './utils/logging';
 import { handleProcessError } from './utils/common';
@@ -36,17 +36,19 @@ export async function main(): Promise<void> {
   }
 
   console.log('\n', '🏆 Ranking to select the best');
-  // 共享 filter 后的 repo pool,做三道 sub-select:
+  // 共享 filter 后的 repo pool,做四道 sub-select:
   //   - 主榜: rankAndSlice(filtered, RELEASE_TOP_N=20)
   //   - Rust 榜: filter(primaryLanguage=Rust) → rankAndSlice(RELEASE_TOP_N_RUST=15)
   //   - Agent 榜: filter(isAgentRepo) → rankAndSlice(RELEASE_TOP_N_AGENT=15)
-  // 三榜单评分口径一致(fresh bucket + starsPerHour × medianAge),D4 = X1 允许重叠。
+  //   - DeepSeek Harness 榜: filter(isDeepSeekHarnessRepo) → rankAndSlice(RELEASE_TOP_N_DEEPSEEK=15)
+  // 四榜单评分口径一致(fresh bucket + starsPerHour × medianAge),D4 = X1 允许重叠。
   const mainRepos = select(filteredRepos);
   const rustRepos = selectRust(filteredRepos);
   const agentRepos = selectAgent(filteredRepos);
+  const deepseekHarnessRepos = selectDeepSeekHarness(filteredRepos);
   logInfo(
     'score',
-    `selected: main=${mainRepos.length}, rust=${rustRepos.length}, agent=${agentRepos.length}`
+    `selected: main=${mainRepos.length}, rust=${rustRepos.length}, agent=${agentRepos.length}, deepseekHarness=${deepseekHarnessRepos.length}`
   );
 
   console.log('\n', '📮 Publishing to all enabled channels');
@@ -54,6 +56,7 @@ export async function main(): Promise<void> {
     main: mainRepos,
     rust: rustRepos,
     agent: agentRepos,
+    deepseekHarness: deepseekHarnessRepos,
   });
   logInfo('publish', `published release (IDs: ${messageIds.join(', ')})`);
 }

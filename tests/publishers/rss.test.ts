@@ -18,6 +18,7 @@ describe('rss.ts', () => {
     main: mockRepos.slice(0, 2).map(repo => ({ ...repo, score: 0 })),
     rust: [],
     agent: [],
+    deepseekHarness: [],
   };
 
   beforeEach(() => {
@@ -135,7 +136,7 @@ describe('rss.ts', () => {
 
       const duplicateRepo = sections.main[0]!;
       // duplicateRepo.nameWithOwner = 'existing/repo';
-      await instance.publish({ main: [duplicateRepo], rust: [], agent: [] });
+      await instance.publish({ main: [duplicateRepo], rust: [], agent: [], deepseekHarness: [] });
 
       const content = readFileSync(testRssPath, 'utf-8');
       const parsed = parser.parse(content);

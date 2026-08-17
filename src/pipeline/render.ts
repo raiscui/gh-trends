@@ -10,6 +10,7 @@ export interface ReleaseSections {
   main: ScoredRepo[];
   rust: ScoredRepo[];
   agent: ScoredRepo[];
+  deepseekHarness: ScoredRepo[];
 }
 
 Handlebars.registerHelper('lt', (a, b) => a < b);

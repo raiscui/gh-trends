@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import { selectRust, selectAgent } from '../../src/pipeline/vertical';
+import { selectRust, selectAgent, selectDeepSeekHarness } from '../../src/pipeline/vertical';
 import { GithubRepo } from '../../src/clients/github.gql';
 
 // 测试工厂:构造可控制 primaryLanguage / description / score 的 repo。
@@ -252,5 +252,101 @@ describe('vertical.ts', () => {
         'foo/rust-agent',
       ]);
     });
+  });
+});
+
+describe('selectDeepSeekHarness', () => {
+  beforeEach(() => {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date('2026-08-17T12:00:00Z'));
+    vi.stubEnv('SCAN_WINDOW_DAYS', '7');
+    vi.stubEnv('SELECT_FRESH_HOURS', '24');
+  });
+
+  it('only includes repos matching cordis / dsh / dsh-plugin keywords', () => {
+    vi.stubEnv('RELEASE_TOP_N_DEEPSEEK', '5');
+
+    const dshA = mkRepo({
+      name: 'foo/awesome-dsh',
+      hoursAgo: 10,
+      starsWithin: 100,
+    });
+    const cordisB = mkRepo({
+      name: 'foo/cordis-memory',
+      hoursAgo: 20,
+      starsWithin: 80,
+    });
+    const dshPluginC = mkRepo({
+      name: 'bar/cool-dsh-plugin',
+      hoursAgo: 5,
+      starsWithin: 200,
+    });
+    const unrelated = mkRepo({
+      name: 'foo/something-else',
+      hoursAgo: 6,
+      starsWithin: 150,
+    });
+
+    const out = selectDeepSeekHarness([dshA, cordisB, dshPluginC, unrelated]);
+
+    expect(out.map(r => r.nameWithOwner).sort()).toEqual([
+      'bar/cool-dsh-plugin',
+      'foo/awesome-dsh',
+      'foo/cordis-memory',
+    ]);
+  });
+
+  it('matches when description contains dsh (M2-style)', () => {
+    vi.stubEnv('RELEASE_TOP_N_DEEPSEEK', '5');
+
+    const byDesc = mkRepo({
+      name: 'foo/silent-repo',
+      hoursAgo: 5,
+      starsWithin: 90,
+      description: 'Built on the dsh memory layer',
+    });
+
+    const out = selectDeepSeekHarness([byDesc]);
+
+    expect(out.map(r => r.nameWithOwner)).toEqual(['foo/silent-repo']);
+  });
+
+  it('returns empty array when no dsh-related repos in pool', () => {
+    vi.stubEnv('RELEASE_TOP_N_DEEPSEEK', '15');
+
+    const a = mkRepo({
+      name: 'rust/web',
+      language: 'Rust',
+      hoursAgo: 5,
+      starsWithin: 100,
+      description: 'Web framework',
+    });
+    const b = mkRepo({
+      name: 'ts/lib',
+      language: 'TypeScript',
+      hoursAgo: 6,
+      starsWithin: 80,
+      description: 'Utility library',
+    });
+
+    const out = selectDeepSeekHarness([a, b]);
+
+    expect(out).toEqual([]);
+  });
+
+  it('respects RELEASE_TOP_N_DEEPSEEK top-N cap', () => {
+    vi.stubEnv('RELEASE_TOP_N_DEEPSEEK', '2');
+
+    const dsRepos = Array.from({ length: 5 }, (_, i) =>
+      mkRepo({
+        name: `foo/dsh-${i}`,
+        hoursAgo: 5,
+        starsWithin: 100 - i * 10,
+      })
+    );
+
+    const out = selectDeepSeekHarness(dsRepos);
+
+    expect(out).toHaveLength(2);
   });
 });

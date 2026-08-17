@@ -3,7 +3,7 @@
 import 'dotenv-flow/config';
 import { scan } from './pipeline/scan';
 import { select } from './pipeline/select';
-import { selectRust, selectAgent } from './pipeline/vertical';
+import { selectRust, selectAgent, selectDeepSeekHarness } from './pipeline/vertical';
 import { render } from './pipeline/render';
 import { logInfo } from './utils/logging';
 import { handleProcessError } from './utils/common';
@@ -22,13 +22,14 @@ async function preview() {
   logInfo(`filter`, `${filteredRepos.length} repos remain after filtering`);
 
   console.log('\n', '🏆 Ranking to select the best');
-  // 跟 run.ts 保持一致:三段 select → render sections。
+  // 跟 run.ts 保持一致:四段 select → render sections。
   const mainRepos = select(filteredRepos);
   const rustRepos = selectRust(filteredRepos);
   const agentRepos = selectAgent(filteredRepos);
+  const deepseekHarnessRepos = selectDeepSeekHarness(filteredRepos);
   logInfo(
     'select',
-    `selected: main=${mainRepos.length}, rust=${rustRepos.length}, agent=${agentRepos.length}`
+    `selected: main=${mainRepos.length}, rust=${rustRepos.length}, agent=${agentRepos.length}, deepseekHarness=${deepseekHarnessRepos.length}`
   );
 
   console.log('\n', '✍️ Crafting release content');
@@ -37,6 +38,7 @@ async function preview() {
     main: mainRepos,
     rust: rustRepos,
     agent: agentRepos,
+    deepseekHarness: deepseekHarnessRepos,
   });
   logInfo('render', `rendered release`);
 

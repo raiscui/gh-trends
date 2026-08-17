@@ -29,6 +29,7 @@ describe('publish.ts', () => {
     main: mockRepos.map(repo => ({ ...repo, score: 0 }) as ScoredRepo),
     rust: [],
     agent: [],
+    deepseekHarness: [],
   };
 
   beforeEach(async () => {
@@ -89,7 +90,7 @@ describe('publish.ts', () => {
   it('should skip publication when all sections are empty', async () => {
     publisher01.enabled.mockReturnValue(true);
 
-    const emptySections: ReleaseSections = { main: [], rust: [], agent: [] };
+    const emptySections: ReleaseSections = { main: [], rust: [], agent: [], deepseekHarness: [] };
     const result = await publishAll(emptySections, pubs);
 
     expect(result).toEqual([]);

@@ -90,3 +90,35 @@
 | src/publishers/rss.ts                  | feed/rss.xml 单一聚合文件                     |
 | src/templates/markdown.hbs             | GitHub release body 模板(三段)               |
 | docs/adr/0002-vertical-channels-rust-and-agent.md | 本次新增 ADR                             |
+
+## 关键词集合(DeepSeek Harness)
+
+`DEEPSEEK_HARNESS_KEYWORDS` 是 canonical list,定义在 `src/clients/deepSeekKeywords.ts`:
+
+| 关键词      | 对应项目 / 用途                  |
+|----------|----------------------------------|
+| cordis   | 数据 / 记忆层                       |
+| dsh      | CLI / daemon 缩写                 |
+| dsh-plugin | 插件                              |
+
+匹配规则(同 M2):
+- `nameWithOwner` 大小写不敏感命中任一关键词 → 命中
+- 或 `description` 大小写不敏感命中任一关键词 → 命中
+
+注意:`dsh` 是短缩写(可能误伤),`cordis` 是拉丁语 + 欧盟 CORDIS 项目库。
+当前 fail-closed 默认下,误伤被 `FILTER_MIN_STARS=200` 兜底。
+后续如果误伤多,可收紧关键词(只保留 `dsh-plugin`)。
+
+## 配置文件清单(env vars, 2026-08-17)
+
+| 变量                          | 默认值 | 含义                                          |
+|------------------------------|--------|----------------------------------------------|
+| SCAN_LIMIT                   | 300    | trending pool 上限(共享)                     |
+| SCAN_WINDOW_DAYS             | 7      | trending 时间窗                                |
+| SCAN_MIN_GROWTH_RATE         | 0.5    | trending 增长倍数下限(数据稀疏期降到 0.5)        |
+| FILTER_MIN_STARS             | 200    | repo 总 star 下限(跟 0.5 阈值配套)               |
+| SELECT_FRESH_HOURS           | 24     | fresh-firstSeen bucket 时长                    |
+| RELEASE_TOP_N                | 20     | 主榜 top-N                                    |
+| RELEASE_TOP_N_RUST           | 15     | Rust 榜 top-N                                  |
+| RELEASE_TOP_N_AGENT          | 15     | Agent 榜 top-N                                 |
+| RELEASE_TOP_N_DEEPSEEK       | 15     | DeepSeek Harness 榜 top-N                     |

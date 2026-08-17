@@ -149,3 +149,44 @@ RSS feed 单文件 `feed/rss.xml`,所有 release 仍然走这一个 feed(现状�
 - 关键词集合版本化 + `keywords.version` 字段在 release body 头标注
 - Rust 榜可考虑 `topics` GraphQL 查询(topics 里有 `rust` 的也算),但需要改 GraphQL query 模板
 - Agent 榜可考虑 OpenAI / Anthropic 官方 SDK 列表加白名单,过滤掉蹭热度的项目
+
+---
+
+## 扩展 2026-08-17:D8 — 新增 DeepSeek Harness 垂直榜单
+
+### 背景
+
+用户要求"增加一个 DeepSeek Harness 关键词榜单",并指定 3 个关键词:
+`cordis` / `dsh` / `dsh-plugin`(这是 DeepSeek Harness 生态内部的项目命名约定:
+cordis 是数据/记忆层,dsh 是 CLI / daemon 缩写,dsh-plugin 是插件)。
+
+### 决定
+
+**D8 = A3 + 用户指定 3 关键词**:
+
+- 新增 `src/clients/deepSeekKeywords.ts`,`DEEPSEEK_HARNESS_KEYWORDS = ['cordis', 'dsh', 'dsh-plugin']`
+- 新增 `selectDeepSeekHarness()`,复用 `rankAndSlice`
+- markdown.hbs 加第四段 section: `🧠 DeepSeek Harness trends`
+- `.env.example` 加 `RELEASE_TOP_N_DEEPSEEK=15`
+- 跟 Rust / Agent 一致接口,4 段 section 一起渲染
+
+### 验证(2026-08-17 dry-run,真实数据)
+
+| 段 | 命中数 |
+|----|-------|
+| 🔥 主榜 | 20 |
+| 🦀 Rust | 6 |
+| 🤖 Agent | 15 |
+| 🧠 DeepSeek Harness | **2** |
+
+命中 repo:
+- cordiverse/cordis (5,017 ⭐, TypeScript)
+- Devin-AXIS/iPolloWork (4,062 ⭐, HTML)
+
+Devin-AXIS 同时进 Agent 榜和 DeepSeek Harness 榜,印证 D4 = X1 重叠默认。
+
+### 关键词风险与缓解
+
+`dsh` 是短缩写,可能误伤其他项目;`cordis` 是拉丁语 + 欧盟 CORDIS 项目库。
+当前 fail-closed 默认下,误伤风险被 FILTER_MIN_STARS=200 兜底(只过滤高质量 repo)。
+后续如果误伤多,可收紧关键词(只保留 `dsh-plugin`)。

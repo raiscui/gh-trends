@@ -5,182 +5,259 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2026 01:58:24 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 10:00:03 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>pathwaycom/arc-task-gen</title>
+      <link>https://github.com/pathwaycom/arc-task-gen</link>
+      <description>Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.</description>
+      <pubDate>Thu, 27 Aug 2026 10:00:03 GMT</pubDate>
+      <guid isPermaLink="false">pathwaycom/arc-task-gen</guid>
+    </item>
+    <item>
+      <title>arvids-unavailable/openGym</title>
+      <link>https://github.com/arvids-unavailable/openGym</link>
+      <description>https://github.com/DuarteSantos8/openGym</description>
+      <pubDate>Thu, 27 Aug 2026 10:00:03 GMT</pubDate>
+      <guid isPermaLink="false">arvids-unavailable/openGym</guid>
+    </item>
+    <item>
+      <title>General-Legal/legal-templates</title>
+      <link>https://github.com/General-Legal/legal-templates</link>
+      <description>Public collection of high-quality templates created by General Legal attorneys with CC0 license</description>
+      <pubDate>Thu, 27 Aug 2026 10:00:03 GMT</pubDate>
+      <guid isPermaLink="false">General-Legal/legal-templates</guid>
+    </item>
+    <item>
+      <title>gvzdv/claudish-to-english</title>
+      <link>https://github.com/gvzdv/claudish-to-english</link>
+      <description>(no description)</description>
+      <pubDate>Thu, 27 Aug 2026 10:00:03 GMT</pubDate>
+      <guid isPermaLink="false">gvzdv/claudish-to-english</guid>
+    </item>
+    <item>
+      <title>Tianyu199509/DeskBox</title>
+      <link>https://github.com/Tianyu199509/DeskBox</link>
+      <description>A free, open-source Windows desktop organizer with native-feeling WinUI 3 widgets.</description>
+      <pubDate>Thu, 27 Aug 2026 10:00:03 GMT</pubDate>
+      <guid isPermaLink="false">Tianyu199509/DeskBox</guid>
+    </item>
+    <item>
+      <title>pctrade/end4-pC</title>
+      <link>https://github.com/pctrade/end4-pC</link>
+      <description>Custom end4</description>
+      <pubDate>Thu, 27 Aug 2026 10:00:03 GMT</pubDate>
+      <guid isPermaLink="false">pctrade/end4-pC</guid>
+    </item>
+    <item>
+      <title>harry0703/MangoDisk</title>
+      <link>https://github.com/harry0703/MangoDisk</link>
+      <description>Safety-first disk cleaner and disk space analyzer for macOS and Windows, with duplicate file finder, large file cleanup, app uninstaller, and startup manager</description>
+      <pubDate>Thu, 27 Aug 2026 10:00:03 GMT</pubDate>
+      <guid isPermaLink="false">harry0703/MangoDisk</guid>
+    </item>
+    <item>
+      <title>Spielewoy/autoprompt-skill</title>
+      <link>https://github.com/Spielewoy/autoprompt-skill</link>
+      <description>Autoprompt is a coding-agent skill that cuts failures by 45% on agentic coding tasks.</description>
+      <pubDate>Thu, 27 Aug 2026 10:00:03 GMT</pubDate>
+      <guid isPermaLink="false">Spielewoy/autoprompt-skill</guid>
+    </item>
+    <item>
+      <title>zenbu-labs/terminal-code</title>
+      <link>https://github.com/zenbu-labs/terminal-code</link>
+      <description>VS Code in the terminal</description>
+      <pubDate>Thu, 27 Aug 2026 10:00:03 GMT</pubDate>
+      <guid isPermaLink="false">zenbu-labs/terminal-code</guid>
+    </item>
+    <item>
+      <title>bilawalsidhu/gods-eye-view</title>
+      <link>https://github.com/bilawalsidhu/gods-eye-view</link>
+      <description>A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.</description>
+      <pubDate>Wed, 26 Aug 2026 02:02:27 GMT</pubDate>
+      <guid isPermaLink="false">bilawalsidhu/gods-eye-view</guid>
+    </item>
+    <item>
+      <title>s1dashu/ip-as-logo-skill</title>
+      <link>https://github.com/s1dashu/ip-as-logo-skill</link>
+      <description>A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.</description>
+      <pubDate>Wed, 26 Aug 2026 02:02:27 GMT</pubDate>
+      <guid isPermaLink="false">s1dashu/ip-as-logo-skill</guid>
+    </item>
     <item>
       <title>arvin341az-glitch/RVG</title>
       <link>https://github.com/arvin341az-glitch/RVG</link>
       <description>Multi-protocol proxy management panel built with Python &amp; FastAPI, deployable on Railway.</description>
-      <pubDate>Mon, 17 Aug 2026 01:58:24 GMT</pubDate>
+      <pubDate>Wed, 26 Aug 2026 02:02:27 GMT</pubDate>
       <guid isPermaLink="false">arvin341az-glitch/RVG</guid>
     </item>
     <item>
-      <title>NVIDIA-NeMo/Switchyard</title>
-      <link>https://github.com/NVIDIA-NeMo/Switchyard</link>
-      <description>Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.</description>
-      <pubDate>Mon, 17 Aug 2026 01:58:24 GMT</pubDate>
-      <guid isPermaLink="false">NVIDIA-NeMo/Switchyard</guid>
+      <title>vercel-labs/fx</title>
+      <link>https://github.com/vercel-labs/fx</link>
+      <description>Unix like coding agent</description>
+      <pubDate>Wed, 26 Aug 2026 02:02:27 GMT</pubDate>
+      <guid isPermaLink="false">vercel-labs/fx</guid>
     </item>
     <item>
-      <title>amap-cvlab/ABot-World</title>
-      <link>https://github.com/amap-cvlab/ABot-World</link>
-      <description>Infinite Interactive World Rollout on a Single Desktop GPU</description>
-      <pubDate>Mon, 17 Aug 2026 01:58:24 GMT</pubDate>
-      <guid isPermaLink="false">amap-cvlab/ABot-World</guid>
+      <title>pgrundev/pgbot</title>
+      <link>https://github.com/pgrundev/pgbot</link>
+      <description>Postgres intelligence for ai agents &amp; apps</description>
+      <pubDate>Wed, 26 Aug 2026 02:02:27 GMT</pubDate>
+      <guid isPermaLink="false">pgrundev/pgbot</guid>
     </item>
     <item>
-      <title>cordiverse/cordis</title>
-      <link>https://github.com/cordiverse/cordis</link>
-      <description>Meta-Framework of Spatiotemporal Composability</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">cordiverse/cordis</guid>
+      <title>truefoundry/trueforge</title>
+      <link>https://github.com/truefoundry/trueforge</link>
+      <description>The open-source agent harness - the runtime layer that turns an LLM into a working agent.</description>
+      <pubDate>Tue, 25 Aug 2026 01:56:23 GMT</pubDate>
+      <guid isPermaLink="false">truefoundry/trueforge</guid>
     </item>
     <item>
-      <title>MiniMax-AI/MiniMax-H3</title>
-      <link>https://github.com/MiniMax-AI/MiniMax-H3</link>
+      <title>Leonxlnx/unlazy</title>
+      <link>https://github.com/Leonxlnx/unlazy</link>
+      <description>Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth. Grounded in 2025-2026 research on model laziness, underthinking and premature completion.</description>
+      <pubDate>Tue, 25 Aug 2026 01:56:23 GMT</pubDate>
+      <guid isPermaLink="false">Leonxlnx/unlazy</guid>
+    </item>
+    <item>
+      <title>yetone/cumora</title>
+      <link>https://github.com/yetone/cumora</link>
+      <description>Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.</description>
+      <pubDate>Tue, 25 Aug 2026 01:56:23 GMT</pubDate>
+      <guid isPermaLink="false">yetone/cumora</guid>
+    </item>
+    <item>
+      <title>vercel-labs/scriptc</title>
+      <link>https://github.com/vercel-labs/scriptc</link>
+      <description>TypeScript-to-Native Compiler</description>
+      <pubDate>Tue, 25 Aug 2026 01:56:23 GMT</pubDate>
+      <guid isPermaLink="false">vercel-labs/scriptc</guid>
+    </item>
+    <item>
+      <title>yjh051108/dsh-routing-suite</title>
+      <link>https://github.com/yjh051108/dsh-routing-suite</link>
+      <description>dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).</description>
+      <pubDate>Sun, 23 Aug 2026 02:03:52 GMT</pubDate>
+      <guid isPermaLink="false">yjh051108/dsh-routing-suite</guid>
+    </item>
+    <item>
+      <title>chaitanyagiri/munder-difflin</title>
+      <link>https://github.com/chaitanyagiri/munder-difflin</link>
+      <description>local multi-agent harness</description>
+      <pubDate>Sun, 23 Aug 2026 02:03:52 GMT</pubDate>
+      <guid isPermaLink="false">chaitanyagiri/munder-difflin</guid>
+    </item>
+    <item>
+      <title>agentrhq/webcmd</title>
+      <link>https://github.com/agentrhq/webcmd</link>
+      <description>The Browser Infra that learns and cuts token spend by upto 90%</description>
+      <pubDate>Sun, 23 Aug 2026 02:03:52 GMT</pubDate>
+      <guid isPermaLink="false">agentrhq/webcmd</guid>
+    </item>
+    <item>
+      <title>FailproofAI/failproofai</title>
+      <link>https://github.com/FailproofAI/failproofai</link>
+      <description>Observability and enforcement for AI agent harnesses. Capture every run and runtime reliability with policy enforcement.  40 built-in policies, a local dashboard, no account required with a generous free cloud plan</description>
+      <pubDate>Sun, 23 Aug 2026 02:03:52 GMT</pubDate>
+      <guid isPermaLink="false">FailproofAI/failproofai</guid>
+    </item>
+    <item>
+      <title>henryqin1997/statem</title>
+      <link>https://github.com/henryqin1997/statem</link>
+      <description>CLI runbook for agent long run.</description>
+      <pubDate>Sun, 23 Aug 2026 02:03:52 GMT</pubDate>
+      <guid isPermaLink="false">henryqin1997/statem</guid>
+    </item>
+    <item>
+      <title>MemTensor/memmy-agent</title>
+      <link>https://github.com/MemTensor/memmy-agent</link>
+      <description>🍙  A personal AI agent &amp; local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.</description>
+      <pubDate>Sun, 23 Aug 2026 02:03:52 GMT</pubDate>
+      <guid isPermaLink="false">MemTensor/memmy-agent</guid>
+    </item>
+    <item>
+      <title>xiaobright/dsh-anchored-standard</title>
+      <link>https://github.com/xiaobright/dsh-anchored-standard</link>
+      <description>Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99)</description>
+      <pubDate>Sun, 23 Aug 2026 02:03:52 GMT</pubDate>
+      <guid isPermaLink="false">xiaobright/dsh-anchored-standard</guid>
+    </item>
+    <item>
+      <title>debpalash/VoiceStudio</title>
+      <link>https://github.com/debpalash/VoiceStudio</link>
+      <description>VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.</description>
+      <pubDate>Sun, 23 Aug 2026 02:03:52 GMT</pubDate>
+      <guid isPermaLink="false">debpalash/VoiceStudio</guid>
+    </item>
+    <item>
+      <title>deepseek-ai/deepseek-harness</title>
+      <link>https://github.com/deepseek-ai/deepseek-harness</link>
+      <description>DeepSeek Harness: Everything is a Plugin.</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">deepseek-ai/deepseek-harness</guid>
+    </item>
+    <item>
+      <title>zhu1090093659/dsh-web-ui</title>
+      <link>https://github.com/zhu1090093659/dsh-web-ui</link>
+      <description>Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">zhu1090093659/dsh-web-ui</guid>
+    </item>
+    <item>
+      <title>mahlernim/google-timeline-visualizer</title>
+      <link>https://github.com/mahlernim/google-timeline-visualizer</link>
+      <description>Visualize your year in travel using your Google Location History (Timeline) data</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">mahlernim/google-timeline-visualizer</guid>
+    </item>
+    <item>
+      <title>cordiverse/paper</title>
+      <link>https://github.com/cordiverse/paper</link>
+      <description>A Programming Paradigm for Spatiotemporal Composability</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">cordiverse/paper</guid>
+    </item>
+    <item>
+      <title>MiniMax-AI/MiniMax-Music3</title>
+      <link>https://github.com/MiniMax-AI/MiniMax-Music3</link>
       <description>(no description)</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">MiniMax-AI/MiniMax-H3</guid>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">MiniMax-AI/MiniMax-Music3</guid>
     </item>
     <item>
-      <title>herdrdev/herdr</title>
-      <link>https://github.com/herdrdev/herdr</link>
-      <description>the runtime your coding agents live on</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">herdrdev/herdr</guid>
+      <title>ZSvirt/zsvirt</title>
+      <link>https://github.com/ZSvirt/zsvirt</link>
+      <description>Core IaaS engine and cloud infrastructure foundation of ZSvirt</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">ZSvirt/zsvirt</guid>
     </item>
     <item>
-      <title>Zeejay0/gathered-scenes-zine-skill</title>
-      <link>https://github.com/Zeejay0/gathered-scenes-zine-skill</link>
+      <title>zenbu-labs/terminal-browser</title>
+      <link>https://github.com/zenbu-labs/terminal-browser</link>
+      <description>A browser that runs directly inside your existing terminal</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">zenbu-labs/terminal-browser</guid>
+    </item>
+    <item>
+      <title>hydra-db/hydradb</title>
+      <link>https://github.com/hydra-db/hydradb</link>
+      <description>HydraDB - fast graph database on object storage</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">hydra-db/hydradb</guid>
+    </item>
+    <item>
+      <title>zeronsh/comet</title>
+      <link>https://github.com/zeronsh/comet</link>
       <description>(no description)</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">Zeejay0/gathered-scenes-zine-skill</guid>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">zeronsh/comet</guid>
     </item>
     <item>
-      <title>ZzzLc0405/photo-abstract-editorial</title>
-      <link>https://github.com/ZzzLc0405/photo-abstract-editorial</link>
+      <title>FloorSaboteur/Discord-Nitro-Tools</title>
+      <link>https://github.com/FloorSaboteur/Discord-Nitro-Tools</link>
       <description>(no description)</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">ZzzLc0405/photo-abstract-editorial</guid>
-    </item>
-    <item>
-      <title>Devin-AXIS/iPolloWork</title>
-      <link>https://github.com/Devin-AXIS/iPolloWork</link>
-      <description>A next-generation, source-available AI workspace with a self-evolving agent runtime for editable code, design, presentations, websites, and video—a Codex alternative that integrates DeepSeek Harness for subagent delegation, combining iPolloWork’s complete AI workbench with DSH’s specialized agents and both plugin ecosystems in one workflow.</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">Devin-AXIS/iPolloWork</guid>
-    </item>
-    <item>
-      <title>NanoNets/Graft</title>
-      <link>https://github.com/NanoNets/Graft</link>
-      <description>Turbocharge Claude Code, Cursor, Codex, Gemini &amp; every coding agent: faster, cheaper, with contextual understanding specific to your codebase.</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">NanoNets/Graft</guid>
-    </item>
-    <item>
-      <title>miqdadbadjuber/anti-slop</title>
-      <link>https://github.com/miqdadbadjuber/anti-slop</link>
-      <description>Design rules to stop AI coding agents from generating generic &quot;AI slop&quot; UI.</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">miqdadbadjuber/anti-slop</guid>
-    </item>
-    <item>
-      <title>Flaminis/Dalaran</title>
-      <link>https://github.com/Flaminis/Dalaran</link>
-      <description>Dalaran — Apache-2.0, robotics-first visualization and data infrastructure for multimodal time-series. ROS 2 native, reads existing .rrd recordings. A hard fork of Rerun.</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">Flaminis/Dalaran</guid>
-    </item>
-    <item>
-      <title>chuspeeism/dashi-taskboard</title>
-      <link>https://github.com/chuspeeism/dashi-taskboard</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">chuspeeism/dashi-taskboard</guid>
-    </item>
-    <item>
-      <title>Jwuthri/Tracely</title>
-      <link>https://github.com/Jwuthri/Tracely</link>
-      <description>Trace-native CI/CD for AI agents — production failures become regression tests that block the PR. Auto-detect, cluster, freeze into hermetic cases, replay in CI for $0.</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">Jwuthri/Tracely</guid>
-    </item>
-    <item>
-      <title>gloom-sh/gloomberb</title>
-      <link>https://github.com/gloom-sh/gloomberb</link>
-      <description>Finance terminal, in your terminal.</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">gloom-sh/gloomberb</guid>
-    </item>
-    <item>
-      <title>aipoch/open-science</title>
-      <link>https://github.com/aipoch/open-science</link>
-      <description>Open Science is an open-source, local-first, model-agnostic AI research workbench with scientific agents for reproducible research and discovery.</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">aipoch/open-science</guid>
-    </item>
-    <item>
-      <title>wallquailrespect/claude-ai-ultimate</title>
-      <link>https://github.com/wallquailrespect/claude-ai-ultimate</link>
-      <description>Claude AI Ultimate</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">wallquailrespect/claude-ai-ultimate</guid>
-    </item>
-    <item>
-      <title>CodebuffAI/freebuff</title>
-      <link>https://github.com/CodebuffAI/freebuff</link>
-      <description>The free coding agent</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">CodebuffAI/freebuff</guid>
-    </item>
-    <item>
-      <title>litu54/DevOps-Interview-Guide</title>
-      <link>https://github.com/litu54/DevOps-Interview-Guide</link>
-      <description>DevOps Interview Guide</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">litu54/DevOps-Interview-Guide</guid>
-    </item>
-    <item>
-      <title>danyuchn/asd-ste100-skill</title>
-      <link>https://github.com/danyuchn/asd-ste100-skill</link>
-      <description>ASD-STE100 Simplified Technical English rules, repurposed as a Claude Code skill for rewriting ambiguous agent-facing English.</description>
-      <pubDate>Sun, 16 Aug 2026 02:00:51 GMT</pubDate>
-      <guid isPermaLink="false">danyuchn/asd-ste100-skill</guid>
-    </item>
-    <item>
-      <title>spinabot/brigade</title>
-      <link>https://github.com/spinabot/brigade</link>
-      <description>Brigade — Your personal intelligence, built enterprise-grade</description>
-      <pubDate>Sat, 15 Aug 2026 01:53:26 GMT</pubDate>
-      <guid isPermaLink="false">spinabot/brigade</guid>
-    </item>
-    <item>
-      <title>oil-oil/oil-motion</title>
-      <link>https://github.com/oil-oil/oil-motion</link>
-      <description>Create smooth, responsive interactive web animations.</description>
-      <pubDate>Sat, 15 Aug 2026 01:53:26 GMT</pubDate>
-      <guid isPermaLink="false">oil-oil/oil-motion</guid>
-    </item>
-    <item>
-      <title>PrimeIntellect-ai/prime-agent</title>
-      <link>https://github.com/PrimeIntellect-ai/prime-agent</link>
-      <description>A self-improving RLM agent for coding workflows and long-running autonomous tasks.</description>
-      <pubDate>Thu, 13 Aug 2026 03:03:58 GMT</pubDate>
-      <guid isPermaLink="false">PrimeIntellect-ai/prime-agent</guid>
-    </item>
-    <item>
-      <title>Wyzer-Lang/wyzer</title>
-      <link>https://github.com/Wyzer-Lang/wyzer</link>
-      <description>The Wyzer Programming Language</description>
-      <pubDate>Tue, 11 Aug 2026 02:31:59 GMT</pubDate>
-      <guid isPermaLink="false">Wyzer-Lang/wyzer</guid>
-    </item>
-    <item>
-      <title>semantica-agi/semantica</title>
-      <link>https://github.com/semantica-agi/semantica</link>
-      <description>Graph-Native Infrastructure for Context and Accountable AI Systems</description>
-      <pubDate>Tue, 11 Aug 2026 02:31:59 GMT</pubDate>
-      <guid isPermaLink="false">semantica-agi/semantica</guid>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">FloorSaboteur/Discord-Nitro-Tools</guid>
     </item>
   </channel>
 </rss>

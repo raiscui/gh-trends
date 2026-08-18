@@ -5,8 +5,92 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2026 01:58:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 01:56:47 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>pathwaycom/arc-task-gen</title>
+      <link>https://github.com/pathwaycom/arc-task-gen</link>
+      <description>Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.</description>
+      <pubDate>Wed, 19 Aug 2026 01:56:47 GMT</pubDate>
+      <guid isPermaLink="false">pathwaycom/arc-task-gen</guid>
+    </item>
+    <item>
+      <title>amadeusprotocol/node</title>
+      <link>https://github.com/amadeusprotocol/node</link>
+      <description>(no description)</description>
+      <pubDate>Wed, 19 Aug 2026 01:56:47 GMT</pubDate>
+      <guid isPermaLink="false">amadeusprotocol/node</guid>
+    </item>
+    <item>
+      <title>gvzdv/claudish-to-english</title>
+      <link>https://github.com/gvzdv/claudish-to-english</link>
+      <description>(no description)</description>
+      <pubDate>Wed, 19 Aug 2026 01:56:47 GMT</pubDate>
+      <guid isPermaLink="false">gvzdv/claudish-to-english</guid>
+    </item>
+    <item>
+      <title>egoist/waku</title>
+      <link>https://github.com/egoist/waku</link>
+      <description>⚡ A native app for all your coding agents.</description>
+      <pubDate>Wed, 19 Aug 2026 01:56:47 GMT</pubDate>
+      <guid isPermaLink="false">egoist/waku</guid>
+    </item>
+    <item>
+      <title>shadcn-ui/chatbot-template</title>
+      <link>https://github.com/shadcn-ui/chatbot-template</link>
+      <description>A minimal chatbot template built with Next.js, AI SDK, shadcn/ui, shadcn/react, shadcn/typeset. It runs on the Vercel AI Gateway.</description>
+      <pubDate>Wed, 19 Aug 2026 01:56:47 GMT</pubDate>
+      <guid isPermaLink="false">shadcn-ui/chatbot-template</guid>
+    </item>
+    <item>
+      <title>QAI-brain/awesome-QAI-Papers-QTL</title>
+      <link>https://github.com/QAI-brain/awesome-QAI-Papers-QTL</link>
+      <description>(no description)</description>
+      <pubDate>Wed, 19 Aug 2026 01:56:47 GMT</pubDate>
+      <guid isPermaLink="false">QAI-brain/awesome-QAI-Papers-QTL</guid>
+    </item>
+    <item>
+      <title>SMNETSTUDIO/WeChat-AI</title>
+      <link>https://github.com/SMNETSTUDIO/WeChat-AI</link>
+      <description>(no description)</description>
+      <pubDate>Tue, 18 Aug 2026 01:54:21 GMT</pubDate>
+      <guid isPermaLink="false">SMNETSTUDIO/WeChat-AI</guid>
+    </item>
+    <item>
+      <title>internet-court/internet-court-skill</title>
+      <link>https://github.com/internet-court/internet-court-skill</link>
+      <description>The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all Agent Skill / Claude Code plugin.</description>
+      <pubDate>Tue, 18 Aug 2026 01:54:21 GMT</pubDate>
+      <guid isPermaLink="false">internet-court/internet-court-skill</guid>
+    </item>
+    <item>
+      <title>MatrAIx-ai/MatrAIx-Persona-8B</title>
+      <link>https://github.com/MatrAIx-ai/MatrAIx-Persona-8B</link>
+      <description>Simulate Before Reality.</description>
+      <pubDate>Tue, 18 Aug 2026 01:54:21 GMT</pubDate>
+      <guid isPermaLink="false">MatrAIx-ai/MatrAIx-Persona-8B</guid>
+    </item>
+    <item>
+      <title>QwenLM/Qwen-MM-Plugins</title>
+      <link>https://github.com/QwenLM/Qwen-MM-Plugins</link>
+      <description>Make any agent harness multimodal-native.</description>
+      <pubDate>Tue, 18 Aug 2026 01:54:21 GMT</pubDate>
+      <guid isPermaLink="false">QwenLM/Qwen-MM-Plugins</guid>
+    </item>
+    <item>
+      <title>antirez/h3.c</title>
+      <link>https://github.com/antirez/h3.c</link>
+      <description>MiniMax H3 inference engine for Mac computers</description>
+      <pubDate>Tue, 18 Aug 2026 01:54:21 GMT</pubDate>
+      <guid isPermaLink="false">antirez/h3.c</guid>
+    </item>
+    <item>
+      <title>pacifio/atlas</title>
+      <link>https://github.com/pacifio/atlas</link>
+      <description>Source control for agents. Use multiple coding agents, track their changes and query them in one place</description>
+      <pubDate>Tue, 18 Aug 2026 01:54:21 GMT</pubDate>
+      <guid isPermaLink="false">pacifio/atlas</guid>
+    </item>
     <item>
       <title>arvin341az-glitch/RVG</title>
       <link>https://github.com/arvin341az-glitch/RVG</link>
@@ -167,20 +251,6 @@
       <description>A self-improving RLM agent for coding workflows and long-running autonomous tasks.</description>
       <pubDate>Thu, 13 Aug 2026 03:03:58 GMT</pubDate>
       <guid isPermaLink="false">PrimeIntellect-ai/prime-agent</guid>
-    </item>
-    <item>
-      <title>Wyzer-Lang/wyzer</title>
-      <link>https://github.com/Wyzer-Lang/wyzer</link>
-      <description>The Wyzer Programming Language</description>
-      <pubDate>Tue, 11 Aug 2026 02:31:59 GMT</pubDate>
-      <guid isPermaLink="false">Wyzer-Lang/wyzer</guid>
-    </item>
-    <item>
-      <title>semantica-agi/semantica</title>
-      <link>https://github.com/semantica-agi/semantica</link>
-      <description>Graph-Native Infrastructure for Context and Accountable AI Systems</description>
-      <pubDate>Tue, 11 Aug 2026 02:31:59 GMT</pubDate>
-      <guid isPermaLink="false">semantica-agi/semantica</guid>
     </item>
   </channel>
 </rss>

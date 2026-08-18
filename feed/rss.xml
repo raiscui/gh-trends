@@ -5,8 +5,218 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2026 01:58:24 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 02:01:26 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>deepseek-ai/deepseek-harness</title>
+      <link>https://github.com/deepseek-ai/deepseek-harness</link>
+      <description>DeepSeek Harness: Everything is a Plugin.</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">deepseek-ai/deepseek-harness</guid>
+    </item>
+    <item>
+      <title>zhu1090093659/dsh-web-ui</title>
+      <link>https://github.com/zhu1090093659/dsh-web-ui</link>
+      <description>Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">zhu1090093659/dsh-web-ui</guid>
+    </item>
+    <item>
+      <title>mahlernim/google-timeline-visualizer</title>
+      <link>https://github.com/mahlernim/google-timeline-visualizer</link>
+      <description>Visualize your year in travel using your Google Location History (Timeline) data</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">mahlernim/google-timeline-visualizer</guid>
+    </item>
+    <item>
+      <title>cordiverse/paper</title>
+      <link>https://github.com/cordiverse/paper</link>
+      <description>A Programming Paradigm for Spatiotemporal Composability</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">cordiverse/paper</guid>
+    </item>
+    <item>
+      <title>MiniMax-AI/MiniMax-Music3</title>
+      <link>https://github.com/MiniMax-AI/MiniMax-Music3</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">MiniMax-AI/MiniMax-Music3</guid>
+    </item>
+    <item>
+      <title>ZSvirt/zsvirt</title>
+      <link>https://github.com/ZSvirt/zsvirt</link>
+      <description>Core IaaS engine and cloud infrastructure foundation of ZSvirt</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">ZSvirt/zsvirt</guid>
+    </item>
+    <item>
+      <title>zenbu-labs/terminal-browser</title>
+      <link>https://github.com/zenbu-labs/terminal-browser</link>
+      <description>A browser that runs directly inside your existing terminal</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">zenbu-labs/terminal-browser</guid>
+    </item>
+    <item>
+      <title>hydra-db/hydradb</title>
+      <link>https://github.com/hydra-db/hydradb</link>
+      <description>HydraDB - fast graph database on object storage</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">hydra-db/hydradb</guid>
+    </item>
+    <item>
+      <title>zeronsh/comet</title>
+      <link>https://github.com/zeronsh/comet</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">zeronsh/comet</guid>
+    </item>
+    <item>
+      <title>FloorSaboteur/Discord-Nitro-Tools</title>
+      <link>https://github.com/FloorSaboteur/Discord-Nitro-Tools</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 21 Aug 2026 02:01:26 GMT</pubDate>
+      <guid isPermaLink="false">FloorSaboteur/Discord-Nitro-Tools</guid>
+    </item>
+    <item>
+      <title>guillaumemeyer/watermarks-remover</title>
+      <link>https://github.com/guillaumemeyer/watermarks-remover</link>
+      <description>Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD</description>
+      <pubDate>Thu, 20 Aug 2026 01:55:55 GMT</pubDate>
+      <guid isPermaLink="false">guillaumemeyer/watermarks-remover</guid>
+    </item>
+    <item>
+      <title>odysseus-dev/odysseus</title>
+      <link>https://github.com/odysseus-dev/odysseus</link>
+      <description>Self-hosted AI workspace.</description>
+      <pubDate>Thu, 20 Aug 2026 01:55:55 GMT</pubDate>
+      <guid isPermaLink="false">odysseus-dev/odysseus</guid>
+    </item>
+    <item>
+      <title>dmmulroy/anti-slop</title>
+      <link>https://github.com/dmmulroy/anti-slop</link>
+      <description>Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns</description>
+      <pubDate>Thu, 20 Aug 2026 01:55:55 GMT</pubDate>
+      <guid isPermaLink="false">dmmulroy/anti-slop</guid>
+    </item>
+    <item>
+      <title>milind-soni/OpenMausBot</title>
+      <link>https://github.com/milind-soni/OpenMausBot</link>
+      <description>Open Source Alternative to Grok Bot with a virtual machine that bots can use</description>
+      <pubDate>Thu, 20 Aug 2026 01:55:55 GMT</pubDate>
+      <guid isPermaLink="false">milind-soni/OpenMausBot</guid>
+    </item>
+    <item>
+      <title>jd-opensource/JoyAI-Video-Edit</title>
+      <link>https://github.com/jd-opensource/JoyAI-Video-Edit</link>
+      <description>[Official Repo] JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion</description>
+      <pubDate>Thu, 20 Aug 2026 01:55:55 GMT</pubDate>
+      <guid isPermaLink="false">jd-opensource/JoyAI-Video-Edit</guid>
+    </item>
+    <item>
+      <title>QAI-brain/awesome-QAI-Papers-QML</title>
+      <link>https://github.com/QAI-brain/awesome-QAI-Papers-QML</link>
+      <description>(no description)</description>
+      <pubDate>Thu, 20 Aug 2026 01:55:55 GMT</pubDate>
+      <guid isPermaLink="false">QAI-brain/awesome-QAI-Papers-QML</guid>
+    </item>
+    <item>
+      <title>QAI-brain/Qbrain</title>
+      <link>https://github.com/QAI-brain/Qbrain</link>
+      <description>(no description)</description>
+      <pubDate>Thu, 20 Aug 2026 01:55:55 GMT</pubDate>
+      <guid isPermaLink="false">QAI-brain/Qbrain</guid>
+    </item>
+    <item>
+      <title>ik190/macos-chatgpt-overlay-bar</title>
+      <link>https://github.com/ik190/macos-chatgpt-overlay-bar</link>
+      <description>ChatGPT for Mac, living in your menubar.</description>
+      <pubDate>Thu, 20 Aug 2026 01:55:55 GMT</pubDate>
+      <guid isPermaLink="false">ik190/macos-chatgpt-overlay-bar</guid>
+    </item>
+    <item>
+      <title>pathwaycom/arc-task-gen</title>
+      <link>https://github.com/pathwaycom/arc-task-gen</link>
+      <description>Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.</description>
+      <pubDate>Wed, 19 Aug 2026 01:56:47 GMT</pubDate>
+      <guid isPermaLink="false">pathwaycom/arc-task-gen</guid>
+    </item>
+    <item>
+      <title>amadeusprotocol/node</title>
+      <link>https://github.com/amadeusprotocol/node</link>
+      <description>(no description)</description>
+      <pubDate>Wed, 19 Aug 2026 01:56:47 GMT</pubDate>
+      <guid isPermaLink="false">amadeusprotocol/node</guid>
+    </item>
+    <item>
+      <title>gvzdv/claudish-to-english</title>
+      <link>https://github.com/gvzdv/claudish-to-english</link>
+      <description>(no description)</description>
+      <pubDate>Wed, 19 Aug 2026 01:56:47 GMT</pubDate>
+      <guid isPermaLink="false">gvzdv/claudish-to-english</guid>
+    </item>
+    <item>
+      <title>egoist/waku</title>
+      <link>https://github.com/egoist/waku</link>
+      <description>⚡ A native app for all your coding agents.</description>
+      <pubDate>Wed, 19 Aug 2026 01:56:47 GMT</pubDate>
+      <guid isPermaLink="false">egoist/waku</guid>
+    </item>
+    <item>
+      <title>shadcn-ui/chatbot-template</title>
+      <link>https://github.com/shadcn-ui/chatbot-template</link>
+      <description>A minimal chatbot template built with Next.js, AI SDK, shadcn/ui, shadcn/react, shadcn/typeset. It runs on the Vercel AI Gateway.</description>
+      <pubDate>Wed, 19 Aug 2026 01:56:47 GMT</pubDate>
+      <guid isPermaLink="false">shadcn-ui/chatbot-template</guid>
+    </item>
+    <item>
+      <title>QAI-brain/awesome-QAI-Papers-QTL</title>
+      <link>https://github.com/QAI-brain/awesome-QAI-Papers-QTL</link>
+      <description>(no description)</description>
+      <pubDate>Wed, 19 Aug 2026 01:56:47 GMT</pubDate>
+      <guid isPermaLink="false">QAI-brain/awesome-QAI-Papers-QTL</guid>
+    </item>
+    <item>
+      <title>SMNETSTUDIO/WeChat-AI</title>
+      <link>https://github.com/SMNETSTUDIO/WeChat-AI</link>
+      <description>(no description)</description>
+      <pubDate>Tue, 18 Aug 2026 01:54:21 GMT</pubDate>
+      <guid isPermaLink="false">SMNETSTUDIO/WeChat-AI</guid>
+    </item>
+    <item>
+      <title>internet-court/internet-court-skill</title>
+      <link>https://github.com/internet-court/internet-court-skill</link>
+      <description>The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all Agent Skill / Claude Code plugin.</description>
+      <pubDate>Tue, 18 Aug 2026 01:54:21 GMT</pubDate>
+      <guid isPermaLink="false">internet-court/internet-court-skill</guid>
+    </item>
+    <item>
+      <title>MatrAIx-ai/MatrAIx-Persona-8B</title>
+      <link>https://github.com/MatrAIx-ai/MatrAIx-Persona-8B</link>
+      <description>Simulate Before Reality.</description>
+      <pubDate>Tue, 18 Aug 2026 01:54:21 GMT</pubDate>
+      <guid isPermaLink="false">MatrAIx-ai/MatrAIx-Persona-8B</guid>
+    </item>
+    <item>
+      <title>QwenLM/Qwen-MM-Plugins</title>
+      <link>https://github.com/QwenLM/Qwen-MM-Plugins</link>
+      <description>Make any agent harness multimodal-native.</description>
+      <pubDate>Tue, 18 Aug 2026 01:54:21 GMT</pubDate>
+      <guid isPermaLink="false">QwenLM/Qwen-MM-Plugins</guid>
+    </item>
+    <item>
+      <title>antirez/h3.c</title>
+      <link>https://github.com/antirez/h3.c</link>
+      <description>MiniMax H3 inference engine for Mac computers</description>
+      <pubDate>Tue, 18 Aug 2026 01:54:21 GMT</pubDate>
+      <guid isPermaLink="false">antirez/h3.c</guid>
+    </item>
+    <item>
+      <title>pacifio/atlas</title>
+      <link>https://github.com/pacifio/atlas</link>
+      <description>Source control for agents. Use multiple coding agents, track their changes and query them in one place</description>
+      <pubDate>Tue, 18 Aug 2026 01:54:21 GMT</pubDate>
+      <guid isPermaLink="false">pacifio/atlas</guid>
+    </item>
     <item>
       <title>arvin341az-glitch/RVG</title>
       <link>https://github.com/arvin341az-glitch/RVG</link>
@@ -160,27 +370,6 @@
       <description>Create smooth, responsive interactive web animations.</description>
       <pubDate>Sat, 15 Aug 2026 01:53:26 GMT</pubDate>
       <guid isPermaLink="false">oil-oil/oil-motion</guid>
-    </item>
-    <item>
-      <title>PrimeIntellect-ai/prime-agent</title>
-      <link>https://github.com/PrimeIntellect-ai/prime-agent</link>
-      <description>A self-improving RLM agent for coding workflows and long-running autonomous tasks.</description>
-      <pubDate>Thu, 13 Aug 2026 03:03:58 GMT</pubDate>
-      <guid isPermaLink="false">PrimeIntellect-ai/prime-agent</guid>
-    </item>
-    <item>
-      <title>Wyzer-Lang/wyzer</title>
-      <link>https://github.com/Wyzer-Lang/wyzer</link>
-      <description>The Wyzer Programming Language</description>
-      <pubDate>Tue, 11 Aug 2026 02:31:59 GMT</pubDate>
-      <guid isPermaLink="false">Wyzer-Lang/wyzer</guid>
-    </item>
-    <item>
-      <title>semantica-agi/semantica</title>
-      <link>https://github.com/semantica-agi/semantica</link>
-      <description>Graph-Native Infrastructure for Context and Accountable AI Systems</description>
-      <pubDate>Tue, 11 Aug 2026 02:31:59 GMT</pubDate>
-      <guid isPermaLink="false">semantica-agi/semantica</guid>
     </item>
   </channel>
 </rss>

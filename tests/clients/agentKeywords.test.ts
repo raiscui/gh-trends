@@ -14,6 +14,8 @@ function mkRepo(name: string, description: string | null = 'placeholder'): Githu
       firstSeenAt: '2024-01-01 00:00:00',
       starsWithin: '0',
       starsBefore: '0',
+      starsRecent: '0',
+      starsEarlier: '0',
     },
     stargazerCount: 0,
     primaryLanguage: null,

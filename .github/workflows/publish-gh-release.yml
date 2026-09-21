@@ -35,3 +35,34 @@ jobs:
         GITHUB_RELEASES_ENABLED: true
         GITHUB_RELEASES_REPO: ${{ github.repository }}
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+
+    # 发布记忆 feed/published.json 需要随仓库持久化(specs/0001 D3):
+    # 下一次运行凭它剔除 90 天内已发布项目, 避免 daily 频率下连续霸榜
+    - name: Commit published memory
+      env:
+        # Skip git hooks
+        HUSKY: 0
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+        git add feed/published.json
+
+        # Nothing to commit? Exit early.
+        if git diff --staged --quiet; then
+          echo "No changes to commit. Skipping."
+          exit 0
+        fi
+
+        git commit -m "Update published memory" -m "[skip ci]"
+
+        # 先本地 commit 再 rebase 到远端最新(有 staged 变更时 rebase 会被 git 拒绝,
+        # 所以 rebase 必须放在 commit 之后)。
+        # -X ours: 冲突取本地 —— 最坏丢对方当天的 published.json 增量,
+        # 90 天保留期下无害; rebase 仍失败则 abort 并让本步骤标红。
+        if ! git pull --rebase -X ours; then
+          git rebase --abort
+          echo "Rebase failed; published memory will be regenerated next run."
+          exit 1
+        fi
+        git push

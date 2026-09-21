@@ -69,10 +69,14 @@ describe('scan.ts', () => {
       expect(url).toBe(ClickHouseClient.baseUrl);
       expect(options!.method).toBe('POST');
       expect(options!.body).toContain('INTERVAL 7 DAY');
-      expect(options!.body).toContain('10 AS LIMIT_N');
+      // 通道 A 配额直接内联(不再用 LIMIT_N 别名)
+      expect(options!.body).toContain('LIMIT 10');
       // Regression: trending query must exclude zero-baseline repos so
       // the filter() guardrail doesn't fire on viral one-off spikes.
       expect(options!.body).toContain('starsBefore > 0');
+      // specs/0001 D1: 通道 B 捕获从零爆火项目(默认门槛 40 / 配额 100)
+      expect(options!.body).toContain('starsBefore = 0 AND starsWithin >= 40');
+      expect(options!.body).toContain('LIMIT 100');
     });
 
     it('should handle empty results', async () => {

@@ -15,13 +15,22 @@ export interface ScoredRepo extends GithubRepo {
 export function rankAndSlice(repos: GithubRepo[], topN: number): ScoredRepo[] {
   const freshHours = parseInt(process.env.SELECT_FRESH_HOURS ?? '24');
 
+  // 加速度权重(specs/0001 D2): 0 = 完全关闭, 排序等价旧版纯 starsPerHour 口径
+  const accelWeight = parseFloat(process.env.SELECT_ACCEL_WEIGHT ?? '0.5');
+
   const maxHours = parseInt(process.env.SCAN_WINDOW_DAYS!) * 24;
   const evalDate = process.env.SCAN_EVAL_DATE;
   const daysSinceEval = evalDate ? daysSince(evalDate) : 0;
 
   const ranked = repos
     .map(repo => {
-      const hoursSinceFirstSeen = clamp(hoursSince(repo.clickhouse.firstSeenAt), 1, maxHours);
+      // eval 回溯模式下扣除 eval 偏移, 还原"相对 eval date 的真实间隔";
+      // 否则历史窗口里 fresh bucket 判定永远为 false(与账龄的 eval 补偿对齐)
+      const hoursSinceFirstSeen = clamp(
+        hoursSince(repo.clickhouse.firstSeenAt) - daysSinceEval * 24,
+        1,
+        maxHours
+      );
       const starsPerHour = parseInt(repo.clickhouse.starsWithin) / hoursSinceFirstSeen;
 
       // Reward repos with senior stargazers
@@ -29,7 +38,15 @@ export function rankAndSlice(repos: GithubRepo[], topN: number): ScoredRepo[] {
       const stargazersAge = repo.stargazers.nodes.map(u => Math.round(daysSince(u.createdAt)));
       const medianStargazersAge = median(stargazersAge)!;
 
-      const score = starsPerHour * ((medianStargazersAge - daysSinceEval) / 365);
+      // 加速度乘数: 窗口劈半的 recent/earlier 比值(二阶导近似)。
+      // +1 平滑防除零, 同时让通道 B(earlier=0)得到有限高值而非无穷;
+      // clamp [0.5, 3] 防止单一 accel 维度支配排序, W=0.5 时乘数范围 [0.75, 2.0]。
+      const recent = parseInt(repo.clickhouse.starsRecent);
+      const earlier = parseInt(repo.clickhouse.starsEarlier);
+      const accel = clamp((recent + 1) / (earlier + 1), 0.5, 3);
+      const accelMultiplier = 1 + accelWeight * (accel - 1);
+
+      const score = starsPerHour * ((medianStargazersAge - daysSinceEval) / 365) * accelMultiplier;
       // SELECT_FRESH_HOURS=0 时等同原行为;默认 24 表示"昨天才火"的优先。
       const isFresh = hoursSinceFirstSeen <= freshHours;
       return { repo, score, hoursSinceFirstSeen, isFresh };

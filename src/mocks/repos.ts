@@ -25,6 +25,8 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(5)),
       starsWithin: '1250',
       starsBefore: '0',
+      starsRecent: '1250',
+      starsEarlier: '0',
     },
     stargazers: {
       nodes: [{ createdAt: daysAgo(1000) }],
@@ -45,7 +47,9 @@ export const mockRepos: GithubRepo[] = [
       repoName: 'hidden/gem',
       firstSeenAt: toClickhouse(daysAgo(90)),
       starsWithin: '800',
-      starsBefore: '90', // had some stars before the window
+      starsBefore: '90',
+      starsRecent: '600',
+      starsEarlier: '200', // had some stars before the window
     },
     stargazers: {
       nodes: [{ createdAt: daysAgo(1000) }],
@@ -66,7 +70,9 @@ export const mockRepos: GithubRepo[] = [
       repoName: 'cutoff/edge',
       firstSeenAt: toClickhouse(daysAgo(9)),
       starsWithin: '1000',
-      starsBefore: '50', // wasn't that popular in a week before
+      starsBefore: '50',
+      starsRecent: '400',
+      starsEarlier: '600', // wasn't that popular in a week before
     },
     stargazers: {
       nodes: [{ createdAt: daysAgo(1000) }],
@@ -88,6 +94,8 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '500',
       starsBefore: '0',
+      starsRecent: '500',
+      starsEarlier: '0',
     },
     stargazers: {
       nodes: [{ createdAt: daysAgo(1000) }],
@@ -109,6 +117,8 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '500',
       starsBefore: '0',
+      starsRecent: '300',
+      starsEarlier: '200',
     },
     stargazers: {
       nodes: [{ createdAt: daysAgo(1000) }],
@@ -130,6 +140,8 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '500',
       starsBefore: '0',
+      starsRecent: '200',
+      starsEarlier: '300',
     },
     stargazers: {
       nodes: [{ createdAt: daysAgo(1000) }],
@@ -151,6 +163,8 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '500',
       starsBefore: '0',
+      starsRecent: '500',
+      starsEarlier: '0',
     },
     stargazers: {
       nodes: [{ createdAt: daysAgo(1000) }],
@@ -172,6 +186,8 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '500',
       starsBefore: '0',
+      starsRecent: '100',
+      starsEarlier: '400',
     },
     stargazers: {
       nodes: [{ createdAt: daysAgo(1000) }],
@@ -193,6 +209,8 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '500',
       starsBefore: '0',
+      starsRecent: '250',
+      starsEarlier: '250',
     },
     stargazers: {
       nodes: [{ createdAt: daysAgo(1000) }],
@@ -214,6 +232,8 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '500',
       starsBefore: '0',
+      starsRecent: '500',
+      starsEarlier: '0',
     },
     stargazers: {
       nodes: [{ createdAt: daysAgo(1000) }],
@@ -235,6 +255,8 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '500',
       starsBefore: '0',
+      starsRecent: '500',
+      starsEarlier: '0',
     },
     stargazers: {
       nodes: [{ createdAt: daysAgo(1000) }],
@@ -256,6 +278,8 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '500',
       starsBefore: '0',
+      starsRecent: '100',
+      starsEarlier: '400',
     },
     stargazers: {
       nodes: [{ createdAt: daysAgo(1000) }],
@@ -277,6 +301,8 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '500',
       starsBefore: '0',
+      starsRecent: '400',
+      starsEarlier: '100',
     },
     stargazers: {
       nodes: [{ createdAt: daysAgo(1000) }],
@@ -298,6 +324,8 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '3',
       starsBefore: '0',
+      starsRecent: '3',
+      starsEarlier: '0',
     },
     stargazers: {
       nodes: [{ createdAt: daysAgo(1000) }],
@@ -319,6 +347,8 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(3)),
       starsWithin: '300', // inconsistent stars between CH and GH
       starsBefore: '0',
+      starsRecent: '300',
+      starsEarlier: '0',
     },
     stargazers: {
       nodes: [{ createdAt: daysAgo(1000) }],

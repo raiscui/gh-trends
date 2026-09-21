@@ -15,7 +15,7 @@ export const DEEPSEEK_HARNESS_KEYWORDS: readonly string[] = ['cordis', 'dsh', 'd
 // 任一命中关键词即视为 DeepSeek Harness 相关项目。大小写不敏感。
 //
 // 注意:`dsh` 是短缩写,容易撞其他项目;`cordis` 也是拉丁语 + 欧盟 CORDIS 项目库。
-// 当前 fail-closed 默认下,误伤风险被 filter(MIN_STARS=200)兜底。
+// 当前 fail-closed 默认下,误伤风险被 filter(MIN_STARS=40)兜底(2026-09-21 由 200 下调,兜底变薄)。
 export function isDeepSeekHarnessRepo(repo: GithubRepo): boolean {
   const name = repo.nameWithOwner.toLowerCase();
   if (matchesKeyword(name)) return true;

@@ -8,6 +8,7 @@ import { publishAll } from './pipeline/publish';
 import { logInfo, TaggedError } from './utils/logging';
 import { handleProcessError } from './utils/common';
 import { filter } from './pipeline/filter';
+import { dedupe, recordPublished, PUBLISHED_MEMORY_PATH } from './pipeline/dedupe';
 
 export async function run(): Promise<void> {
   await main().catch(handleProcessError);
@@ -25,12 +26,19 @@ export async function main(): Promise<void> {
     throw new TaggedError(`scan`, 'no repos found; aborting');
   }
 
+  // 发布去重(specs/0001 D3): 剔除 90 天内已发布过的项目, 须在 filter 之前
+  // —— 被剔除项目不进 guard 分母, fail-closed 只会更安全
+  const freshRepos = dedupe(trendingRepos, PUBLISHED_MEMORY_PATH);
+  if (freshRepos.length === 0) {
+    throw new TaggedError(`dedupe`, 'all repos were published recently; skipping this run');
+  }
+
   console.log('\n', `🧐 Inspecting to filter out bad stuff`);
-  const filteredRepos = filter(trendingRepos);
+  const filteredRepos = filter(freshRepos);
   logInfo(`filter`, `${filteredRepos.length} repos remain after filtering`);
 
-  const remainingPercent = (filteredRepos.length / trendingRepos.length) * 100;
-  const filteredCount = trendingRepos.length - filteredRepos.length;
+  const remainingPercent = (filteredRepos.length / freshRepos.length) * 100;
+  const filteredCount = freshRepos.length - filteredRepos.length;
   if (filteredCount > 5 && remainingPercent < 50) {
     throw new TaggedError(`filter`, 'too many repos filtered out; aborting');
   }
@@ -59,6 +67,14 @@ export async function main(): Promise<void> {
     deepseekHarness: deepseekHarnessRepos,
   });
   logInfo('publish', `published release (IDs: ${messageIds.join(', ')})`);
+
+  // 全部渠道发布成功后才回写发布记忆: 保证失败重跑不会漏推
+  const publishedNames = [
+    ...new Set(
+      [...mainRepos, ...rustRepos, ...agentRepos, ...deepseekHarnessRepos].map(r => r.nameWithOwner)
+    ),
+  ];
+  recordPublished(publishedNames, PUBLISHED_MEMORY_PATH);
 }
 
 // Run if this is the main module

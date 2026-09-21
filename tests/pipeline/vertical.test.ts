@@ -25,6 +25,8 @@ function mkRepo(opts: {
       firstSeenAt: firstSeen.slice(0, 19).replace('T', ' '),
       starsWithin: String(opts.starsWithin),
       starsBefore: '0',
+      starsRecent: '0', // accel 中性默认: (0+1)/(0+1)=1, 不影响排序断言
+      starsEarlier: '0',
     },
     stargazers: { nodes: [{ createdAt: '2020-01-01T00:00:00Z' }] },
   };

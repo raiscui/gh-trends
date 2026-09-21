@@ -8,6 +8,7 @@ import { render } from './pipeline/render';
 import { logInfo } from './utils/logging';
 import { handleProcessError } from './utils/common';
 import { filter } from './pipeline/filter';
+import { dedupe, PUBLISHED_MEMORY_PATH } from './pipeline/dedupe';
 
 async function preview() {
   const window = parseInt(process.env.SCAN_WINDOW_DAYS!);
@@ -17,8 +18,11 @@ async function preview() {
   const repos = await scan();
   logInfo('scan', `${repos.length} trending repos discovered`);
 
+  // 只读套用发布去重, 与 run 口径一致; preview 不写记忆文件
+  const freshRepos = dedupe(repos, PUBLISHED_MEMORY_PATH);
+
   console.log('\n', `🧐 Inspecting to filter out bad stuff`);
-  const filteredRepos = filter(repos);
+  const filteredRepos = filter(freshRepos);
   logInfo(`filter`, `${filteredRepos.length} repos remain after filtering`);
 
   console.log('\n', '🏆 Ranking to select the best');

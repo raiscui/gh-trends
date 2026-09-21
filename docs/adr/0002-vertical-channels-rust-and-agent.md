@@ -190,3 +190,39 @@ Devin-AXIS 同时进 Agent 榜和 DeepSeek Harness 榜,印证 D4 = X1 重叠默�
 `dsh` 是短缩写,可能误伤其他项目;`cordis` 是拉丁语 + 欧盟 CORDIS 项目库。
 当前 fail-closed 默认下,误伤风险被 FILTER_MIN_STARS=200 兜底(只过滤高质量 repo)。
 后续如果误伤多,可收紧关键词(只保留 `dsh-plugin`)。
+
+---
+
+## 扩展 2026-09-21:D9 — P0 三项改造与配额调整(specs/0001)
+
+### 背景
+
+用户诉求"在项目进 top N 之前发现它"。动态验证确认原 SQL `HAVING starsBefore > 0`
+使从零爆火项目结构性不可见(7 天窗口实测 116 个 / 10949 star 零可见度);
+daily 频率下无发布记忆导致爆火项目连续霸榜;打分缺加速度二阶导。
+详见 specs/0001-channel-b-accel-dedupe.md(实现已全落地,146 测试绿)。
+
+### 决定
+
+- **D9a 双通道 SQL**:通道 A 原比值逻辑不动;通道 B `starsBefore = 0 且
+  starsWithin >= SCAN_CHANNEL_B_MIN_STARS(40)`,配额 `SCAN_CHANNEL_B_LIMIT=100`
+  (用户拍板);WHERE 加 60 天下界(`SCAN_HISTORY_DAYS`)算真实历史 starsBefore
+- **D9b 加速度乘数**:`accel = clamp((recent+1)/(earlier+1), 0.5, 3)`,
+  权重 `SELECT_ACCEL_WEIGHT=0.5`,0 时完全等价旧行为
+- **D9c 发布去重**:`feed/published.json` 90 天记忆,dedupe 在 filter 之前
+  (不进 guard 分母),记录写回在全部渠道发布成功之后;文件缺失/损坏 fail-open
+- **D9d 配额调整(用户拍板)**:`FILTER_MIN_STARS` 200→40(小众垂直低 star 保留),
+  垂直榜 `RELEASE_TOP_N_RUST/AGENT/DEEPSEEK` 15→30
+- **D9e FILTER_FRESH_OWNER=true**:通道 B 实测约一半为盗版钓鱼仓库,
+  fresh owner 检测(ADR 沿用 fail-closed 哲学)是其信噪比硬依赖
+
+### 对既有决定的更新
+
+- D6(垂直榜 top-N=15)→ 30;`.env.example` 注释与 CONTEXT.md 配置清单已同步
+- 与 D8 的关系:DeepSeek Harness 榜评分口径不变,仍复用 rankAndSlice
+
+### 验证(2026-09-21 回溯冒烟,SCAN_EVAL_DATE=2026-09-19T12:00:00Z)
+
+- scan 205(通道 A 150 + 通道 B ~55);hypit-ai/hypit(starsBefore=0)入主榜第 2 名,
+  通道 B 生效直接证据;fresh owner 拦掉 Microsoft-Activation-Script 等钓鱼仓库
+- ClickHouse 全量参数实测:360 行 = A300 + B60,扫描 10 亿行约 1.6s

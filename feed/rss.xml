@@ -5,8 +5,99 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Sep 2026 05:08:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 05:09:41 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>AlchemistTrail/Windows-Optimizer</title>
+      <link>https://github.com/AlchemistTrail/Windows-Optimizer</link>
+      <description>(no description)</description>
+      <pubDate>Tue, 22 Sep 2026 05:09:41 GMT</pubDate>
+      <guid isPermaLink="false">AlchemistTrail/Windows-Optimizer</guid>
+    </item>
+    <item>
+      <title>NationalSecurityAgency/ghidra</title>
+      <link>https://github.com/NationalSecurityAgency/ghidra</link>
+      <description>Ghidra is a software reverse engineering (SRE) framework</description>
+      <pubDate>Tue, 22 Sep 2026 05:09:41 GMT</pubDate>
+      <guid isPermaLink="false">NationalSecurityAgency/ghidra</guid>
+    </item>
+    <item>
+      <title>ever-co/ever-gauzy</title>
+      <link>https://github.com/ever-co/ever-gauzy</link>
+      <description>Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co</description>
+      <pubDate>Tue, 22 Sep 2026 05:09:41 GMT</pubDate>
+      <guid isPermaLink="false">ever-co/ever-gauzy</guid>
+    </item>
+    <item>
+      <title>jamiepine/voicebox</title>
+      <link>https://github.com/jamiepine/voicebox</link>
+      <description>The open-source AI voice studio. Clone, dictate, create.</description>
+      <pubDate>Tue, 22 Sep 2026 05:09:41 GMT</pubDate>
+      <guid isPermaLink="false">jamiepine/voicebox</guid>
+    </item>
+    <item>
+      <title>Open-Dev-Society/OpenStock</title>
+      <link>https://github.com/Open-Dev-Society/OpenStock</link>
+      <description>OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.</description>
+      <pubDate>Tue, 22 Sep 2026 05:09:41 GMT</pubDate>
+      <guid isPermaLink="false">Open-Dev-Society/OpenStock</guid>
+    </item>
+    <item>
+      <title>fleetbase/fleetbase</title>
+      <link>https://github.com/fleetbase/fleetbase</link>
+      <description>Modular logistics and supply chain operating system (LSOS)</description>
+      <pubDate>Tue, 22 Sep 2026 05:09:41 GMT</pubDate>
+      <guid isPermaLink="false">fleetbase/fleetbase</guid>
+    </item>
+    <item>
+      <title>roboflow/supervision</title>
+      <link>https://github.com/roboflow/supervision</link>
+      <description>We write your reusable computer vision tools. 💜</description>
+      <pubDate>Tue, 22 Sep 2026 05:09:41 GMT</pubDate>
+      <guid isPermaLink="false">roboflow/supervision</guid>
+    </item>
+    <item>
+      <title>supabase/supabase</title>
+      <link>https://github.com/supabase/supabase</link>
+      <description>The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.</description>
+      <pubDate>Tue, 22 Sep 2026 05:09:41 GMT</pubDate>
+      <guid isPermaLink="false">supabase/supabase</guid>
+    </item>
+    <item>
+      <title>google/ax</title>
+      <link>https://github.com/google/ax</link>
+      <description>Google&apos;s open agentic orchestration runtime</description>
+      <pubDate>Tue, 22 Sep 2026 05:09:41 GMT</pubDate>
+      <guid isPermaLink="false">google/ax</guid>
+    </item>
+    <item>
+      <title>asciimoo/hister</title>
+      <link>https://github.com/asciimoo/hister</link>
+      <description>Your own search engine</description>
+      <pubDate>Tue, 22 Sep 2026 05:09:41 GMT</pubDate>
+      <guid isPermaLink="false">asciimoo/hister</guid>
+    </item>
+    <item>
+      <title>dexmal/opendm</title>
+      <link>https://github.com/dexmal/opendm</link>
+      <description>An Open-World Foundation Model for General-Purpose Embodied Intelligence.</description>
+      <pubDate>Tue, 22 Sep 2026 05:09:41 GMT</pubDate>
+      <guid isPermaLink="false">dexmal/opendm</guid>
+    </item>
+    <item>
+      <title>reconurge/flowsint</title>
+      <link>https://github.com/reconurge/flowsint</link>
+      <description>A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.</description>
+      <pubDate>Tue, 22 Sep 2026 05:09:41 GMT</pubDate>
+      <guid isPermaLink="false">reconurge/flowsint</guid>
+    </item>
+    <item>
+      <title>bobeff/open-source-games</title>
+      <link>https://github.com/bobeff/open-source-games</link>
+      <description>A list of open source games.</description>
+      <pubDate>Tue, 22 Sep 2026 05:09:41 GMT</pubDate>
+      <guid isPermaLink="false">bobeff/open-source-games</guid>
+    </item>
     <item>
       <title>JustVugg/colibri</title>
       <link>https://github.com/JustVugg/colibri</link>
@@ -216,20 +307,6 @@
       <description>E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations.</description>
       <pubDate>Wed, 16 Sep 2026 04:58:21 GMT</pubDate>
       <guid isPermaLink="false">arnegiacomo/fugleramme</guid>
-    </item>
-    <item>
-      <title>alibaba/open-code-review</title>
-      <link>https://github.com/alibaba/open-code-review</link>
-      <description>Fast, efficient, battle-tested at Alibaba&apos;s scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.</description>
-      <pubDate>Tue, 15 Sep 2026 05:02:40 GMT</pubDate>
-      <guid isPermaLink="false">alibaba/open-code-review</guid>
-    </item>
-    <item>
-      <title>tigerless-labs/autoharness</title>
-      <link>https://github.com/tigerless-labs/autoharness</link>
-      <description>Autoharness — a self-learning skill layer for Claude Code — distills skills from your real sessions, updates them as you work, and prunes the ones that stop getting used. No daemon, no benchmark.</description>
-      <pubDate>Tue, 15 Sep 2026 05:02:40 GMT</pubDate>
-      <guid isPermaLink="false">tigerless-labs/autoharness</guid>
     </item>
   </channel>
 </rss>

@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2026 05:09:41 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 04:54:11 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>theoephraim/awesome-cloudflare-selfhosted</title>
+      <link>https://github.com/theoephraim/awesome-cloudflare-selfhosted</link>
+      <description>🍊☁️ Open-source* apps that replace a SaaS product, running in your own Cloudflare account</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">theoephraim/awesome-cloudflare-selfhosted</guid>
+    </item>
+    <item>
+      <title>supermemoryai/supermemory</title>
+      <link>https://github.com/supermemoryai/supermemory</link>
+      <description>Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">supermemoryai/supermemory</guid>
+    </item>
+    <item>
+      <title>mvt-project/mvt</title>
+      <link>https://github.com/mvt-project/mvt</link>
+      <description>MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">mvt-project/mvt</guid>
+    </item>
+    <item>
+      <title>mozilla/pdf.js</title>
+      <link>https://github.com/mozilla/pdf.js</link>
+      <description>PDF Reader in JavaScript</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">mozilla/pdf.js</guid>
+    </item>
+    <item>
+      <title>anthropics/financial-services</title>
+      <link>https://github.com/anthropics/financial-services</link>
+      <description>(no description)</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">anthropics/financial-services</guid>
+    </item>
+    <item>
+      <title>cilium/cilium</title>
+      <link>https://github.com/cilium/cilium</link>
+      <description>eBPF-based Networking, Security, and Observability</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">cilium/cilium</guid>
+    </item>
+    <item>
+      <title>antoniaci/blackbird</title>
+      <link>https://github.com/antoniaci/blackbird</link>
+      <description>An OSINT tool to search for accounts by username and email in social networks.</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">antoniaci/blackbird</guid>
+    </item>
+    <item>
+      <title>vercel-labs/json-render</title>
+      <link>https://github.com/vercel-labs/json-render</link>
+      <description>The Generative UI framework</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">vercel-labs/json-render</guid>
+    </item>
+    <item>
+      <title>ahmedkhaleel2004/gitdiagram</title>
+      <link>https://github.com/ahmedkhaleel2004/gitdiagram</link>
+      <description>Free, simple, fast interactive diagrams for any GitHub repository</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">ahmedkhaleel2004/gitdiagram</guid>
+    </item>
+    <item>
+      <title>fif7y/pelmet</title>
+      <link>https://github.com/fif7y/pelmet</link>
+      <description>A calm menu bar, done the native way. Hides the icons you don&apos;t need until you do.</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">fif7y/pelmet</guid>
+    </item>
+    <item>
+      <title>eugeneyan/applied-ml</title>
+      <link>https://github.com/eugeneyan/applied-ml</link>
+      <description>📚 Papers &amp; tech blogs by companies sharing their work on data science &amp; machine learning in production.</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">eugeneyan/applied-ml</guid>
+    </item>
+    <item>
+      <title>FareedKhan-dev/train-llm-from-scratch</title>
+      <link>https://github.com/FareedKhan-dev/train-llm-from-scratch</link>
+      <description>A straightforward method for training your LLM, from downloading data to generating text.</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">FareedKhan-dev/train-llm-from-scratch</guid>
+    </item>
+    <item>
+      <title>presenton/presenton</title>
+      <link>https://github.com/presenton/presenton</link>
+      <description>Open-Source AI Presentation Generator and API (Gamma, Canva, Beautiful AI, Decktopus, Presentations AI Alternative)</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">presenton/presenton</guid>
+    </item>
+    <item>
+      <title>dream-num/univer</title>
+      <link>https://github.com/dream-num/univer</link>
+      <description>The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">dream-num/univer</guid>
+    </item>
+    <item>
+      <title>stdlib-js/stdlib</title>
+      <link>https://github.com/stdlib-js/stdlib</link>
+      <description>✨ The fundamental numerical library for JavaScript and TypeScript. ✨                    ⭐️ Star to support our work!</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">stdlib-js/stdlib</guid>
+    </item>
+    <item>
+      <title>ravindu644/Droidspaces-OSS</title>
+      <link>https://github.com/ravindu644/Droidspaces-OSS</link>
+      <description>A lightweight, LXC-like container runtime for Android and Linux. Run full Linux distributions natively with zero performance penalty</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">ravindu644/Droidspaces-OSS</guid>
+    </item>
+    <item>
+      <title>gnekt/My-Brain-Is-Full-Crew</title>
+      <link>https://github.com/gnekt/My-Brain-Is-Full-Crew</link>
+      <description>Built by a PhD whose memory was failing, whose diet was a mess, and whose anxiety had its own agenda. Most second brain tools ignore the fact that your brain doesn&apos;t work in isolation: your body and your mental health are part of the system too. This crew handles all three: knowledge, nutrition, and mental wellness.</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">gnekt/My-Brain-Is-Full-Crew</guid>
+    </item>
+    <item>
+      <title>EmenstaNougat/ESP32-BlueJammer</title>
+      <link>https://github.com/EmenstaNougat/ESP32-BlueJammer</link>
+      <description>The ESP32-BlueJammer (Bluetooth jammer, BLE jammer, WiFi jammer, RC jammer) disrupts 2.4GHz communications. Using an ESP32 and nRF24 modules, it generates noise and unnecessary packets, causing interference between the devices communicating, making them unable to work as intended. Ideal for controlled disruption and security testing. </description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">EmenstaNougat/ESP32-BlueJammer</guid>
+    </item>
+    <item>
+      <title>Gsync/jobsync</title>
+      <link>https://github.com/Gsync/jobsync</link>
+      <description>Job application tracker and AI-powered job search assistant. Helps job seekers manage their search journey with AI resume review, job matching, task logging, and application analytics, all while keeping your data private.</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">Gsync/jobsync</guid>
+    </item>
+    <item>
+      <title>MaxGramser/homeassistant_espscreen</title>
+      <link>https://github.com/MaxGramser/homeassistant_espscreen</link>
+      <description>Beautiful, incredibly easy touch screens for Home Assistant on cheap ESP32 panels, 2.8 to 10.1 inch (CYD, Guition, Waveshare): drag-and-drop editor, no YAML, no flashing, no MQTT.</description>
+      <pubDate>Wed, 23 Sep 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">MaxGramser/homeassistant_espscreen</guid>
+    </item>
     <item>
       <title>AlchemistTrail/Windows-Optimizer</title>
       <link>https://github.com/AlchemistTrail/Windows-Optimizer</link>

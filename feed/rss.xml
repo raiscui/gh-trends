@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2026 05:03:34 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 05:06:31 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>TianyuCodings/NanoJev</title>
+      <link>https://github.com/TianyuCodings/NanoJev</link>
+      <description>A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">TianyuCodings/NanoJev</guid>
+    </item>
+    <item>
+      <title>whitecircle/halo</title>
+      <link>https://github.com/whitecircle/halo</link>
+      <description>Halo is an open-source framework built by White Circle for training large language and multimodal models</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">whitecircle/halo</guid>
+    </item>
+    <item>
+      <title>yibie/awesome-jev</title>
+      <link>https://github.com/yibie/awesome-jev</link>
+      <description>A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI&apos;s System One model for typed decisions.</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">yibie/awesome-jev</guid>
+    </item>
+    <item>
+      <title>autonomous-ai/openharness</title>
+      <link>https://github.com/autonomous-ai/openharness</link>
+      <description>The ultimate harness for coding agents and beyond. All your agents. All your machines. One command center. Start with code, then follow your curiosity and build across disciplines: CAD, circuits, robots, games and music.</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">autonomous-ai/openharness</guid>
+    </item>
+    <item>
+      <title>alibaba-damo-academy/damo-radar</title>
+      <link>https://github.com/alibaba-damo-academy/damo-radar</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">alibaba-damo-academy/damo-radar</guid>
+    </item>
+    <item>
+      <title>FxEmbed/FxEmbed</title>
+      <link>https://github.com/FxEmbed/FxEmbed</link>
+      <description>Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">FxEmbed/FxEmbed</guid>
+    </item>
+    <item>
+      <title>boykopovar/AnyPS5</title>
+      <link>https://github.com/boykopovar/AnyPS5</link>
+      <description>Convert PS5 executables to run natively on Linux and Windows</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">boykopovar/AnyPS5</guid>
+    </item>
+    <item>
+      <title>Alain00/blobatar</title>
+      <link>https://github.com/Alain00/blobatar</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">Alain00/blobatar</guid>
+    </item>
+    <item>
+      <title>superagents-lab/jev-search</title>
+      <link>https://github.com/superagents-lab/jev-search</link>
+      <description>Search the web with TypeSafe&apos;s Jev: source selection, query understanding and relevance ranking. Built with Search1API.</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">superagents-lab/jev-search</guid>
+    </item>
+    <item>
+      <title>Anil-matcha/awesome-jev-by-typesafe</title>
+      <link>https://github.com/Anil-matcha/awesome-jev-by-typesafe</link>
+      <description>Evidence-backed use cases, patterns, prompts, and starter code for TypeSafe Jev — a System One model for fast, typed, confidence-aware decisions in software.</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">Anil-matcha/awesome-jev-by-typesafe</guid>
+    </item>
+    <item>
+      <title>AgriciDaniel/compass</title>
+      <link>https://github.com/AgriciDaniel/compass</link>
+      <description>Compass: run your whole life out of Obsidian. Daily questions, quarterly retreats, planning, habits, tasks, writing, and an AI assistant in the vault.</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">AgriciDaniel/compass</guid>
+    </item>
+    <item>
+      <title>TNTcraftHIM/Piik</title>
+      <link>https://github.com/TNTcraftHIM/Piik</link>
+      <description>Free, open-source screen sharing for friends. P2P-first, with browser viewing, a desktop app and optional self-hosting.</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">TNTcraftHIM/Piik</guid>
+    </item>
+    <item>
+      <title>jianruntech/geo-score</title>
+      <link>https://github.com/jianruntech/geo-score</link>
+      <description>Will ChatGPT cite your site? Score it in 20 seconds against an open, versioned GEO rubric. Python, zero dependencies.</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">jianruntech/geo-score</guid>
+    </item>
+    <item>
+      <title>loysger/Antigravity</title>
+      <link>https://github.com/loysger/Antigravity</link>
+      <description>Google Antigravity в России: запуск БЕЗ VPN на Windows, macOS и Linux. Обход ошибки 400 и блокировки аккаунта. Доступ к Claude 4.6 и Gemini 3.8 Flash High.</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">loysger/Antigravity</guid>
+    </item>
+    <item>
+      <title>x4gpanell/PasarGuard</title>
+      <link>https://github.com/x4gpanell/PasarGuard</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">x4gpanell/PasarGuard</guid>
+    </item>
+    <item>
+      <title>valen-lang/Valen</title>
+      <link>https://github.com/valen-lang/Valen</link>
+      <description>Compiler for the Valen programming language</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">valen-lang/Valen</guid>
+    </item>
+    <item>
+      <title>himdo/Fable-2-Recomp</title>
+      <link>https://github.com/himdo/Fable-2-Recomp</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">himdo/Fable-2-Recomp</guid>
+    </item>
+    <item>
+      <title>realZachi/pg-jev</title>
+      <link>https://github.com/realZachi/pg-jev</link>
+      <description>Ask your Postgres tables questions in plain language. A PostgreSQL extension powered by TypeSafe&apos;s Jev.</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">realZachi/pg-jev</guid>
+    </item>
+    <item>
+      <title>AnotiaWang/awesome-jev</title>
+      <link>https://github.com/AnotiaWang/awesome-jev</link>
+      <description>A curated list of awesome Jev / TypeSafe System One applications, libraries, and resources.</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">AnotiaWang/awesome-jev</guid>
+    </item>
+    <item>
+      <title>flamingo-stack/openframe-oss-lib</title>
+      <link>https://github.com/flamingo-stack/openframe-oss-lib</link>
+      <description>Shared libraries between all services</description>
+      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
+      <guid isPermaLink="false">flamingo-stack/openframe-oss-lib</guid>
+    </item>
     <item>
       <title>CopilotKit/openmuse</title>
       <link>https://github.com/CopilotKit/openmuse</link>
@@ -31,7 +171,7 @@
     <item>
       <title>apple/xcode-project-format</title>
       <link>https://github.com/apple/xcode-project-format</link>
-      <description>A Swift library for reading, writing, and manipulating Xcode&apos;s JSON-based project.xcproj format. </description>
+      <description>A Swift library for reading, writing, and manipulating Xcode&apos;s JSON-based project.xcproj format.</description>
       <pubDate>Thu, 24 Sep 2026 05:03:34 GMT</pubDate>
       <guid isPermaLink="false">apple/xcode-project-format</guid>
     </item>
@@ -510,41 +650,6 @@
       <description>📺 Homebrew&apos;s official macOS GUI</description>
       <pubDate>Sat, 19 Sep 2026 04:46:01 GMT</pubDate>
       <guid isPermaLink="false">Homebrew/BrewUI</guid>
-    </item>
-    <item>
-      <title>ayghri/i-have-adhd</title>
-      <link>https://github.com/ayghri/i-have-adhd</link>
-      <description>A skill to stop your coding agent from burying the answer. ADHD-friendly output.</description>
-      <pubDate>Fri, 18 Sep 2026 04:54:32 GMT</pubDate>
-      <guid isPermaLink="false">ayghri/i-have-adhd</guid>
-    </item>
-    <item>
-      <title>hypit-ai/hypit</title>
-      <link>https://github.com/hypit-ai/hypit</link>
-      <description>Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.</description>
-      <pubDate>Fri, 18 Sep 2026 04:54:32 GMT</pubDate>
-      <guid isPermaLink="false">hypit-ai/hypit</guid>
-    </item>
-    <item>
-      <title>NVlabs/SoL-Pi</title>
-      <link>https://github.com/NVlabs/SoL-Pi</link>
-      <description>SoL-Pi: Scaling Auto-Research Loops for Efficient Agent Harnesses</description>
-      <pubDate>Fri, 18 Sep 2026 04:54:32 GMT</pubDate>
-      <guid isPermaLink="false">NVlabs/SoL-Pi</guid>
-    </item>
-    <item>
-      <title>emilkowalski/skills</title>
-      <link>https://github.com/emilkowalski/skills</link>
-      <description>Skills for Designers and Engineers.</description>
-      <pubDate>Fri, 18 Sep 2026 04:54:32 GMT</pubDate>
-      <guid isPermaLink="false">emilkowalski/skills</guid>
-    </item>
-    <item>
-      <title>miuuyy/codex-chatgpt-web</title>
-      <link>https://github.com/miuuyy/codex-chatgpt-web</link>
-      <description>Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota.</description>
-      <pubDate>Fri, 18 Sep 2026 04:54:32 GMT</pubDate>
-      <guid isPermaLink="false">miuuyy/codex-chatgpt-web</guid>
     </item>
   </channel>
 </rss>

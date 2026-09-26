@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Sep 2026 05:06:31 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 05:09:52 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>jaredpalmer/kev</title>
+      <link>https://github.com/jaredpalmer/kev</link>
+      <description>Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">jaredpalmer/kev</guid>
+    </item>
+    <item>
+      <title>robbietilton/Compositor</title>
+      <link>https://github.com/robbietilton/Compositor</link>
+      <description>The Photoshop alternative for Mac</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">robbietilton/Compositor</guid>
+    </item>
+    <item>
+      <title>BeastStokerSouk/Better-Discord</title>
+      <link>https://github.com/BeastStokerSouk/Better-Discord</link>
+      <description>(no description)</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">BeastStokerSouk/Better-Discord</guid>
+    </item>
+    <item>
+      <title>incoai/splash</title>
+      <link>https://github.com/incoai/splash</link>
+      <description>A local inference engine for Apple silicon, built around the model.</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">incoai/splash</guid>
+    </item>
+    <item>
+      <title>NVIDIA/Model-Optimizer</title>
+      <link>https://github.com/NVIDIA/Model-Optimizer</link>
+      <description>A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">NVIDIA/Model-Optimizer</guid>
+    </item>
+    <item>
+      <title>thiagodmont/greeg</title>
+      <link>https://github.com/thiagodmont/greeg</link>
+      <description>(no description)</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">thiagodmont/greeg</guid>
+    </item>
+    <item>
+      <title>blixvip/NullMotion</title>
+      <link>https://github.com/blixvip/NullMotion</link>
+      <description>Launch-film preview: a finished motion-graphics ad over the black-and-white HyperFrames drafts it grew from, with frame-accurate MP4 export.</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">blixvip/NullMotion</guid>
+    </item>
+    <item>
+      <title>unclebob/uml-viewer</title>
+      <link>https://github.com/unclebob/uml-viewer</link>
+      <description>Live Quil UML class-diagram viewer driven by EDN</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">unclebob/uml-viewer</guid>
+    </item>
+    <item>
+      <title>git-bug/git-bug</title>
+      <link>https://github.com/git-bug/git-bug</link>
+      <description>Distributed, offline-first bug tracker integrated in git</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">git-bug/git-bug</guid>
+    </item>
+    <item>
+      <title>featherless-ai/simple-jev</title>
+      <link>https://github.com/featherless-ai/simple-jev</link>
+      <description>Turn any open model into a classifier/jev endpoint</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">featherless-ai/simple-jev</guid>
+    </item>
+    <item>
+      <title>jackwener/wx-cli-again</title>
+      <link>https://github.com/jackwener/wx-cli-again</link>
+      <description>WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">jackwener/wx-cli-again</guid>
+    </item>
+    <item>
+      <title>akitaonrails/my-skills</title>
+      <link>https://github.com/akitaonrails/my-skills</link>
+      <description>akitaonrails&apos; personal skills (not tailored for general usage)</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">akitaonrails/my-skills</guid>
+    </item>
+    <item>
+      <title>scenario-labs/skills</title>
+      <link>https://github.com/scenario-labs/skills</link>
+      <description>Agent Skills for Scenario: image, video, audio, texture, 3D and custom-model workflows over the Scenario MCP. For games, entertainment and any creative vertical. Install: `npx skills add scenario-labs/skills --skill &quot;*&quot;`</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">scenario-labs/skills</guid>
+    </item>
+    <item>
+      <title>unicodef1wn/grokbot-field-notes</title>
+      <link>https://github.com/unicodef1wn/grokbot-field-notes</link>
+      <description>Rules, playbooks, bot roles and a failure log from the xAI Grok Bot team&apos;s 72-hour live build. Drop AGENTS.md into your repo and go.</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">unicodef1wn/grokbot-field-notes</guid>
+    </item>
+    <item>
+      <title>logicrw/awesome-jev-projects</title>
+      <link>https://github.com/logicrw/awesome-jev-projects</link>
+      <description>Awesome Jev: source-backed open-source ecosystem radar, plain-language project discovery, and automatic GitHub sync</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">logicrw/awesome-jev-projects</guid>
+    </item>
+    <item>
+      <title>agentlas-ai/Agentlas-OS</title>
+      <link>https://github.com/agentlas-ai/Agentlas-OS</link>
+      <description>Agent OS: keep specialist agents in a hub, spin up a temporary orchestrator per task. Local-first, works with any model.</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">agentlas-ai/Agentlas-OS</guid>
+    </item>
+    <item>
+      <title>intent-hq/intent</title>
+      <link>https://github.com/intent-hq/intent</link>
+      <description>Monorepo for the Intent platform — tracks intentd, cloudlands-fe, and ios as submodules; docs, CI, and release orchestration</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">intent-hq/intent</guid>
+    </item>
+    <item>
+      <title>coolbbcamp/Pons-v2-Multi-Wallet-Volume-Bot</title>
+      <link>https://github.com/coolbbcamp/Pons-v2-Multi-Wallet-Volume-Bot</link>
+      <description>Pons v2 volume bot Ponsfamily volume bot Robinhood Chain volume bot Pons v2 bonding curve bot Ponsfamily Robinhood Chain bot Pons v2 multi wallet bot pons pons-v2 ponsfamily robinhood-chain volume-bot bonding-curve Pons v2 volume bot Ponsfamily volume bot Robinhood Chain volume bot Pons v2 bonding curve bot Ponsfamily Robinhood Chain bot Pons v2</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">coolbbcamp/Pons-v2-Multi-Wallet-Volume-Bot</guid>
+    </item>
+    <item>
+      <title>199-biotechnologies/claude-deep-research-skill</title>
+      <link>https://github.com/199-biotechnologies/claude-deep-research-skill</link>
+      <description>Enterprise-grade deep research skill for Claude Code with 8-phase pipeline, source credibility scoring, and automated validation. Outperforms OpenAI, Gemini, and Claude Desktop in quality and verification.</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">199-biotechnologies/claude-deep-research-skill</guid>
+    </item>
+    <item>
+      <title>fjykTec/ModernWMS</title>
+      <link>https://github.com/fjykTec/ModernWMS</link>
+      <description>The open source simple and complete warehouse management system is derived from our many years of experience in implementing erp projects. We stripped the original commercial system wms function and opened it up for free, hoping to help the majority of small and medium-sized enterprises. At present, the system supports cross-platform。</description>
+      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
+      <guid isPermaLink="false">fjykTec/ModernWMS</guid>
+    </item>
     <item>
       <title>TianyuCodings/NanoJev</title>
       <link>https://github.com/TianyuCodings/NanoJev</link>
@@ -587,69 +727,6 @@
       <description>Open-source web scraping API. Turn any website into clean markdown or structured JSON. Anti-detect browser, proxy auto-selection, self-hosted. One command: make up</description>
       <pubDate>Sun, 20 Sep 2026 05:02:28 GMT</pubDate>
       <guid isPermaLink="false">Anakin-Inc/anakin</guid>
-    </item>
-    <item>
-      <title>bilawalsidhu/gods-eye-view</title>
-      <link>https://github.com/bilawalsidhu/gods-eye-view</link>
-      <description>A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.</description>
-      <pubDate>Sat, 19 Sep 2026 04:46:01 GMT</pubDate>
-      <guid isPermaLink="false">bilawalsidhu/gods-eye-view</guid>
-    </item>
-    <item>
-      <title>debpalash/VoiceStudio</title>
-      <link>https://github.com/debpalash/VoiceStudio</link>
-      <description>VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.</description>
-      <pubDate>Sat, 19 Sep 2026 04:46:01 GMT</pubDate>
-      <guid isPermaLink="false">debpalash/VoiceStudio</guid>
-    </item>
-    <item>
-      <title>Human-Agent-Society/reef</title>
-      <link>https://github.com/Human-Agent-Society/reef</link>
-      <description>Continual learning infra for self-improving agents</description>
-      <pubDate>Sat, 19 Sep 2026 04:46:01 GMT</pubDate>
-      <guid isPermaLink="false">Human-Agent-Society/reef</guid>
-    </item>
-    <item>
-      <title>latent-spaces/brag</title>
-      <link>https://github.com/latent-spaces/brag</link>
-      <description>You built it. Now brag. Turn the project you just created into a short, shareable launch video with one command.</description>
-      <pubDate>Sat, 19 Sep 2026 04:46:01 GMT</pubDate>
-      <guid isPermaLink="false">latent-spaces/brag</guid>
-    </item>
-    <item>
-      <title>TencentCloud/Octop</title>
-      <link>https://github.com/TencentCloud/Octop</link>
-      <description>A smarter, self-hosted AI assistant — multi-user, multi-agent.</description>
-      <pubDate>Sat, 19 Sep 2026 04:46:01 GMT</pubDate>
-      <guid isPermaLink="false">TencentCloud/Octop</guid>
-    </item>
-    <item>
-      <title>Tencent/BrowserSkill</title>
-      <link>https://github.com/Tencent/BrowserSkill</link>
-      <description>Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.</description>
-      <pubDate>Sat, 19 Sep 2026 04:46:01 GMT</pubDate>
-      <guid isPermaLink="false">Tencent/BrowserSkill</guid>
-    </item>
-    <item>
-      <title>agentrhq/webcmd</title>
-      <link>https://github.com/agentrhq/webcmd</link>
-      <description>Self-learning agent browser</description>
-      <pubDate>Sat, 19 Sep 2026 04:46:01 GMT</pubDate>
-      <guid isPermaLink="false">agentrhq/webcmd</guid>
-    </item>
-    <item>
-      <title>ifixai-ai/iFixAi</title>
-      <link>https://github.com/ifixai-ai/iFixAi</link>
-      <description>Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.</description>
-      <pubDate>Sat, 19 Sep 2026 04:46:01 GMT</pubDate>
-      <guid isPermaLink="false">ifixai-ai/iFixAi</guid>
-    </item>
-    <item>
-      <title>Homebrew/BrewUI</title>
-      <link>https://github.com/Homebrew/BrewUI</link>
-      <description>📺 Homebrew&apos;s official macOS GUI</description>
-      <pubDate>Sat, 19 Sep 2026 04:46:01 GMT</pubDate>
-      <guid isPermaLink="false">Homebrew/BrewUI</guid>
     </item>
   </channel>
 </rss>

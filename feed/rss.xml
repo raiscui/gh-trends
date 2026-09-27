@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Sep 2026 05:09:52 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 05:27:09 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>vectorize-io/hindsight</title>
+      <link>https://github.com/vectorize-io/hindsight</link>
+      <description>Hindsight: Agent Memory That Learns</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">vectorize-io/hindsight</guid>
+    </item>
+    <item>
+      <title>mizorewww/laya-mlx</title>
+      <link>https://github.com/mizorewww/laya-mlx</link>
+      <description>Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">mizorewww/laya-mlx</guid>
+    </item>
+    <item>
+      <title>paperclipai/paperclip</title>
+      <link>https://github.com/paperclipai/paperclip</link>
+      <description>The open-source app everyone uses to manage agents at work</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">paperclipai/paperclip</guid>
+    </item>
+    <item>
+      <title>rocketride-org/rocketride-server</title>
+      <link>https://github.com/rocketride-org/rocketride-server</link>
+      <description>High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all from your IDE. Includes VS Code extension, TypeScript/Python SDKs, and Docker deployment.</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">rocketride-org/rocketride-server</guid>
+    </item>
+    <item>
+      <title>bespokelabsai/nimble</title>
+      <link>https://github.com/bespokelabsai/nimble</link>
+      <description>Local typed decisions, contrastive data curation, and model evaluation.</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">bespokelabsai/nimble</guid>
+    </item>
+    <item>
+      <title>mizorewww/laya-coreml</title>
+      <link>https://github.com/mizorewww/laya-coreml</link>
+      <description>Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">mizorewww/laya-coreml</guid>
+    </item>
+    <item>
+      <title>Lumid-Off/AirCard-Windows</title>
+      <link>https://github.com/Lumid-Off/AirCard-Windows</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">Lumid-Off/AirCard-Windows</guid>
+    </item>
+    <item>
+      <title>heyjunpenn/awesome-jev</title>
+      <link>https://github.com/heyjunpenn/awesome-jev</link>
+      <description>A verified, community-maintained catalog of 916 open-source projects built with Jev.</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">heyjunpenn/awesome-jev</guid>
+    </item>
+    <item>
+      <title>ethanplusai/astra-flash-orchestrator</title>
+      <link>https://github.com/ethanplusai/astra-flash-orchestrator</link>
+      <description>Astra plans and reviews; DeepSeek Flash builds. A native Codex workflow with phased tasks, verification, safe installation and reversible setup.</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">ethanplusai/astra-flash-orchestrator</guid>
+    </item>
+    <item>
+      <title>cs341-illinois/coursebook</title>
+      <link>https://github.com/cs341-illinois/coursebook</link>
+      <description>Open Source Introductory Systems Programming Textbook for the University of Illinois</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">cs341-illinois/coursebook</guid>
+    </item>
+    <item>
+      <title>wfzyx/von</title>
+      <link>https://github.com/wfzyx/von</link>
+      <description>The open-source System One decision model. Sub-15ms, non-autoregressive, local drop-in alternative to TypeSafe Jev.</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">wfzyx/von</guid>
+    </item>
+    <item>
+      <title>youart-open-source/awesome-gpt-image-2-5-prompts</title>
+      <link>https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts</link>
+      <description>GPT Image 2.5 prompts, verbatim and credited: 150 community prompts across 9 use cases, each with the author who wrote it and their post. Free to run.</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">youart-open-source/awesome-gpt-image-2-5-prompts</guid>
+    </item>
+    <item>
+      <title>PotterScissors/Ads-Blocker</title>
+      <link>https://github.com/PotterScissors/Ads-Blocker</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">PotterScissors/Ads-Blocker</guid>
+    </item>
+    <item>
+      <title>Tavotto/Tavotto</title>
+      <link>https://github.com/Tavotto/Tavotto</link>
+      <description>Make AI-generated scientific figures editable without losing the code behind them.</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">Tavotto/Tavotto</guid>
+    </item>
+    <item>
+      <title>androoAGI/starnet</title>
+      <link>https://github.com/androoAGI/starnet</link>
+      <description>A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">androoAGI/starnet</guid>
+    </item>
+    <item>
+      <title>kitze/unclutter</title>
+      <link>https://github.com/kitze/unclutter</link>
+      <description>WXT browser extension: Jev-powered page clutter removal with reusable template rules.</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">kitze/unclutter</guid>
+    </item>
+    <item>
+      <title>sergebulaev/instagram-skills</title>
+      <link>https://github.com/sergebulaev/instagram-skills</link>
+      <description>Instagram marketing skills for Claude Code and Codex: captions, carousels, hooks, hashtag strategy, and a weekly plan. Draft, humanize, and publish via Publora. MIT. Content engineering by Creative Content Crafts.</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">sergebulaev/instagram-skills</guid>
+    </item>
+    <item>
+      <title>kishormorol/cli-faq-shortcuts</title>
+      <link>https://github.com/kishormorol/cli-faq-shortcuts</link>
+      <description>An Agent Skill that turns the asks you keep typing into short commands, mined from your own Claude Code and Codex history. Works in Claude Code, Codex and Cursor.</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">kishormorol/cli-faq-shortcuts</guid>
+    </item>
+    <item>
+      <title>mohamdev/InstantHMR</title>
+      <link>https://github.com/mohamdev/InstantHMR</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">mohamdev/InstantHMR</guid>
+    </item>
+    <item>
+      <title>v-modal/awesome-jev-tools</title>
+      <link>https://github.com/v-modal/awesome-jev-tools</link>
+      <description>A curated list of tools  built for Jev — TypeSafe AI&apos;s System One model for typed decisions.</description>
+      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
+      <guid isPermaLink="false">v-modal/awesome-jev-tools</guid>
+    </item>
     <item>
       <title>jaredpalmer/kev</title>
       <link>https://github.com/jaredpalmer/kev</link>
@@ -699,34 +839,6 @@
       <description>ASC is a super FAST Android decompiler front-end designed for Agents/Mobile Researchers.</description>
       <pubDate>Mon, 21 Sep 2026 05:08:30 GMT</pubDate>
       <guid isPermaLink="false">MG1937/ASC</guid>
-    </item>
-    <item>
-      <title>block/buzz</title>
-      <link>https://github.com/block/buzz</link>
-      <description>A hive mind communication platform</description>
-      <pubDate>Sun, 20 Sep 2026 05:02:28 GMT</pubDate>
-      <guid isPermaLink="false">block/buzz</guid>
-    </item>
-    <item>
-      <title>peetzweg/opendisplay</title>
-      <link>https://github.com/peetzweg/opendisplay</link>
-      <description>Free, open-source Sidecar/Duet alternative — use your iPhone, iPad or Mac as a true second monitor for your primary Mac over USB or WiFi. Low latency H.264, Retina HiDPI, touch input.</description>
-      <pubDate>Sun, 20 Sep 2026 05:02:28 GMT</pubDate>
-      <guid isPermaLink="false">peetzweg/opendisplay</guid>
-    </item>
-    <item>
-      <title>lynote-ai/humanize-text</title>
-      <link>https://github.com/lynote-ai/humanize-text</link>
-      <description>Open-source text humanization pipeline with every intermediate step published. Two LLM rewrites at temp 1.3, then two hops across different NMT engines. Four documented methodologies you can read, modify, and run locally.</description>
-      <pubDate>Sun, 20 Sep 2026 05:02:28 GMT</pubDate>
-      <guid isPermaLink="false">lynote-ai/humanize-text</guid>
-    </item>
-    <item>
-      <title>Anakin-Inc/anakin</title>
-      <link>https://github.com/Anakin-Inc/anakin</link>
-      <description>Open-source web scraping API. Turn any website into clean markdown or structured JSON. Anti-detect browser, proxy auto-selection, self-hosted. One command: make up</description>
-      <pubDate>Sun, 20 Sep 2026 05:02:28 GMT</pubDate>
-      <guid isPermaLink="false">Anakin-Inc/anakin</guid>
     </item>
   </channel>
 </rss>

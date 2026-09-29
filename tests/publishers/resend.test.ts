@@ -15,6 +15,7 @@ describe('resend.ts', () => {
     rust: [],
     agent: [],
     deepseekHarness: [],
+    vercelAiSdk: [],
   };
   const content = {
     html: '<p>Hello world</p>',

@@ -47,4 +47,42 @@ describe('filter', () => {
       expect(org).toHaveLength(1);
     });
   });
+
+  describe('CJK 描述放行(2026-09-29 移除 CJK 一刀切规则)', () => {
+    beforeEach(() => {
+      process.env.FILTER_MIN_STARS = '40';
+      process.env.FILTER_RENAMED = 'false';
+      process.env.FILTER_EMPTY_DESC = 'false';
+      process.env.FILTER_FRESH_OWNER = 'false';
+    });
+
+    it('描述含汉字的生态项目不再被剔除', () => {
+      // 回归: 上游 CJK 一刀切规则把中文生态项目全砍掉, 导致 DeepSeek 榜结构性空榜
+      // (线上 daily-2026-09-28 实测 0 条; 移除前 300 池中被剔 23 个)。
+      const out = filter([
+        makeRepo({
+          name: 'dsh-tauri/deepseek-harness-desktop',
+          stargazerCount: 2848,
+          description: 'DeepSeek Harness Tauri 桌面版 | Only 5mb installer',
+        }),
+      ]);
+      expect(out).toHaveLength(1);
+    });
+
+    it('纯中文 / 日文假名 / 韩文描述均放行', () => {
+      const out = filter([
+        makeRepo({ name: 'a/pure-cn', description: '本地优先的 AI 工作台' }),
+        makeRepo({ name: 'a/jp', description: 'エージェント開発ツール' }),
+        makeRepo({ name: 'a/kr', description: '에이전트 개발 도구' }),
+      ]);
+      expect(out).toHaveLength(3);
+    });
+
+    it('CJK 放行不影响其他规则(低 star 仍剔除)', () => {
+      const out = filter([
+        makeRepo({ name: 'a/low-star-cn', stargazerCount: 10, description: '中文描述' }),
+      ]);
+      expect(out).toHaveLength(0);
+    });
+  });
 });

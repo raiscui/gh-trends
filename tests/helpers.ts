@@ -21,6 +21,9 @@ export interface MakeRepoOpts {
   ownerType?: 'User' | 'Organization';
   stargazerCount?: number;
   primaryLanguage?: string | null;
+  // GitHub topic 标签(2026-09-29 GraphQL 新增字段), 供垂直生态榜做精确匹配
+  topics?: string[];
+  description?: string | null;
 }
 
 // 最小 repo 工厂: 字段取值与打分/过滤直接相关, 其余给中性默认值
@@ -31,7 +34,7 @@ export function makeRepo(opts: MakeRepoOpts): GithubRepo {
   return {
     nameWithOwner: opts.name,
     url: `https://github.com/${opts.name}`,
-    description: '[description]',
+    description: opts.description === undefined ? '[description]' : opts.description,
     createdAt: opts.firstSeenHoursAgo
       ? new Date(Date.now() - opts.firstSeenHoursAgo * 3600e3).toISOString()
       : new Date().toISOString(),
@@ -42,6 +45,9 @@ export function makeRepo(opts: MakeRepoOpts): GithubRepo {
         : opts.primaryLanguage
           ? { name: opts.primaryLanguage }
           : null,
+    repositoryTopics: {
+      nodes: (opts.topics ?? []).map(name => ({ topic: { name } })),
+    },
     owner: {
       __typename: opts.ownerType ?? 'User',
       createdAt: new Date(Date.now() - (opts.ownerCreatedDaysAgo ?? 2000) * 86400e3).toISOString(),

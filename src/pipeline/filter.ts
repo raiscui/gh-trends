@@ -47,16 +47,12 @@ export function filter(repos: GithubRepo[]): GithubRepo[] {
       }
     }
 
-    // Filter out CJK repos (Chinese, Japanese, Korean)
-    // Detect English only is hard (esp. for short descriptions)
-    if (repo.description) {
-      const desc = repo.description.trim();
-
-      if (/[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Hangul}]/u.test(desc)) {
-        logWarn('filter', `CJK script in description, skipping: ${repoName}`);
-        return false;
-      }
-    }
+    // CJK 描述过滤已于 2026-09-29 移除(上游 mhadidg 为英文 newsletter 设计的启发式)。
+    // 移除原因: 它把"描述含汉字"等同于低质量,但本 pipeline 关注的 AI 开源生态
+    // (DeepSeek Harness / Vercel AI SDK 等)主力开发者就是中文圈,描述用中文是正常表达。
+    // 实测 300 个 trending 项目中被该规则剔除 23 个,含 dshtauri/deepseek-harness-desktop
+    // (2848 ⭐)等生态核心项目,导致 DeepSeek 榜结构性空榜。
+    // 防垃圾能力由 FILTER_MIN_STARS 与 FILTER_FRESH_OWNER(fresh owner 钓鱼仓库)承担。
 
     // Catch malware repos (mostly crypto wallet drainers)
     // Adjust for eval date if set (historical scans)

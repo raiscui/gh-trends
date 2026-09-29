@@ -9,6 +9,12 @@ export type GithubRepo = {
   clickhouse: ClickHouseRepo; // not part of GraphQL response
   stargazerCount: number;
   primaryLanguage: { name: string } | null;
+  // 作者主动打的结构化 topic 标签(2026-09-29 加入)。
+  // 垂直生态榜(deepseek-harness 等)靠它做精确匹配 —— 比 name/description
+  // 关键词可靠: 标签是作者显式声明,描述文本可能只是提一句。
+  repositoryTopics: {
+    nodes: { topic: { name: string } }[];
+  };
   owner: {
     __typename: 'User' | 'Organization';
     createdAt: string; // owner createdAt
@@ -56,6 +62,11 @@ export class GitHubGraphQLClient {
         createdAt
         stargazerCount
         primaryLanguage { name }
+        repositoryTopics(first: 20) {
+          nodes {
+            topic { name }
+          }
+        }
         owner {
           __typename
           ... on User { createdAt }

@@ -3,10 +3,10 @@ import { render } from '../../src/pipeline/render';
 import { mockRepos } from '../../src/mocks/repos';
 import { ScoredRepo } from '../../src/pipeline/select';
 
-// 测试 helper:把所有 mock repos 装进 sections.main,空 rust / agent 让 markdown.hbs
-// 里那两个 section 渲染空 tier 表格(模板自带空保护,不会报错)。
+// 测试 helper:把所有 mock repos 装进 sections.main,空垂直段让 markdown.hbs
+// 里那几个 section 渲染空 tier 表格(模板自带空保护,不会报错)。
 function toSections(repos: ScoredRepo[]) {
-  return { main: repos, rust: [], agent: [], deepseekHarness: [] };
+  return { main: repos, rust: [], agent: [], deepseekHarness: [], vercelAiSdk: [] };
 }
 
 describe('render.ts', () => {
@@ -63,7 +63,7 @@ describe('render.ts', () => {
             description: null,
             primaryLanguage: null,
           },
-        ].map(r => ({ main: [r], rust: [], agent: [], deepseekHarness: [] }))[0]!
+        ].map(r => ({ main: [r], rust: [], agent: [], deepseekHarness: [], vercelAiSdk: [] }))[0]!
       );
 
       expect(content).toContain('(no description)');
@@ -92,13 +92,14 @@ describe('render.ts', () => {
       expect(content).toContain('你好');
     });
 
-    it('should render all three section headers (main / rust / agent)', () => {
+    it('should render all five section headers (main / rust / agent / deepseek / vercel)', () => {
       const content = render(template, toSections(mockScoredRepos));
 
       expect(content).toContain('🔥 GitHub trends');
       expect(content).toContain('🦀 Rust trends');
       expect(content).toContain('🤖 Agent trends');
       expect(content).toContain('🧠 DeepSeek Harness trends');
+      expect(content).toContain('▲ Vercel AI SDK trends');
     });
   });
 });

@@ -19,6 +19,7 @@ function mkRepo(name: string, description: string | null = 'placeholder'): Githu
     },
     stargazerCount: 0,
     primaryLanguage: null,
+    repositoryTopics: { nodes: [] },
     owner: { __typename: 'User', createdAt: '2024-01-01T00:00:00Z' },
     stargazers: { nodes: [] },
   };

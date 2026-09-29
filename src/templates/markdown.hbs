@@ -142,6 +142,42 @@
 </tr>
 </table>
 
+---
+
+## ▲ Vercel AI SDK trends
+*top repositories trending in the Vercel AI SDK ecosystem*
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+## 🥇 **Tier 1**
+
+{{#each sections.vercelAiSdk}}
+{{#if (lt @index 8)}}
+**[{{nameWithOwner}}]({{url}})** {{#if primaryLanguage.name}}`{{primaryLanguage.name}}`{{/if}} `⭐ {{formatNumber stargazerCount}}`
+{{#if description}}*{{truncate description ../descLimit}}*{{else}}*(no description)*{{/if}}
+
+{{/if}}
+{{/each}}
+
+</td>
+<td width="50%" valign="top">
+
+## 🥈 **Tier 2**
+
+{{#each sections.vercelAiSdk}}
+{{#if (and (gte @index 8) (lt @index 15))}}
+**[{{nameWithOwner}}]({{url}})** {{#if primaryLanguage.name}}`{{primaryLanguage.name}}`{{/if}} `⭐ {{formatNumber stargazerCount}}`
+{{#if description}}*{{truncate description ../descLimit}}*{{else}}*(no description)*{{/if}}
+
+{{/if}}
+{{/each}}
+
+</td>
+</tr>
+</table>
+
 *Generated on {{date}} • [Previous issues](https://github.com/mhadidg/gh-trends/releases)*
 
 </div>

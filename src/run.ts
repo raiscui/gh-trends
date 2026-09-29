@@ -3,7 +3,12 @@
 import 'dotenv-flow/config';
 import { scan } from './pipeline/scan';
 import { select } from './pipeline/select';
-import { selectRust, selectAgent, selectDeepSeekHarness } from './pipeline/vertical';
+import {
+  selectRust,
+  selectAgent,
+  selectDeepSeekHarness,
+  selectVercelAiSdk,
+} from './pipeline/vertical';
 import { publishAll } from './pipeline/publish';
 import { logInfo, TaggedError } from './utils/logging';
 import { handleProcessError } from './utils/common';
@@ -44,19 +49,21 @@ export async function main(): Promise<void> {
   }
 
   console.log('\n', '🏆 Ranking to select the best');
-  // 共享 filter 后的 repo pool,做四道 sub-select:
+  // 共享 filter 后的 repo pool,做五道 sub-select:
   //   - 主榜: rankAndSlice(filtered, RELEASE_TOP_N=20)
-  //   - Rust 榜: filter(primaryLanguage=Rust) → rankAndSlice(RELEASE_TOP_N_RUST=15)
-  //   - Agent 榜: filter(isAgentRepo) → rankAndSlice(RELEASE_TOP_N_AGENT=15)
-  //   - DeepSeek Harness 榜: filter(isDeepSeekHarnessRepo) → rankAndSlice(RELEASE_TOP_N_DEEPSEEK=15)
-  // 四榜单评分口径一致(fresh bucket + starsPerHour × medianAge),D4 = X1 允许重叠。
+  //   - Rust 榜: filter(primaryLanguage=Rust) → rankAndSlice(RELEASE_TOP_N_RUST=30)
+  //   - Agent 榜: filter(isAgentRepo) → rankAndSlice(RELEASE_TOP_N_AGENT=30)
+  //   - DeepSeek Harness 榜: filter(isDeepSeekHarnessRepo) → rankAndSlice(RELEASE_TOP_N_DEEPSEEK=30)
+  //   - Vercel AI SDK 榜: filter(isVercelAiSdkRepo) → rankAndSlice(RELEASE_TOP_N_VERCEL_AI_SDK=30)
+  // 各榜单评分口径一致(fresh bucket + starsPerHour × medianAge),D4 = X1 允许重叠。
   const mainRepos = select(filteredRepos);
   const rustRepos = selectRust(filteredRepos);
   const agentRepos = selectAgent(filteredRepos);
   const deepseekHarnessRepos = selectDeepSeekHarness(filteredRepos);
+  const vercelAiSdkRepos = selectVercelAiSdk(filteredRepos);
   logInfo(
     'score',
-    `selected: main=${mainRepos.length}, rust=${rustRepos.length}, agent=${agentRepos.length}, deepseekHarness=${deepseekHarnessRepos.length}`
+    `selected: main=${mainRepos.length}, rust=${rustRepos.length}, agent=${agentRepos.length}, deepseekHarness=${deepseekHarnessRepos.length}, vercelAiSdk=${vercelAiSdkRepos.length}`
   );
 
   console.log('\n', '📮 Publishing to all enabled channels');
@@ -65,13 +72,16 @@ export async function main(): Promise<void> {
     rust: rustRepos,
     agent: agentRepos,
     deepseekHarness: deepseekHarnessRepos,
+    vercelAiSdk: vercelAiSdkRepos,
   });
   logInfo('publish', `published release (IDs: ${messageIds.join(', ')})`);
 
   // 全部渠道发布成功后才回写发布记忆: 保证失败重跑不会漏推
   const publishedNames = [
     ...new Set(
-      [...mainRepos, ...rustRepos, ...agentRepos, ...deepseekHarnessRepos].map(r => r.nameWithOwner)
+      [...mainRepos, ...rustRepos, ...agentRepos, ...deepseekHarnessRepos, ...vercelAiSdkRepos].map(
+        r => r.nameWithOwner
+      )
     ),
   ];
   recordPublished(publishedNames, PUBLISHED_MEMORY_PATH);

@@ -30,6 +30,7 @@ describe('publish.ts', () => {
     rust: [],
     agent: [],
     deepseekHarness: [],
+    vercelAiSdk: [],
   };
 
   beforeEach(async () => {
@@ -90,10 +91,38 @@ describe('publish.ts', () => {
   it('should skip publication when all sections are empty', async () => {
     publisher01.enabled.mockReturnValue(true);
 
-    const emptySections: ReleaseSections = { main: [], rust: [], agent: [], deepseekHarness: [] };
+    const emptySections: ReleaseSections = {
+      main: [],
+      rust: [],
+      agent: [],
+      deepseekHarness: [],
+      vercelAiSdk: [],
+    };
     const result = await publishAll(emptySections, pubs);
 
     expect(result).toEqual([]);
     expect(publisher01.publish).not.toHaveBeenCalled();
+  });
+
+  it('should publish when only a vertical section has content (regression)', async () => {
+    // 回归:publishAll 曾漏算 deepseekHarness / vercelAiSdk 段,
+    // 主榜+Rust+Agent 全空而垂直段有货时会被误判 "no repositories to publish" 跳过。
+    // 注意:前面用例已把 publisher02.enabled 永久 mock 成 true,这里要显式关掉
+    publisher02.enabled.mockReturnValue(false);
+    publisher01.enabled.mockReturnValue(true);
+    publisher01.publish.mockResolvedValueOnce('bd_789');
+
+    const verticalOnly: ReleaseSections = {
+      main: [],
+      rust: [],
+      agent: [],
+      deepseekHarness: [],
+      vercelAiSdk: mockRepos.slice(0, 1).map(repo => ({ ...repo, score: 0 }) as ScoredRepo),
+    };
+
+    const result = await publishAll(verticalOnly, pubs);
+
+    expect(result).toEqual(['bd_789']);
+    expect(publisher01.publish).toHaveBeenCalledTimes(1);
   });
 });

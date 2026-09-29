@@ -15,6 +15,7 @@ describe('buttondown.ts', () => {
     rust: [],
     agent: [],
     deepseekHarness: [],
+    vercelAiSdk: [],
   };
 
   beforeEach(() => {

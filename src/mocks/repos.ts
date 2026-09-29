@@ -16,6 +16,7 @@ export const mockRepos: GithubRepo[] = [
     primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(5),
     stargazerCount: 1250,
+    repositoryTopics: { nodes: [] },
     owner: {
       __typename: 'Organization',
       createdAt: '2020-01-01T00:00:00Z',
@@ -39,6 +40,7 @@ export const mockRepos: GithubRepo[] = [
     primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(90), // was under development for a while
     stargazerCount: 890,
+    repositoryTopics: { nodes: [] },
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z',
@@ -62,6 +64,7 @@ export const mockRepos: GithubRepo[] = [
     primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(9), // just outside the default 7-day window
     stargazerCount: 1050,
+    repositoryTopics: { nodes: [] },
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z',
@@ -85,6 +88,7 @@ export const mockRepos: GithubRepo[] = [
     primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(1),
     stargazerCount: 500,
+    repositoryTopics: { nodes: [] },
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z',
@@ -108,6 +112,7 @@ export const mockRepos: GithubRepo[] = [
     primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(1),
     stargazerCount: 500,
+    repositoryTopics: { nodes: [] },
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z',
@@ -131,6 +136,7 @@ export const mockRepos: GithubRepo[] = [
     primaryLanguage: null, // no primary language
     createdAt: daysAgo(1),
     stargazerCount: 500,
+    repositoryTopics: { nodes: [] },
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z',
@@ -154,6 +160,7 @@ export const mockRepos: GithubRepo[] = [
     primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(1),
     stargazerCount: 500,
+    repositoryTopics: { nodes: [] },
     owner: {
       __typename: 'User',
       createdAt: daysAgo(3), // fresh owner with fake stars
@@ -177,6 +184,7 @@ export const mockRepos: GithubRepo[] = [
     primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(1),
     stargazerCount: 500,
+    repositoryTopics: { nodes: [] },
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z', // passes fresh owner check
@@ -200,6 +208,7 @@ export const mockRepos: GithubRepo[] = [
     primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(1),
     stargazerCount: 500,
+    repositoryTopics: { nodes: [] },
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z', // passes fresh owner check
@@ -223,6 +232,7 @@ export const mockRepos: GithubRepo[] = [
     primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(1),
     stargazerCount: 500,
+    repositoryTopics: { nodes: [] },
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z', // passes fresh owner check
@@ -246,6 +256,7 @@ export const mockRepos: GithubRepo[] = [
     primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(1),
     stargazerCount: 500,
+    repositoryTopics: { nodes: [] },
     owner: {
       __typename: 'Organization',
       createdAt: daysAgo(3), // fresh org, but it's ok
@@ -269,6 +280,7 @@ export const mockRepos: GithubRepo[] = [
     primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(1),
     stargazerCount: 500,
+    repositoryTopics: { nodes: [] },
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z',
@@ -292,6 +304,7 @@ export const mockRepos: GithubRepo[] = [
     primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(1),
     stargazerCount: 500,
+    repositoryTopics: { nodes: [] },
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z',
@@ -315,6 +328,7 @@ export const mockRepos: GithubRepo[] = [
     primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(1),
     stargazerCount: 3, // below the default 50-star threshold
+    repositoryTopics: { nodes: [] },
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z',
@@ -338,6 +352,7 @@ export const mockRepos: GithubRepo[] = [
     primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(180),
     stargazerCount: 3000, // was very popular for a while
+    repositoryTopics: { nodes: [] },
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z',

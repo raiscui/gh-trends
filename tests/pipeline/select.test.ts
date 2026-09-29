@@ -31,6 +31,7 @@ function mkRepo(opts: {
     primaryLanguage: { name: 'TypeScript' },
     createdAt: new Date(nowMs - 86400_000).toISOString(),
     stargazerCount: opts.starsWithin,
+    repositoryTopics: { nodes: [] },
     owner: { __typename: 'Organization', createdAt: '2020-01-01T00:00:00Z' },
     clickhouse: {
       repoName: opts.name,

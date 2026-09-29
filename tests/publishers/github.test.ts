@@ -15,6 +15,7 @@ describe('gh-release.ts', () => {
     rust: [],
     agent: [],
     deepseekHarness: [],
+    vercelAiSdk: [],
   };
 
   beforeEach(() => {

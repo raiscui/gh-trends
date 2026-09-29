@@ -226,3 +226,107 @@ daily 频率下无发布记忆导致爆火项目连续霸榜;打分缺加速度�
 - scan 205(通道 A 150 + 通道 B ~55);hypit-ai/hypit(starsBefore=0)入主榜第 2 名,
   通道 B 生效直接证据;fresh owner 拦掉 Microsoft-Activation-Script 等钓鱼仓库
 - ClickHouse 全量参数实测:360 行 = A300 + B60,扫描 10 亿行约 1.6s
+
+---
+
+## 扩展 2026-09-29:D10 — 新增 Vercel AI SDK 垂直榜单
+
+### 背景
+
+用户要求"增加一个 关键词 Vercel AI SDK 的 排行"。沿用 D8(DeepSeek Harness)验证过的
+vertical channel 路径接入,不引入新抽象。这是第五个榜单(主榜 + Rust + Agent +
+DeepSeek Harness + Vercel AI SDK)。
+
+### 决定
+
+**D10 = A3 + 3 个生态信号关键词**:
+
+- 新增 `src/clients/vercelAiSdkKeywords.ts`,
+  `VERCEL_AI_SDK_KEYWORDS = ['vercel ai sdk', 'vercel/ai', 'ai-sdk']`
+  - `vercel ai sdk` — 品牌完整短语,desc 生态描述主信号("A provider for the Vercel AI SDK")
+  - `vercel/ai` — 官方 repo 及衍生(vercel/ai、vercel/ai-chatbot),生态核心本身
+  - `ai-sdk` — npm 生态命名约定(@ai-sdk/*、ai-sdk-provider-*、*-ai-sdk)
+- 新增 `selectVercelAiSdk()`,复用 `rankAndSlice`,env `RELEASE_TOP_N_VERCEL_AI_SDK`(默认 30,与 D9d 垂直榜口径一致)
+- markdown.hbs 加第五段 section: `▲ Vercel AI SDK trends`
+- 匹配规则沿用 M2(name + description 双匹配,大小写不敏感)
+
+### 关键词误伤分析(对照 D8 的 dsh/cordis 教训)
+
+- `ai-sdk` 不命中空格形式 "openai sdk",只命中显式连字符命名;连字符 openai-sdk
+  类项目极少且本属邻近 AI SDK 生态,噪音由 FILTER_MIN_STARS=40 兜底
+- 否决过严方案(只用 `vercel ai sdk` 单短语):官方 repo desc 都不含该短语
+  (vercel/ai desc 是 "The AI Toolkit for TypeScript"),榜单将永远为空
+- 否决过泛方案(`ai` / `useChat`):灾难性泛匹配
+- 特异性显著高于 D8 的 `dsh`(短缩写)/ `cordis`(拉丁词),无需更保守集合
+
+### 顺手修复
+
+`publish.ts` 的 totalRepos/logInfo 漏算 `deepseekHarness` 段(D8 接入遗漏):
+main/rust/agent 全空而垂直段有货时会被误判 "no repositories to publish" 跳过发布。
+修复后五段全部计入,并补 vertical-only 发布回归测试。
+
+### 验证(2026-09-29)
+
+- vitest 162/162 绿(新增 vercelAiSdkKeywords 10 测 + selectVercelAiSdk 4 测 +
+  publish 回归 1 测),typecheck OK,eslint 0 警告
+- mock preview:五段 header 全部渲染,空段保护正常
+- 带数据冒烟:vercel/ai 注入 vercelAiSdk 段后 Tier 1 渲染正确
+
+---
+
+## 扩展 2026-09-29:D11 — DeepSeek 榜改 topic 匹配 + 移除 CJK 过滤规则
+
+### 背景
+
+线上 `daily-2026-09-28` 实测 DeepSeek Harness 榜 0 条(Rust 2 / Agent 5 / 主榜 20)。
+排查(现象 → 假设 → 动态验证)坐实根因:**不是关键词失效,是两层策略冲突**:
+
+- scan 层关键词命中 5-6 个,topic 生态探测(用户指定 github.com/topics/dsh、
+  /deepseek-harness、/dsh-plugin)确认生态真实存在且活跃
+- filter 层上游 CJK 一刀切规则(desc 含任一汉字即剔除)杀掉其中 4-5 个 ——
+  DeepSeek Harness 是中文圈生态,desc 中英混写是正常表达
+- 实测 300 个 trending 项目中 48 个 desc 含汉字,23 个被 CJK 规则剔除,
+  其中包括 dsh-tauri/deepseek-harness-desktop(2848⭐)、yyh-001/DSH-X(584⭐)等生态核心
+
+用户决策(2026-09-29,原话"直接把这个清掉吧"):
+1. **移除 CJK 一刀切规则**(上游 mhadidg 为英文 newsletter 设计的假设,在本项目定位下不成立)
+2. **DeepSeek 榜改用 topics 匹配**(用户指定的三个 topic)
+
+### 决定
+
+**D11a — CJK filter 移除**: filter.ts 删除 `/[\p{Script=Han}...]/u` 整段。
+防垃圾能力由 FILTER_MIN_STARS=40 与 FILTER_FRESH_OWNER=true 承担(该组合
+2026-09-21 起实测有效拦截 KMS-Pico 类钓鱼仓库)。
+
+**D11b — DeepSeek 匹配三层优先级**(deepSeekKeywords.ts 重构):
+
+1. 强信号 topic `dsh` / `deepseek-harness` 任一命中即入榜
+   (官方仓库 deepseek-ai/deepseek-harness 同带 dsh + dsh-plugin)
+2. 弱信号 topic `dsh-plugin` 需叠加 name/desc 关键词佐证 ——
+   实测 star 前 100 里 37 个项目仅挂 dsh-plugin(PicGo / Tencent-WeKnora 等
+   通用项目),单独采用会严重污染
+3. 关键词兜底 cordis / dsh / dsh-plugin 保留,覆盖未打标签项目
+
+**D11c — GraphQL 补 repositoryTopics(first: 20)**: GithubRepo 类型加
+必填 repositoryTopics 字段,所有测试工厂同步。readTopics 兼容缺字段老数据。
+
+**D11d — 关键词匹配改词边界**: 裸 includes 子串的 `dsh` 误伤 Spreadsheets
+(烟测实锤 dream-num/univer 进榜);改为"后不接小写字母"边界
+(`[dD][sS][hH](?![a-z])`,不能用 'i' 标志否则断言连带大小写不敏感),
+Spreadsheets 不再误伤,DshTool 驼峰 / awesome-dsh 结尾 / cordiverse/cordis 正常命中。
+
+### 验证(2026-09-29, 真实数据烟测)
+
+- 漏斗: scan 300 → dedupe 300 → filter 290(CJK 移除后仅 star/fresh-owner 拦截)
+- CJK 回归: 含汉字项目 scan 层 48 → filter 后存活 47(仅 1 个因 star 门槛出局)
+- **DeepSeek 榜: 0 → 7 个**,含 4 个中文描述生态项目
+  (dsh-tauri/deepseek-harness-desktop, yyh-001/DSH-X, Devin-AXIS/jev-dsh-decision,
+  ardeyouxipianyi/workbuddy2api-hub),全部带 dsh 系 topic
+- 主榜 20 个中 5 个中文描述项目回归
+- vitest 174/174 绿(+3 CJK 回归 +词边界正反例),typecheck OK,eslint 0,prettier 对齐
+
+### 对既有决定的更新
+
+- D3/D8(M2 关键词口径)→ D11b 三层优先级;关键词兜底仍兼容老口径语义
+- Guardrail(fail-closed 50%)不变;filter 剔除数下降使 guard 分母更安全
+- GraphQL 每 repo 响应增大(topics ≤20),300 repo 冒烟无 secondary rate limit 触发

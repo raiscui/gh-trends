@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Oct 2026 06:09:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 05:29:15 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>willfaust/Madeira</title>
+      <link>https://github.com/willfaust/Madeira</link>
+      <description>Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">willfaust/Madeira</guid>
+    </item>
+    <item>
+      <title>Pumpkin-MC/Pumpkin</title>
+      <link>https://github.com/Pumpkin-MC/Pumpkin</link>
+      <description>Empowering everyone to host fast and efficient Minecraft servers</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">Pumpkin-MC/Pumpkin</guid>
+    </item>
+    <item>
+      <title>vladtrc/iw4L</title>
+      <link>https://github.com/vladtrc/iw4L</link>
+      <description>Standalone experimental Call of Duty runtime in Rust, built on bevy and wgpu</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">vladtrc/iw4L</guid>
+    </item>
+    <item>
+      <title>supermemoryai/company-brain</title>
+      <link>https://github.com/supermemoryai/company-brain</link>
+      <description>Open-sourcing our company brain - A teammate in your Slack that remembers everything your team says, and can go do the work.</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">supermemoryai/company-brain</guid>
+    </item>
+    <item>
+      <title>ollaya-dev/ollaya</title>
+      <link>https://github.com/ollaya-dev/ollaya</link>
+      <description>Run open decision models locally: pull and serve Laya, decider, NLI and GLiClass behind a TypeSafe-compatible API. Ollama for decision models.</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">ollaya-dev/ollaya</guid>
+    </item>
+    <item>
+      <title>garinasset/leak-check</title>
+      <link>https://github.com/garinasset/leak-check</link>
+      <description>厘查 API © 嘉林数据 </description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">garinasset/leak-check</guid>
+    </item>
+    <item>
+      <title>Kruszoneq/macUSB</title>
+      <link>https://github.com/Kruszoneq/macUSB</link>
+      <description>The all-in-one bootable USB creator for Mac</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">Kruszoneq/macUSB</guid>
+    </item>
+    <item>
+      <title>NVIDIA/structured-data-models</title>
+      <link>https://github.com/NVIDIA/structured-data-models</link>
+      <description>Foundation Models for Structured Data</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">NVIDIA/structured-data-models</guid>
+    </item>
+    <item>
+      <title>GitHubSecurityLab/gh-secure</title>
+      <link>https://github.com/GitHubSecurityLab/gh-secure</link>
+      <description>A GitHub CLI extension to enable security features on repositories following best practices from GitHub Security Lab.</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">GitHubSecurityLab/gh-secure</guid>
+    </item>
+    <item>
+      <title>LuxAlgo/trade-journal</title>
+      <link>https://github.com/LuxAlgo/trade-journal</link>
+      <description>The open-source trade journal. Broker sync, P&amp;L calendar, deep analytics, and AI reflection. Self-hosted, MIT, free.</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">LuxAlgo/trade-journal</guid>
+    </item>
+    <item>
+      <title>Bibapcs/BibaYanji</title>
+      <link>https://github.com/Bibapcs/BibaYanji</link>
+      <description>笔吧验机：二手/新机到手后的验机工具</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">Bibapcs/BibaYanji</guid>
+    </item>
+    <item>
+      <title>homarr-labs/homarr</title>
+      <link>https://github.com/homarr-labs/homarr</link>
+      <description>A modern and easy to use dashboard. 80+ integrations. 20K+ icons built in. Authentication out of the box. No YAML, drag and drop configuration.</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">homarr-labs/homarr</guid>
+    </item>
+    <item>
+      <title>Fastbrasecret8/DLSS5-Manager</title>
+      <link>https://github.com/Fastbrasecret8/DLSS5-Manager</link>
+      <description>One-click DLSS 5 Neural Rendering manager for PC. Swapper, Feeder, OptiScaler, RenoDX, Multipass, ReShade, F8 overlay. Works on RTX 20/30/40/50, AMD RDNA, Intel Arc. DX8-12, Vulkan, OpenGL, emulators.</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">Fastbrasecret8/DLSS5-Manager</guid>
+    </item>
+    <item>
+      <title>imikerussell/beebots</title>
+      <link>https://github.com/imikerussell/beebots</link>
+      <description>Three AI trading bees on OKX, every decision by Jev. Paper trading by default. Not financial advice.</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">imikerussell/beebots</guid>
+    </item>
+    <item>
+      <title>getsentry/sentry</title>
+      <link>https://github.com/getsentry/sentry</link>
+      <description>Developer-first error tracking and performance monitoring</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">getsentry/sentry</guid>
+    </item>
+    <item>
+      <title>mihawk-99/PS5_RetroArch</title>
+      <link>https://github.com/mihawk-99/PS5_RetroArch</link>
+      <description>🎮 RetroArch Homebrew for the PS5 that supports many cores.</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">mihawk-99/PS5_RetroArch</guid>
+    </item>
+    <item>
+      <title>TelegramMessenger/Telegram-iOS</title>
+      <link>https://github.com/TelegramMessenger/Telegram-iOS</link>
+      <description>Telegram-iOS</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">TelegramMessenger/Telegram-iOS</guid>
+    </item>
+    <item>
+      <title>lab421/forel</title>
+      <link>https://github.com/lab421/forel</link>
+      <description>File automation for macOS. The open source Hazel alternative for macOS.</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">lab421/forel</guid>
+    </item>
+    <item>
+      <title>google-deepmind/tapnet</title>
+      <link>https://github.com/google-deepmind/tapnet</link>
+      <description>Tracking Any Point (TAP)</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">google-deepmind/tapnet</guid>
+    </item>
+    <item>
+      <title>acmesh-official/acme.sh</title>
+      <link>https://github.com/acmesh-official/acme.sh</link>
+      <description>A pure Unix shell script ACME client for SSL / TLS certificate automation</description>
+      <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
+      <guid isPermaLink="false">acmesh-official/acme.sh</guid>
+    </item>
     <item>
       <title>archestra-ai/OpenAPPA</title>
       <link>https://github.com/archestra-ai/OpenAPPA</link>
@@ -566,286 +706,6 @@
       <description>A curated list of tools  built for Jev — TypeSafe AI&apos;s System One model for typed decisions.</description>
       <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
       <guid isPermaLink="false">v-modal/awesome-jev-tools</guid>
-    </item>
-    <item>
-      <title>jaredpalmer/kev</title>
-      <link>https://github.com/jaredpalmer/kev</link>
-      <description>Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">jaredpalmer/kev</guid>
-    </item>
-    <item>
-      <title>robbietilton/Compositor</title>
-      <link>https://github.com/robbietilton/Compositor</link>
-      <description>The Photoshop alternative for Mac</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">robbietilton/Compositor</guid>
-    </item>
-    <item>
-      <title>BeastStokerSouk/Better-Discord</title>
-      <link>https://github.com/BeastStokerSouk/Better-Discord</link>
-      <description>(no description)</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">BeastStokerSouk/Better-Discord</guid>
-    </item>
-    <item>
-      <title>incoai/splash</title>
-      <link>https://github.com/incoai/splash</link>
-      <description>A local inference engine for Apple silicon, built around the model.</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">incoai/splash</guid>
-    </item>
-    <item>
-      <title>NVIDIA/Model-Optimizer</title>
-      <link>https://github.com/NVIDIA/Model-Optimizer</link>
-      <description>A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">NVIDIA/Model-Optimizer</guid>
-    </item>
-    <item>
-      <title>thiagodmont/greeg</title>
-      <link>https://github.com/thiagodmont/greeg</link>
-      <description>(no description)</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">thiagodmont/greeg</guid>
-    </item>
-    <item>
-      <title>blixvip/NullMotion</title>
-      <link>https://github.com/blixvip/NullMotion</link>
-      <description>Launch-film preview: a finished motion-graphics ad over the black-and-white HyperFrames drafts it grew from, with frame-accurate MP4 export.</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">blixvip/NullMotion</guid>
-    </item>
-    <item>
-      <title>unclebob/uml-viewer</title>
-      <link>https://github.com/unclebob/uml-viewer</link>
-      <description>Live Quil UML class-diagram viewer driven by EDN</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">unclebob/uml-viewer</guid>
-    </item>
-    <item>
-      <title>git-bug/git-bug</title>
-      <link>https://github.com/git-bug/git-bug</link>
-      <description>Distributed, offline-first bug tracker integrated in git</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">git-bug/git-bug</guid>
-    </item>
-    <item>
-      <title>featherless-ai/simple-jev</title>
-      <link>https://github.com/featherless-ai/simple-jev</link>
-      <description>Turn any open model into a classifier/jev endpoint</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">featherless-ai/simple-jev</guid>
-    </item>
-    <item>
-      <title>jackwener/wx-cli-again</title>
-      <link>https://github.com/jackwener/wx-cli-again</link>
-      <description>WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">jackwener/wx-cli-again</guid>
-    </item>
-    <item>
-      <title>akitaonrails/my-skills</title>
-      <link>https://github.com/akitaonrails/my-skills</link>
-      <description>akitaonrails&apos; personal skills (not tailored for general usage)</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">akitaonrails/my-skills</guid>
-    </item>
-    <item>
-      <title>scenario-labs/skills</title>
-      <link>https://github.com/scenario-labs/skills</link>
-      <description>Agent Skills for Scenario: image, video, audio, texture, 3D and custom-model workflows over the Scenario MCP. For games, entertainment and any creative vertical. Install: `npx skills add scenario-labs/skills --skill &quot;*&quot;`</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">scenario-labs/skills</guid>
-    </item>
-    <item>
-      <title>unicodef1wn/grokbot-field-notes</title>
-      <link>https://github.com/unicodef1wn/grokbot-field-notes</link>
-      <description>Rules, playbooks, bot roles and a failure log from the xAI Grok Bot team&apos;s 72-hour live build. Drop AGENTS.md into your repo and go.</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">unicodef1wn/grokbot-field-notes</guid>
-    </item>
-    <item>
-      <title>logicrw/awesome-jev-projects</title>
-      <link>https://github.com/logicrw/awesome-jev-projects</link>
-      <description>Awesome Jev: source-backed open-source ecosystem radar, plain-language project discovery, and automatic GitHub sync</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">logicrw/awesome-jev-projects</guid>
-    </item>
-    <item>
-      <title>agentlas-ai/Agentlas-OS</title>
-      <link>https://github.com/agentlas-ai/Agentlas-OS</link>
-      <description>Agent OS: keep specialist agents in a hub, spin up a temporary orchestrator per task. Local-first, works with any model.</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">agentlas-ai/Agentlas-OS</guid>
-    </item>
-    <item>
-      <title>intent-hq/intent</title>
-      <link>https://github.com/intent-hq/intent</link>
-      <description>Monorepo for the Intent platform — tracks intentd, cloudlands-fe, and ios as submodules; docs, CI, and release orchestration</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">intent-hq/intent</guid>
-    </item>
-    <item>
-      <title>coolbbcamp/Pons-v2-Multi-Wallet-Volume-Bot</title>
-      <link>https://github.com/coolbbcamp/Pons-v2-Multi-Wallet-Volume-Bot</link>
-      <description>Pons v2 volume bot Ponsfamily volume bot Robinhood Chain volume bot Pons v2 bonding curve bot Ponsfamily Robinhood Chain bot Pons v2 multi wallet bot pons pons-v2 ponsfamily robinhood-chain volume-bot bonding-curve Pons v2 volume bot Ponsfamily volume bot Robinhood Chain volume bot Pons v2 bonding curve bot Ponsfamily Robinhood Chain bot Pons v2</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">coolbbcamp/Pons-v2-Multi-Wallet-Volume-Bot</guid>
-    </item>
-    <item>
-      <title>199-biotechnologies/claude-deep-research-skill</title>
-      <link>https://github.com/199-biotechnologies/claude-deep-research-skill</link>
-      <description>Enterprise-grade deep research skill for Claude Code with 8-phase pipeline, source credibility scoring, and automated validation. Outperforms OpenAI, Gemini, and Claude Desktop in quality and verification.</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">199-biotechnologies/claude-deep-research-skill</guid>
-    </item>
-    <item>
-      <title>fjykTec/ModernWMS</title>
-      <link>https://github.com/fjykTec/ModernWMS</link>
-      <description>The open source simple and complete warehouse management system is derived from our many years of experience in implementing erp projects. We stripped the original commercial system wms function and opened it up for free, hoping to help the majority of small and medium-sized enterprises. At present, the system supports cross-platform。</description>
-      <pubDate>Sat, 26 Sep 2026 05:09:52 GMT</pubDate>
-      <guid isPermaLink="false">fjykTec/ModernWMS</guid>
-    </item>
-    <item>
-      <title>TianyuCodings/NanoJev</title>
-      <link>https://github.com/TianyuCodings/NanoJev</link>
-      <description>A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">TianyuCodings/NanoJev</guid>
-    </item>
-    <item>
-      <title>whitecircle/halo</title>
-      <link>https://github.com/whitecircle/halo</link>
-      <description>Halo is an open-source framework built by White Circle for training large language and multimodal models</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">whitecircle/halo</guid>
-    </item>
-    <item>
-      <title>yibie/awesome-jev</title>
-      <link>https://github.com/yibie/awesome-jev</link>
-      <description>A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI&apos;s System One model for typed decisions.</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">yibie/awesome-jev</guid>
-    </item>
-    <item>
-      <title>autonomous-ai/openharness</title>
-      <link>https://github.com/autonomous-ai/openharness</link>
-      <description>The ultimate harness for coding agents and beyond. All your agents. All your machines. One command center. Start with code, then follow your curiosity and build across disciplines: CAD, circuits, robots, games and music.</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">autonomous-ai/openharness</guid>
-    </item>
-    <item>
-      <title>alibaba-damo-academy/damo-radar</title>
-      <link>https://github.com/alibaba-damo-academy/damo-radar</link>
-      <description>(no description)</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">alibaba-damo-academy/damo-radar</guid>
-    </item>
-    <item>
-      <title>FxEmbed/FxEmbed</title>
-      <link>https://github.com/FxEmbed/FxEmbed</link>
-      <description>Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">FxEmbed/FxEmbed</guid>
-    </item>
-    <item>
-      <title>boykopovar/AnyPS5</title>
-      <link>https://github.com/boykopovar/AnyPS5</link>
-      <description>Convert PS5 executables to run natively on Linux and Windows</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">boykopovar/AnyPS5</guid>
-    </item>
-    <item>
-      <title>Alain00/blobatar</title>
-      <link>https://github.com/Alain00/blobatar</link>
-      <description>(no description)</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">Alain00/blobatar</guid>
-    </item>
-    <item>
-      <title>superagents-lab/jev-search</title>
-      <link>https://github.com/superagents-lab/jev-search</link>
-      <description>Search the web with TypeSafe&apos;s Jev: source selection, query understanding and relevance ranking. Built with Search1API.</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">superagents-lab/jev-search</guid>
-    </item>
-    <item>
-      <title>Anil-matcha/awesome-jev-by-typesafe</title>
-      <link>https://github.com/Anil-matcha/awesome-jev-by-typesafe</link>
-      <description>Evidence-backed use cases, patterns, prompts, and starter code for TypeSafe Jev — a System One model for fast, typed, confidence-aware decisions in software.</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">Anil-matcha/awesome-jev-by-typesafe</guid>
-    </item>
-    <item>
-      <title>AgriciDaniel/compass</title>
-      <link>https://github.com/AgriciDaniel/compass</link>
-      <description>Compass: run your whole life out of Obsidian. Daily questions, quarterly retreats, planning, habits, tasks, writing, and an AI assistant in the vault.</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">AgriciDaniel/compass</guid>
-    </item>
-    <item>
-      <title>TNTcraftHIM/Piik</title>
-      <link>https://github.com/TNTcraftHIM/Piik</link>
-      <description>Free, open-source screen sharing for friends. P2P-first, with browser viewing, a desktop app and optional self-hosting.</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">TNTcraftHIM/Piik</guid>
-    </item>
-    <item>
-      <title>jianruntech/geo-score</title>
-      <link>https://github.com/jianruntech/geo-score</link>
-      <description>Will ChatGPT cite your site? Score it in 20 seconds against an open, versioned GEO rubric. Python, zero dependencies.</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">jianruntech/geo-score</guid>
-    </item>
-    <item>
-      <title>loysger/Antigravity</title>
-      <link>https://github.com/loysger/Antigravity</link>
-      <description>Google Antigravity в России: запуск БЕЗ VPN на Windows, macOS и Linux. Обход ошибки 400 и блокировки аккаунта. Доступ к Claude 4.6 и Gemini 3.8 Flash High.</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">loysger/Antigravity</guid>
-    </item>
-    <item>
-      <title>x4gpanell/PasarGuard</title>
-      <link>https://github.com/x4gpanell/PasarGuard</link>
-      <description>(no description)</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">x4gpanell/PasarGuard</guid>
-    </item>
-    <item>
-      <title>valen-lang/Valen</title>
-      <link>https://github.com/valen-lang/Valen</link>
-      <description>Compiler for the Valen programming language</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">valen-lang/Valen</guid>
-    </item>
-    <item>
-      <title>himdo/Fable-2-Recomp</title>
-      <link>https://github.com/himdo/Fable-2-Recomp</link>
-      <description>(no description)</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">himdo/Fable-2-Recomp</guid>
-    </item>
-    <item>
-      <title>realZachi/pg-jev</title>
-      <link>https://github.com/realZachi/pg-jev</link>
-      <description>Ask your Postgres tables questions in plain language. A PostgreSQL extension powered by TypeSafe&apos;s Jev.</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">realZachi/pg-jev</guid>
-    </item>
-    <item>
-      <title>AnotiaWang/awesome-jev</title>
-      <link>https://github.com/AnotiaWang/awesome-jev</link>
-      <description>A curated list of awesome Jev / TypeSafe System One applications, libraries, and resources.</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">AnotiaWang/awesome-jev</guid>
-    </item>
-    <item>
-      <title>flamingo-stack/openframe-oss-lib</title>
-      <link>https://github.com/flamingo-stack/openframe-oss-lib</link>
-      <description>Shared libraries between all services</description>
-      <pubDate>Fri, 25 Sep 2026 05:06:31 GMT</pubDate>
-      <guid isPermaLink="false">flamingo-stack/openframe-oss-lib</guid>
     </item>
   </channel>
 </rss>

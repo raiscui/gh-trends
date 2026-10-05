@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Oct 2026 05:29:15 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 05:55:10 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>Ebony-Vinyl/dsh-our-free-model</title>
+      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
+      <description>在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 Muse Spark 1.3、MiMo V2.6 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, Muse Spark 1.3 and MiMo V2.6 among them. Completely free, with no usage cap.</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">Ebony-Vinyl/dsh-our-free-model</guid>
+    </item>
+    <item>
+      <title>OpenCommunityEdition/OpenCE</title>
+      <link>https://github.com/OpenCommunityEdition/OpenCE</link>
+      <description>Halo: Combat Evolved (for original Xbox) ported to Windows, Linux and Android</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">OpenCommunityEdition/OpenCE</guid>
+    </item>
+    <item>
+      <title>icubaby/SideRail</title>
+      <link>https://github.com/icubaby/SideRail</link>
+      <description>Xray-core VPN panel, one-click deploy on Railway</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">icubaby/SideRail</guid>
+    </item>
+    <item>
+      <title>AgentSystemLabs/agent-office</title>
+      <link>https://github.com/AgentSystemLabs/agent-office</link>
+      <description>A cartoon 3D office where your team hires Claude Code workers at desks, shares live terminals, talks over voice, and tracks GitHub issues and PRs.</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">AgentSystemLabs/agent-office</guid>
+    </item>
+    <item>
+      <title>deepseek-ai/DeepGEMM</title>
+      <link>https://github.com/deepseek-ai/DeepGEMM</link>
+      <description>DeepGEMM: clean and efficient BLAS kernel library on GPU</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">deepseek-ai/DeepGEMM</guid>
+    </item>
+    <item>
+      <title>ZallaxDev/pokeemerald-3Ds-dualscreen</title>
+      <link>https://github.com/ZallaxDev/pokeemerald-3Ds-dualscreen</link>
+      <description>Native Pokémon Emerald port for Nintendo 3DS, featuring dual-screen gameplay, stereoscopic 3D, and a fully 3D world.</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">ZallaxDev/pokeemerald-3Ds-dualscreen</guid>
+    </item>
+    <item>
+      <title>kanoqwq/UFI-TOOLS</title>
+      <link>https://github.com/kanoqwq/UFI-TOOLS</link>
+      <description>A functional tools for z*e devices (F50 | U30 Air)</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">kanoqwq/UFI-TOOLS</guid>
+    </item>
+    <item>
+      <title>aerovato/operator-memory</title>
+      <link>https://github.com/aerovato/operator-memory</link>
+      <description>The self-improving context engine for coding agents.</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">aerovato/operator-memory</guid>
+    </item>
+    <item>
+      <title>emotixco/claude-skills-founder</title>
+      <link>https://github.com/emotixco/claude-skills-founder</link>
+      <description>Claude Code skills for startup founders — product briefs, competitor analysis, pricing strategy, pitch decks, and GTM plans from your terminal</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">emotixco/claude-skills-founder</guid>
+    </item>
+    <item>
+      <title>tjboudreaux/cc-thinking-skills</title>
+      <link>https://github.com/tjboudreaux/cc-thinking-skills</link>
+      <description>28 eval-informed mental models and critical-thinking skills for Claude Code, GitHub Copilot, Codex, Cursor, and other Agent Skills-compatible tools</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">tjboudreaux/cc-thinking-skills</guid>
+    </item>
+    <item>
+      <title>tgmtproxy/telegram-mtproto-proxy-list</title>
+      <link>https://github.com/tgmtproxy/telegram-mtproto-proxy-list</link>
+      <description>MTProto прокси для Telegram: рабочий список мтпрокси для тг, обновляется каждый час. Free Telegram MTProxy list, verified hourly.</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">tgmtproxy/telegram-mtproto-proxy-list</guid>
+    </item>
+    <item>
+      <title>GC-STEM/it140-projects</title>
+      <link>https://github.com/GC-STEM/it140-projects</link>
+      <description>IT 140 Projects repository for designing, prototyping, developing, and testing a Python text-based adventure game across Modules Five–Seven. Uses an SDLC workflow to connect Project One game design, the Module Six prototype milestone, and Project Two final implementation.</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">GC-STEM/it140-projects</guid>
+    </item>
+    <item>
+      <title>seanprashad/leetcode-patterns</title>
+      <link>https://github.com/seanprashad/leetcode-patterns</link>
+      <description>A pattern-based approach to learn technical interview questions</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">seanprashad/leetcode-patterns</guid>
+    </item>
+    <item>
+      <title>pawurb/hotpath-rs</title>
+      <link>https://github.com/pawurb/hotpath-rs</link>
+      <description>Rust profiler for CPU, memory, SQL, HTTP, and async performance, with Prometheus and Grafana support.</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">pawurb/hotpath-rs</guid>
+    </item>
+    <item>
+      <title>czg86389-hub/muse2api</title>
+      <link>https://github.com/czg86389-hub/muse2api</link>
+      <description>把 Muse(muse.ai) 逆向封装为 OpenAI 兼容接口，支持对话、文生图、文生视频/图生视频、多账号池轮转与 48h 自动续期。OpenAI-compatible API for Muse.ai with Chat, Image &amp; Video generation.</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">czg86389-hub/muse2api</guid>
+    </item>
+    <item>
+      <title>B0yko/tern</title>
+      <link>https://github.com/B0yko/tern</link>
+      <description>Local AI search for podcast and video archives on Apple Silicon: Whisper speech, Apple Vision OCR and SigLIP-2 visual search fused into one ranked list, with a trim editor and FCPXML export. FastAPI, vanilla JS, Tauri. Source-visible, all rights reserved.</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">B0yko/tern</guid>
+    </item>
+    <item>
+      <title>caigee-cmd/cli2api</title>
+      <link>https://github.com/caigee-cmd/cli2api</link>
+      <description>Self-hosted OpenAI-compatible API for Qoder CLI login,workbuddy, with SQLite multi-account routing</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">caigee-cmd/cli2api</guid>
+    </item>
+    <item>
+      <title>FileMintApp/FileMint</title>
+      <link>https://github.com/FileMintApp/FileMint</link>
+      <description>Native macOS utility for creating files from Finder&apos;s right-click menu.</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">FileMintApp/FileMint</guid>
+    </item>
+    <item>
+      <title>graphene-data/graphene</title>
+      <link>https://github.com/graphene-data/graphene</link>
+      <description>Turn your coding agent into a world-class data analyst</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">graphene-data/graphene</guid>
+    </item>
+    <item>
+      <title>andyhuo520/aetherviz-master</title>
+      <link>https://github.com/andyhuo520/aetherviz-master</link>
+      <description>AetherViz Master - 互动教育可视化建筑师，将任意教学主题转化为沉浸式3D交互网页</description>
+      <pubDate>Mon, 05 Oct 2026 05:55:10 GMT</pubDate>
+      <guid isPermaLink="false">andyhuo520/aetherviz-master</guid>
+    </item>
     <item>
       <title>willfaust/Madeira</title>
       <link>https://github.com/willfaust/Madeira</link>
@@ -45,7 +185,7 @@
     <item>
       <title>garinasset/leak-check</title>
       <link>https://github.com/garinasset/leak-check</link>
-      <description>厘查 API © 嘉林数据 </description>
+      <description>厘查 API © 嘉林数据</description>
       <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
       <guid isPermaLink="false">garinasset/leak-check</guid>
     </item>
@@ -426,286 +566,6 @@
       <description>Awesome list of TypeSafe AI Jev use cases: 74 demos ranked by likes, 150+ GitHub repos, limits, cost and API examples. CC0</description>
       <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
       <guid isPermaLink="false">walidboulanouar/awesome-jev-use-cases</guid>
-    </item>
-    <item>
-      <title>superdesigndev/treg</title>
-      <link>https://github.com/superdesigndev/treg</link>
-      <description>OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">superdesigndev/treg</guid>
-    </item>
-    <item>
-      <title>QwenLM/Qwen-Image-2.1</title>
-      <link>https://github.com/QwenLM/Qwen-Image-2.1</link>
-      <description>Qwen&apos;s most powerful open-source image generation model</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">QwenLM/Qwen-Image-2.1</guid>
-    </item>
-    <item>
-      <title>Mak5er/AirCard-iOS</title>
-      <link>https://github.com/Mak5er/AirCard-iOS</link>
-      <description>Apple Wallet card skins and lock screen passcode themes on iOS 27.</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">Mak5er/AirCard-iOS</guid>
-    </item>
-    <item>
-      <title>jerryjliu/docjev</title>
-      <link>https://github.com/jerryjliu/docjev</link>
-      <description>A very fast document classifier/splitter using Jev</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">jerryjliu/docjev</guid>
-    </item>
-    <item>
-      <title>TypeLLM/TypeLLM</title>
-      <link>https://github.com/TypeLLM/TypeLLM</link>
-      <description>TypeLLM: LLMs with type-safe generation</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">TypeLLM/TypeLLM</guid>
-    </item>
-    <item>
-      <title>kerpopule/hermes-jev-skills</title>
-      <link>https://github.com/kerpopule/hermes-jev-skills</link>
-      <description>Jev-powered model routing, memory, compaction, skill selection, computer and browser use for Hermes agents (also Claude Code and Codex)</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">kerpopule/hermes-jev-skills</guid>
-    </item>
-    <item>
-      <title>caxete/crypto-tax-calculator</title>
-      <link>https://github.com/caxete/crypto-tax-calculator</link>
-      <description>A comprehensive crypto tax solution supporting leading wallets, exchanges, and blockchain explorers.</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">caxete/crypto-tax-calculator</guid>
-    </item>
-    <item>
-      <title>receptron/laya</title>
-      <link>https://github.com/receptron/laya</link>
-      <description>Run Laya, the open-source Jev-compatible System-1 decision model, from Node.js / TypeScript via ONNX Runtime</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">receptron/laya</guid>
-    </item>
-    <item>
-      <title>hokindeng/object-permanence</title>
-      <link>https://github.com/hokindeng/object-permanence</link>
-      <description>Training Object Permanence in World Models — the codebase</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">hokindeng/object-permanence</guid>
-    </item>
-    <item>
-      <title>Recurse-Labs/recurse</title>
-      <link>https://github.com/Recurse-Labs/recurse</link>
-      <description>AI Native IDE for reverse engineering</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">Recurse-Labs/recurse</guid>
-    </item>
-    <item>
-      <title>FatihMakes/Mark-LV</title>
-      <link>https://github.com/FatihMakes/Mark-LV</link>
-      <description>Newest, latest and most advanced model that is able to control computers and even more. We&apos;re improving that model day by day, so follow up to know and see new models.</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">FatihMakes/Mark-LV</guid>
-    </item>
-    <item>
-      <title>lightorigins/Light-O1</title>
-      <link>https://github.com/lightorigins/Light-O1</link>
-      <description>(no description)</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">lightorigins/Light-O1</guid>
-    </item>
-    <item>
-      <title>Zefan-Cai/Open-Jev</title>
-      <link>https://github.com/Zefan-Cai/Open-Jev</link>
-      <description>(no description)</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">Zefan-Cai/Open-Jev</guid>
-    </item>
-    <item>
-      <title>yunncheng/GameWAM</title>
-      <link>https://github.com/yunncheng/GameWAM</link>
-      <description>GameWAM: A World Action Model for Video Games</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">yunncheng/GameWAM</guid>
-    </item>
-    <item>
-      <title>0x6rss/chat-apps-osint</title>
-      <link>https://github.com/0x6rss/chat-apps-osint</link>
-      <description>Peer-metadata capture for chat-app calls (WhatsApp, Signal, Telegram ..etc). Authorized/consent use only. and more..</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">0x6rss/chat-apps-osint</guid>
-    </item>
-    <item>
-      <title>GC-STEM/it140-m4-assignment</title>
-      <link>https://github.com/GC-STEM/it140-m4-assignment</link>
-      <description>IT 140 Module Four assignment repository for designing a Higher/Lower Game with pseudocode. Uses an SDLC workflow to practice input validation, decision branching, loops, software design, and optional Python construction and testing.</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">GC-STEM/it140-m4-assignment</guid>
-    </item>
-    <item>
-      <title>danielwh2/cube-motion</title>
-      <link>https://github.com/danielwh2/cube-motion</link>
-      <description>Four motions, no dials. Every duration, curve and distance is already decided, so the only thing left to choose is which element moves.</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">danielwh2/cube-motion</guid>
-    </item>
-    <item>
-      <title>amitshekhariitbhu/ai-engineer-roadmap</title>
-      <link>https://github.com/amitshekhariitbhu/ai-engineer-roadmap</link>
-      <description>AI Engineer Roadmap - A step-by-step AI Engineering roadmap to become an AI Engineer, with a blog for every topic.</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">amitshekhariitbhu/ai-engineer-roadmap</guid>
-    </item>
-    <item>
-      <title>Promethe-us/awesome-jev</title>
-      <link>https://github.com/Promethe-us/awesome-jev</link>
-      <description>A source-backed Jev / System One knowledge map: projects, papers, evaluations, robotics, and social discovery.</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">Promethe-us/awesome-jev</guid>
-    </item>
-    <item>
-      <title>Pengc-Sun/enterprise-rag-knowledge-base</title>
-      <link>https://github.com/Pengc-Sun/enterprise-rag-knowledge-base</link>
-      <description>Enterprise-oriented RAG knowledge base system</description>
-      <pubDate>Mon, 28 Sep 2026 05:35:11 GMT</pubDate>
-      <guid isPermaLink="false">Pengc-Sun/enterprise-rag-knowledge-base</guid>
-    </item>
-    <item>
-      <title>vectorize-io/hindsight</title>
-      <link>https://github.com/vectorize-io/hindsight</link>
-      <description>Hindsight: Agent Memory That Learns</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">vectorize-io/hindsight</guid>
-    </item>
-    <item>
-      <title>mizorewww/laya-mlx</title>
-      <link>https://github.com/mizorewww/laya-mlx</link>
-      <description>Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">mizorewww/laya-mlx</guid>
-    </item>
-    <item>
-      <title>paperclipai/paperclip</title>
-      <link>https://github.com/paperclipai/paperclip</link>
-      <description>The open-source app everyone uses to manage agents at work</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">paperclipai/paperclip</guid>
-    </item>
-    <item>
-      <title>rocketride-org/rocketride-server</title>
-      <link>https://github.com/rocketride-org/rocketride-server</link>
-      <description>High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all from your IDE. Includes VS Code extension, TypeScript/Python SDKs, and Docker deployment.</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">rocketride-org/rocketride-server</guid>
-    </item>
-    <item>
-      <title>bespokelabsai/nimble</title>
-      <link>https://github.com/bespokelabsai/nimble</link>
-      <description>Local typed decisions, contrastive data curation, and model evaluation.</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">bespokelabsai/nimble</guid>
-    </item>
-    <item>
-      <title>mizorewww/laya-coreml</title>
-      <link>https://github.com/mizorewww/laya-coreml</link>
-      <description>Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">mizorewww/laya-coreml</guid>
-    </item>
-    <item>
-      <title>Lumid-Off/AirCard-Windows</title>
-      <link>https://github.com/Lumid-Off/AirCard-Windows</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">Lumid-Off/AirCard-Windows</guid>
-    </item>
-    <item>
-      <title>heyjunpenn/awesome-jev</title>
-      <link>https://github.com/heyjunpenn/awesome-jev</link>
-      <description>A verified, community-maintained catalog of 916 open-source projects built with Jev.</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">heyjunpenn/awesome-jev</guid>
-    </item>
-    <item>
-      <title>ethanplusai/astra-flash-orchestrator</title>
-      <link>https://github.com/ethanplusai/astra-flash-orchestrator</link>
-      <description>Astra plans and reviews; DeepSeek Flash builds. A native Codex workflow with phased tasks, verification, safe installation and reversible setup.</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">ethanplusai/astra-flash-orchestrator</guid>
-    </item>
-    <item>
-      <title>cs341-illinois/coursebook</title>
-      <link>https://github.com/cs341-illinois/coursebook</link>
-      <description>Open Source Introductory Systems Programming Textbook for the University of Illinois</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">cs341-illinois/coursebook</guid>
-    </item>
-    <item>
-      <title>wfzyx/von</title>
-      <link>https://github.com/wfzyx/von</link>
-      <description>The open-source System One decision model. Sub-15ms, non-autoregressive, local drop-in alternative to TypeSafe Jev.</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">wfzyx/von</guid>
-    </item>
-    <item>
-      <title>youart-open-source/awesome-gpt-image-2-5-prompts</title>
-      <link>https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts</link>
-      <description>GPT Image 2.5 prompts, verbatim and credited: 150 community prompts across 9 use cases, each with the author who wrote it and their post. Free to run.</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">youart-open-source/awesome-gpt-image-2-5-prompts</guid>
-    </item>
-    <item>
-      <title>PotterScissors/Ads-Blocker</title>
-      <link>https://github.com/PotterScissors/Ads-Blocker</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">PotterScissors/Ads-Blocker</guid>
-    </item>
-    <item>
-      <title>Tavotto/Tavotto</title>
-      <link>https://github.com/Tavotto/Tavotto</link>
-      <description>Make AI-generated scientific figures editable without losing the code behind them.</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">Tavotto/Tavotto</guid>
-    </item>
-    <item>
-      <title>androoAGI/starnet</title>
-      <link>https://github.com/androoAGI/starnet</link>
-      <description>A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">androoAGI/starnet</guid>
-    </item>
-    <item>
-      <title>kitze/unclutter</title>
-      <link>https://github.com/kitze/unclutter</link>
-      <description>WXT browser extension: Jev-powered page clutter removal with reusable template rules.</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">kitze/unclutter</guid>
-    </item>
-    <item>
-      <title>sergebulaev/instagram-skills</title>
-      <link>https://github.com/sergebulaev/instagram-skills</link>
-      <description>Instagram marketing skills for Claude Code and Codex: captions, carousels, hooks, hashtag strategy, and a weekly plan. Draft, humanize, and publish via Publora. MIT. Content engineering by Creative Content Crafts.</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">sergebulaev/instagram-skills</guid>
-    </item>
-    <item>
-      <title>kishormorol/cli-faq-shortcuts</title>
-      <link>https://github.com/kishormorol/cli-faq-shortcuts</link>
-      <description>An Agent Skill that turns the asks you keep typing into short commands, mined from your own Claude Code and Codex history. Works in Claude Code, Codex and Cursor.</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">kishormorol/cli-faq-shortcuts</guid>
-    </item>
-    <item>
-      <title>mohamdev/InstantHMR</title>
-      <link>https://github.com/mohamdev/InstantHMR</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">mohamdev/InstantHMR</guid>
-    </item>
-    <item>
-      <title>v-modal/awesome-jev-tools</title>
-      <link>https://github.com/v-modal/awesome-jev-tools</link>
-      <description>A curated list of tools  built for Jev — TypeSafe AI&apos;s System One model for typed decisions.</description>
-      <pubDate>Sun, 27 Sep 2026 05:27:09 GMT</pubDate>
-      <guid isPermaLink="false">v-modal/awesome-jev-tools</guid>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,14 @@ import { ScoredRepo } from '../../src/pipeline/select';
 // 测试 helper:把所有 mock repos 装进 sections.main,空垂直段让 markdown.hbs
 // 里那几个 section 渲染空 tier 表格(模板自带空保护,不会报错)。
 function toSections(repos: ScoredRepo[]) {
-  return { main: repos, rust: [], agent: [], deepseekHarness: [], vercelAiSdk: [] };
+  return {
+    main: repos,
+    rust: [],
+    agent: [],
+    deepseekHarness: [],
+    vercelAiSdk: [],
+    aiVideoEditor: [],
+  };
 }
 
 describe('render.ts', () => {
@@ -63,7 +70,14 @@ describe('render.ts', () => {
             description: null,
             primaryLanguage: null,
           },
-        ].map(r => ({ main: [r], rust: [], agent: [], deepseekHarness: [], vercelAiSdk: [] }))[0]!
+        ].map(r => ({
+          main: [r],
+          rust: [],
+          agent: [],
+          deepseekHarness: [],
+          vercelAiSdk: [],
+          aiVideoEditor: [],
+        }))[0]!
       );
 
       expect(content).toContain('(no description)');

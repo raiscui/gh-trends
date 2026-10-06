@@ -3,7 +3,7 @@ import path from 'node:path';
 import Handlebars from 'handlebars';
 import { ScoredRepo } from './select';
 
-// 模板注入的 sections 数据。五段 markdown(html / text 也是同样结构)。
+// 模板注入的 sections 数据。六段 markdown(html / text 也是同样结构)。
 // 每个 section 是一个已排好序的 ScoredRepo 列表,模板按 `@index < sectionTopN` 渲染前 N 个。
 // ponytail: 顶层 key 叫 sections 而不是 release;字段命名跟上下文"垂直榜单"对齐。
 export interface ReleaseSections {
@@ -11,7 +11,10 @@ export interface ReleaseSections {
   rust: ScoredRepo[];
   agent: ScoredRepo[];
   deepseekHarness: ScoredRepo[];
+  // 以下两段来自生态榜独立通道(ADR-0003), 数据源与上面四段不同:
+  // 候选池来自 GitHub topic 搜索, 排序窗口 ECOSYSTEM_WINDOW_DAYS
   vercelAiSdk: ScoredRepo[];
+  aiVideoEditor: ScoredRepo[];
 }
 
 Handlebars.registerHelper('lt', (a, b) => a < b);

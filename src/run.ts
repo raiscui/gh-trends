@@ -3,12 +3,12 @@
 import 'dotenv-flow/config';
 import { scan } from './pipeline/scan';
 import { select } from './pipeline/select';
+import { selectRust, selectAgent, selectDeepSeekHarness } from './pipeline/vertical';
 import {
-  selectRust,
-  selectAgent,
-  selectDeepSeekHarness,
-  selectVercelAiSdk,
-} from './pipeline/vertical';
+  buildEcosystemBoard,
+  VERCEL_AI_SDK_BOARD,
+  AI_VIDEO_EDITOR_BOARD,
+} from './pipeline/ecosystem';
 import { publishAll } from './pipeline/publish';
 import { logInfo, TaggedError } from './utils/logging';
 import { handleProcessError } from './utils/common';
@@ -49,21 +49,25 @@ export async function main(): Promise<void> {
   }
 
   console.log('\n', '🏆 Ranking to select the best');
-  // 共享 filter 后的 repo pool,做五道 sub-select:
+  // 池内四榜(共享 filter 后的 repo pool,做 sub-select):
   //   - 主榜: rankAndSlice(filtered, RELEASE_TOP_N=20)
   //   - Rust 榜: filter(primaryLanguage=Rust) → rankAndSlice(RELEASE_TOP_N_RUST=30)
   //   - Agent 榜: filter(isAgentRepo) → rankAndSlice(RELEASE_TOP_N_AGENT=30)
   //   - DeepSeek Harness 榜: filter(isDeepSeekHarnessRepo) → rankAndSlice(RELEASE_TOP_N_DEEPSEEK=30)
-  //   - Vercel AI SDK 榜: filter(isVercelAiSdkRepo) → rankAndSlice(RELEASE_TOP_N_VERCEL_AI_SDK=30)
   // 各榜单评分口径一致(fresh bucket + starsPerHour × medianAge),D4 = X1 允许重叠。
   const mainRepos = select(filteredRepos);
   const rustRepos = selectRust(filteredRepos);
   const agentRepos = selectAgent(filteredRepos);
   const deepseekHarnessRepos = selectDeepSeekHarness(filteredRepos);
-  const vercelAiSdkRepos = selectVercelAiSdk(filteredRepos);
+
+  // 生态榜两段(Vercel AI SDK / AI Video Editor)走独立取数通道,见 ADR-0003:
+  // 候选池来自 GitHub topic 搜索而非主榜池, 排序窗口 ECOSYSTEM_WINDOW_DAYS。
+  // 两者均 fail-soft, 失败只留空不影响其余段落发布。
+  const vercelAiSdkRepos = await buildEcosystemBoard(VERCEL_AI_SDK_BOARD);
+  const aiVideoEditorRepos = await buildEcosystemBoard(AI_VIDEO_EDITOR_BOARD);
   logInfo(
     'score',
-    `selected: main=${mainRepos.length}, rust=${rustRepos.length}, agent=${agentRepos.length}, deepseekHarness=${deepseekHarnessRepos.length}, vercelAiSdk=${vercelAiSdkRepos.length}`
+    `selected: main=${mainRepos.length}, rust=${rustRepos.length}, agent=${agentRepos.length}, deepseekHarness=${deepseekHarnessRepos.length}, vercelAiSdk=${vercelAiSdkRepos.length}, aiVideoEditor=${aiVideoEditorRepos.length}`
   );
 
   console.log('\n', '📮 Publishing to all enabled channels');
@@ -73,15 +77,18 @@ export async function main(): Promise<void> {
     agent: agentRepos,
     deepseekHarness: deepseekHarnessRepos,
     vercelAiSdk: vercelAiSdkRepos,
+    aiVideoEditor: aiVideoEditorRepos,
   });
   logInfo('publish', `published release (IDs: ${messageIds.join(', ')})`);
 
   // 全部渠道发布成功后才回写发布记忆: 保证失败重跑不会漏推
+  //
+  // 只回写**池内四榜**: 生态榜候选池小(Vercel 有增速的仅约 30 个),
+  // 若把生态榜条目也写进 90 天记忆, 会被主榜池的 dedupe 挡在门外,
+  // 导致该段长期空榜(ADR-0003 设计决策 2)。
   const publishedNames = [
     ...new Set(
-      [...mainRepos, ...rustRepos, ...agentRepos, ...deepseekHarnessRepos, ...vercelAiSdkRepos].map(
-        r => r.nameWithOwner
-      )
+      [...mainRepos, ...rustRepos, ...agentRepos, ...deepseekHarnessRepos].map(r => r.nameWithOwner)
     ),
   ];
   recordPublished(publishedNames, PUBLISHED_MEMORY_PATH);

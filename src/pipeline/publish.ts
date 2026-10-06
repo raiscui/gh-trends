@@ -27,14 +27,15 @@ export async function publishAll(
     return [];
   }
 
-  // 五段榜单都要计入:漏算段会导致"该段有货但其余全空"时被误判跳过发布
+  // 六段榜单都要计入:漏算段会导致"该段有货但其余全空"时被误判跳过发布
   // (历史 bug:D8 接入 DeepSeek 段时此处漏加,已修复)
   const totalRepos =
     sections.main.length +
     sections.rust.length +
     sections.agent.length +
     sections.deepseekHarness.length +
-    sections.vercelAiSdk.length;
+    sections.vercelAiSdk.length +
+    sections.aiVideoEditor.length;
   if (totalRepos === 0) {
     logInfo('publish', 'no repositories to publish, skipping publication');
     return [];
@@ -43,7 +44,7 @@ export async function publishAll(
   logInfo('publish', `starting publication via ${enabledPubs.map(p => p.name).join(', ')}`);
   logInfo(
     'publish',
-    `sections: main=${sections.main.length}, rust=${sections.rust.length}, agent=${sections.agent.length}, deepseekHarness=${sections.deepseekHarness.length}, vercelAiSdk=${sections.vercelAiSdk.length}`
+    `sections: main=${sections.main.length}, rust=${sections.rust.length}, agent=${sections.agent.length}, deepseekHarness=${sections.deepseekHarness.length}, vercelAiSdk=${sections.vercelAiSdk.length}, aiVideoEditor=${sections.aiVideoEditor.length}`
   );
 
   // Run all publishers in parallel

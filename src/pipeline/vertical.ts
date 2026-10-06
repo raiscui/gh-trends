@@ -1,7 +1,6 @@
 import { GithubRepo } from '../clients/github.gql';
 import { isAgentRepo } from '../clients/agentKeywords';
 import { isDeepSeekHarnessRepo } from '../clients/deepSeekKeywords';
-import { isVercelAiSdkRepo } from '../clients/vercelAiSdkKeywords';
 import { ScoredRepo, rankAndSlice } from './select';
 
 // 垂直榜单入口:在主榜 filter 后的 repos 基础上,做 in-memory sub-select,
@@ -10,6 +9,11 @@ import { ScoredRepo, rankAndSlice } from './select';
 // ponytail: 没有引入 VerticalChannelStrategy 接口;直接多个函数 +
 // 各自的 top-N env 配置。比"配置驱动的多榜单"少一层抽象。
 // 见 docs/adr/0002-vertical-channels-rust-and-agent.md
+//
+// 范围(2026-10-04 起): 本模块只保留**能在主榜池里命中**的榜 ——
+// Rust / Agent / DeepSeek Harness。Vercel AI SDK 已迁到生态榜
+// (pipeline/ecosystem.ts, ADR-0003), 因为成熟生态周增速个位数,
+// 在主榜池的爆发式增长门槛下结构性命中为 0。
 
 // Rust 榜单:严格按 GitHub 主导语言 = Rust 过滤(D2 = L1)。
 export function selectRust(repos: GithubRepo[]): ScoredRepo[] {
@@ -33,13 +37,4 @@ export function selectDeepSeekHarness(repos: GithubRepo[]): ScoredRepo[] {
   const topN = parseInt(process.env.RELEASE_TOP_N_DEEPSEEK ?? '30');
   const dsRepos = repos.filter(isDeepSeekHarnessRepo);
   return rankAndSlice(dsRepos, topN);
-}
-
-// Vercel AI SDK 榜单:在 name + description 中命中 VERCEL_AI_SDK_KEYWORDS 过滤。
-// 用户原话"增加一个 Vercel AI SDK 关键词的排行",沿用 D8(DeepSeek Harness)
-// 同款 vertical channel 路径,评分口径与 fail-closed 默认行为跟其他榜一致。
-export function selectVercelAiSdk(repos: GithubRepo[]): ScoredRepo[] {
-  const topN = parseInt(process.env.RELEASE_TOP_N_VERCEL_AI_SDK ?? '30');
-  const vercelAiSdkRepos = repos.filter(isVercelAiSdkRepo);
-  return rankAndSlice(vercelAiSdkRepos, topN);
 }

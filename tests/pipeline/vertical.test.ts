@@ -1,10 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import {
-  selectRust,
-  selectAgent,
-  selectDeepSeekHarness,
-  selectVercelAiSdk,
-} from '../../src/pipeline/vertical';
+import { selectRust, selectAgent, selectDeepSeekHarness } from '../../src/pipeline/vertical';
 import { GithubRepo } from '../../src/clients/github.gql';
 
 // 测试工厂:构造可控制 primaryLanguage / description / score 的 repo。
@@ -354,102 +349,6 @@ describe('selectDeepSeekHarness', () => {
     );
 
     const out = selectDeepSeekHarness(dsRepos);
-
-    expect(out).toHaveLength(2);
-  });
-});
-
-describe('selectVercelAiSdk', () => {
-  beforeEach(() => {
-    vi.useFakeTimers();
-    vi.setSystemTime(new Date('2026-09-29T12:00:00Z'));
-    vi.stubEnv('SCAN_WINDOW_DAYS', '7');
-    vi.stubEnv('SELECT_FRESH_HOURS', '24');
-  });
-
-  it('only includes repos matching vercel ai sdk / vercel/ai / ai-sdk keywords', () => {
-    vi.stubEnv('RELEASE_TOP_N_VERCEL_AI_SDK', '5');
-
-    const official = mkRepo({
-      name: 'vercel/ai',
-      hoursAgo: 10,
-      starsWithin: 100,
-    });
-    const chatbot = mkRepo({
-      name: 'vercel/ai-chatbot',
-      hoursAgo: 20,
-      starsWithin: 80,
-    });
-    const provider = mkRepo({
-      name: 'foo/ollama-ai-sdk-provider',
-      hoursAgo: 5,
-      starsWithin: 200,
-    });
-    const unrelated = mkRepo({
-      name: 'foo/something-else',
-      hoursAgo: 6,
-      starsWithin: 150,
-    });
-
-    const out = selectVercelAiSdk([official, chatbot, provider, unrelated]);
-
-    expect(out.map(r => r.nameWithOwner).sort()).toEqual([
-      'foo/ollama-ai-sdk-provider',
-      'vercel/ai',
-      'vercel/ai-chatbot',
-    ]);
-  });
-
-  it('matches when description contains the brand phrase (M2-style)', () => {
-    vi.stubEnv('RELEASE_TOP_N_VERCEL_AI_SDK', '5');
-
-    const byDesc = mkRepo({
-      name: 'foo/silent-repo',
-      hoursAgo: 5,
-      starsWithin: 90,
-      description: 'A provider for the Vercel AI SDK',
-    });
-
-    const out = selectVercelAiSdk([byDesc]);
-
-    expect(out.map(r => r.nameWithOwner)).toEqual(['foo/silent-repo']);
-  });
-
-  it('returns empty array when no Vercel AI SDK repos in pool', () => {
-    vi.stubEnv('RELEASE_TOP_N_VERCEL_AI_SDK', '30');
-
-    const a = mkRepo({
-      name: 'rust/web',
-      language: 'Rust',
-      hoursAgo: 5,
-      starsWithin: 100,
-      description: 'Web framework',
-    });
-    const b = mkRepo({
-      name: 'foo/client',
-      language: 'TypeScript',
-      hoursAgo: 6,
-      starsWithin: 80,
-      description: 'Wrapper for the OpenAI SDK',
-    });
-
-    const out = selectVercelAiSdk([a, b]);
-
-    expect(out).toEqual([]);
-  });
-
-  it('respects RELEASE_TOP_N_VERCEL_AI_SDK top-N cap', () => {
-    vi.stubEnv('RELEASE_TOP_N_VERCEL_AI_SDK', '2');
-
-    const repos = Array.from({ length: 5 }, (_, i) =>
-      mkRepo({
-        name: `foo/ai-sdk-${i}`,
-        hoursAgo: 5,
-        starsWithin: 100 - i * 10,
-      })
-    );
-
-    const out = selectVercelAiSdk(repos);
 
     expect(out).toHaveLength(2);
   });

@@ -20,6 +20,7 @@ describe('rss.ts', () => {
     agent: [],
     deepseekHarness: [],
     vercelAiSdk: [],
+    aiVideoEditor: [],
   };
 
   beforeEach(() => {
@@ -143,6 +144,7 @@ describe('rss.ts', () => {
         agent: [],
         deepseekHarness: [],
         vercelAiSdk: [],
+        aiVideoEditor: [],
       });
 
       const content = readFileSync(testRssPath, 'utf-8');

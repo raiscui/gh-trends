@@ -178,6 +178,42 @@
 </tr>
 </table>
 
+---
+
+## 🎬 AI Video Editor trends
+*top repositories trending in the AI video editing ecosystem*
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+## 🥇 **Tier 1**
+
+{{#each sections.aiVideoEditor}}
+{{#if (lt @index 8)}}
+**[{{nameWithOwner}}]({{url}})** {{#if primaryLanguage.name}}`{{primaryLanguage.name}}`{{/if}} `⭐ {{formatNumber stargazerCount}}`
+{{#if description}}*{{truncate description ../descLimit}}*{{else}}*(no description)*{{/if}}
+
+{{/if}}
+{{/each}}
+
+</td>
+<td width="50%" valign="top">
+
+## 🥈 **Tier 2**
+
+{{#each sections.aiVideoEditor}}
+{{#if (and (gte @index 8) (lt @index 15))}}
+**[{{nameWithOwner}}]({{url}})** {{#if primaryLanguage.name}}`{{primaryLanguage.name}}`{{/if}} `⭐ {{formatNumber stargazerCount}}`
+{{#if description}}*{{truncate description ../descLimit}}*{{else}}*(no description)*{{/if}}
+
+{{/if}}
+{{/each}}
+
+</td>
+</tr>
+</table>
+
 *Generated on {{date}} • [Previous issues](https://github.com/mhadidg/gh-trends/releases)*
 
 </div>

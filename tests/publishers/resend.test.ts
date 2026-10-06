@@ -16,6 +16,7 @@ describe('resend.ts', () => {
     agent: [],
     deepseekHarness: [],
     vercelAiSdk: [],
+    aiVideoEditor: [],
   };
   const content = {
     html: '<p>Hello world</p>',

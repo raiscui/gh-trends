@@ -31,6 +31,7 @@ describe('publish.ts', () => {
     agent: [],
     deepseekHarness: [],
     vercelAiSdk: [],
+    aiVideoEditor: [],
   };
 
   beforeEach(async () => {
@@ -97,6 +98,7 @@ describe('publish.ts', () => {
       agent: [],
       deepseekHarness: [],
       vercelAiSdk: [],
+      aiVideoEditor: [],
     };
     const result = await publishAll(emptySections, pubs);
 
@@ -118,11 +120,35 @@ describe('publish.ts', () => {
       agent: [],
       deepseekHarness: [],
       vercelAiSdk: mockRepos.slice(0, 1).map(repo => ({ ...repo, score: 0 }) as ScoredRepo),
+      aiVideoEditor: [],
     };
 
     const result = await publishAll(verticalOnly, pubs);
 
     expect(result).toEqual(['bd_789']);
+    expect(publisher01.publish).toHaveBeenCalledTimes(1);
+  });
+
+  it('should publish when only the aiVideoEditor section has content (regression)', async () => {
+    // 同上历史 bug 的新变体: 生态榜(ADR-0003)是后来新增的段, 若 publishAll
+    // 的 totalRepos 累加漏掉它, "其余五段全空、只有 AI Video Editor 有货"
+    // 会被误判为无内容而静默跳过发布。
+    publisher02.enabled.mockReturnValue(false);
+    publisher01.enabled.mockReturnValue(true);
+    publisher01.publish.mockResolvedValueOnce('bd_790');
+
+    const ecosystemOnly: ReleaseSections = {
+      main: [],
+      rust: [],
+      agent: [],
+      deepseekHarness: [],
+      vercelAiSdk: [],
+      aiVideoEditor: mockRepos.slice(0, 1).map(repo => ({ ...repo, score: 0 }) as ScoredRepo),
+    };
+
+    const result = await publishAll(ecosystemOnly, pubs);
+
+    expect(result).toEqual(['bd_790']);
     expect(publisher01.publish).toHaveBeenCalledTimes(1);
   });
 });

@@ -3,12 +3,12 @@
 import 'dotenv-flow/config';
 import { scan } from './pipeline/scan';
 import { select } from './pipeline/select';
+import { selectRust, selectAgent, selectDeepSeekHarness } from './pipeline/vertical';
 import {
-  selectRust,
-  selectAgent,
-  selectDeepSeekHarness,
-  selectVercelAiSdk,
-} from './pipeline/vertical';
+  buildEcosystemBoard,
+  VERCEL_AI_SDK_BOARD,
+  AI_VIDEO_EDITOR_BOARD,
+} from './pipeline/ecosystem';
 import { render } from './pipeline/render';
 import { logInfo } from './utils/logging';
 import { handleProcessError } from './utils/common';
@@ -31,15 +31,18 @@ async function preview() {
   logInfo(`filter`, `${filteredRepos.length} repos remain after filtering`);
 
   console.log('\n', '🏆 Ranking to select the best');
-  // 跟 run.ts 保持一致:五段 select → render sections。
+  // 跟 run.ts 保持一致:池内四榜 sub-select + 生态榜两段独立通道 → 六段 sections。
   const mainRepos = select(filteredRepos);
   const rustRepos = selectRust(filteredRepos);
   const agentRepos = selectAgent(filteredRepos);
   const deepseekHarnessRepos = selectDeepSeekHarness(filteredRepos);
-  const vercelAiSdkRepos = selectVercelAiSdk(filteredRepos);
+  // 生态榜独立取数(ADR-0003);默认模板 text.hbs 只渲染主榜,
+  // 想看生态榜段落请设 TEMPLATE_NAME=markdown.hbs
+  const vercelAiSdkRepos = await buildEcosystemBoard(VERCEL_AI_SDK_BOARD);
+  const aiVideoEditorRepos = await buildEcosystemBoard(AI_VIDEO_EDITOR_BOARD);
   logInfo(
     'select',
-    `selected: main=${mainRepos.length}, rust=${rustRepos.length}, agent=${agentRepos.length}, deepseekHarness=${deepseekHarnessRepos.length}, vercelAiSdk=${vercelAiSdkRepos.length}`
+    `selected: main=${mainRepos.length}, rust=${rustRepos.length}, agent=${agentRepos.length}, deepseekHarness=${deepseekHarnessRepos.length}, vercelAiSdk=${vercelAiSdkRepos.length}, aiVideoEditor=${aiVideoEditorRepos.length}`
   );
 
   console.log('\n', '✍️ Crafting release content');
@@ -50,6 +53,7 @@ async function preview() {
     agent: agentRepos,
     deepseekHarness: deepseekHarnessRepos,
     vercelAiSdk: vercelAiSdkRepos,
+    aiVideoEditor: aiVideoEditorRepos,
   });
   logInfo('render', `rendered release`);
 

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { buildTrendingReposQuery } from '../../src/clients/clickhouse';
+import { buildRepoGrowthQuery, buildTrendingReposQuery } from '../../src/clients/clickhouse';
 
 // specs/0001 D1: 双通道 SQL 生成
 describe('buildTrendingReposQuery', () => {
@@ -44,5 +44,54 @@ describe('buildTrendingReposQuery', () => {
 
   it('eval date 转为 ClickHouse 时间格式', () => {
     expect(sql).toContain("'2026-09-12 00:00:00'::timestamp AS END_DATE");
+  });
+});
+
+// ADR-0003: 生态榜增速 SQL。与主榜的差别是"候选集 + 不设增长门槛"
+describe('buildRepoGrowthQuery', () => {
+  const sql = buildRepoGrowthQuery({
+    repoNames: ['vercel/ai', 'assistant-ui/assistant-ui'],
+    evalDate: new Date('2026-10-04T00:00:00Z'),
+    windowDays: 28,
+    historyDays: 90,
+  });
+
+  it('限定在给定的 repo 名单内', () => {
+    expect(sql).toContain("repo_name IN ('vercel/ai','assistant-ui/assistant-ui')");
+  });
+
+  it('不施加任何增长门槛(生态榜排序权交给上层 rankAndSlice)', () => {
+    // 主榜的通道 A/B 门槛若照搬, 慢增长生态会被二次清空 —— 这里刻意不加
+    expect(sql).not.toContain('starsWithin / starsBefore');
+    expect(sql).not.toContain('LIMIT');
+  });
+
+  it('按 ECOSYSTEM_WINDOW_DAYS 铺窗口, 而非主榜的 7 天', () => {
+    expect(sql).toContain('END_DATE - INTERVAL 28 DAY AS START_DATE');
+  });
+
+  it('窗口劈半用小时表达, 28 天 -> 336h, recent/earlier 对称', () => {
+    expect(sql).toContain('336 AS HALF_WINDOW_HOURS');
+    expect(sql).toContain('INTERVAL HALF_WINDOW_HOURS HOUR');
+  });
+
+  it('时间轴盖住窗口前的 base, 才能算出 starsBefore', () => {
+    expect(sql).toContain('created_at >= END_DATE - INTERVAL 90 DAY');
+  });
+
+  it('输出 accel 所需的 starsRecent / starsEarlier 与 firstSeenAt', () => {
+    expect(sql).toContain('AS starsRecent');
+    expect(sql).toContain('AS starsEarlier');
+    expect(sql).toContain('AS firstSeenAt');
+  });
+
+  it('repo 名做 SQL 字面量转义, 防引号拼出额外字面量', () => {
+    const escaped = buildRepoGrowthQuery({
+      repoNames: ["ev'il\\repo"],
+      evalDate: new Date('2026-10-04T00:00:00Z'),
+      windowDays: 28,
+      historyDays: 90,
+    });
+    expect(escaped).toContain("repo_name IN ('ev\\'il\\\\repo')");
   });
 });

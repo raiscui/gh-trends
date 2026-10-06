@@ -16,6 +16,7 @@ describe('buttondown.ts', () => {
     agent: [],
     deepseekHarness: [],
     vercelAiSdk: [],
+    aiVideoEditor: [],
   };
 
   beforeEach(() => {

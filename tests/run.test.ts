@@ -4,6 +4,7 @@ import { HttpError, TaggedError } from '../src/utils/logging';
 import { ClickHouseClient, ClickHouseResponse } from '../src/clients/clickhouse';
 import { mockRepos } from '../src/mocks/repos';
 import { GitHubGraphQLClient } from '../src/clients/github.gql';
+import { GitHubTopicClient } from '../src/clients/github.topics';
 import { GitHubClient } from '../src/clients/github';
 import { ButtondownClient } from '../src/clients/buttondown';
 
@@ -18,9 +19,32 @@ describe('run.ts', () => {
     vi.spyOn(global, 'fetch').mockImplementation(
       async (input: RequestInfo | URL, init?: RequestInit) => {
         const url = typeof input === 'string' ? input : input.toString();
+        const body = typeof init?.body === 'string' ? init.body : '';
 
         // Scan: querying ClickHouse
         if (url.includes(ClickHouseClient.baseUrl)) {
+          // 生态榜增速查询(ADR-0003)与主榜趋势查询共用同一个端点, 靠
+          // `repo_name IN (...)` 这个谓词区分; 主榜那条分支保持原样返回
+          // (只有 repoName 字段), 不让生态榜的改动扰动既有断言。
+          if (body.includes('repo_name IN')) {
+            const growth = {
+              statistics: { rows_read: 2 },
+              data: mockRepos.slice(0, 2).map(repo => ({
+                repoName: repo.nameWithOwner,
+                starsBefore: '10',
+                starsWithin: '30',
+                starsRecent: '20',
+                starsEarlier: '10',
+                firstSeenAt: '2026-10-01 00:00:00',
+              })),
+            } as ClickHouseResponse;
+
+            return new Response(JSON.stringify(growth), {
+              status: 200,
+              headers: { 'Content-Type': 'application/json' },
+            });
+          }
+
           const response = {
             statistics: { rows_read: 2 },
             data: [
@@ -31,6 +55,25 @@ describe('run.ts', () => {
           } as ClickHouseResponse;
 
           return new Response(JSON.stringify(response), {
+            status: 200,
+            headers: { 'Content-Type': 'application/json' },
+          });
+        }
+
+        // 生态榜取数: GitHub topic 搜索(ADR-0003)。
+        // 必须显式 mock, 否则会 fallthrough 到 realFetch 打出真实网络请求。
+        if (url.includes(GitHubTopicClient.baseUrl) && url.includes('/search/repositories')) {
+          const search = {
+            total_count: mockRepos.length,
+            items: mockRepos.slice(0, 2).map(repo => ({
+              full_name: repo.nameWithOwner,
+              stargazers_count: repo.stargazerCount,
+              description: repo.description,
+              topics: repo.repositoryTopics.nodes.map(n => n.topic.name),
+            })),
+          };
+
+          return new Response(JSON.stringify(search), {
             status: 200,
             headers: { 'Content-Type': 'application/json' },
           });

@@ -278,3 +278,60 @@ describe('rankAndSlice 加速度', () => {
     }
   });
 });
+
+// ADR-0003: 生态榜传入 28 天窗口。第三参必须同时决定 starsWithin 的时间跨度
+// 与 starsPerHour 的分母上限 —— 两者不同源会把增速静默低估 4 倍。
+describe('rankAndSlice 自定义窗口(生态榜)', () => {
+  beforeEach(() => {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date('2026-10-04T12:00:00Z'));
+    vi.stubEnv('SCAN_WINDOW_DAYS', '7');
+    vi.stubEnv('SELECT_FRESH_HOURS', '0');
+    vi.stubEnv('SELECT_ACCEL_WEIGHT', '0');
+  });
+
+  afterEach(() => {
+    vi.useRealTimers();
+    vi.unstubAllEnvs();
+  });
+
+  it('账龄超过窗口时按窗口上限截断, 不会拿 28 天 star 除以 90 天账龄', () => {
+    // firstSeenAt 在 2160h(90 天)前, 远超 28 天窗口的 672h 上限
+    const repo = mkRepo({
+      name: 'vercel/ai',
+      hoursAgo: 2160,
+      starsWithin: 28,
+      stargazerAgeDays: 730,
+    });
+
+    const [scored] = rankAndSlice([repo], 1, 28);
+
+    // starsPerHour = 28 / 672; 账龄因子 = 730/365; accel 权重为 0 => 乘数 1
+    expect(scored!.score).toBeCloseTo((28 / 672) * (730 / 365), 6);
+  });
+
+  it('同一份数据在 7 天窗口下分母被压到 168h, 分数是 28 天窗口的 4 倍', () => {
+    // 这是"窗口与分母必须同源"的回归: 若第三参只改了窗口跨度而没改 maxHours,
+    // 分数会静默偏大 4 倍, 生态榜内部排序随之失真
+    const repo = mkRepo({
+      name: 'vercel/ai',
+      hoursAgo: 2160,
+      starsWithin: 28,
+      stargazerAgeDays: 730,
+    });
+
+    const [wide] = rankAndSlice([repo], 1, 28);
+    const [narrow] = rankAndSlice([repo], 1, 7);
+
+    expect(narrow!.score / wide!.score).toBeCloseTo(4, 6);
+  });
+
+  it('省略第三参时回退到 SCAN_WINDOW_DAYS, 现有四榜行为不变', () => {
+    const repo = mkRepo({ name: 'a/x', hoursAgo: 2160, starsWithin: 28, stargazerAgeDays: 730 });
+
+    const [viaDefault] = rankAndSlice([repo], 1);
+    const [viaExplicit] = rankAndSlice([repo], 1, 7);
+
+    expect(viaDefault!.score).toBeCloseTo(viaExplicit!.score, 10);
+  });
+});

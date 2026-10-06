@@ -16,6 +16,7 @@ describe('gh-release.ts', () => {
     agent: [],
     deepseekHarness: [],
     vercelAiSdk: [],
+    aiVideoEditor: [],
   };
 
   beforeEach(() => {

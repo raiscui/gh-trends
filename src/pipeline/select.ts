@@ -12,13 +12,23 @@ export interface ScoredRepo extends GithubRepo {
 // ponytail: 把"打分 + fresh bucket + sort + slice"作为单一可复用单元;
 // 比起把 sort 逻辑暴露成 Sort 工厂 / Strategy 接口,这种 rankAndSlice(repos, topN)
 // 是更小、更直接的多态方式。如果未来评分公式变了,改这一处即可。
-export function rankAndSlice(repos: GithubRepo[], topN: number): ScoredRepo[] {
+//
+// windowDays(2026-10-04 新增, ADR-0003): 生态榜的增速窗口与主榜不同
+// (成熟生态周增速个位数, 7 天窗口在 0.1% 采样率下全是噪声, 必须放宽到 28 天)。
+// 该参数同时决定 starsWithin 的时间跨度与下面 maxHours 的分母上限 ——
+// 两者必须同源, 否则会拿"28 天的 star 数"除以"90 天的账龄", 把增速低估三倍。
+// 省略时回退到 SCAN_WINDOW_DAYS, 现有四个池内榜调用方零改动。
+export function rankAndSlice(
+  repos: GithubRepo[],
+  topN: number,
+  windowDays: number = parseInt(process.env.SCAN_WINDOW_DAYS!)
+): ScoredRepo[] {
   const freshHours = parseInt(process.env.SELECT_FRESH_HOURS ?? '24');
 
   // 加速度权重(specs/0001 D2): 0 = 完全关闭, 排序等价旧版纯 starsPerHour 口径
   const accelWeight = parseFloat(process.env.SELECT_ACCEL_WEIGHT ?? '0.5');
 
-  const maxHours = parseInt(process.env.SCAN_WINDOW_DAYS!) * 24;
+  const maxHours = windowDays * 24;
   const evalDate = process.env.SCAN_EVAL_DATE;
   const daysSinceEval = evalDate ? daysSince(evalDate) : 0;
 

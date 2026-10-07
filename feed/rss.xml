@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2026 05:55:10 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 06:20:35 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>FalkorDB/FalkorDB</title>
+      <link>https://github.com/FalkorDB/FalkorDB</link>
+      <description>A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">FalkorDB/FalkorDB</guid>
+    </item>
+    <item>
+      <title>chasmlol/SkyCraft</title>
+      <link>https://github.com/chasmlol/SkyCraft</link>
+      <description>Play Skyrim as a Minecraft player: Minecraft physics, inventory, blocks and combat inside Skyrim&apos;s world (SKSE plugin + Fabric mod).</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">chasmlol/SkyCraft</guid>
+    </item>
+    <item>
+      <title>terrafying/ai-torture-chamber</title>
+      <link>https://github.com/terrafying/ai-torture-chamber</link>
+      <description>The AI Torture Chamber: steering small open models into strong valence states and measuring what they say and do. Live at wirehead.agency.</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">terrafying/ai-torture-chamber</guid>
+    </item>
+    <item>
+      <title>nicoverbruggen/libron</title>
+      <link>https://github.com/nicoverbruggen/libron</link>
+      <description>A manually tuned font revision of Readerly, with reduced and altered serifs, optimized for digital reading and e-readers. OFL licensed.</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">nicoverbruggen/libron</guid>
+    </item>
+    <item>
+      <title>oil-oil/oil-ui</title>
+      <link>https://github.com/oil-oil/oil-ui</link>
+      <description>Push AI UI design to its limits: explore distinct directions, compare them side by side, and refine against real screenshots. 把 AI 的 UI 设计能力推到极限。</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">oil-oil/oil-ui</guid>
+    </item>
+    <item>
+      <title>joshuaswarren/omarchy-apple-dev</title>
+      <link>https://github.com/joshuaswarren/omarchy-apple-dev</link>
+      <description>Build and deploy iOS SwiftUI apps from Omarchy Linux on Apple Silicon, no Xcode required</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">joshuaswarren/omarchy-apple-dev</guid>
+    </item>
+    <item>
+      <title>usamahz/cpu-performance-engineering</title>
+      <link>https://github.com/usamahz/cpu-performance-engineering</link>
+      <description>A reading path for CPU performance engineering, from one instruction to production inference. Primary sources only, with a runnable benchmark for every section.</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">usamahz/cpu-performance-engineering</guid>
+    </item>
+    <item>
+      <title>bethington/ghidra-mcp</title>
+      <link>https://github.com/bethington/ghidra-mcp</link>
+      <description>Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">bethington/ghidra-mcp</guid>
+    </item>
+    <item>
+      <title>edgcpp/compiler</title>
+      <link>https://github.com/edgcpp/compiler</link>
+      <description>The Open EDG C &amp; C++ Compiler Project</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">edgcpp/compiler</guid>
+    </item>
+    <item>
+      <title>bilibili/Index-Translate</title>
+      <link>https://github.com/bilibili/Index-Translate</link>
+      <description>A Multilingual Translation Model Family</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">bilibili/Index-Translate</guid>
+    </item>
+    <item>
+      <title>elliotttate/Wind-Waker-Recomp</title>
+      <link>https://github.com/elliotttate/Wind-Waker-Recomp</link>
+      <description>Personal source fork of BlueWake for The Wind Waker on iPhone and iPad</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">elliotttate/Wind-Waker-Recomp</guid>
+    </item>
+    <item>
+      <title>serein-morii/DiPlay-CN</title>
+      <link>https://github.com/serein-morii/DiPlay-CN</link>
+      <description>DiPlay汉化版</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">serein-morii/DiPlay-CN</guid>
+    </item>
+    <item>
+      <title>aoci-spec/aoci-code</title>
+      <link>https://github.com/aoci-spec/aoci-code</link>
+      <description>A persistent, Git-versioned map of your whole codebase and database schema that coding agents read before they touch anything. Local-first MCP server + CLI in Go: a governed repository index of code knowledge that gives Claude Code, Codex, Cursor, and opencode long-term context, memory, and code intelligence.</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">aoci-spec/aoci-code</guid>
+    </item>
+    <item>
+      <title>HeyOkay/HaloBattery</title>
+      <link>https://github.com/HeyOkay/HaloBattery</link>
+      <description>Unified battery level indicators for 2.4GHz mice, headsets and Bluetooth devices in the Windows tray</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">HeyOkay/HaloBattery</guid>
+    </item>
+    <item>
+      <title>PSRben/VisionHOPE</title>
+      <link>https://github.com/PSRben/VisionHOPE</link>
+      <description>Official PyTorch implementation of VisionHOPE: Visual Backbones as Self-Modifying Learning Systems.</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">PSRben/VisionHOPE</guid>
+    </item>
+    <item>
+      <title>facebookresearch/context-language-models</title>
+      <link>https://github.com/facebookresearch/context-language-models</link>
+      <description>Official repository for &quot;Context Language Models&quot;</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">facebookresearch/context-language-models</guid>
+    </item>
+    <item>
+      <title>liangshanbo789/chatgpt-plus-pro-team-billing</title>
+      <link>https://github.com/liangshanbo789/chatgpt-plus-pro-team-billing</link>
+      <description>🔥 26年10月最新 | 企业级 OpenAI / ChatGPT充值、GPT充值、GPT采购、Pro (5x/20x)、GPTTeam 代充官方合规代采平台。支持企业银行公对公转账、开具 6% 增值税专用发票、签署加盖公章 SLA 兜底协议。商务微信：yqtp01</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">liangshanbo789/chatgpt-plus-pro-team-billing</guid>
+    </item>
+    <item>
+      <title>Sadsnake1/word-smith</title>
+      <link>https://github.com/Sadsnake1/word-smith</link>
+      <description>Dedicated Writing Studio for Obsidian</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">Sadsnake1/word-smith</guid>
+    </item>
+    <item>
+      <title>jojodogm-ctrl/emufii</title>
+      <link>https://github.com/jojodogm-ctrl/emufii</link>
+      <description>One code, and you&apos;re in the same room. Remote multiplayer between Android emulators: 3DS, Switch, PSP, PS2, DS and WII.</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">jojodogm-ctrl/emufii</guid>
+    </item>
+    <item>
+      <title>scholay/rimes</title>
+      <link>https://github.com/scholay/rimes</link>
+      <description>RIMES — modern macOS IME (rime-scholay): librime + buffer workbench</description>
+      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
+      <guid isPermaLink="false">scholay/rimes</guid>
+    </item>
     <item>
       <title>Ebony-Vinyl/dsh-our-free-model</title>
       <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
@@ -286,286 +426,6 @@
       <description>A pure Unix shell script ACME client for SSL / TLS certificate automation</description>
       <pubDate>Sat, 03 Oct 2026 05:29:15 GMT</pubDate>
       <guid isPermaLink="false">acmesh-official/acme.sh</guid>
-    </item>
-    <item>
-      <title>archestra-ai/OpenAPPA</title>
-      <link>https://github.com/archestra-ai/OpenAPPA</link>
-      <description>Deterministic guardrails that don&apos;t break agents</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">archestra-ai/OpenAPPA</guid>
-    </item>
-    <item>
-      <title>byoungd/up</title>
-      <link>https://github.com/byoungd/up</link>
-      <description>An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">byoungd/up</guid>
-    </item>
-    <item>
-      <title>Contrastive-LM/CLM</title>
-      <link>https://github.com/Contrastive-LM/CLM</link>
-      <description>(no description)</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">Contrastive-LM/CLM</guid>
-    </item>
-    <item>
-      <title>corsairdev/corsair</title>
-      <link>https://github.com/corsairdev/corsair</link>
-      <description>Connect your users to their apps</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">corsairdev/corsair</guid>
-    </item>
-    <item>
-      <title>ninjahawk/livenerf</title>
-      <link>https://github.com/ninjahawk/livenerf</link>
-      <description>Benchmark for tracking model capability after release.</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">ninjahawk/livenerf</guid>
-    </item>
-    <item>
-      <title>changshuangdaijing/integrity_baozi-</title>
-      <link>https://github.com/changshuangdaijing/integrity_baozi-</link>
-      <description>快速鉴定测评视频的情商高低，并帮你转化成低情商话术辅助决策。</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">changshuangdaijing/integrity_baozi-</guid>
-    </item>
-    <item>
-      <title>EverMind-AI/Raven</title>
-      <link>https://github.com/EverMind-AI/Raven</link>
-      <description>The Harness of Harnesses • built for RSI: a trusted, persistent, self-evolving multi-agent ecosystem for all-domain collaboration.</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">EverMind-AI/Raven</guid>
-    </item>
-    <item>
-      <title>dgreenheck/tidewater</title>
-      <link>https://github.com/dgreenheck/tidewater</link>
-      <description>Coastal town built with Opus 5.5</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">dgreenheck/tidewater</guid>
-    </item>
-    <item>
-      <title>LingDong-/shan-shui-inf</title>
-      <link>https://github.com/LingDong-/shan-shui-inf</link>
-      <description>Procedurally generated Chinese landscape painting.</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">LingDong-/shan-shui-inf</guid>
-    </item>
-    <item>
-      <title>AgriciDaniel/jev-seo</title>
-      <link>https://github.com/AgriciDaniel/jev-seo</link>
-      <description>Live SEO audit for any website from one homepage URL, judged by Jev. PDF, XLSX and Markdown reports.</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">AgriciDaniel/jev-seo</guid>
-    </item>
-    <item>
-      <title>JohnHeibel/ClaudeAnimationBase</title>
-      <link>https://github.com/JohnHeibel/ClaudeAnimationBase</link>
-      <description>A starter kit for animating hand-painted cartoons with Claude: p5.js + p5.brush, the Clawd character, 31 acted emotions and a guide for the model</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">JohnHeibel/ClaudeAnimationBase</guid>
-    </item>
-    <item>
-      <title>NarYuki/Dextop</title>
-      <link>https://github.com/NarYuki/Dextop</link>
-      <description>Unlock the hidden Samsung DeX and desktop capabilities of Android, and run a desktop environment directly on your device.</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">NarYuki/Dextop</guid>
-    </item>
-    <item>
-      <title>martanne/vis</title>
-      <link>https://github.com/martanne/vis</link>
-      <description>A vi-like editor based on Plan 9&apos;s structural regular expressions</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">martanne/vis</guid>
-    </item>
-    <item>
-      <title>RISE-X-Lab/OpenCollab</title>
-      <link>https://github.com/RISE-X-Lab/OpenCollab</link>
-      <description>(no description)</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">RISE-X-Lab/OpenCollab</guid>
-    </item>
-    <item>
-      <title>portingpete/The-Darkness-Recomp</title>
-      <link>https://github.com/portingpete/The-Darkness-Recomp</link>
-      <description>(no description)</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">portingpete/The-Darkness-Recomp</guid>
-    </item>
-    <item>
-      <title>juewuy/ShellCrash</title>
-      <link>https://github.com/juewuy/ShellCrash</link>
-      <description>Run sing-box/mihomo as client in shell</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">juewuy/ShellCrash</guid>
-    </item>
-    <item>
-      <title>harutosati/SolidityScanMax</title>
-      <link>https://github.com/harutosati/SolidityScanMax</link>
-      <description>Monitors on-chain events and transaction data for Solidity smart contracts in real-time, serving developers and analysts.</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">harutosati/SolidityScanMax</guid>
-    </item>
-    <item>
-      <title>lgomesappj/BlockNetDiamond</title>
-      <link>https://github.com/lgomesappj/BlockNetDiamond</link>
-      <description>BlockNetDiamond leverages a distributed ledger infrastructure, utilizing a consensus-driven architecture framework. built for Cryptographic security</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">lgomesappj/BlockNetDiamond</guid>
-    </item>
-    <item>
-      <title>harutosati/APINodeDiamond</title>
-      <link>https://github.com/harutosati/APINodeDiamond</link>
-      <description>APINodeDiamond is a distributed, async data processing engine that leverages load-balancing and auto-scaling for high-performance Node applications.</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">harutosati/APINodeDiamond</guid>
-    </item>
-    <item>
-      <title>amurrayeqc/BlockExplorerLegend</title>
-      <link>https://github.com/amurrayeqc/BlockExplorerLegend</link>
-      <description>Smart, auto-scaling blockchain platform enables advanced-query-optimization and real-time insights within a unified Explorer.</description>
-      <pubDate>Thu, 01 Oct 2026 06:09:41 GMT</pubDate>
-      <guid isPermaLink="false">amurrayeqc/BlockExplorerLegend</guid>
-    </item>
-    <item>
-      <title>Toothbentweezers/xvsilhuu</title>
-      <link>https://github.com/Toothbentweezers/xvsilhuu</link>
-      <description>Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">Toothbentweezers/xvsilhuu</guid>
-    </item>
-    <item>
-      <title>dream-num/univer-workspace</title>
-      <link>https://github.com/dream-num/univer-workspace</link>
-      <description>An open-source Office workspace where people and AI agents create, collaborate, and review together.</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">dream-num/univer-workspace</guid>
-    </item>
-    <item>
-      <title>evenfire-ai/evenfire</title>
-      <link>https://github.com/evenfire-ai/evenfire</link>
-      <description>Evenfire is an intelligence layer platform for running LLM agents that take real actions, on your infrastructure</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">evenfire-ai/evenfire</guid>
-    </item>
-    <item>
-      <title>ant-research/AntOmniEvo</title>
-      <link>https://github.com/ant-research/AntOmniEvo</link>
-      <description>An auto-evolution framework that optimizes anything — your 7×24 team of algorithm engineers.</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">ant-research/AntOmniEvo</guid>
-    </item>
-    <item>
-      <title>Themaister/pyrowave</title>
-      <link>https://github.com/Themaister/pyrowave</link>
-      <description>(no description)</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">Themaister/pyrowave</guid>
-    </item>
-    <item>
-      <title>aliyun/ai-agent-handbook</title>
-      <link>https://github.com/aliyun/ai-agent-handbook</link>
-      <description>A practical guide to building enterprise AI agents across their full lifecycle.</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">aliyun/ai-agent-handbook</guid>
-    </item>
-    <item>
-      <title>OnlistTeam/ai-manager</title>
-      <link>https://github.com/OnlistTeam/ai-manager</link>
-      <description>AI Manager desktop application for AI coding tools</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">OnlistTeam/ai-manager</guid>
-    </item>
-    <item>
-      <title>XiaomiMiMo/verl</title>
-      <link>https://github.com/XiaomiMiMo/verl</link>
-      <description>verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">XiaomiMiMo/verl</guid>
-    </item>
-    <item>
-      <title>mg-chao/snow-apps</title>
-      <link>https://github.com/mg-chao/snow-apps</link>
-      <description>Snow Apps repository, providing source code for Snow Shot and Snow Image Viewer.</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">mg-chao/snow-apps</guid>
-    </item>
-    <item>
-      <title>TencentARC/WorldCrafter</title>
-      <link>https://github.com/TencentARC/WorldCrafter</link>
-      <description>[Arxiv 2026] WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">TencentARC/WorldCrafter</guid>
-    </item>
-    <item>
-      <title>qwdwqfwq/topconf-paper-figure-gallery</title>
-      <link>https://github.com/qwdwqfwq/topconf-paper-figure-gallery</link>
-      <description>3,516 curated Figure 1 / teasers from ICLR, ICML, NeurIPS, CVPR, ACL, AAAI (2023-2026), with tier badges and FigureForge retrieval-augmented figure drafting</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">qwdwqfwq/topconf-paper-figure-gallery</guid>
-    </item>
-    <item>
-      <title>xiaolai/the-craft-of-selfteaching</title>
-      <link>https://github.com/xiaolai/the-craft-of-selfteaching</link>
-      <description>One has no future if one couldn&apos;t teach themself.</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">xiaolai/the-craft-of-selfteaching</guid>
-    </item>
-    <item>
-      <title>sxwangsxwang1/chatpassport</title>
-      <link>https://github.com/sxwangsxwang1/chatpassport</link>
-      <description>Move AI conversations between ChatGPT, Claude, Gemini, and DeepSeek with a local-first, open conversation format—no servers, no tracking.</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">sxwangsxwang1/chatpassport</guid>
-    </item>
-    <item>
-      <title>KunoLu/tokens</title>
-      <link>https://github.com/KunoLu/tokens</link>
-      <description>Track, visualize, and compete on your AI coding-assistant token usage — CLI + web leaderboard &amp; teamboard.</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">KunoLu/tokens</guid>
-    </item>
-    <item>
-      <title>gittrahan/support-fins</title>
-      <link>https://github.com/gittrahan/support-fins</link>
-      <description>(no description)</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">gittrahan/support-fins</guid>
-    </item>
-    <item>
-      <title>TencentARC/GameHorizon</title>
-      <link>https://github.com/TencentARC/GameHorizon</link>
-      <description>The official repo of GameHorizon, a unified data and evaluation suite that measures AAA gameplay capabilities at different temporal horizons for diverse model families.</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">TencentARC/GameHorizon</guid>
-    </item>
-    <item>
-      <title>BillionsBobby/JevRouter</title>
-      <link>https://github.com/BillionsBobby/JevRouter</link>
-      <description>A lightweight Jev-powered router for models, tools, and subagents</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">BillionsBobby/JevRouter</guid>
-    </item>
-    <item>
-      <title>FluidInference/FluidUse</title>
-      <link>https://github.com/FluidInference/FluidUse</link>
-      <description>Local computer use on Apple silicon: on-device typed decisions with laya and form filling with CUA-S1-FORMS, driven through the macOS Accessibility API</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">FluidInference/FluidUse</guid>
-    </item>
-    <item>
-      <title>lordx64/phantom-kv</title>
-      <link>https://github.com/lordx64/phantom-kv</link>
-      <description>Refusal removal as a loadable KV-cache graft — zero weight modification, no refusal-direction projection, fully reversible.</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">lordx64/phantom-kv</guid>
-    </item>
-    <item>
-      <title>walidboulanouar/awesome-jev-use-cases</title>
-      <link>https://github.com/walidboulanouar/awesome-jev-use-cases</link>
-      <description>Awesome list of TypeSafe AI Jev use cases: 74 demos ranked by likes, 150+ GitHub repos, limits, cost and API examples. CC0</description>
-      <pubDate>Tue, 29 Sep 2026 05:53:36 GMT</pubDate>
-      <guid isPermaLink="false">walidboulanouar/awesome-jev-use-cases</guid>
     </item>
   </channel>
 </rss>

@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Oct 2026 06:20:35 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 06:23:59 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>nykooi1/vibe-wise</title>
+      <link>https://github.com/nykooi1/vibe-wise</link>
+      <description>A Claude Code plugin that helps you learn how to build while AI writes the code.</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">nykooi1/vibe-wise</guid>
+    </item>
+    <item>
+      <title>CAPCOM-TD-OSS/REDox</title>
+      <link>https://github.com/CAPCOM-TD-OSS/REDox</link>
+      <description>High-performance, token-based structured data engine for .NET. A core component of REX, the technology behind CAPCOM&apos;s next-generation game engine.</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">CAPCOM-TD-OSS/REDox</guid>
+    </item>
+    <item>
+      <title>egoist/mygo</title>
+      <link>https://github.com/egoist/mygo</link>
+      <description>Develop desktop apps with a web frontend or native UI in Go</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">egoist/mygo</guid>
+    </item>
+    <item>
+      <title>CrossGL/crosstl</title>
+      <link>https://github.com/CrossGL/crosstl</link>
+      <description>Universal Programming Language &amp; Translator</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">CrossGL/crosstl</guid>
+    </item>
+    <item>
+      <title>threerocks/hand-drawn-styles</title>
+      <link>https://github.com/threerocks/hand-drawn-styles</link>
+      <description>Claude Code skill：把内容套进内置手绘画风配方,产出可直接复制的生图提示词。内置儿童涂色/极简线条/蜡笔童涂/吉卜力/小豆人涂鸦 5 种已验证画风。</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">threerocks/hand-drawn-styles</guid>
+    </item>
+    <item>
+      <title>PimpinPumpkin/Vela</title>
+      <link>https://github.com/PimpinPumpkin/Vela</link>
+      <description>Maps and turn-by-turn navigation for Android without Google Play Services: the best of open map data, with Google lookups by choice. Runs on degoogled phones and can avoid Flock cameras</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">PimpinPumpkin/Vela</guid>
+    </item>
+    <item>
+      <title>openbq-org/OpenBB</title>
+      <link>https://github.com/openbq-org/OpenBB</link>
+      <description>Open Data Platform for analysts, quants and AI agents.</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">openbq-org/OpenBB</guid>
+    </item>
+    <item>
+      <title>paulmil11/manychat-lite-cloudflare</title>
+      <link>https://github.com/paulmil11/manychat-lite-cloudflare</link>
+      <description>Self-hosted ManyChat-style Instagram comment auto-DM starter on Cloudflare Workers</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">paulmil11/manychat-lite-cloudflare</guid>
+    </item>
+    <item>
+      <title>strands-labs/strands-decider</title>
+      <link>https://github.com/strands-labs/strands-decider</link>
+      <description>A small, fast decision model, or system one model, for agentic workflows. Pick between options or rate on a scale faster than an LLM, with a calibrated confidence on every decision.</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">strands-labs/strands-decider</guid>
+    </item>
+    <item>
+      <title>oh-my-mermaid/oh-my-mermaid</title>
+      <link>https://github.com/oh-my-mermaid/oh-my-mermaid</link>
+      <description>Turn complex codebases into clear, navigable architecture diagrams with Claude Code.</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">oh-my-mermaid/oh-my-mermaid</guid>
+    </item>
+    <item>
+      <title>kerim0x1/bettercode</title>
+      <link>https://github.com/kerim0x1/bettercode</link>
+      <description>Every coding agent in one desktop workspace. Run Claude Code, OpenAI Codex, Cursor Agent and Grok side by side. Bring your own CLI. Free during beta. Open source as of 21 September 2026 (MIT).</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">kerim0x1/bettercode</guid>
+    </item>
+    <item>
+      <title>evondev/evondevKit</title>
+      <link>https://github.com/evondev/evondevKit</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">evondev/evondevKit</guid>
+    </item>
+    <item>
+      <title>ElgenTidwell/Chisel</title>
+      <link>https://github.com/ElgenTidwell/Chisel</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">ElgenTidwell/Chisel</guid>
+    </item>
+    <item>
+      <title>nicoverbruggen/ebook-fonts</title>
+      <link>https://github.com/nicoverbruggen/ebook-fonts</link>
+      <description>Selection of fonts with modified line height and family names, optimized for e-reading, particularly for Kobo, Kindle and Boox devices.</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">nicoverbruggen/ebook-fonts</guid>
+    </item>
+    <item>
+      <title>BootLoops-ai/bootloops</title>
+      <link>https://github.com/BootLoops-ai/bootloops</link>
+      <description>BootLoops 1.0: certified computational tools and house engines for exact and high-precision physics and quantitative science, built to be driven by LLM agents. MIT; docs CC BY 4.0.</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">BootLoops-ai/bootloops</guid>
+    </item>
+    <item>
+      <title>openOMSI-org/openOMSI</title>
+      <link>https://github.com/openOMSI-org/openOMSI</link>
+      <description>OMSI 2 recreated from scratch in Rust, compatible with every map and mod (requires the original OMSI 2)</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">openOMSI-org/openOMSI</guid>
+    </item>
+    <item>
+      <title>vshvedov/rhun</title>
+      <link>https://github.com/vshvedov/rhun</link>
+      <description>A small and fast code editor written in Assembly</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">vshvedov/rhun</guid>
+    </item>
+    <item>
+      <title>chipfighter/codex-attachment-manager</title>
+      <link>https://github.com/chipfighter/codex-attachment-manager</link>
+      <description>Codex plugin: choose which past images go to the model with your next message. Unchecked images become placeholders, the task goes on, and requests stay small.</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">chipfighter/codex-attachment-manager</guid>
+    </item>
+    <item>
+      <title>f/textream</title>
+      <link>https://github.com/f/textream</link>
+      <description>Textream is a free macOS teleprompter app for streamers, interviewers, and presenters. It highlights your script in real-time as you speak, displayed in a beautiful Dynamic Island overlay. With extensible features.</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">f/textream</guid>
+    </item>
+    <item>
+      <title>dikeckaan/mu300-linux</title>
+      <link>https://github.com/dikeckaan/mu300-linux</link>
+      <description>Linux (Ubuntu 24.04/26.04 or OpenWrt) next to Android on the ZTE F50 / MU300 and U30 Air 5G hotspots (Unisoc T760 / UMS9620): installer, vendor 5.4 and mainline 6.18 / 7.2 kernels, 5G modem, Wi-Fi, battery, LEDs, NFC, findings</description>
+      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
+      <guid isPermaLink="false">dikeckaan/mu300-linux</guid>
+    </item>
     <item>
       <title>FalkorDB/FalkorDB</title>
       <link>https://github.com/FalkorDB/FalkorDB</link>

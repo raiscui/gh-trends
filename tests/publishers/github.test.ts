@@ -23,6 +23,8 @@ describe('gh-release.ts', () => {
     instance = new GitHubPublisher();
     vi.spyOn(instance, 'render').mockReturnValue(content);
     global.fetch = mockFetch as typeof fetch;
+    // 重试用指数退避, 测试里把基准延迟置 0, 避免真实等待
+    vi.stubEnv('RELEASE_CREATE_RETRY_BASE_MS', '0');
     vi.clearAllMocks(); // reset mocks
   });
 
@@ -169,6 +171,84 @@ describe('gh-release.ts', () => {
       mockFetch.mockRejectedValue(new Error('network down'));
 
       await expect(instance.publish(sections)).rejects.toThrow('network down');
+    });
+
+    // 2026-10-07 事故: 六榜数据全选出, 却因 GitHub 单次 500 导致整天空窗。
+    describe('release 创建重试(2026-10-07 事故)', () => {
+      it('5xx 后重试并成功', async () => {
+        // 第 1 次 GET-by-tag -> 404(可发布); 第 2 次 POST -> 500;
+        // 第 3 次 POST -> 200 成功
+        mockFetch
+          .mockResolvedValueOnce({ ok: false, status: 404, json: vi.fn().mockResolvedValue({}) })
+          .mockResolvedValueOnce({
+            ok: false,
+            status: 500,
+            text: vi.fn().mockResolvedValue(''),
+          })
+          .mockResolvedValueOnce({ ok: true, json: vi.fn().mockResolvedValue({ id: 555 }) });
+
+        await expect(instance.publish(sections)).resolves.toBe('555');
+        expect(mockFetch).toHaveBeenCalledTimes(3);
+      });
+
+      it('5xx 持续失败时, 重试到上限才抛错', async () => {
+        vi.stubEnv('RELEASE_CREATE_MAX_ATTEMPTS', '3');
+        mockFetch
+          .mockResolvedValueOnce({ ok: false, status: 404, json: vi.fn().mockResolvedValue({}) })
+          .mockResolvedValue({ ok: false, status: 503, text: vi.fn().mockResolvedValue('') });
+
+        await expect(instance.publish(sections)).rejects.toThrowError(HttpError);
+        // 1 次 GET + 3 次 POST(上限内)
+        expect(mockFetch).toHaveBeenCalledTimes(4);
+      });
+
+      it('网络异常也重试', async () => {
+        mockFetch
+          .mockResolvedValueOnce({ ok: false, status: 404, json: vi.fn().mockResolvedValue({}) })
+          .mockRejectedValueOnce(new Error('socket hang up'))
+          .mockResolvedValueOnce({ ok: true, json: vi.fn().mockResolvedValue({ id: 556 }) });
+
+        await expect(instance.publish(sections)).resolves.toBe('556');
+      });
+
+      it('4xx 不重试 —— 请求本身有问题, 重试只会浪费配额', async () => {
+        vi.stubEnv('RELEASE_CREATE_MAX_ATTEMPTS', '3');
+        mockFetch
+          .mockResolvedValueOnce({ ok: false, status: 404, json: vi.fn().mockResolvedValue({}) })
+          .mockResolvedValue({
+            ok: false,
+            status: 401,
+            text: vi.fn().mockResolvedValue('bad creds'),
+          });
+
+        await expect(instance.publish(sections)).rejects.toThrowError(HttpError);
+        expect(mockFetch).toHaveBeenCalledTimes(2); // 1 次 GET + 1 次 POST, 不重试
+      });
+
+      it('422 当成功处理: 反查 tag 拿 id(上次 POST 成功但响应丢失的场景)', async () => {
+        // 第 1 次 GET-by-tag -> 404; 第 2 次 POST -> 422;
+        // 第 3 次 GET-by-tag -> 200 拿到已存在的 release id
+        mockFetch
+          .mockResolvedValueOnce({ ok: false, status: 404, json: vi.fn().mockResolvedValue({}) })
+          .mockResolvedValueOnce({
+            ok: false,
+            status: 422,
+            text: vi.fn().mockResolvedValue('already_exists'),
+          })
+          .mockResolvedValueOnce({ ok: true, json: vi.fn().mockResolvedValue({ id: 777 }) });
+
+        await expect(instance.publish(sections)).resolves.toBe('777');
+      });
+
+      it('MAX_ATTEMPTS=1 时退回旧行为(不重试)', async () => {
+        vi.stubEnv('RELEASE_CREATE_MAX_ATTEMPTS', '1');
+        mockFetch
+          .mockResolvedValueOnce({ ok: false, status: 404, json: vi.fn().mockResolvedValue({}) })
+          .mockResolvedValueOnce({ ok: false, status: 500, text: vi.fn().mockResolvedValue('') });
+
+        await expect(instance.publish(sections)).rejects.toThrowError(HttpError);
+        expect(mockFetch).toHaveBeenCalledTimes(2);
+      });
     });
 
     it('skips publishing when release tag already exists', async () => {

@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 06:12:44 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 06:55:43 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>yksr-melt/Meltype</title>
+      <link>https://github.com/yksr-melt/Meltype</link>
+      <description>(no description)</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">yksr-melt/Meltype</guid>
+    </item>
+    <item>
+      <title>nealbridges/VulnHunter</title>
+      <link>https://github.com/nealbridges/VulnHunter</link>
+      <description>Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executable PoCs, and fixes them test-first. A maintained fork of Capital One&apos;s VulnHunter, rebuilt for any agent harness.</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">nealbridges/VulnHunter</guid>
+    </item>
+    <item>
+      <title>genex-games/genex-desktop</title>
+      <link>https://github.com/genex-games/genex-desktop</link>
+      <description>Desktop app for game dev with AI. macOS and Linux, Windows soon.</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">genex-games/genex-desktop</guid>
+    </item>
+    <item>
+      <title>jiwoochris/artex-ko</title>
+      <link>https://github.com/jiwoochris/artex-ko</link>
+      <description>ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">jiwoochris/artex-ko</guid>
+    </item>
+    <item>
+      <title>laoma528/awesome-zhuiju-free</title>
+      <link>https://github.com/laoma528/awesome-zhuiju-free</link>
+      <description>免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">laoma528/awesome-zhuiju-free</guid>
+    </item>
+    <item>
+      <title>Shyboy0499/antibody</title>
+      <link>https://github.com/Shyboy0499/antibody</link>
+      <description>(no description)</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">Shyboy0499/antibody</guid>
+    </item>
+    <item>
+      <title>xevrion/gyotaku</title>
+      <link>https://github.com/xevrion/gyotaku</link>
+      <description>search every screenshot you&apos;ve ever taken by the text inside it. native linux, offline, PaddleOCR + sqlite + gpui</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">xevrion/gyotaku</guid>
+    </item>
+    <item>
+      <title>liouhai/plot-is-all-you-need</title>
+      <link>https://github.com/liouhai/plot-is-all-you-need</link>
+      <description>(no description)</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">liouhai/plot-is-all-you-need</guid>
+    </item>
+    <item>
+      <title>DataWithBaraa/sql-ultimate-course</title>
+      <link>https://github.com/DataWithBaraa/sql-ultimate-course</link>
+      <description> The most comprehensive SQL guide from a real-world expert! Learn everything from basics to advanced queries, optimizations, and real-world SQL</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">DataWithBaraa/sql-ultimate-course</guid>
+    </item>
+    <item>
+      <title>gitbot-hq/GitBot</title>
+      <link>https://github.com/gitbot-hq/GitBot</link>
+      <description>Create reusable bots powered by Claude Code, Codex, or OpenCode. Run them locally across your repositories with persistent threads and permissions you control.</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">gitbot-hq/GitBot</guid>
+    </item>
+    <item>
+      <title>DamRsn/NeuralNote</title>
+      <link>https://github.com/DamRsn/NeuralNote</link>
+      <description>Audio Plugin for Audio to MIDI transcription using deep learning.</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">DamRsn/NeuralNote</guid>
+    </item>
+    <item>
+      <title>trustfuture/simon-skills</title>
+      <link>https://github.com/trustfuture/simon-skills</link>
+      <description>不露脸做视频账号的 AI skill 合集：调查长片 + 手绘白板讲解视频，一句选题出片、配音字幕、封面与各平台文案</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">trustfuture/simon-skills</guid>
+    </item>
+    <item>
+      <title>ABING1111/BiliDesk</title>
+      <link>https://github.com/ABING1111/BiliDesk</link>
+      <description>哔哩哔哩第三方桌面客户端 · Windows / WPF / .NET 8 </description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">ABING1111/BiliDesk</guid>
+    </item>
+    <item>
+      <title>aixisstudio/Snitch</title>
+      <link>https://github.com/aixisstudio/Snitch</link>
+      <description>Real-time network traffic visualizer — see every connection your computer makes. Privacy-first, 100% local. / Visualiseur de trafic réseau en temps réel, 100% local.</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">aixisstudio/Snitch</guid>
+    </item>
+    <item>
+      <title>haohaoai0/HarmonyX</title>
+      <link>https://github.com/haohaoai0/HarmonyX</link>
+      <description>A native, design-led X client for HarmonyOS — built with ArkTS and the Stage model.</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">haohaoai0/HarmonyX</guid>
+    </item>
+    <item>
+      <title>PavelGrigoryevDS/awesome-data-analysis</title>
+      <link>https://github.com/PavelGrigoryevDS/awesome-data-analysis</link>
+      <description>🚀 500+ curated resources for Data Analysis &amp; Data Science: Python, SQL, Statistics, ML, AI, Visualization, Cheatsheets, Roadmaps, Interview Prep. For beginners and experts. </description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">PavelGrigoryevDS/awesome-data-analysis</guid>
+    </item>
+    <item>
+      <title>thesnarkitecht/rembrandt</title>
+      <link>https://github.com/thesnarkitecht/rembrandt</link>
+      <description>A free photo editor. No account, no subscription, no tracking. RAW, masks and on-device AI for macOS, Windows and Linux. Self-hostable.</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">thesnarkitecht/rembrandt</guid>
+    </item>
+    <item>
+      <title>guokaigdg/naive-icons</title>
+      <link>https://github.com/guokaigdg/naive-icons</link>
+      <description>A library of hand-drawn SVG icons in a naive folk art style  手绘 naive folk art 风格的 SVG 图标库</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">guokaigdg/naive-icons</guid>
+    </item>
+    <item>
+      <title>Mxucc/xianyu-super-butler</title>
+      <link>https://github.com/Mxucc/xianyu-super-butler</link>
+      <description>闲鱼超级管家是在 xianyu-auto-reply 基础上的二次开发版本，保留了原项目的所有核心功能，并对前端 UI 进行了全面重构，带来更加现代化、专业化的使用体验。</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">Mxucc/xianyu-super-butler</guid>
+    </item>
+    <item>
+      <title>mcer12/PixelFonts</title>
+      <link>https://github.com/mcer12/PixelFonts</link>
+      <description>Pixel perfect AdafruitGFX &amp; u8g2 fonts for the tiniest displays</description>
+      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
+      <guid isPermaLink="false">mcer12/PixelFonts</guid>
+    </item>
     <item>
       <title>noahdunnagan/mcopt</title>
       <link>https://github.com/noahdunnagan/mcopt</link>

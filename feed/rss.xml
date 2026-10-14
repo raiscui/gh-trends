@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Oct 2026 06:55:43 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 05:05:37 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>Supermedo/bloodborne_pc</title>
+      <link>https://github.com/Supermedo/bloodborne_pc</link>
+      <description>Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">Supermedo/bloodborne_pc</guid>
+    </item>
+    <item>
+      <title>cth9191/animate</title>
+      <link>https://github.com/cth9191/animate</link>
+      <description>Procedural animation in any style for Claude Code: short single-file canvas videos with story, look and storyboard check-ins. 7 built-in styles or one matched from your references, your own music (beat-mapped), real product screenshots, every format from one piece.</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">cth9191/animate</guid>
+    </item>
+    <item>
+      <title>FeSens/openTPU</title>
+      <link>https://github.com/FeSens/openTPU</link>
+      <description>An open-source AI accelerator, developed by AI: RTL, ISA, simulator, compiler and profiler in one repo. Runs Qwen3, LFM2.5 and Qwen3.5 on a Kintex-7 PCIe card.</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">FeSens/openTPU</guid>
+    </item>
+    <item>
+      <title>Tejashmakwana/motionmaxxing</title>
+      <link>https://github.com/Tejashmakwana/motionmaxxing</link>
+      <description>Looksmaxxing for motion graphics. An agent skill that turns AI slop videos into films that look made by a motion designer.</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">Tejashmakwana/motionmaxxing</guid>
+    </item>
+    <item>
+      <title>agentvivekkumar/dontbemichael</title>
+      <link>https://github.com/agentvivekkumar/dontbemichael</link>
+      <description>A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office of agents</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">agentvivekkumar/dontbemichael</guid>
+    </item>
+    <item>
+      <title>cosscom/shipyard</title>
+      <link>https://github.com/cosscom/shipyard</link>
+      <description>Run coding agents on your dev boxes: worktrees, terminals, orchestration, kits and automations, with a desktop app.</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">cosscom/shipyard</guid>
+    </item>
+    <item>
+      <title>wanvfx/ProxyNodeHub</title>
+      <link>https://github.com/wanvfx/ProxyNodeHub</link>
+      <description>ProxyNodeHub 用于发现 GitHub 上活跃的免费节点仓库：分析活跃度、去重分散的节点、直接给出可用的订阅链接。点一次「搜索并分析」，剩下的梳理工作全部由它完成。</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">wanvfx/ProxyNodeHub</guid>
+    </item>
+    <item>
+      <title>rumoii/streamfirefly</title>
+      <link>https://github.com/rumoii/streamfirefly</link>
+      <description>网页媒体嗅探与下载工具，包含浏览器扩展和 Windows 本地助手。Web media detection and download tool with a browser extension and a Windows native helper.</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">rumoii/streamfirefly</guid>
+    </item>
+    <item>
+      <title>gaozhangmin/boxplayer</title>
+      <link>https://github.com/gaozhangmin/boxplayer</link>
+      <description>BoxPlayer - 聚合网盘管理+影视聚合 支持 Windows Linux iOS macOS tvOS Android</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">gaozhangmin/boxplayer</guid>
+    </item>
+    <item>
+      <title>mushigaite/short-video-maker</title>
+      <link>https://github.com/mushigaite/short-video-maker</link>
+      <description>A free open-source project designed to turn youtube-videos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content: no pre-clip credits or any watermarks. Designed for creators who want an alternative to short-video SaaS tools like OpusClip or Vidyo.ai for free.</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">mushigaite/short-video-maker</guid>
+    </item>
+    <item>
+      <title>nathanialf/ico-pc</title>
+      <link>https://github.com/nathanialf/ico-pc</link>
+      <description>PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">nathanialf/ico-pc</guid>
+    </item>
+    <item>
+      <title>c9dev/penguin-mail</title>
+      <link>https://github.com/c9dev/penguin-mail</link>
+      <description>Mail and calendar for Linux and macOS. Gmail and IMAP accounts, Google Calendar, contacts, OpenPGP and S/MIME. GTK4 and libadwaita, written in Rust.</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">c9dev/penguin-mail</guid>
+    </item>
+    <item>
+      <title>BerriAI/moyai</title>
+      <link>https://github.com/BerriAI/moyai</link>
+      <description>A self-hosted coding agent for background work - works with Claude Code, Codex, OpenCode &amp; 100+ providers</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">BerriAI/moyai</guid>
+    </item>
+    <item>
+      <title>boringcomputers/goshen-email</title>
+      <link>https://github.com/boringcomputers/goshen-email</link>
+      <description>Email for AI agents, hosted on Cloudflare. Inboxes with an HTTP API, MCP server, SDKs, and a dashboard.</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">boringcomputers/goshen-email</guid>
+    </item>
+    <item>
+      <title>z3xox/Tenkaichi3Decomp</title>
+      <link>https://github.com/z3xox/Tenkaichi3Decomp</link>
+      <description>PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">z3xox/Tenkaichi3Decomp</guid>
+    </item>
+    <item>
+      <title>GTKottman/mortiflix-oss</title>
+      <link>https://github.com/GTKottman/mortiflix-oss</link>
+      <description>A motion design studio on your own machine: Claude makes the video step by step, you approve every stage. Bring your own Claude Code or API key.</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">GTKottman/mortiflix-oss</guid>
+    </item>
+    <item>
+      <title>gunkonchi/xscrape</title>
+      <link>https://github.com/gunkonchi/xscrape</link>
+      <description>Async Python client for collecting public data from X (Twitter) - search, profiles, threads, replies, and media. Built-in account rotation, adaptive rate limiting, and export to JSON/CSV/SQLite.</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">gunkonchi/xscrape</guid>
+    </item>
+    <item>
+      <title>jonaslsaa/pi-optchat</title>
+      <link>https://github.com/jonaslsaa/pi-optchat</link>
+      <description>Persistent infinite memory with profiles, background agents, and conversation imports for Pi.</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">jonaslsaa/pi-optchat</guid>
+    </item>
+    <item>
+      <title>hypersniper05/MCP-Image-Generator-Uncensored</title>
+      <link>https://github.com/hypersniper05/MCP-Image-Generator-Uncensored</link>
+      <description>Self-hosted MCP server for image generation and editing with the uncensored Qwen-Image-2.1 model</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">hypersniper05/MCP-Image-Generator-Uncensored</guid>
+    </item>
+    <item>
+      <title>NEORUAA/HyperOS-AVD</title>
+      <link>https://github.com/NEORUAA/HyperOS-AVD</link>
+      <description>HyperOS in the official ARM64 Android Studio Emulator</description>
+      <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
+      <guid isPermaLink="false">NEORUAA/HyperOS-AVD</guid>
+    </item>
     <item>
       <title>yksr-melt/Meltype</title>
       <link>https://github.com/yksr-melt/Meltype</link>
@@ -66,7 +206,7 @@
     <item>
       <title>DataWithBaraa/sql-ultimate-course</title>
       <link>https://github.com/DataWithBaraa/sql-ultimate-course</link>
-      <description> The most comprehensive SQL guide from a real-world expert! Learn everything from basics to advanced queries, optimizations, and real-world SQL</description>
+      <description>The most comprehensive SQL guide from a real-world expert! Learn everything from basics to advanced queries, optimizations, and real-world SQL</description>
       <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
       <guid isPermaLink="false">DataWithBaraa/sql-ultimate-course</guid>
     </item>
@@ -94,7 +234,7 @@
     <item>
       <title>ABING1111/BiliDesk</title>
       <link>https://github.com/ABING1111/BiliDesk</link>
-      <description>哔哩哔哩第三方桌面客户端 · Windows / WPF / .NET 8 </description>
+      <description>哔哩哔哩第三方桌面客户端 · Windows / WPF / .NET 8</description>
       <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
       <guid isPermaLink="false">ABING1111/BiliDesk</guid>
     </item>
@@ -115,7 +255,7 @@
     <item>
       <title>PavelGrigoryevDS/awesome-data-analysis</title>
       <link>https://github.com/PavelGrigoryevDS/awesome-data-analysis</link>
-      <description>🚀 500+ curated resources for Data Analysis &amp; Data Science: Python, SQL, Statistics, ML, AI, Visualization, Cheatsheets, Roadmaps, Interview Prep. For beginners and experts. </description>
+      <description>🚀 500+ curated resources for Data Analysis &amp; Data Science: Python, SQL, Statistics, ML, AI, Visualization, Cheatsheets, Roadmaps, Interview Prep. For beginners and experts.</description>
       <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
       <guid isPermaLink="false">PavelGrigoryevDS/awesome-data-analysis</guid>
     </item>

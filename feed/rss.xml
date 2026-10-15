@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Oct 2026 05:05:37 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 04:54:11 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>LosaLosSantos/aurelio-finance</title>
+      <link>https://github.com/LosaLosSantos/aurelio-finance</link>
+      <description>Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">LosaLosSantos/aurelio-finance</guid>
+    </item>
+    <item>
+      <title>feder-cr/invisible_selenium</title>
+      <link>https://github.com/feder-cr/invisible_selenium</link>
+      <description>Selenium that anti-bots cannot see, so no captchas: same API, anti-detect stealth headless Firefox, undetected fingerprint, bypass bot detection, Python web scraping and browser automation.</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">feder-cr/invisible_selenium</guid>
+    </item>
+    <item>
+      <title>mw00/project-maya</title>
+      <link>https://github.com/mw00/project-maya</link>
+      <description>Project Maya - run GLM-5.3-Flash (321B MoE) privately on your own GPU(s), from one card to 16, NVIDIA or AMD, Linux or Windows. Engine, server, dashboard, OpenAI- and Anthropic-compatible API, quant tools.</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">mw00/project-maya</guid>
+    </item>
+    <item>
+      <title>twostraws/SwiftUI-Agent-Skill</title>
+      <link>https://github.com/twostraws/SwiftUI-Agent-Skill</link>
+      <description>SwiftUI agent skill for Claude Code, Codex, and other AI tools.</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">twostraws/SwiftUI-Agent-Skill</guid>
+    </item>
+    <item>
+      <title>Fei2411/DeepSeek-Bot</title>
+      <link>https://github.com/Fei2411/DeepSeek-Bot</link>
+      <description>A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">Fei2411/DeepSeek-Bot</guid>
+    </item>
+    <item>
+      <title>academa-labs/manimgx</title>
+      <link>https://github.com/academa-labs/manimgx</link>
+      <description>The animation engine for agents: blazingly fast math and 3D videos with Manim&apos;s Python API, on a Rust GPU core.</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">academa-labs/manimgx</guid>
+    </item>
+    <item>
+      <title>grimdoomer/Xbox360PeerPressure</title>
+      <link>https://github.com/grimdoomer/Xbox360PeerPressure</link>
+      <description>Persistent softmod exploit for Xbox 360</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">grimdoomer/Xbox360PeerPressure</guid>
+    </item>
+    <item>
+      <title>feder-cr/invisible_puppeteer</title>
+      <link>https://github.com/feder-cr/invisible_puppeteer</link>
+      <description>Puppeteer for Python that anti-bots cannot see, so no captchas: same API, anti-detect stealth headless Firefox, undetected fingerprint, bypass bot detection, web scraping and browser automation.</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">feder-cr/invisible_puppeteer</guid>
+    </item>
+    <item>
+      <title>droogie/bbhost</title>
+      <link>https://github.com/droogie/bbhost</link>
+      <description>Definitive Bloodborne PC Experience</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">droogie/bbhost</guid>
+    </item>
+    <item>
+      <title>lonewolf0622/HelixSR</title>
+      <link>https://github.com/lonewolf0622/HelixSR</link>
+      <description>Drop-in FSR 3.1 upscaler for Direct3D 12 that runs DLSS&apos;s network (Model E) on AMD GPUs</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">lonewolf0622/HelixSR</guid>
+    </item>
+    <item>
+      <title>Glass-HQ/liquid-glass</title>
+      <link>https://github.com/Glass-HQ/liquid-glass</link>
+      <description>Liquid Glass materials for web and Electron, built with vgpu.</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">Glass-HQ/liquid-glass</guid>
+    </item>
+    <item>
+      <title>gr8rstudio/gr8r-studio</title>
+      <link>https://github.com/gr8rstudio/gr8r-studio</link>
+      <description>Gr8r Studio: a calm, structured project management workspace. Vite + plain ES modules.</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">gr8rstudio/gr8r-studio</guid>
+    </item>
+    <item>
+      <title>ruoyuw22-byte/NeuroMorph-Assessment</title>
+      <link>https://github.com/ruoyuw22-byte/NeuroMorph-Assessment</link>
+      <description>An automated structural MRI morphometry system integrating CAT12 processing, brain tissue quantification, visualization, and automated report generation.</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">ruoyuw22-byte/NeuroMorph-Assessment</guid>
+    </item>
+    <item>
+      <title>bas3line/ascii</title>
+      <link>https://github.com/bas3line/ascii</link>
+      <description>Animated ascii art for web pages, in TypeScript: React, Next.js, Astro, or one HTML tag</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">bas3line/ascii</guid>
+    </item>
+    <item>
+      <title>Nongfsq/ftop</title>
+      <link>https://github.com/Nongfsq/ftop</link>
+      <description>A small, quiet system monitor for Apple Silicon Macs: one floating glass panel that works at any size.</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">Nongfsq/ftop</guid>
+    </item>
+    <item>
+      <title>iamlukethedev/Herald-OS</title>
+      <link>https://github.com/iamlukethedev/Herald-OS</link>
+      <description>An agent-native operating system, with Hermes Agent as the interface. Independent project, not affiliated with Nous Research.</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">iamlukethedev/Herald-OS</guid>
+    </item>
+    <item>
+      <title>strands-agents/box</title>
+      <link>https://github.com/strands-agents/box</link>
+      <description>Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box combines OS isolation with default-deny Dogwood policies and credential injection that keeps secrets outside the agent. Written in Rust. Supports macOS on Apple silicon, with Linux support planned.</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">strands-agents/box</guid>
+    </item>
+    <item>
+      <title>AsherJN/recall</title>
+      <link>https://github.com/AsherJN/recall</link>
+      <description>Play Overwatch on your Mac. Free and open source, made for Apple Silicon.</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">AsherJN/recall</guid>
+    </item>
+    <item>
+      <title>google-ai-edge/ml-drift</title>
+      <link>https://github.com/google-ai-edge/ml-drift</link>
+      <description>GPU-Accelerated AI/ML Inference</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">google-ai-edge/ml-drift</guid>
+    </item>
+    <item>
+      <title>MisaDev4/bo1-zombies-decompiled</title>
+      <link>https://github.com/MisaDev4/bo1-zombies-decompiled</link>
+      <description>bo1 zombies decompiled</description>
+      <pubDate>Thu, 15 Oct 2026 04:54:11 GMT</pubDate>
+      <guid isPermaLink="false">MisaDev4/bo1-zombies-decompiled</guid>
+    </item>
     <item>
       <title>Supermedo/bloodborne_pc</title>
       <link>https://github.com/Supermedo/bloodborne_pc</link>

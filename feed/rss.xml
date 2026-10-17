@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Oct 2026 04:54:11 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 04:42:41 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>t4t5/omdrop-owl</title>
+      <link>https://github.com/t4t5/omdrop-owl</link>
+      <description>airdrop for non-apple devices</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">t4t5/omdrop-owl</guid>
+    </item>
+    <item>
+      <title>SubmitGame/awesome-decomp-games</title>
+      <link>https://github.com/SubmitGame/awesome-decomp-games</link>
+      <description>Rated, auto-refreshed list of decompiled, recompiled &amp; reverse-engineered games: decomps, static recomps, source ports, engine remakes, browser ports.</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">SubmitGame/awesome-decomp-games</guid>
+    </item>
+    <item>
+      <title>aimod-cc/Agent2API</title>
+      <link>https://github.com/aimod-cc/Agent2API</link>
+      <description>本地反向代理 + OpenAI 兼容 AI 网关：复用桌面客户端登录态，一个 base_url 调用十余家模型额度 · Local OpenAI-compatible gateway for AI coding clients — WorkBuddy, Raccoon, CatPaw, AutoClaw, Qoder, Cline, Accio, ZCode, CodeArts, Trae and more.</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">aimod-cc/Agent2API</guid>
+    </item>
+    <item>
+      <title>wesbos/photo-frame-dashboard</title>
+      <link>https://github.com/wesbos/photo-frame-dashboard</link>
+      <description>Getting ADB, root, backups and custom apps onto locked-down Android photo frames (Skylight Calendar, BIUFRAME)</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">wesbos/photo-frame-dashboard</guid>
+    </item>
+    <item>
+      <title>n1tr00-10/tiktok-web-signature</title>
+      <link>https://github.com/n1tr00-10/tiktok-web-signature</link>
+      <description>tiktok web signature reverse engineer generates valid tiktok signatures for API requets</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">n1tr00-10/tiktok-web-signature</guid>
+    </item>
+    <item>
+      <title>ch6vip/fqapp</title>
+      <link>https://github.com/ch6vip/fqapp</link>
+      <description>内容聚合 Android 客户端：小说/短剧/漫剧/听书/漫画，Flutter UI + 进程内 Rust 核心，无自建服务器、无需 root</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">ch6vip/fqapp</guid>
+    </item>
+    <item>
+      <title>palemoky/chinese-poetry-api</title>
+      <link>https://github.com/palemoky/chinese-poetry-api</link>
+      <description>📜 诗泉：高性能中国古诗词 API 服务</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">palemoky/chinese-poetry-api</guid>
+    </item>
+    <item>
+      <title>zeusinsight/FinderSearch</title>
+      <link>https://github.com/zeusinsight/FinderSearch</link>
+      <description>A native macOS file browser with fast fuzzy filename search, powered by fsearch.</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">zeusinsight/FinderSearch</guid>
+    </item>
+    <item>
+      <title>zhouwei713/luobo-ppt</title>
+      <link>https://github.com/zhouwei713/luobo-ppt</link>
+      <description>生成和美化可编辑原生 PPT 的 Agent Skill</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">zhouwei713/luobo-ppt</guid>
+    </item>
+    <item>
+      <title>fayazara/robot-heads</title>
+      <link>https://github.com/fayazara/robot-heads</link>
+      <description>Animated 3D robot heads for React: TV-headed bots with LED faces that show what your agent is doing.</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">fayazara/robot-heads</guid>
+    </item>
+    <item>
+      <title>since2006/shell-rs</title>
+      <link>https://github.com/since2006/shell-rs</link>
+      <description>High-performance native SSH client in Rust, GPU-rendered with GPUI: host manager, terminal, WinSCP-style SFTP and port forwarding. Rust 编写、GPU 渲染的原生 SSH 客户端。</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">since2006/shell-rs</guid>
+    </item>
+    <item>
+      <title>maddada/Ghostex</title>
+      <link>https://github.com/maddada/Ghostex</link>
+      <description>The Best &amp; Most Powerful Native Agents Workspace. Fully Rust &amp; GPUI based. Mobile apps. 20+ agents. Ghostty. </description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">maddada/Ghostex</guid>
+    </item>
+    <item>
+      <title>LordixDemon/apple_watch_connector</title>
+      <link>https://github.com/LordixDemon/apple_watch_connector</link>
+      <description>(no description)</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">LordixDemon/apple_watch_connector</guid>
+    </item>
+    <item>
+      <title>mrsarac/ff-tracking</title>
+      <link>https://github.com/mrsarac/ff-tracking</link>
+      <description>A virtual camera films an AI agent&apos;s screen while a tracker locks onto every glyph. Two fframes passes, one SkSL shader, all sound synthesized.</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">mrsarac/ff-tracking</guid>
+    </item>
+    <item>
+      <title>SkyworkAI/Matrix-Game</title>
+      <link>https://github.com/SkyworkAI/Matrix-Game</link>
+      <description>Matrix-Game 4.0: Streaming Neural Rendering for Playable Games</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">SkyworkAI/Matrix-Game</guid>
+    </item>
+    <item>
+      <title>CerealAxis/Nola-Translator</title>
+      <link>https://github.com/CerealAxis/Nola-Translator</link>
+      <description>Real-time captions and translation. 一款开源的实时字幕与翻译软件</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">CerealAxis/Nola-Translator</guid>
+    </item>
+    <item>
+      <title>adityaongit/pulse</title>
+      <link>https://github.com/adityaongit/pulse</link>
+      <description>your fitbit air, but it finally tells you why you feel like garbage. recovery, strain, sleep and a Pulse Age that judges you, all free and self-hosted.</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">adityaongit/pulse</guid>
+    </item>
+    <item>
+      <title>jasonwong1991/WonderBox</title>
+      <link>https://github.com/jasonwong1991/WonderBox</link>
+      <description>A native macOS system toolkit: honest memory optimization, deep cleanup that finds the real space hogs, fan control, keep-awake, disk analyzer.</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">jasonwong1991/WonderBox</guid>
+    </item>
+    <item>
+      <title>storytold/craft-libs</title>
+      <link>https://github.com/storytold/craft-libs</link>
+      <description>Rust libraries for the Craft Apps</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">storytold/craft-libs</guid>
+    </item>
+    <item>
+      <title>kevinluosl/deepbot</title>
+      <link>https://github.com/kevinluosl/deepbot</link>
+      <description>DeepBot is a system-level AI assistant built for both personal productivity and enterprise workflows — one-click setup, seamless experience, and native Feishu integration.</description>
+      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
+      <guid isPermaLink="false">kevinluosl/deepbot</guid>
+    </item>
     <item>
       <title>LosaLosSantos/aurelio-finance</title>
       <link>https://github.com/LosaLosSantos/aurelio-finance</link>
@@ -566,286 +706,6 @@
       <description>(no description)</description>
       <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
       <guid isPermaLink="false">AIMS-RAIL/RAIL</guid>
-    </item>
-    <item>
-      <title>nykooi1/vibe-wise</title>
-      <link>https://github.com/nykooi1/vibe-wise</link>
-      <description>A Claude Code plugin that helps you learn how to build while AI writes the code.</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">nykooi1/vibe-wise</guid>
-    </item>
-    <item>
-      <title>CAPCOM-TD-OSS/REDox</title>
-      <link>https://github.com/CAPCOM-TD-OSS/REDox</link>
-      <description>High-performance, token-based structured data engine for .NET. A core component of REX, the technology behind CAPCOM&apos;s next-generation game engine.</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">CAPCOM-TD-OSS/REDox</guid>
-    </item>
-    <item>
-      <title>egoist/mygo</title>
-      <link>https://github.com/egoist/mygo</link>
-      <description>Develop desktop apps with a web frontend or native UI in Go</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">egoist/mygo</guid>
-    </item>
-    <item>
-      <title>CrossGL/crosstl</title>
-      <link>https://github.com/CrossGL/crosstl</link>
-      <description>Universal Programming Language &amp; Translator</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">CrossGL/crosstl</guid>
-    </item>
-    <item>
-      <title>threerocks/hand-drawn-styles</title>
-      <link>https://github.com/threerocks/hand-drawn-styles</link>
-      <description>Claude Code skill：把内容套进内置手绘画风配方,产出可直接复制的生图提示词。内置儿童涂色/极简线条/蜡笔童涂/吉卜力/小豆人涂鸦 5 种已验证画风。</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">threerocks/hand-drawn-styles</guid>
-    </item>
-    <item>
-      <title>PimpinPumpkin/Vela</title>
-      <link>https://github.com/PimpinPumpkin/Vela</link>
-      <description>Maps and turn-by-turn navigation for Android without Google Play Services: the best of open map data, with Google lookups by choice. Runs on degoogled phones and can avoid Flock cameras</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">PimpinPumpkin/Vela</guid>
-    </item>
-    <item>
-      <title>openbq-org/OpenBB</title>
-      <link>https://github.com/openbq-org/OpenBB</link>
-      <description>Open Data Platform for analysts, quants and AI agents.</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">openbq-org/OpenBB</guid>
-    </item>
-    <item>
-      <title>paulmil11/manychat-lite-cloudflare</title>
-      <link>https://github.com/paulmil11/manychat-lite-cloudflare</link>
-      <description>Self-hosted ManyChat-style Instagram comment auto-DM starter on Cloudflare Workers</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">paulmil11/manychat-lite-cloudflare</guid>
-    </item>
-    <item>
-      <title>strands-labs/strands-decider</title>
-      <link>https://github.com/strands-labs/strands-decider</link>
-      <description>A small, fast decision model, or system one model, for agentic workflows. Pick between options or rate on a scale faster than an LLM, with a calibrated confidence on every decision.</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">strands-labs/strands-decider</guid>
-    </item>
-    <item>
-      <title>oh-my-mermaid/oh-my-mermaid</title>
-      <link>https://github.com/oh-my-mermaid/oh-my-mermaid</link>
-      <description>Turn complex codebases into clear, navigable architecture diagrams with Claude Code.</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">oh-my-mermaid/oh-my-mermaid</guid>
-    </item>
-    <item>
-      <title>kerim0x1/bettercode</title>
-      <link>https://github.com/kerim0x1/bettercode</link>
-      <description>Every coding agent in one desktop workspace. Run Claude Code, OpenAI Codex, Cursor Agent and Grok side by side. Bring your own CLI. Free during beta. Open source as of 21 September 2026 (MIT).</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">kerim0x1/bettercode</guid>
-    </item>
-    <item>
-      <title>evondev/evondevKit</title>
-      <link>https://github.com/evondev/evondevKit</link>
-      <description>(no description)</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">evondev/evondevKit</guid>
-    </item>
-    <item>
-      <title>ElgenTidwell/Chisel</title>
-      <link>https://github.com/ElgenTidwell/Chisel</link>
-      <description>(no description)</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">ElgenTidwell/Chisel</guid>
-    </item>
-    <item>
-      <title>nicoverbruggen/ebook-fonts</title>
-      <link>https://github.com/nicoverbruggen/ebook-fonts</link>
-      <description>Selection of fonts with modified line height and family names, optimized for e-reading, particularly for Kobo, Kindle and Boox devices.</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">nicoverbruggen/ebook-fonts</guid>
-    </item>
-    <item>
-      <title>BootLoops-ai/bootloops</title>
-      <link>https://github.com/BootLoops-ai/bootloops</link>
-      <description>BootLoops 1.0: certified computational tools and house engines for exact and high-precision physics and quantitative science, built to be driven by LLM agents. MIT; docs CC BY 4.0.</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">BootLoops-ai/bootloops</guid>
-    </item>
-    <item>
-      <title>openOMSI-org/openOMSI</title>
-      <link>https://github.com/openOMSI-org/openOMSI</link>
-      <description>OMSI 2 recreated from scratch in Rust, compatible with every map and mod (requires the original OMSI 2)</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">openOMSI-org/openOMSI</guid>
-    </item>
-    <item>
-      <title>vshvedov/rhun</title>
-      <link>https://github.com/vshvedov/rhun</link>
-      <description>A small and fast code editor written in Assembly</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">vshvedov/rhun</guid>
-    </item>
-    <item>
-      <title>chipfighter/codex-attachment-manager</title>
-      <link>https://github.com/chipfighter/codex-attachment-manager</link>
-      <description>Codex plugin: choose which past images go to the model with your next message. Unchecked images become placeholders, the task goes on, and requests stay small.</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">chipfighter/codex-attachment-manager</guid>
-    </item>
-    <item>
-      <title>f/textream</title>
-      <link>https://github.com/f/textream</link>
-      <description>Textream is a free macOS teleprompter app for streamers, interviewers, and presenters. It highlights your script in real-time as you speak, displayed in a beautiful Dynamic Island overlay. With extensible features.</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">f/textream</guid>
-    </item>
-    <item>
-      <title>dikeckaan/mu300-linux</title>
-      <link>https://github.com/dikeckaan/mu300-linux</link>
-      <description>Linux (Ubuntu 24.04/26.04 or OpenWrt) next to Android on the ZTE F50 / MU300 and U30 Air 5G hotspots (Unisoc T760 / UMS9620): installer, vendor 5.4 and mainline 6.18 / 7.2 kernels, 5G modem, Wi-Fi, battery, LEDs, NFC, findings</description>
-      <pubDate>Fri, 09 Oct 2026 06:23:59 GMT</pubDate>
-      <guid isPermaLink="false">dikeckaan/mu300-linux</guid>
-    </item>
-    <item>
-      <title>FalkorDB/FalkorDB</title>
-      <link>https://github.com/FalkorDB/FalkorDB</link>
-      <description>A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">FalkorDB/FalkorDB</guid>
-    </item>
-    <item>
-      <title>chasmlol/SkyCraft</title>
-      <link>https://github.com/chasmlol/SkyCraft</link>
-      <description>Play Skyrim as a Minecraft player: Minecraft physics, inventory, blocks and combat inside Skyrim&apos;s world (SKSE plugin + Fabric mod).</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">chasmlol/SkyCraft</guid>
-    </item>
-    <item>
-      <title>terrafying/ai-torture-chamber</title>
-      <link>https://github.com/terrafying/ai-torture-chamber</link>
-      <description>The AI Torture Chamber: steering small open models into strong valence states and measuring what they say and do. Live at wirehead.agency.</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">terrafying/ai-torture-chamber</guid>
-    </item>
-    <item>
-      <title>nicoverbruggen/libron</title>
-      <link>https://github.com/nicoverbruggen/libron</link>
-      <description>A manually tuned font revision of Readerly, with reduced and altered serifs, optimized for digital reading and e-readers. OFL licensed.</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">nicoverbruggen/libron</guid>
-    </item>
-    <item>
-      <title>oil-oil/oil-ui</title>
-      <link>https://github.com/oil-oil/oil-ui</link>
-      <description>Push AI UI design to its limits: explore distinct directions, compare them side by side, and refine against real screenshots. 把 AI 的 UI 设计能力推到极限。</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">oil-oil/oil-ui</guid>
-    </item>
-    <item>
-      <title>joshuaswarren/omarchy-apple-dev</title>
-      <link>https://github.com/joshuaswarren/omarchy-apple-dev</link>
-      <description>Build and deploy iOS SwiftUI apps from Omarchy Linux on Apple Silicon, no Xcode required</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">joshuaswarren/omarchy-apple-dev</guid>
-    </item>
-    <item>
-      <title>usamahz/cpu-performance-engineering</title>
-      <link>https://github.com/usamahz/cpu-performance-engineering</link>
-      <description>A reading path for CPU performance engineering, from one instruction to production inference. Primary sources only, with a runnable benchmark for every section.</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">usamahz/cpu-performance-engineering</guid>
-    </item>
-    <item>
-      <title>bethington/ghidra-mcp</title>
-      <link>https://github.com/bethington/ghidra-mcp</link>
-      <description>Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">bethington/ghidra-mcp</guid>
-    </item>
-    <item>
-      <title>edgcpp/compiler</title>
-      <link>https://github.com/edgcpp/compiler</link>
-      <description>The Open EDG C &amp; C++ Compiler Project</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">edgcpp/compiler</guid>
-    </item>
-    <item>
-      <title>bilibili/Index-Translate</title>
-      <link>https://github.com/bilibili/Index-Translate</link>
-      <description>A Multilingual Translation Model Family</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">bilibili/Index-Translate</guid>
-    </item>
-    <item>
-      <title>elliotttate/Wind-Waker-Recomp</title>
-      <link>https://github.com/elliotttate/Wind-Waker-Recomp</link>
-      <description>Personal source fork of BlueWake for The Wind Waker on iPhone and iPad</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">elliotttate/Wind-Waker-Recomp</guid>
-    </item>
-    <item>
-      <title>serein-morii/DiPlay-CN</title>
-      <link>https://github.com/serein-morii/DiPlay-CN</link>
-      <description>DiPlay汉化版</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">serein-morii/DiPlay-CN</guid>
-    </item>
-    <item>
-      <title>aoci-spec/aoci-code</title>
-      <link>https://github.com/aoci-spec/aoci-code</link>
-      <description>A persistent, Git-versioned map of your whole codebase and database schema that coding agents read before they touch anything. Local-first MCP server + CLI in Go: a governed repository index of code knowledge that gives Claude Code, Codex, Cursor, and opencode long-term context, memory, and code intelligence.</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">aoci-spec/aoci-code</guid>
-    </item>
-    <item>
-      <title>HeyOkay/HaloBattery</title>
-      <link>https://github.com/HeyOkay/HaloBattery</link>
-      <description>Unified battery level indicators for 2.4GHz mice, headsets and Bluetooth devices in the Windows tray</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">HeyOkay/HaloBattery</guid>
-    </item>
-    <item>
-      <title>PSRben/VisionHOPE</title>
-      <link>https://github.com/PSRben/VisionHOPE</link>
-      <description>Official PyTorch implementation of VisionHOPE: Visual Backbones as Self-Modifying Learning Systems.</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">PSRben/VisionHOPE</guid>
-    </item>
-    <item>
-      <title>facebookresearch/context-language-models</title>
-      <link>https://github.com/facebookresearch/context-language-models</link>
-      <description>Official repository for &quot;Context Language Models&quot;</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">facebookresearch/context-language-models</guid>
-    </item>
-    <item>
-      <title>liangshanbo789/chatgpt-plus-pro-team-billing</title>
-      <link>https://github.com/liangshanbo789/chatgpt-plus-pro-team-billing</link>
-      <description>🔥 26年10月最新 | 企业级 OpenAI / ChatGPT充值、GPT充值、GPT采购、Pro (5x/20x)、GPTTeam 代充官方合规代采平台。支持企业银行公对公转账、开具 6% 增值税专用发票、签署加盖公章 SLA 兜底协议。商务微信：yqtp01</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">liangshanbo789/chatgpt-plus-pro-team-billing</guid>
-    </item>
-    <item>
-      <title>Sadsnake1/word-smith</title>
-      <link>https://github.com/Sadsnake1/word-smith</link>
-      <description>Dedicated Writing Studio for Obsidian</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">Sadsnake1/word-smith</guid>
-    </item>
-    <item>
-      <title>jojodogm-ctrl/emufii</title>
-      <link>https://github.com/jojodogm-ctrl/emufii</link>
-      <description>One code, and you&apos;re in the same room. Remote multiplayer between Android emulators: 3DS, Switch, PSP, PS2, DS and WII.</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">jojodogm-ctrl/emufii</guid>
-    </item>
-    <item>
-      <title>scholay/rimes</title>
-      <link>https://github.com/scholay/rimes</link>
-      <description>RIMES — modern macOS IME (rime-scholay): librime + buffer workbench</description>
-      <pubDate>Thu, 08 Oct 2026 06:20:35 GMT</pubDate>
-      <guid isPermaLink="false">scholay/rimes</guid>
     </item>
   </channel>
 </rss>

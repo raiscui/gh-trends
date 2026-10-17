@@ -116,4 +116,66 @@ describe('render.ts', () => {
       expect(content).toContain('▲ Vercel AI SDK trends');
     });
   });
+
+  // AI Video Editor 段的渲染边界。pipeline 每期已算出 30 条(RELEASE_TOP_N_AI_VIDEO_EDITOR=30),
+  // 但模板此前只渲染前 15 条 —— 每天有一半结果被丢弃。头部稳态 + 尾部轮换后,
+  // Tier 2 是轮换发生的区域, 必须渲染到第 30 条才有效果。
+  describe('markdown AI Video Editor 段渲染边界', () => {
+    beforeEach(() => {
+      vi.stubEnv('RELEASE_TRUNCATE_DESC', '0');
+    });
+
+    // 造 n 条按名次排列的视频榜条目
+    function videoRepos(n: number): ScoredRepo[] {
+      return Array.from({ length: n }, (_, i) => ({
+        ...mockScoredRepos[i % mockScoredRepos.length]!,
+        nameWithOwner: `video/r${i}`,
+        url: `https://github.com/video/r${i}`,
+        description: `video repo ${i}`,
+        score: 100 - i,
+      }));
+    }
+
+    function videoSections(repos: ScoredRepo[]) {
+      return { ...toSections([]), aiVideoEditor: repos };
+    }
+
+    const segmentOf = (content: string) =>
+      content.slice(content.indexOf('🎬 AI Video Editor trends'));
+
+    it('渲染到第 30 条(而非只渲染 15 条)', () => {
+      const content = render(template, videoSections(videoRepos(31)));
+      const segment = segmentOf(content);
+
+      expect(segment).toContain('video/r29');
+      // 第 31 条超出 topN, 不该渲染
+      expect(segment).not.toContain('video/r30');
+    });
+
+    it('Tier 1 承载前 15 条, Tier 2 承载第 16~30 条', () => {
+      const content = render(template, videoSections(videoRepos(30)));
+      const segment = segmentOf(content);
+      const tier2 = segment.slice(segment.indexOf('Tier 2'));
+
+      expect(segment.slice(0, segment.indexOf('Tier 2'))).toContain('video/r14');
+      expect(tier2).not.toContain('video/r14');
+      expect(tier2).toContain('video/r15');
+      expect(tier2).toContain('video/r29');
+    });
+
+    it('段内共渲染 30 条', () => {
+      const content = render(template, videoSections(videoRepos(30)));
+      const matches = segmentOf(content).match(/video\/r\d+/g) ?? [];
+
+      expect(new Set(matches).size).toBe(30);
+    });
+
+    it('池子不足 30 条时按实际条数渲染, 不报错', () => {
+      const content = render(template, videoSections(videoRepos(6)));
+      const segment = segmentOf(content);
+
+      expect(segment).toContain('video/r5');
+      expect(segment).not.toContain('video/r6');
+    });
+  });
 });

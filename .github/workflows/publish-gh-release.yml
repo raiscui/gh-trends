@@ -46,7 +46,10 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-        git add feed/published.json
+        # feed/published_ecosystem.json 是生态榜尾部轮换记忆(ADR-0003 决策 2 修订),
+        # 同样需要随仓库持久化 —— CI 每次全新 checkout, 不提交则轮换静默失效。
+        # 只有 release 路径会写它(RSS 路径不轮换), 故 update-rss.yml 无需提交该文件。
+        git add feed/published.json feed/published_ecosystem.json
 
         # Nothing to commit? Exit early.
         if git diff --staged --quiet; then

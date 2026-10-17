@@ -90,6 +90,7 @@
 | src/pipeline/filter.ts                 | fail-closed filter,50% guardrail              |
 | src/pipeline/select.ts                 | fresh bucket + accel 乘数 + score sort(可传自定义窗口) |
 | src/pipeline/dedupe.ts                 | 发布去重记忆(feed/published.json, 90 天)      |
+| src/pipeline/rotation.ts               | 生态榜尾部轮换记忆(feed/published_ecosystem.json, 日历天) |
 | src/pipeline/vertical.ts               | Rust / Agent / DeepSeek select 包装(仅池内榜) |
 | src/pipeline/ecosystem.ts              | 生态榜取数编排 + 两榜配置(ADR-0003)           |
 | src/pipeline/render.ts                 | handlebars 编译 + 注入 sections               |
@@ -176,6 +177,10 @@ GitHub topic 搜索(top 100/topic, 并集去重)
 
 1. **不套用 90 天发布去重,也不写入 `feed/published.json`**。Vercel 收窄后有
    增速的仅约 21 个,若写入记忆会被主榜池的 `dedupe` 挡在门外,该段将长期空榜。
+   - 2026-10-17 修订:视频榜头部仍稳态常驻、不进主记忆,但**尾部 15 条**改用
+     独立的短周期轮换记忆 `feed/published_ecosystem.json`(保留期
+     `ECOSYSTEM_ROTATION_DAYS=2` 天)。原约束"不进主记忆"依然成立,只是给它加了
+     一条自己的记忆。见 ADR-0003 修订节;Vercel 榜池子太小(约 25 个)不轮换。
 2. **不参与 `run.ts` 的 50% filter guardrail**(小池方差大),但仍走 `filter()`
    保留 `FILTER_MIN_STARS` 等质量底线。
 3. **fail-soft**:取数失败只留空并 WARN,不中断整次发布。
@@ -210,3 +215,4 @@ awesome-list 与 prompt 库(如 `awesome-seedance`、`awesome-ai-motion`)。
 | RELEASE_TOP_N_VERCEL_AI_SDK  | 20     | Vercel AI SDK 生态榜 top-N(2026-10-04 迁生态榜并收紧) |
 | RELEASE_TOP_N_AI_VIDEO_EDITOR | 30    | AI Video Editor 生态榜 top-N(2026-10-04 新增)   |
 | ECOSYSTEM_WINDOW_DAYS        | 28     | 生态榜增速窗口(2026-10-04, ADR-0003)          |
+| ECOSYSTEM_ROTATION_DAYS      | 2      | 生态榜尾部轮换保留期(日历天,2026-10-17;0=关闭) |

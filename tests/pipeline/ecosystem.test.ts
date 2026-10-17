@@ -1,10 +1,16 @@
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import {
   AI_VIDEO_EDITOR_BOARD,
   VERCEL_AI_SDK_BOARD,
   buildEcosystemBoard,
   isVercelAiSdkEcosystemMember,
+  persistEcosystemRotation,
+  type EcosystemBoardConfig,
 } from '../../src/pipeline/ecosystem';
+import { ScoredRepo } from '../../src/pipeline/select';
 import { GitHubTopicClient, TopicCandidate } from '../../src/clients/github.topics';
 import { ClickHouseClient, ClickHouseRepo } from '../../src/clients/clickhouse';
 import { GitHubGraphQLClient, GithubRepo } from '../../src/clients/github.gql';
@@ -264,6 +270,196 @@ describe('pipeline/ecosystem.ts', () => {
       vi.spyOn(GitHubTopicClient.prototype, 'searchByTopics').mockRejectedValue(new Error('boom'));
 
       await expect(buildEcosystemBoard(VERCEL_AI_SDK_BOARD)).resolves.toEqual([]);
+    });
+  });
+
+  // 头部稳态 + 尾部轮换(ADR-0003 决策 2 修订)。
+  // 实测 10 期里 8 个项目期期满勤, 相邻两期重合 10~13 条 —— 28 天稳态增速
+  // 排序下头部位次本就不变, 故只对尾部做短周期轮换。
+  describe('尾部轮换', () => {
+    let dir: string;
+
+    beforeEach(() => {
+      dir = fs.mkdtempSync(path.join(os.tmpdir(), 'gh-trends-eco-'));
+      // 覆盖外层 fake time: 轮换保留期按日历天判定, 需要"今天/昨天"语义明确
+      vi.setSystemTime(new Date('2026-10-16T12:00:00Z'));
+      vi.stubEnv('RELEASE_TOP_N_AI_VIDEO_EDITOR', '4');
+      vi.stubEnv('ECOSYSTEM_ROTATION_DAYS', '2');
+    });
+
+    afterEach(() => {
+      fs.rmSync(dir, { recursive: true, force: true });
+    });
+
+    const memoryPath = () => path.join(dir, 'published_ecosystem.json');
+
+    // 测试专用榜: headSlots 按 topN=4 缩到 2(生产配置 headSlots=15 对应 topN=30,
+    // 两者比例一致), 否则 headSlots 会被夹到 topN 而没有尾部可轮换。
+    const TEST_BOARD: EcosystemBoardConfig = {
+      ...AI_VIDEO_EDITOR_BOARD,
+      rotation: {
+        headSlots: 2,
+        retentionDaysEnv: 'ECOSYSTEM_ROTATION_DAYS',
+        retentionDaysDefault: 2,
+      },
+    };
+
+    // 8 个候选按增速递减排列: fast0 最快 ... fast7 最慢
+    function stubDescendingPool() {
+      const names = Array.from({ length: 8 }, (_, i) => `eco/fast${i}`);
+      stubPipeline(
+        names.map(n => candidate(n, 500, ['ai-video-editor'])),
+        names.map((n, i) => ({
+          repoName: n,
+          starsWithin: String(100 - i),
+          firstSeenAt: '2026-09-30 00:00:00',
+        }))
+      );
+      return names;
+    }
+
+    it('AI Video Editor 榜配置了头部槽位与保留期 env', () => {
+      expect(AI_VIDEO_EDITOR_BOARD.rotation).toEqual({
+        headSlots: 15,
+        retentionDaysEnv: 'ECOSYSTEM_ROTATION_DAYS',
+        retentionDaysDefault: 2,
+      });
+    });
+
+    it('Vercel 榜不轮换 —— 有增速候选仅约 25 个, 池子撑不起轮换', () => {
+      expect(VERCEL_AI_SDK_BOARD.rotation).toBeUndefined();
+    });
+
+    it('头部原样保留, 尾部换成未上榜的更深候选', async () => {
+      const names = stubDescendingPool();
+      // 第 3 名 fast2 昨天上过榜
+      fs.writeFileSync(memoryPath(), JSON.stringify({ [names[2]!]: '2026-10-15' }));
+
+      const out = await buildEcosystemBoard(TEST_BOARD, memoryPath());
+
+      expect(out.map(r => r.nameWithOwner)).toEqual([
+        'eco/fast0',
+        'eco/fast1',
+        'eco/fast3',
+        'eco/fast4',
+      ]);
+    });
+
+    it('不传记忆路径时按稳态排序出榜(不轮换)', async () => {
+      stubDescendingPool();
+
+      const out = await buildEcosystemBoard(TEST_BOARD);
+
+      expect(out.map(r => r.nameWithOwner)).toEqual([
+        'eco/fast0',
+        'eco/fast1',
+        'eco/fast2',
+        'eco/fast3',
+      ]);
+    });
+
+    it('ECOSYSTEM_ROTATION_DAYS=0 关闭轮换', async () => {
+      vi.stubEnv('ECOSYSTEM_ROTATION_DAYS', '0');
+      const names = stubDescendingPool();
+      fs.writeFileSync(memoryPath(), JSON.stringify({ [names[2]!]: '2026-10-15' }));
+
+      const out = await buildEcosystemBoard(TEST_BOARD, memoryPath());
+
+      expect(out.map(r => r.nameWithOwner)).toEqual([
+        'eco/fast0',
+        'eco/fast1',
+        'eco/fast2',
+        'eco/fast3',
+      ]);
+    });
+
+    it('轮换候选耗尽时回退原排序, 条目数不缩水', async () => {
+      const names = stubDescendingPool();
+      // 尾部 6 个候选全部昨天上过榜
+      const tail = Object.fromEntries(names.slice(2).map(n => [n, '2026-10-15']));
+      fs.writeFileSync(memoryPath(), JSON.stringify(tail));
+
+      const out = await buildEcosystemBoard(TEST_BOARD, memoryPath());
+
+      expect(out).toHaveLength(4);
+      expect(out.map(r => r.nameWithOwner)).toEqual([
+        'eco/fast0',
+        'eco/fast1',
+        'eco/fast2',
+        'eco/fast3',
+      ]);
+    });
+
+    it('persistEcosystemRotation 只回写配置了轮换的榜的尾部', () => {
+      const boardRepos = [
+        { nameWithOwner: 'eco/a0' },
+        { nameWithOwner: 'eco/a1' },
+        { nameWithOwner: 'eco/a2' },
+      ] as ScoredRepo[];
+
+      persistEcosystemRotation([AI_VIDEO_EDITOR_BOARD], [boardRepos], memoryPath());
+
+      const onDisk = JSON.parse(fs.readFileSync(memoryPath(), 'utf-8'));
+      // headSlots=15 > 3 条, 全部落在头部 -> 无尾部可回写
+      expect(onDisk).toEqual({});
+    });
+
+    it('persistEcosystemRotation 回写尾部名单并带上榜日期', () => {
+      const repos = [
+        { nameWithOwner: 'eco/h0' },
+        { nameWithOwner: 'eco/h1' },
+        { nameWithOwner: 'eco/t2' },
+      ] as ScoredRepo[];
+
+      persistEcosystemRotation([TEST_BOARD], [repos], memoryPath());
+
+      // headSlots=2: 前两条是头部不回写, 只有第 3 条属尾部
+      expect(JSON.parse(fs.readFileSync(memoryPath(), 'utf-8'))).toEqual({
+        'eco/t2': '2026-10-16',
+      });
+    });
+
+    it('persistEcosystemRotation 跳过未配置轮换的榜', () => {
+      const repos = [{ nameWithOwner: 'eco/v0' }] as ScoredRepo[];
+
+      persistEcosystemRotation([VERCEL_AI_SDK_BOARD], [repos], memoryPath());
+
+      expect(fs.existsSync(memoryPath())).toBe(false);
+    });
+
+    // 端到端: buildEcosystemBoard 读的记忆, 必须正是 persistEcosystemRotation
+    // 写出来的那份 —— 两半分开测各自绿, 接不上则轮换静默失效。
+    it('连续多天: 出榜 -> 回写 -> 次日出榜轮换, 尾部逐日换人', async () => {
+      stubDescendingPool();
+      const boards = [TEST_BOARD];
+
+      const day = (d: number) => vi.setSystemTime(new Date(`2026-10-${16 + d}T12:00:00Z`));
+
+      async function runDay(d: number): Promise<string[]> {
+        day(d);
+        const out = await buildEcosystemBoard(TEST_BOARD, memoryPath());
+        persistEcosystemRotation(boards, [out], memoryPath());
+        return out.map(r => r.nameWithOwner);
+      }
+
+      const day1 = await runDay(0);
+      const day2 = await runDay(1);
+      const day3 = await runDay(2);
+      const day4 = await runDay(3);
+
+      // 头部稳态: 四天都是 fast0 / fast1
+      for (const d of [day1, day2, day3, day4]) {
+        expect(d.slice(0, 2)).toEqual(['eco/fast0', 'eco/fast1']);
+      }
+      // 尾部逐日换人, 且相邻两天不重复
+      expect(day1.slice(2)).toEqual(['eco/fast2', 'eco/fast3']);
+      expect(day2.slice(2)).toEqual(['eco/fast4', 'eco/fast5']);
+      expect(day3.slice(2)).toEqual(['eco/fast6', 'eco/fast7']);
+      // 第 4 天: day1 的尾部已超出 2 天保留期, 回到 fast2/fast3
+      expect(day4.slice(2)).toEqual(['eco/fast2', 'eco/fast3']);
+      // 四天累计覆盖 6 个尾部项目(池子 8 - 头部 2)
+      const allTails = [day1, day2, day3, day4].map(d => d.slice(2)).flat();
+      expect(new Set(allTails)).toHaveLength(6);
     });
   });
 });

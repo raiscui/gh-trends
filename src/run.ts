@@ -6,8 +6,10 @@ import { select } from './pipeline/select';
 import { selectRust, selectAgent, selectDeepSeekHarness } from './pipeline/vertical';
 import {
   buildEcosystemBoard,
+  persistEcosystemRotation,
   VERCEL_AI_SDK_BOARD,
   AI_VIDEO_EDITOR_BOARD,
+  ECOSYSTEM_MEMORY_PATH,
 } from './pipeline/ecosystem';
 import { publishAll } from './pipeline/publish';
 import { logInfo, TaggedError } from './utils/logging';
@@ -63,8 +65,14 @@ export async function main(): Promise<void> {
   // 生态榜两段(Vercel AI SDK / AI Video Editor)走独立取数通道,见 ADR-0003:
   // 候选池来自 GitHub topic 搜索而非主榜池, 排序窗口 ECOSYSTEM_WINDOW_DAYS。
   // 两者均 fail-soft, 失败只留空不影响其余段落发布。
-  const vercelAiSdkRepos = await buildEcosystemBoard(VERCEL_AI_SDK_BOARD);
-  const aiVideoEditorRepos = await buildEcosystemBoard(AI_VIDEO_EDITOR_BOARD);
+  //
+  // 尾部轮换只在 **release 路径**读写(GITHUB_RELEASES_ENABLED): 每天两次运行
+  // (RSS 00:27 / release 09:33)若都轮换, 轮转额度会被消耗两次, 且用户看的
+  // release 拿到的是当天"第二轮"结果。RSS 路径不传记忆 = 稳态排序, 不回写。
+  const rotationMemory =
+    process.env.GITHUB_RELEASES_ENABLED === 'true' ? ECOSYSTEM_MEMORY_PATH : undefined;
+  const vercelAiSdkRepos = await buildEcosystemBoard(VERCEL_AI_SDK_BOARD, rotationMemory);
+  const aiVideoEditorRepos = await buildEcosystemBoard(AI_VIDEO_EDITOR_BOARD, rotationMemory);
   logInfo(
     'score',
     `selected: main=${mainRepos.length}, rust=${rustRepos.length}, agent=${agentRepos.length}, deepseekHarness=${deepseekHarnessRepos.length}, vercelAiSdk=${vercelAiSdkRepos.length}, aiVideoEditor=${aiVideoEditorRepos.length}`
@@ -92,6 +100,17 @@ export async function main(): Promise<void> {
     ),
   ];
   recordPublished(publishedNames, PUBLISHED_MEMORY_PATH);
+
+  // 生态榜尾部轮换记忆走**独立文件**, 与上面的主记忆互不干扰(见 rotation.ts):
+  // 只回写配置了 rotation 的榜的尾部(headSlots 之后), 头部稳态常驻不回写。
+  // 与 buildEcosystemBoard 同样只在 release 路径生效, RSS 路径不消耗轮转额度。
+  if (rotationMemory) {
+    persistEcosystemRotation(
+      [VERCEL_AI_SDK_BOARD, AI_VIDEO_EDITOR_BOARD],
+      [vercelAiSdkRepos, aiVideoEditorRepos],
+      rotationMemory
+    );
+  }
 }
 
 // Run if this is the main module

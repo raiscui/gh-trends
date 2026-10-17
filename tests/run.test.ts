@@ -1,3 +1,6 @@
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { main, run } from '../src/run';
 import { HttpError, TaggedError } from '../src/utils/logging';
@@ -163,6 +166,63 @@ describe('run.ts', () => {
       vi.spyOn(global, 'fetch').mockRejectedValue(new Error('message'));
 
       await expect(run()).rejects.toThrow('message');
+    });
+  });
+
+  // 生态榜轮换记忆的接线(ADR-0003 决策 2 修订):
+  // 只有 release 路径该轮换并回写; RSS 那次运行不能消耗轮转额度, 否则
+  // 每天两次运行会让用户看到的 release 拿到"第二轮"结果。
+  //
+  // 用 chdir 到临时目录 + 断言记忆文件是否落地来验证, 而不是 mock ecosystem
+  // 模块: 记忆路径是相对路径(feed/published_ecosystem.json), 落到哪里由 cwd
+  // 决定, 这样既验证了真实写盘行为, 又不会污染工作区的 feed/。
+  describe('生态榜轮换接线', () => {
+    let workDir: string;
+    let originCwd: string;
+    const memoryFile = () => path.join(workDir, 'feed', 'published_ecosystem.json');
+
+    beforeEach(() => {
+      originCwd = process.cwd();
+      workDir = fs.mkdtempSync(path.join(os.tmpdir(), 'gh-trends-run-'));
+      // RSS 发布器要写 feed/rss.xml, 记忆文件同样落在 feed/ 下
+      fs.mkdirSync(path.join(workDir, 'feed'), { recursive: true });
+      process.chdir(workDir);
+
+      vi.stubEnv('USE_MOCK_REPOS', 'false');
+      vi.stubEnv('RELEASE_TOP_N', '10');
+      vi.stubEnv('GITHUB_RELEASES_REPO', 'test/repo');
+      vi.stubEnv('GITHUB_TOKEN', 'ghp_test_token_123');
+    });
+
+    afterEach(() => {
+      process.chdir(originCwd);
+      fs.rmSync(workDir, { recursive: true, force: true });
+    });
+
+    it('release 路径写出生态榜轮换记忆', async () => {
+      vi.stubEnv('GITHUB_RELEASES_ENABLED', 'true');
+
+      await main();
+
+      expect(fs.existsSync(memoryFile())).toBe(true);
+    });
+
+    it('RSS 路径不写轮换记忆(不消耗轮转额度)', async () => {
+      vi.stubEnv('GITHUB_RELEASES_ENABLED', 'false');
+      vi.stubEnv('RSS_ENABLED', 'true');
+
+      await main();
+
+      expect(fs.existsSync(memoryFile())).toBe(false);
+    });
+
+    it('ECOSYSTEM_ROTATION_DAYS=0 时即使走 release 路径也不产生记忆文件', async () => {
+      vi.stubEnv('GITHUB_RELEASES_ENABLED', 'true');
+      vi.stubEnv('ECOSYSTEM_ROTATION_DAYS', '0');
+
+      await main();
+
+      expect(fs.existsSync(memoryFile())).toBe(false);
     });
   });
 });

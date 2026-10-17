@@ -157,4 +157,69 @@ AI Video Editor 榜头部:`hypit-ai/hypit`、`edenfunf/reelmimic`、
 
 - 视频榜的 `video-editing` / `ai-video` 话题偏宽,榜内混有少量 awesome-list
   与 prompt 库。因其属该生态的周边资产, 暂不收紧。
-- 记忆里遗留的"markdown.hbs 模板硬编码 15 vs env top-N"未决项, 本次未动。
+- ~~记忆里遗留的"markdown.hbs 模板硬编码 15 vs env top-N"未决项, 本次未动。~~
+  已于 2026-10-17 修订关闭(见下节修订 1)。
+
+## 修订:视频榜尾部轮换(2026-10-17)
+
+### 现象
+
+生态榜上线后连续 10 期(10-06 ~ 10-16)内容高度雷同:`hypit-ai/hypit`、
+`edenfunf/reelmimic`、`storytold/filmcraft`、`zhouxiaoka/autoclip`、
+`Vincentwei1021/video-shotcraft`、`LearnPrompt/awesome-seedance`、
+`lemomo-ai/lemo-opuscar`、`yihui-dev/awesome-opus5-5-videos` 这 8 个项目**期期满勤**,
+10 期合计只出现 26 个独立项目,相邻两期重合 10~13 条。
+
+### 根因
+
+28 天窗口 + 稳态增速排序下,成熟生态头部项目的位次本来就不会天天变 —— 这是排序
+口径的必然结果,不是数据错误。原决策 2 为保护小池子而让生态榜完全不去重,代价就是
+该段永远不变。
+
+### 修订决策
+
+1. **模板渲染边界 15 → 30**,与 `RELEASE_TOP_N_AI_VIDEO_EDITOR=30` 对齐。此前
+   pipeline 每期算出 30 条但只渲染 15 条,一半结果被丢弃(遗留项 2 就此关闭)。
+2. **头部稳态 + 尾部轮换**:前 15 条(对应 Tier 1)不轮换,后 15 条按独立记忆轮换。
+   成熟生态的头部项目常驻本来就是榜单价值所在,不该为了"看起来不一样"而牺牲。
+3. **记忆文件独立**:`feed/published_ecosystem.json`,不进 `feed/published.json`。
+   原决策 2 的核心结论(生态榜进主记忆会被 `dedupe` 挡成永久空榜)依然成立,本次
+   只是给它加了一条**自己的**短周期记忆。
+4. **保留期 2 天**,而非主榜的 90 天。实测(2026-10-16 CI 日志)池子规模:粗排保留
+   90 → 过 `filter` 剔 5 个低星 → **85 个**。按尾部 15 条/天测算:
+
+   | retentionDays | 7 天独立项目 | 尾部日均重合 | 回退次数 |
+   |---|---|---|---|
+   | 1 | 45 | 15/15(退化成两天一循环) | 0 |
+   | **2** | **60** | **0/15** | **0** |
+   | 3 | 75 | 0/15 | 0(但余量仅 1.5 倍) |
+
+   `retentionDays=1` 反而更差 —— 池子够大时它会锁死在两组之间来回跳。故取 2。
+5. **只在 release 路径轮换**。每天两次运行(RSS 00:27 / release 09:33)都会跑完整
+   pipeline,若两次都轮换则额度被消耗两遍,且用户看的 release 拿到的是当天"第二轮"
+   结果。故以 `GITHUB_RELEASES_ENABLED` 为门控,RSS 路径稳态排序、不回写。
+6. **排序深度与出榜条数分离**:`rankAndSlice` 改为先排完整个粗排池(深度 ≤ 120,不
+   增加 API 请求),再由 `rotateTail` 截到 top-N。若沿用"排完即截 topN",轮换将无
+   替补可用,剔掉几条只能回退原排序,轮换静默失效。
+7. **轮换记忆随仓库持久化**:`publish-gh-release.yml` 的 `git add` 需包含该文件,
+   否则 CI 每次全新 checkout,记忆丢失 → 轮换静默失效。
+8. **保留期按日历天判定**,而非 `dedupe.ts` 的精确时间差:记忆存的是 `YYYY-MM-DD`,
+   用时间差时"昨天 00:00 到 今天 09:33"= 1.4 天,`retentionDays=1` 会误判为已过期,
+   保留期语义随运行时刻漂移。
+
+### 影响
+
+- 新增 `src/pipeline/rotation.ts`(`rotateTail` / `recordRotation`)
+- `EcosystemBoardConfig` 增可选 `rotation`;`buildEcosystemBoard` 增可选第二参
+  `rotationMemoryPath`(省略 = 稳态排序,preview 走这条路)
+- 新增 `persistEcosystemRotation`(发布成功后回写尾部),`run.ts` 接线
+- `markdown.hbs` 视频榜 Tier 边界 8/15 → 15/30
+- `.env.example` 新增 `ECOSYSTEM_ROTATION_DAYS`;新增 `feed/published_ecosystem.json`
+- Vercel 榜**不配置** rotation:有增速候选仅约 25 个,池子撑不起 15 条尾部轮换
+
+### 验证结果
+
+- vitest 235/235 绿,`tsc --noEmit` OK,prettier 全量合规
+- 变异验证:移除 `persistEcosystemRotation` 调用后接线测试如期变红(证明测试有效,
+  非假绿)
+- 多天模拟(85 池子 × 6 天,真实 `rotateTail` 实现):尾部日均重合 0/15,回退 0 次

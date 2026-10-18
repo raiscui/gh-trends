@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Oct 2026 04:42:41 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 04:47:59 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>fyzugx/DEsk</title>
+      <link>https://github.com/fyzugx/DEsk</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">fyzugx/DEsk</guid>
+    </item>
+    <item>
+      <title>morluto/awesome-reverse-engineering</title>
+      <link>https://github.com/morluto/awesome-reverse-engineering</link>
+      <description>Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">morluto/awesome-reverse-engineering</guid>
+    </item>
+    <item>
+      <title>marclou/mailcheap</title>
+      <link>https://github.com/marclou/mailcheap</link>
+      <description>Newsletters where you pay for the emails you send, not for dormant subscribers, at a fraction of the price of beehiiv and the like. Open source: self-host it, or use mailcheap.ai.</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">marclou/mailcheap</guid>
+    </item>
+    <item>
+      <title>artemchuikin/youtube-skills</title>
+      <link>https://github.com/artemchuikin/youtube-skills</link>
+      <description>YouTube transcript skills for Claude Code, Cursor and Codex. Agent Skills to get transcripts, search YouTube, read channels and playlists, and bulk export.</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">artemchuikin/youtube-skills</guid>
+    </item>
+    <item>
+      <title>ZhFkl/resumeworkflow</title>
+      <link>https://github.com/ZhFkl/resumeworkflow</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">ZhFkl/resumeworkflow</guid>
+    </item>
+    <item>
+      <title>rootSunc/CNEquity</title>
+      <link>https://github.com/rootSunc/CNEquity</link>
+      <description>中国 A 股数据基础设施。55个日更数据集：股票行情、基本面、期货数据、资金面、公告事件、指数行业、宏观与风险。行级溯源、PIT 语义、复权与历史成分内置，MCP 原生。自托管，零注册、零 API Token</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">rootSunc/CNEquity</guid>
+    </item>
+    <item>
+      <title>JetBrains/thinkrail</title>
+      <link>https://github.com/JetBrains/thinkrail</link>
+      <description>Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">JetBrains/thinkrail</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/B</title>
+      <link>https://github.com/AhmadHassan-BTed/B</link>
+      <description>An autonomous, context-aware AI desktop companion. Built with Python, featuring real-time screen vision, custom ONNX voice synthesis, active window tracking, and a dynamic floating UI with reactive facial expressions.</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/B</guid>
+    </item>
+    <item>
+      <title>nikgrbn/finder-menu</title>
+      <link>https://github.com/nikgrbn/finder-menu</link>
+      <description>Right-click menu for macOS Finder: New File, Open Terminal Here, Copy Path, Go to Parent Folder</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">nikgrbn/finder-menu</guid>
+    </item>
+    <item>
+      <title>ddoemonn/interior</title>
+      <link>https://github.com/ddoemonn/interior</link>
+      <description>micro-interactions for react, built for the half-second after a click</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">ddoemonn/interior</guid>
+    </item>
+    <item>
+      <title>NVlabs/ASPIRE</title>
+      <link>https://github.com/NVlabs/ASPIRE</link>
+      <description>ASPIRE: Agentic /Skills Discovery for Robotics</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">NVlabs/ASPIRE</guid>
+    </item>
+    <item>
+      <title>eyalgolan/statecraft-israel</title>
+      <link>https://github.com/eyalgolan/statecraft-israel</link>
+      <description>A Civilization-style strategy game about governing Israel from 15 May 1948. Real ministers, real map, every fact sourced. Unity + deterministic C# sim.</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">eyalgolan/statecraft-israel</guid>
+    </item>
+    <item>
+      <title>SimonSchubert/omalauncher</title>
+      <link>https://github.com/SimonSchubert/omalauncher</link>
+      <description>Agentic Android launcher: build your own apps and widgets with AI agents, Omarchy themes, Arch Linux without root</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">SimonSchubert/omalauncher</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/EQAI</title>
+      <link>https://github.com/AhmadHassan-BTed/EQAI</link>
+      <description>A highly specialized reverse-engineering pipeline designed to structurally transplant original Vanilla character models into the EverQuest Online Adventures: Frontiers (PS2) game engine, resolving complex Vector Unit 1 (VU1) shader bugs, Emotion Engine (EE) memory overflows, and PS2 CDVDman hardware faults.</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/EQAI</guid>
+    </item>
+    <item>
+      <title>icloudza/caplo</title>
+      <link>https://github.com/icloudza/caplo</link>
+      <description>macOS 屏幕录制工具</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">icloudza/caplo</guid>
+    </item>
+    <item>
+      <title>youke1686/FlyDisk</title>
+      <link>https://github.com/youke1686/FlyDisk</link>
+      <description>Windows 上的开源硬盘加速器 · Open-source hard drive accelerator for Windows</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">youke1686/FlyDisk</guid>
+    </item>
+    <item>
+      <title>yisier/rustgrid</title>
+      <link>https://github.com/yisier/rustgrid</link>
+      <description>Native database GUI. Built in Rust. No WebView</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">yisier/rustgrid</guid>
+    </item>
+    <item>
+      <title>osint-and-search/poiskovie_i_OSINT_instrumenti</title>
+      <link>https://github.com/osint-and-search/poiskovie_i_OSINT_instrumenti</link>
+      <description>Лучшие инструменты для OSINT, поиска информации, пробива и разведки в Интернете!</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">osint-and-search/poiskovie_i_OSINT_instrumenti</guid>
+    </item>
+    <item>
+      <title>Fractal-Compute-Orchestrations/FractalAndroid</title>
+      <link>https://github.com/Fractal-Compute-Orchestrations/FractalAndroid</link>
+      <description>A human-centric, resource-aware Android node for edge computing and federated learning. Orchestrates distributed intelligence with privacy-first localization and empathetic hardware management.</description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">Fractal-Compute-Orchestrations/FractalAndroid</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/Noria</title>
+      <link>https://github.com/AhmadHassan-BTed/Noria</link>
+      <description>An agentic extractor for messaging platforms. Noria receives messages &amp; URLs via chat; scrapes web data to evaluate the content against custom scoring matrices (e.g., jobs, scholarships); and sends a structured summary with a calculated match score directly to the assigned messenger number. </description>
+      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/Noria</guid>
+    </item>
     <item>
       <title>t4t5/omdrop-owl</title>
       <link>https://github.com/t4t5/omdrop-owl</link>
@@ -87,7 +227,7 @@
     <item>
       <title>maddada/Ghostex</title>
       <link>https://github.com/maddada/Ghostex</link>
-      <description>The Best &amp; Most Powerful Native Agents Workspace. Fully Rust &amp; GPUI based. Mobile apps. 20+ agents. Ghostty. </description>
+      <description>The Best &amp; Most Powerful Native Agents Workspace. Fully Rust &amp; GPUI based. Mobile apps. 20+ agents. Ghostty.</description>
       <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
       <guid isPermaLink="false">maddada/Ghostex</guid>
     </item>

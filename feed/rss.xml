@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Oct 2026 04:47:59 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 04:56:23 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>liseami/CCBaga</title>
+      <link>https://github.com/liseami/CCBaga</link>
+      <description>(no description)</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">liseami/CCBaga</guid>
+    </item>
+    <item>
+      <title>shaongitbd/doory</title>
+      <link>https://github.com/shaongitbd/doory</link>
+      <description>Open source canva alternative</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">shaongitbd/doory</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/ThreadRace</title>
+      <link>https://github.com/AhmadHassan-BTed/ThreadRace</link>
+      <description>Quantifying the pulse of parallelism: A C++ concurrency telemetry framework measuring the human-perceived efficiency of concurrent execution strategies.</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/ThreadRace</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/LichArch</title>
+      <link>https://github.com/AhmadHassan-BTed/LichArch</link>
+      <description>Hyper-optimized dark theme suite, native KWin gesture engine, and automated setup launcher for KDE Plasma 6 on Arch Linux.</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/LichArch</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/RoseWish</title>
+      <link>https://github.com/AhmadHassan-BTed/RoseWish</link>
+      <description>A heartfelt, interactive narrative mini-game built in Python for Rose Day. Features custom entities, a dynamic dialogue system, animated particle effects, and integrated audio to deliver a unique, romantic digital experience.</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/RoseWish</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/VisioCraft</title>
+      <link>https://github.com/AhmadHassan-BTed/VisioCraft</link>
+      <description>An AI-powered web suite for advanced image processing and generation. VisioCraft integrates state-of-the-art computer vision models; including YOLO, SAM, and LaMa; to provide seamless object extraction, content-aware fill, and image generation through an interactive canvas UI.</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/VisioCraft</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/OpenOPC</title>
+      <link>https://github.com/AhmadHassan-BTed/OpenOPC</link>
+      <description>OpenOPC: Build Your Personal AI-Native Company — Self-Built, Self-Run, Self-Grown</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/OpenOPC</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/ShopifyAutoAuth</title>
+      <link>https://github.com/AhmadHassan-BTed/ShopifyAutoAuth</link>
+      <description>Enterprise-grade Shopify Admin API authentication adapter — OAuth 2.0 Client Credentials Grant with automatic token refresh.</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/ShopifyAutoAuth</guid>
+    </item>
+    <item>
+      <title>DSH-APP/DSHA</title>
+      <link>https://github.com/DSH-APP/DSHA</link>
+      <description>免 ROOT 免 Termux，在手机上跑 DeepSeek Harness。完整 Ubuntu 环境 + proroot 零 ptrace 开销 · AI 输出实时上屏 · ADB 直连 · 数据不丢</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">DSH-APP/DSHA</guid>
+    </item>
+    <item>
+      <title>openfilm/openfilm</title>
+      <link>https://github.com/openfilm/openfilm</link>
+      <description>The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">openfilm/openfilm</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/FormFilla</title>
+      <link>https://github.com/AhmadHassan-BTed/FormFilla</link>
+      <description>About A local-first browser extension that fills job-application forms from local JSON profile data and files. Matches are computed deterministically via multi-signal scoring, structural repeated-block detection, and bipartite optimization.</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/FormFilla</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/SilentSniffer</title>
+      <link>https://github.com/AhmadHassan-BTed/SilentSniffer</link>
+      <description>A professional, high-fidelity de-anonymization and vulnerability diagnostic framework. Features a zero-coupling modular architecture for browser-based intelligence gathering, hardware fingerprinting, and security research.</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/SilentSniffer</guid>
+    </item>
+    <item>
+      <title>anthropics/claude-quickstarts</title>
+      <link>https://github.com/anthropics/claude-quickstarts</link>
+      <description>A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">anthropics/claude-quickstarts</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/ScrollToPrompt</title>
+      <link>https://github.com/AhmadHassan-BTed/ScrollToPrompt</link>
+      <description>Navigation minimap extension for modern AI chat interfaces, injecting responsive scrollbar indicators via Shadow DOM isolation.</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/ScrollToPrompt</guid>
+    </item>
+    <item>
+      <title>NabilRFG12/Reverse-Engineer-anything</title>
+      <link>https://github.com/NabilRFG12/Reverse-Engineer-anything</link>
+      <description>Reverse engineer anything with agents, from app behavior down to native binaries.</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">NabilRFG12/Reverse-Engineer-anything</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/PortfolioWebsite</title>
+      <link>https://github.com/AhmadHassan-BTed/PortfolioWebsite</link>
+      <description>My personal website showcasing my work in Software Engineering and Graphic Design. A simple, multi-page static site built with HTML, CSS, and basic JavaScript. It’s designed to be a clean space where I can share my projects, my story, and my resume.</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/PortfolioWebsite</guid>
+    </item>
+    <item>
+      <title>Aletheore/Aletheore</title>
+      <link>https://github.com/Aletheore/Aletheore</link>
+      <description>Evidence-grounded repository audit CLI - deterministic scanner, MCP server, live dashboard, and a GitHub Action that posts PR diffs.</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">Aletheore/Aletheore</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/Attendify</title>
+      <link>https://github.com/AhmadHassan-BTed/Attendify</link>
+      <description>A human-centric Attendance &amp; Leave Management Portal built with PHP, MySQL, and ag-Grid. #php #mysql #javascript #css #aggrid</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/Attendify</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/yt-channels-DS-AI-ML-CS</title>
+      <link>https://github.com/AhmadHassan-BTed/yt-channels-DS-AI-ML-CS</link>
+      <description>A comprehensive list of 180+ YouTube Channels for Data Science,  Data Engineering, Machine Learning, Deep learning, Computer Science, programming, software engineering, etc.</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/yt-channels-DS-AI-ML-CS</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/Darkument</title>
+      <link>https://github.com/AhmadHassan-BTed/Darkument</link>
+      <description>A sleek, privacy-focused browser extension that brings a native dark mode experience to online documents. Built with clean UI/UX principles for Chromium and Opera browsers to reduce eye strain and improve readability.</description>
+      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/Darkument</guid>
+    </item>
     <item>
       <title>fyzugx/DEsk</title>
       <link>https://github.com/fyzugx/DEsk</link>
@@ -143,7 +283,7 @@
     <item>
       <title>AhmadHassan-BTed/Noria</title>
       <link>https://github.com/AhmadHassan-BTed/Noria</link>
-      <description>An agentic extractor for messaging platforms. Noria receives messages &amp; URLs via chat; scrapes web data to evaluate the content against custom scoring matrices (e.g., jobs, scholarships); and sends a structured summary with a calculated match score directly to the assigned messenger number. </description>
+      <description>An agentic extractor for messaging platforms. Noria receives messages &amp; URLs via chat; scrapes web data to evaluate the content against custom scoring matrices (e.g., jobs, scholarships); and sends a structured summary with a calculated match score directly to the assigned messenger number.</description>
       <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
       <guid isPermaLink="false">AhmadHassan-BTed/Noria</guid>
     </item>

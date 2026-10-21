@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2026 04:56:23 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 05:03:05 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>Saffsanity/sill</title>
+      <link>https://github.com/Saffsanity/sill</link>
+      <description>Any window from your Mac, live on your iPhone or iPad. Touch, Apple Pencil, trackpad and keys. Free, open source, no servers.</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">Saffsanity/sill</guid>
+    </item>
+    <item>
+      <title>HeyPuter/everything</title>
+      <link>https://github.com/HeyPuter/everything</link>
+      <description>We&apos;re rebuilding and open-sourcing the world’s software from scratch.</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">HeyPuter/everything</guid>
+    </item>
+    <item>
+      <title>AjncSystem/ShadowOfTheColossus-PC</title>
+      <link>https://github.com/AjncSystem/ShadowOfTheColossus-PC</link>
+      <description>Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">AjncSystem/ShadowOfTheColossus-PC</guid>
+    </item>
+    <item>
+      <title>skymanbp/autoshade</title>
+      <link>https://github.com/skymanbp/autoshade</link>
+      <description>AI-assisted RAW photo developer: GPT vision advisor proposes an EditRecipe, a deterministic Rust engine renders it — Lightroom-compatible XMP sidecars, 24 RAW formats + baked images, measured (not guessed) Lightroom mask geometry, local GUI/web UI, AI denoise &amp; segmentation sidecars</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">skymanbp/autoshade</guid>
+    </item>
+    <item>
+      <title>ranxianglei/billion-context</title>
+      <link>https://github.com/ranxianglei/billion-context</link>
+      <description>A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">ranxianglei/billion-context</guid>
+    </item>
+    <item>
+      <title>dsx-ai-factory/run-ai</title>
+      <link>https://github.com/dsx-ai-factory/run-ai</link>
+      <description>Run:ai is the AI workload orchestration platform for Kubernetes. This monorepo contains the control plane services, in-cluster Kubernetes operator/controllers, shared libraries and clients, the installer, and the local dev environment.</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">dsx-ai-factory/run-ai</guid>
+    </item>
+    <item>
+      <title>Zfinix/eleven</title>
+      <link>https://github.com/Zfinix/eleven</link>
+      <description>Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent reads, renames and patches binaries, Android apps and GPU kernels next to you.</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">Zfinix/eleven</guid>
+    </item>
+    <item>
+      <title>toddrjones/datasets</title>
+      <link>https://github.com/toddrjones/datasets</link>
+      <description>A compilation of 100+ free datasets for use in social science, applied microeconomics, data visualization, etc.</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">toddrjones/datasets</guid>
+    </item>
+    <item>
+      <title>solana-classic/solana-classic</title>
+      <link>https://github.com/solana-classic/solana-classic</link>
+      <description>Bring back the fun. Open-source SVM blockchain development focused on art, NFTs, memes and their communities. Experimental testnet live.</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">solana-classic/solana-classic</guid>
+    </item>
+    <item>
+      <title>rayytor/desktop_gifs</title>
+      <link>https://github.com/rayytor/desktop_gifs</link>
+      <description>Post GIFs in YouTube comments and replies from a desktop browser. Extension for Chrome and Firefox.</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">rayytor/desktop_gifs</guid>
+    </item>
+    <item>
+      <title>YIAN6557/eian-riso-broll</title>
+      <link>https://github.com/YIAN6557/eian-riso-broll</link>
+      <description>孔版双色风格的口播信息动画 Skill：逐字稿 → 1080×1920 竖屏 mp4 · Risograph-style info animations for talking-head videos</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">YIAN6557/eian-riso-broll</guid>
+    </item>
+    <item>
+      <title>YeonwooSung/llm-architecture-from-scratch</title>
+      <link>https://github.com/YeonwooSung/llm-architecture-from-scratch</link>
+      <description>Implementing LLM architectures from scratch in PyTorch</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">YeonwooSung/llm-architecture-from-scratch</guid>
+    </item>
+    <item>
+      <title>Smaug6739/Alexandrie</title>
+      <link>https://github.com/Smaug6739/Alexandrie</link>
+      <description>📚 The open-source, offline-first Notion, Obsidian &amp; Confluence alternative. Advanced Markdown, multi-tenant teams, OIDC/SSO, and local S3 backups. Deploy in one command.</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">Smaug6739/Alexandrie</guid>
+    </item>
+    <item>
+      <title>PiggyBackBayonet/MiAuto</title>
+      <link>https://github.com/PiggyBackBayonet/MiAuto</link>
+      <description>小米 / OPPO / vivo 等 ICCOA CarLink 手机投上车机：无线连接，无需转接盒、无需 root。Car-side ICCOA CarLink receiver for Xiaomi CarWith, OPPO Car+ and vivo Jovi InCar.</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">PiggyBackBayonet/MiAuto</guid>
+    </item>
+    <item>
+      <title>YeonwooSung/my-claude-code-mods</title>
+      <link>https://github.com/YeonwooSung/my-claude-code-mods</link>
+      <description>Custom Claude Code Mods that I need</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">YeonwooSung/my-claude-code-mods</guid>
+    </item>
+    <item>
+      <title>guanyue91141/GhidraMCP-AI-rename</title>
+      <link>https://github.com/guanyue91141/GhidraMCP-AI-rename</link>
+      <description>基于Ghidra逆向Mcp的快速脚本，批量自动重命名函数、批量导出函数txt文件。分析完可以调用樱桃或者cursor更有逻辑地分析。</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">guanyue91141/GhidraMCP-AI-rename</guid>
+    </item>
+    <item>
+      <title>K0nd1us/QQ-agent</title>
+      <link>https://github.com/K0nd1us/QQ-agent</link>
+      <description>立志做使用起来最简单能实现的功能最全面的LLM机器人。</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">K0nd1us/QQ-agent</guid>
+    </item>
+    <item>
+      <title>baocode-dev/baocode</title>
+      <link>https://github.com/baocode-dev/baocode</link>
+      <description>Awesome UI for Claude Code ✨  https://baocode.dev </description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">baocode-dev/baocode</guid>
+    </item>
+    <item>
+      <title>jiayx/d2r-mobile-build</title>
+      <link>https://github.com/jiayx/d2r-mobile-build</link>
+      <description>Reusable GitHub Actions source builds for jhaizhou-ops/d2r-mobile. Bring your own prepared game archive.</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">jiayx/d2r-mobile-build</guid>
+    </item>
+    <item>
+      <title>lidor30/pokedaisy</title>
+      <link>https://github.com/lidor30/pokedaisy</link>
+      <description>A Game Boy, Game Boy Color and GBA player for Android handhelds with two screens or one, with a live companion for Pokémon games and ROM hacks.</description>
+      <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
+      <guid isPermaLink="false">lidor30/pokedaisy</guid>
+    </item>
     <item>
       <title>liseami/CCBaga</title>
       <link>https://github.com/liseami/CCBaga</link>
@@ -706,286 +846,6 @@
       <description>HyperOS in the official ARM64 Android Studio Emulator</description>
       <pubDate>Wed, 14 Oct 2026 05:05:37 GMT</pubDate>
       <guid isPermaLink="false">NEORUAA/HyperOS-AVD</guid>
-    </item>
-    <item>
-      <title>yksr-melt/Meltype</title>
-      <link>https://github.com/yksr-melt/Meltype</link>
-      <description>(no description)</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">yksr-melt/Meltype</guid>
-    </item>
-    <item>
-      <title>nealbridges/VulnHunter</title>
-      <link>https://github.com/nealbridges/VulnHunter</link>
-      <description>Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executable PoCs, and fixes them test-first. A maintained fork of Capital One&apos;s VulnHunter, rebuilt for any agent harness.</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">nealbridges/VulnHunter</guid>
-    </item>
-    <item>
-      <title>genex-games/genex-desktop</title>
-      <link>https://github.com/genex-games/genex-desktop</link>
-      <description>Desktop app for game dev with AI. macOS and Linux, Windows soon.</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">genex-games/genex-desktop</guid>
-    </item>
-    <item>
-      <title>jiwoochris/artex-ko</title>
-      <link>https://github.com/jiwoochris/artex-ko</link>
-      <description>ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">jiwoochris/artex-ko</guid>
-    </item>
-    <item>
-      <title>laoma528/awesome-zhuiju-free</title>
-      <link>https://github.com/laoma528/awesome-zhuiju-free</link>
-      <description>免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">laoma528/awesome-zhuiju-free</guid>
-    </item>
-    <item>
-      <title>Shyboy0499/antibody</title>
-      <link>https://github.com/Shyboy0499/antibody</link>
-      <description>(no description)</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">Shyboy0499/antibody</guid>
-    </item>
-    <item>
-      <title>xevrion/gyotaku</title>
-      <link>https://github.com/xevrion/gyotaku</link>
-      <description>search every screenshot you&apos;ve ever taken by the text inside it. native linux, offline, PaddleOCR + sqlite + gpui</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">xevrion/gyotaku</guid>
-    </item>
-    <item>
-      <title>liouhai/plot-is-all-you-need</title>
-      <link>https://github.com/liouhai/plot-is-all-you-need</link>
-      <description>(no description)</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">liouhai/plot-is-all-you-need</guid>
-    </item>
-    <item>
-      <title>DataWithBaraa/sql-ultimate-course</title>
-      <link>https://github.com/DataWithBaraa/sql-ultimate-course</link>
-      <description>The most comprehensive SQL guide from a real-world expert! Learn everything from basics to advanced queries, optimizations, and real-world SQL</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">DataWithBaraa/sql-ultimate-course</guid>
-    </item>
-    <item>
-      <title>gitbot-hq/GitBot</title>
-      <link>https://github.com/gitbot-hq/GitBot</link>
-      <description>Create reusable bots powered by Claude Code, Codex, or OpenCode. Run them locally across your repositories with persistent threads and permissions you control.</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">gitbot-hq/GitBot</guid>
-    </item>
-    <item>
-      <title>DamRsn/NeuralNote</title>
-      <link>https://github.com/DamRsn/NeuralNote</link>
-      <description>Audio Plugin for Audio to MIDI transcription using deep learning.</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">DamRsn/NeuralNote</guid>
-    </item>
-    <item>
-      <title>trustfuture/simon-skills</title>
-      <link>https://github.com/trustfuture/simon-skills</link>
-      <description>不露脸做视频账号的 AI skill 合集：调查长片 + 手绘白板讲解视频，一句选题出片、配音字幕、封面与各平台文案</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">trustfuture/simon-skills</guid>
-    </item>
-    <item>
-      <title>ABING1111/BiliDesk</title>
-      <link>https://github.com/ABING1111/BiliDesk</link>
-      <description>哔哩哔哩第三方桌面客户端 · Windows / WPF / .NET 8</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">ABING1111/BiliDesk</guid>
-    </item>
-    <item>
-      <title>aixisstudio/Snitch</title>
-      <link>https://github.com/aixisstudio/Snitch</link>
-      <description>Real-time network traffic visualizer — see every connection your computer makes. Privacy-first, 100% local. / Visualiseur de trafic réseau en temps réel, 100% local.</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">aixisstudio/Snitch</guid>
-    </item>
-    <item>
-      <title>haohaoai0/HarmonyX</title>
-      <link>https://github.com/haohaoai0/HarmonyX</link>
-      <description>A native, design-led X client for HarmonyOS — built with ArkTS and the Stage model.</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">haohaoai0/HarmonyX</guid>
-    </item>
-    <item>
-      <title>PavelGrigoryevDS/awesome-data-analysis</title>
-      <link>https://github.com/PavelGrigoryevDS/awesome-data-analysis</link>
-      <description>🚀 500+ curated resources for Data Analysis &amp; Data Science: Python, SQL, Statistics, ML, AI, Visualization, Cheatsheets, Roadmaps, Interview Prep. For beginners and experts.</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">PavelGrigoryevDS/awesome-data-analysis</guid>
-    </item>
-    <item>
-      <title>thesnarkitecht/rembrandt</title>
-      <link>https://github.com/thesnarkitecht/rembrandt</link>
-      <description>A free photo editor. No account, no subscription, no tracking. RAW, masks and on-device AI for macOS, Windows and Linux. Self-hostable.</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">thesnarkitecht/rembrandt</guid>
-    </item>
-    <item>
-      <title>guokaigdg/naive-icons</title>
-      <link>https://github.com/guokaigdg/naive-icons</link>
-      <description>A library of hand-drawn SVG icons in a naive folk art style  手绘 naive folk art 风格的 SVG 图标库</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">guokaigdg/naive-icons</guid>
-    </item>
-    <item>
-      <title>Mxucc/xianyu-super-butler</title>
-      <link>https://github.com/Mxucc/xianyu-super-butler</link>
-      <description>闲鱼超级管家是在 xianyu-auto-reply 基础上的二次开发版本，保留了原项目的所有核心功能，并对前端 UI 进行了全面重构，带来更加现代化、专业化的使用体验。</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">Mxucc/xianyu-super-butler</guid>
-    </item>
-    <item>
-      <title>mcer12/PixelFonts</title>
-      <link>https://github.com/mcer12/PixelFonts</link>
-      <description>Pixel perfect AdafruitGFX &amp; u8g2 fonts for the tiniest displays</description>
-      <pubDate>Tue, 13 Oct 2026 06:55:43 GMT</pubDate>
-      <guid isPermaLink="false">mcer12/PixelFonts</guid>
-    </item>
-    <item>
-      <title>noahdunnagan/mcopt</title>
-      <link>https://github.com/noahdunnagan/mcopt</link>
-      <description>mcopt, a Minecraft mod: a native Metal renderer for Minecraft: Java Edition on Apple Silicon Macs (alpha)</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">noahdunnagan/mcopt</guid>
-    </item>
-    <item>
-      <title>trymirai/uzu</title>
-      <link>https://github.com/trymirai/uzu</link>
-      <description>A high-performance inference engine for AI models</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">trymirai/uzu</guid>
-    </item>
-    <item>
-      <title>isod89/sloop-fm1</title>
-      <link>https://github.com/isod89/sloop-fm1</link>
-      <description>A live groovebox firmware for the M-VAVE FM-1</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">isod89/sloop-fm1</guid>
-    </item>
-    <item>
-      <title>Prescott-Data/jarviscore-framework</title>
-      <link>https://github.com/Prescott-Data/jarviscore-framework</link>
-      <description>JarvisCore is a runtime where AI agents operate as a fleet of equal peers. Agents discover one another by capability, execute tasks from a shared ledger, and authenticate to every external service through a zero-trust broker, never with their own keys.</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">Prescott-Data/jarviscore-framework</guid>
-    </item>
-    <item>
-      <title>fxgl/steamac</title>
-      <link>https://github.com/fxgl/steamac</link>
-      <description>Valve&apos;s official ARM64 SteamOS in a lightweight VM on Apple Silicon: libkrun + Venus + MoltenVK, controllers, CoreAudio sound</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">fxgl/steamac</guid>
-    </item>
-    <item>
-      <title>seemoo-lab/opendrop</title>
-      <link>https://github.com/seemoo-lab/opendrop</link>
-      <description>An open Apple AirDrop implementation written in Python</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">seemoo-lab/opendrop</guid>
-    </item>
-    <item>
-      <title>shiwenwen/hope-agent</title>
-      <link>https://github.com/shiwenwen/hope-agent</link>
-      <description>🦭 A cross-device desktop AI agent with memory, autonomous goals, dynamic workflows, and headless deployment | 会记忆、能持续推进目标、会动态编排多 Agent 的跨端桌面 AI 助手，也可服务化常驻 NAS / 云端</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">shiwenwen/hope-agent</guid>
-    </item>
-    <item>
-      <title>MAGA2010/hackathon-run</title>
-      <link>https://github.com/MAGA2010/hackathon-run</link>
-      <description>(no description)</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">MAGA2010/hackathon-run</guid>
-    </item>
-    <item>
-      <title>KristenPan/pickoo-your-favorites</title>
-      <link>https://github.com/KristenPan/pickoo-your-favorites</link>
-      <description>Local-first creator favorites workbench with evidence-preserving Markdown capture and a complete browser UI.</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">KristenPan/pickoo-your-favorites</guid>
-    </item>
-    <item>
-      <title>LuwuDynamics/xgoduck_hardware</title>
-      <link>https://github.com/LuwuDynamics/xgoduck_hardware</link>
-      <description>Build your own robot duck. XGO-Duck is a 3D-printable biped powered by Arduino UNO Q and 15 servos, adapted from Pollen Robotics&apos; Microduck. Includes mechanical models, PCB designs, a BOM, and an assembly guide. Build it, explore its motion, and make it your own.</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">LuwuDynamics/xgoduck_hardware</guid>
-    </item>
-    <item>
-      <title>MiladJoodi/FarsiUI</title>
-      <link>https://github.com/MiladJoodi/FarsiUI</link>
-      <description>Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">MiladJoodi/FarsiUI</guid>
-    </item>
-    <item>
-      <title>piperhex/remoteai</title>
-      <link>https://github.com/piperhex/remoteai</link>
-      <description>remoteai &amp; codex-switch &amp; codex-gui</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">piperhex/remoteai</guid>
-    </item>
-    <item>
-      <title>farming-labs/farm.js</title>
-      <link>https://github.com/farming-labs/farm.js</link>
-      <description>a full-stack, renderer-agnostic framework with experimental AOT React compiler.</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">farming-labs/farm.js</guid>
-    </item>
-    <item>
-      <title>script-wizards/athanor</title>
-      <link>https://github.com/script-wizards/athanor</link>
-      <description>an alchemical layer for arch and hyprland</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">script-wizards/athanor</guid>
-    </item>
-    <item>
-      <title>p10node/k10s</title>
-      <link>https://github.com/p10node/k10s</link>
-      <description>Kubernetes TUI you can click. Instant search, logs/exec/port-forward, 7 themes, context-aware AI. Single Go binary.</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">p10node/k10s</guid>
-    </item>
-    <item>
-      <title>plclub/sf-in-lean</title>
-      <link>https://github.com/plclub/sf-in-lean</link>
-      <description>Development repo for translating Software Foundations to Lean</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">plclub/sf-in-lean</guid>
-    </item>
-    <item>
-      <title>komodorio/helm-dashboard</title>
-      <link>https://github.com/komodorio/helm-dashboard</link>
-      <description>The missing UI for Helm - visualize your releases</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">komodorio/helm-dashboard</guid>
-    </item>
-    <item>
-      <title>yugienugraha/ruang</title>
-      <link>https://github.com/yugienugraha/ruang</link>
-      <description>(no description)</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">yugienugraha/ruang</guid>
-    </item>
-    <item>
-      <title>darrenprx/lolPing</title>
-      <link>https://github.com/darrenprx/lolPing</link>
-      <description>League of Legends ping wheel for your Windows desktop. Hold Alt, drag, and ping anywhere, with the original animations and sounds.</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">darrenprx/lolPing</guid>
-    </item>
-    <item>
-      <title>AIMS-RAIL/RAIL</title>
-      <link>https://github.com/AIMS-RAIL/RAIL</link>
-      <description>(no description)</description>
-      <pubDate>Mon, 12 Oct 2026 06:12:44 GMT</pubDate>
-      <guid isPermaLink="false">AIMS-RAIL/RAIL</guid>
     </item>
   </channel>
 </rss>

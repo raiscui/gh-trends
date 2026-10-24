@@ -6,10 +6,8 @@ import { select } from './pipeline/select';
 import { selectRust, selectAgent, selectDeepSeekHarness } from './pipeline/vertical';
 import {
   buildEcosystemBoard,
-  persistEcosystemRotation,
   VERCEL_AI_SDK_BOARD,
   AI_VIDEO_EDITOR_BOARD,
-  ECOSYSTEM_MEMORY_PATH,
 } from './pipeline/ecosystem';
 import { publishAll } from './pipeline/publish';
 import { logInfo, TaggedError } from './utils/logging';
@@ -33,18 +31,16 @@ export async function main(): Promise<void> {
     throw new TaggedError(`scan`, 'no repos found; aborting');
   }
 
-  // 发布去重(specs/0001 D3): 剔除 90 天内已发布过的项目, 须在 filter 之前
+  // 发布去重(specs/0001 D3): 剔除 UTC 今天及昨天已发布的项目, 须在 filter 之前
   // —— 被剔除项目不进 guard 分母, fail-closed 只会更安全
   const freshRepos = dedupe(trendingRepos, PUBLISHED_MEMORY_PATH);
-  if (freshRepos.length === 0) {
-    throw new TaggedError(`dedupe`, 'all repos were published recently; skipping this run');
-  }
 
   console.log('\n', `🧐 Inspecting to filter out bad stuff`);
   const filteredRepos = filter(freshRepos);
   logInfo(`filter`, `${filteredRepos.length} repos remain after filtering`);
 
-  const remainingPercent = (filteredRepos.length / freshRepos.length) * 100;
+  const remainingPercent =
+    freshRepos.length === 0 ? 0 : (filteredRepos.length / freshRepos.length) * 100;
   const filteredCount = freshRepos.length - filteredRepos.length;
   if (filteredCount > 5 && remainingPercent < 50) {
     throw new TaggedError(`filter`, 'too many repos filtered out; aborting');
@@ -66,13 +62,8 @@ export async function main(): Promise<void> {
   // 候选池来自 GitHub topic 搜索而非主榜池, 排序窗口 ECOSYSTEM_WINDOW_DAYS。
   // 两者均 fail-soft, 失败只留空不影响其余段落发布。
   //
-  // 尾部轮换只在 **release 路径**读写(GITHUB_RELEASES_ENABLED): 每天两次运行
-  // (RSS 00:27 / release 09:33)若都轮换, 轮转额度会被消耗两次, 且用户看的
-  // release 拿到的是当天"第二轮"结果。RSS 路径不传记忆 = 稳态排序, 不回写。
-  const rotationMemory =
-    process.env.GITHUB_RELEASES_ENABLED === 'true' ? ECOSYSTEM_MEMORY_PATH : undefined;
-  const vercelAiSdkRepos = await buildEcosystemBoard(VERCEL_AI_SDK_BOARD, rotationMemory);
-  const aiVideoEditorRepos = await buildEcosystemBoard(AI_VIDEO_EDITOR_BOARD, rotationMemory);
+  const vercelAiSdkRepos = await buildEcosystemBoard(VERCEL_AI_SDK_BOARD);
+  const aiVideoEditorRepos = await buildEcosystemBoard(AI_VIDEO_EDITOR_BOARD);
   logInfo(
     'score',
     `selected: main=${mainRepos.length}, rust=${rustRepos.length}, agent=${agentRepos.length}, deepseekHarness=${deepseekHarnessRepos.length}, vercelAiSdk=${vercelAiSdkRepos.length}, aiVideoEditor=${aiVideoEditorRepos.length}`
@@ -89,27 +80,26 @@ export async function main(): Promise<void> {
   });
   logInfo('publish', `published release (IDs: ${messageIds.join(', ')})`);
 
-  // 全部渠道发布成功后才回写发布记忆: 保证失败重跑不会漏推
-  //
-  // 只回写**池内四榜**: 生态榜候选池小(Vercel 有增速的仅约 30 个),
-  // 若把生态榜条目也写进 90 天记忆, 会被主榜池的 dedupe 挡在门外,
-  // 导致该段长期空榜(ADR-0003 设计决策 2)。
-  const publishedNames = [
-    ...new Set(
-      [...mainRepos, ...rustRepos, ...agentRepos, ...deepseekHarnessRepos].map(r => r.nameWithOwner)
-    ),
-  ];
-  recordPublished(publishedNames, PUBLISHED_MEMORY_PATH);
-
-  // 生态榜尾部轮换记忆走**独立文件**, 与上面的主记忆互不干扰(见 rotation.ts):
-  // 只回写配置了 rotation 的榜的尾部(headSlots 之后), 头部稳态常驻不回写。
-  // 与 buildEcosystemBoard 同样只在 release 路径生效, RSS 路径不消耗轮转额度。
-  if (rotationMemory) {
-    persistEcosystemRotation(
-      [VERCEL_AI_SDK_BOARD, AI_VIDEO_EDITOR_BOARD],
-      [vercelAiSdkRepos, aiVideoEditorRepos],
-      rotationMemory
-    );
+  // 已存在的 release 和无更新的 RSS 都没有发布本次候选, 不应消耗它们.
+  const didPublish = messageIds.some(
+    id => !id.startsWith('release-already-exists-') && id !== 'rss-no-update'
+  );
+  if (didPublish) {
+    // 六榜只有 GitHub release 全部呈现; 邮件和 RSS 只发布主榜.
+    const publishedBoards =
+      process.env.GITHUB_RELEASES_ENABLED === 'true' &&
+      !messageIds.some(id => id.startsWith('release-already-exists-'))
+        ? [
+            mainRepos,
+            rustRepos,
+            agentRepos,
+            deepseekHarnessRepos,
+            vercelAiSdkRepos,
+            aiVideoEditorRepos,
+          ]
+        : [mainRepos];
+    const publishedNames = [...new Set(publishedBoards.flat().map(r => r.nameWithOwner))];
+    recordPublished(publishedNames, PUBLISHED_MEMORY_PATH);
   }
 }
 

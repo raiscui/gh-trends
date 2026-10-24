@@ -11,7 +11,7 @@ describe('dedupe / recordPublished', () => {
   let memoryPath: string;
   const now = new Date('2026-09-19T12:00:00Z');
 
-  // 90 天内/外的发布日期锚点
+  // UTC 日历日的发布日期锚点
   const daysAgoStr = (days: number) =>
     new Date(now.getTime() - days * 86400e3).toISOString().slice(0, 10);
 
@@ -26,12 +26,12 @@ describe('dedupe / recordPublished', () => {
     delete process.env.PUBLISHED_MEMORY_ENABLED;
   });
 
-  it('剔除 90 天内已发布的项目, 保留期外的放行', () => {
+  it('剔除昨天已发布的项目, 前天及更早的放行', () => {
     fs.writeFileSync(
       memoryPath,
       JSON.stringify({
-        'recent/rep': daysAgoStr(10), // 10 天前发布 -> 应剔除
-        'stale/rep': daysAgoStr(100), // 100 天前发布 -> 已出保留期, 放行
+        'recent/rep': daysAgoStr(1), // 昨天发布 -> 应剔除
+        'stale/rep': daysAgoStr(2), // 前天发布 -> 放行
       })
     );
     const repos = [
@@ -41,6 +41,16 @@ describe('dedupe / recordPublished', () => {
     ];
     const kept = dedupe(repos, memoryPath, now);
     expect(kept.map(r => r.nameWithOwner)).toEqual(['stale/rep', 'brand/new']);
+  });
+
+  it('昨天记录在今天临近午夜仍被排除, 不按经过 24 小时判过期', () => {
+    fs.writeFileSync(memoryPath, JSON.stringify({ 'a/b': '2026-09-18' }));
+    expect(
+      dedupe([makeRepo({ name: 'a/b' })], memoryPath, new Date('2026-09-19T23:59:59Z'))
+    ).toEqual([]);
+    expect(
+      dedupe([makeRepo({ name: 'a/b' })], memoryPath, new Date('2026-09-20T00:00:00Z'))
+    ).toHaveLength(1);
   });
 
   it('记录文件缺失时降级为全通过', () => {

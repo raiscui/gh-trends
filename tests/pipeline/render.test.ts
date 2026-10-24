@@ -34,6 +34,12 @@ describe('render.ts', () => {
     vi.useRealTimers();
   });
 
+  it.each(['markdown.hbs', 'html.hbs', 'text.hbs'])('%s 的往期内容指向当前仓库', templateName => {
+    const content = render(templateName, toSections([]));
+    expect(content).toContain('https://github.com/raiscui/gh-trends/releases');
+    expect(content).not.toContain('https://github.com/mhadidg/gh-trends/releases');
+  });
+
   describe('markdown', () => {
     beforeEach(() => {
       vi.stubEnv('RELEASE_TRUNCATE_DESC', '0');

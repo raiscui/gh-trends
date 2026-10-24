@@ -1,25 +1,14 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { logInfo, logWarn } from '../utils/logging';
-import { GithubRepo } from '../clients/github.gql';
 
-// ============================================================================
-// 发布去重记忆(specs/0001 D3)
-//
-// 记录文件 feed/published.json 形如 {"owner/name": "YYYY-MM-DD", ...}。
-// daily 频率下, 没有"已发布"记忆的爆火项目会连续霸榜一周, 挤掉新面孔;
-// 这里在 select 之前剔除 N 天内已发布过的项目, 发布成功后回写本次榜单并集。
-//
-// 设计取舍:
-//   - 文件缺失 / JSON 损坏 => 降级为"全通过"并 WARN, 绝不让去重挡住发布(fail-open);
-//   - 条目保留 RETENTION_DAYS 天后自动清理, 控制文件体积;
-//   - 路径固定不做成配置: 单一真相源, 避免读写两端漂移。
-// ============================================================================
+// 六榜共享发布记忆, 按 UTC 日历日排除今天和昨天已发布的项目.
+// 预览只读, 所有启用渠道发布成功后才回写; 候选不足时不补回旧项目.
 
 // 发布记忆文件路径(run.ts 写入、preview.ts 只读、workflow commit 三方共用的单一真相源)
 export const PUBLISHED_MEMORY_PATH = 'feed/published.json';
 
-const RETENTION_DAYS = 90;
+const RETENTION_DAYS = 1;
 
 // 形如 { "owner/name": "2026-09-19" } 的发布日期记录
 type PublishedMemory = Record<string, string>;
@@ -37,17 +26,18 @@ function readMemory(path: string): PublishedMemory | null {
 
 // 条目是否仍在保留期内(N 天内已发布过 => 应被去重剔除)
 function isWithinRetention(publishedOn: string, now: Date): boolean {
-  const ageDays = (now.getTime() - new Date(publishedOn).getTime()) / (1000 * 60 * 60 * 24);
-  return ageDays <= RETENTION_DAYS;
+  const today = Date.parse(now.toISOString().slice(0, 10));
+  const ageDays = (today - Date.parse(publishedOn)) / 86400e3;
+  return ageDays >= 0 && ageDays <= RETENTION_DAYS;
 }
 
 // 剔除保留期内已发布过的项目。PUBLISHED_MEMORY_ENABLED != true 时直接原样返回。
 // 只读不写 —— preview 与 run 共用, 副作用只发生在 recordPublished。
-export function dedupe(
-  repos: GithubRepo[],
+export function dedupe<T extends { nameWithOwner: string }>(
+  repos: T[],
   memoryPath: string,
   now: Date = new Date()
-): GithubRepo[] {
+): T[] {
   if (process.env.PUBLISHED_MEMORY_ENABLED !== 'true') return repos;
 
   const memory = readMemory(memoryPath);
@@ -66,7 +56,7 @@ export function dedupe(
   return kept;
 }
 
-// 发布成功后回写: 合并本次四榜单并集, 清理超过保留期的旧条目
+// 发布成功后回写: 合并本次六榜单并集, 清理超过保留期的旧条目
 export function recordPublished(
   repoNames: string[],
   memoryPath: string,

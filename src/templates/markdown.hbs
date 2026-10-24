@@ -189,9 +189,7 @@
 
 ## 🥇 **Tier 1**
 
-{{! Tier 边界 15 / 30: pipeline 每期算出 RELEASE_TOP_N_AI_VIDEO_EDITOR=30 条,
-    此前只渲染前 15 条, 一半结果被丢弃。头部 15 条稳态常驻(成熟生态的头部
-    位次本就不该天天变), 尾部 15 条参与轮换, 见 pipeline/rotation.ts。 }}
+{{! 全部名次统一排除昨天和今天已发布项目, 候选不足时保留短榜. }}
 {{#each sections.aiVideoEditor}}
 {{#if (lt @index 15)}}
 **[{{nameWithOwner}}]({{url}})** {{#if primaryLanguage.name}}`{{primaryLanguage.name}}`{{/if}} `⭐ {{formatNumber stargazerCount}}`
@@ -217,6 +215,6 @@
 </tr>
 </table>
 
-*Generated on {{date}} • [Previous issues](https://github.com/mhadidg/gh-trends/releases)*
+*Generated on {{date}} • [Previous issues](https://github.com/raiscui/gh-trends/releases)*
 
 </div>

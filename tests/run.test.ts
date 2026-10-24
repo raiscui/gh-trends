@@ -10,6 +10,8 @@ import { GitHubGraphQLClient } from '../src/clients/github.gql';
 import { GitHubTopicClient } from '../src/clients/github.topics';
 import { GitHubClient } from '../src/clients/github';
 import { ButtondownClient } from '../src/clients/buttondown';
+import * as ecosystem from '../src/pipeline/ecosystem';
+import { makeRepo } from './helpers';
 
 describe('run.ts', () => {
   let realFetch: typeof fetch;
@@ -169,59 +171,93 @@ describe('run.ts', () => {
     });
   });
 
-  // 生态榜轮换记忆的接线(ADR-0003 决策 2 修订):
-  // 只有 release 路径该轮换并回写; RSS 那次运行不能消耗轮转额度, 否则
-  // 每天两次运行会让用户看到的 release 拿到"第二轮"结果。
-  //
-  // 用 chdir 到临时目录 + 断言记忆文件是否落地来验证, 而不是 mock ecosystem
-  // 模块: 记忆路径是相对路径(feed/published_ecosystem.json), 落到哪里由 cwd
-  // 决定, 这样既验证了真实写盘行为, 又不会污染工作区的 feed/。
-  describe('生态榜轮换接线', () => {
+  describe('六榜发布记忆接线', () => {
     let workDir: string;
     let originCwd: string;
-    const memoryFile = () => path.join(workDir, 'feed', 'published_ecosystem.json');
+    const memoryFile = () => path.join(workDir, 'feed', 'published.json');
 
     beforeEach(() => {
       originCwd = process.cwd();
       workDir = fs.mkdtempSync(path.join(os.tmpdir(), 'gh-trends-run-'));
-      // RSS 发布器要写 feed/rss.xml, 记忆文件同样落在 feed/ 下
-      fs.mkdirSync(path.join(workDir, 'feed'), { recursive: true });
+      fs.symlinkSync(path.join(originCwd, 'src'), path.join(workDir, 'src'), 'dir');
       process.chdir(workDir);
-
+      fs.mkdirSync(path.join(workDir, 'feed'), { recursive: true });
+      vi.spyOn(GitHubClient.prototype, 'getReleaseByTag').mockResolvedValue(null);
       vi.stubEnv('USE_MOCK_REPOS', 'false');
       vi.stubEnv('RELEASE_TOP_N', '10');
       vi.stubEnv('GITHUB_RELEASES_REPO', 'test/repo');
       vi.stubEnv('GITHUB_TOKEN', 'ghp_test_token_123');
+      vi.stubEnv('PUBLISHED_MEMORY_ENABLED', 'true');
+      vi.stubEnv('BUTTONDOWN_ENABLED', 'false');
+      vi.stubEnv('RESEND_ENABLED', 'false');
+      vi.stubEnv('RSS_ENABLED', 'false');
+      vi.stubEnv('GITHUB_RELEASES_ENABLED', 'false');
     });
 
     afterEach(() => {
       process.chdir(originCwd);
       fs.rmSync(workDir, { recursive: true, force: true });
+      vi.restoreAllMocks();
     });
 
-    it('release 路径写出生态榜轮换记忆', async () => {
+    it.each(['GITHUB_RELEASES_ENABLED', 'RSS_ENABLED'])('%s 发布后记录记忆', async enabled => {
+      vi.stubEnv(enabled, 'true');
+      await main();
+      expect(
+        Object.keys(JSON.parse(fs.readFileSync(memoryFile(), 'utf-8'))).length
+      ).toBeGreaterThan(0);
+    });
+
+    it('六榜完整并集入记忆, 跨榜同名项目只记录一次', async () => {
       vi.stubEnv('GITHUB_RELEASES_ENABLED', 'true');
-
+      vi.spyOn(ecosystem, 'buildEcosystemBoard').mockImplementation(async board => [
+        { ...makeRepo({ name: `eco/${board.key}` }), score: 1 },
+      ]);
       await main();
-
-      expect(fs.existsSync(memoryFile())).toBe(true);
+      const memory = JSON.parse(fs.readFileSync(memoryFile(), 'utf-8'));
+      expect(memory['eco/vercelAiSdk']).toBeDefined();
+      expect(memory['eco/aiVideoEditor']).toBeDefined();
+      expect(Object.keys(memory)).toEqual(expect.arrayContaining([mockRepos[0]!.nameWithOwner]));
     });
 
-    it('RSS 路径不写轮换记忆(不消耗轮转额度)', async () => {
-      vi.stubEnv('GITHUB_RELEASES_ENABLED', 'false');
-      vi.stubEnv('RSS_ENABLED', 'true');
-
+    it('池内四榜候选全被去重时, 生态榜仍能发布且不带昨天项目', async () => {
+      vi.stubEnv('GITHUB_RELEASES_ENABLED', 'true');
+      const yesterday = new Date(Date.now() - 86400e3).toISOString().slice(0, 10);
+      fs.writeFileSync(
+        memoryFile(),
+        JSON.stringify(Object.fromEntries(mockRepos.map(r => [r.nameWithOwner, yesterday])))
+      );
+      vi.spyOn(ecosystem, 'buildEcosystemBoard').mockImplementation(async board => [
+        { ...makeRepo({ name: `eco/${board.key}` }), score: 1 },
+      ]);
+      const create = vi
+        .spyOn(GitHubClient.prototype, 'createRelease')
+        .mockResolvedValue({ id: 'new' });
       await main();
+      const body = create.mock.calls[0]![1].body;
+      expect(body).toContain('eco/vercelAiSdk');
+      expect(body).toContain('eco/aiVideoEditor');
+      for (const repo of mockRepos) expect(body).not.toContain(repo.url);
+    });
 
+    it('已有 release 跳过发布时不记录这次新选出的名单', async () => {
+      vi.stubEnv('GITHUB_RELEASES_ENABLED', 'true');
+      vi.mocked(GitHubClient.prototype.getReleaseByTag).mockResolvedValue({ id: 'existing' });
+      await main();
       expect(fs.existsSync(memoryFile())).toBe(false);
     });
 
-    it('ECOSYSTEM_ROTATION_DAYS=0 时即使走 release 路径也不产生记忆文件', async () => {
-      vi.stubEnv('GITHUB_RELEASES_ENABLED', 'true');
-      vi.stubEnv('ECOSYSTEM_ROTATION_DAYS', '0');
-
+    it('没有发布器启用时不写记忆', async () => {
       await main();
+      expect(fs.existsSync(memoryFile())).toBe(false);
+    });
 
+    it('发布失败时不写记忆', async () => {
+      vi.stubEnv('GITHUB_RELEASES_ENABLED', 'true');
+      vi.spyOn(GitHubClient.prototype, 'createRelease').mockRejectedValue(
+        new Error('publish failed')
+      );
+      await expect(main()).rejects.toThrow('publish failed');
       expect(fs.existsSync(memoryFile())).toBe(false);
     });
   });

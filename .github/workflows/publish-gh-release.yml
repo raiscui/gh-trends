@@ -37,7 +37,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
     # 发布记忆 feed/published.json 需要随仓库持久化(specs/0001 D3):
-    # 下一次运行凭它剔除 90 天内已发布项目, 避免 daily 频率下连续霸榜
+    # 下一次运行凭它剔除 昨天和今天已发布项目, 避免 daily 频率下连续霸榜
     - name: Commit published memory
       env:
         # Skip git hooks
@@ -46,10 +46,8 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-        # feed/published_ecosystem.json 是生态榜尾部轮换记忆(ADR-0003 决策 2 修订),
-        # 同样需要随仓库持久化 —— CI 每次全新 checkout, 不提交则轮换静默失效。
-        # 只有 release 路径会写它(RSS 路径不轮换), 故 update-rss.yml 无需提交该文件。
-        git add feed/published.json feed/published_ecosystem.json
+        # 六榜共享同一份发布记忆.
+        git add feed/published.json
 
         # Nothing to commit? Exit early.
         if git diff --staged --quiet; then
@@ -62,7 +60,7 @@ jobs:
         # 先本地 commit 再 rebase 到远端最新(有 staged 变更时 rebase 会被 git 拒绝,
         # 所以 rebase 必须放在 commit 之后)。
         # -X ours: 冲突取本地 —— 最坏丢对方当天的 published.json 增量,
-        # 90 天保留期下无害; rebase 仍失败则 abort 并让本步骤标红。
+        # 出现冲突时需要检查记忆是否完整; rebase 仍失败则 abort 并让本步骤标红。
         if ! git pull --rebase -X ours; then
           git rebase --abort
           echo "Rebase failed; published memory will be regenerated next run."

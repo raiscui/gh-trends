@@ -4,7 +4,7 @@ import { GitHubTopicClient, TopicCandidate } from '../clients/github.topics';
 import { clamp, hoursSince } from '../utils/common';
 import { logInfo, logWarn } from '../utils/logging';
 import { filter } from './filter';
-import { rotateTail, recordRotation } from './rotation';
+import { dedupe, PUBLISHED_MEMORY_PATH } from './dedupe';
 import { ScoredRepo, rankAndSlice } from './select';
 
 // ============================================================
@@ -40,13 +40,6 @@ export interface EcosystemBoardConfig {
   // 候选池收窄规则(可选)。在 topic 搜索之后、ClickHouse 增速查询之前应用。
   // 用于处理"泛用 topic 语义过宽"的生态 —— 少一个佐证维度, 候选更宽。
   refine?: (candidate: TopicCandidate) => boolean;
-  // 尾部轮换配置(可选)。头部 headSlots 条稳态常驻, 尾部按独立记忆做短周期
-  // 轮换。不配置 = 该榜完全稳态(见 AI_VIDEO_EDITOR_BOARD 的注释)。
-  rotation?: {
-    headSlots: number;
-    retentionDaysEnv: string;
-    retentionDaysDefault: number;
-  };
 }
 
 // Vercel AI SDK 生态的成员判定(2026-10-04 收紧)。
@@ -102,27 +95,7 @@ export const AI_VIDEO_EDITOR_BOARD: EcosystemBoardConfig = {
   topics: ['ai-video-editor', 'video-editing', 'ai-video'],
   topNEnv: 'RELEASE_TOP_N_AI_VIDEO_EDITOR',
   topNDefault: 30,
-  // 头部 15 条稳态常驻(与 markdown.hbs 的 Tier 1 边界同源), 尾部 15 条轮换。
-  //
-  // 保留期取 2 天, 实测(2026-10-16 CI 日志)池子规模: 粗排保留 90 → 过 filter
-  // 剔 5 个低星 → **85 个**。按尾部 15 条/天:
-  //   retention=1 会退化成两天一循环(仅 45 个独立项目, 尾部日均重合 15/15);
-  //   retention=2 尾部零重合、零回退, 7 天覆盖 60 个独立项目;
-  //   retention=3 覆盖 75 个但余量降到 1.5 倍, 池子波动时更易触发回退。
-  // 故取 2: 效果与稳健性的平衡点。
-  //
-  // 为什么不套用主榜的 90 天记忆: 15 条/天 × 90 天 = 1350 的需求, 远超 85 的
-  // 供给, 会在两三天内掏空尾部池, 之后每天触发回退, 轮换静默失效。
-  rotation: {
-    headSlots: 15,
-    retentionDaysEnv: 'ECOSYSTEM_ROTATION_DAYS',
-    retentionDaysDefault: 2,
-  },
 };
-
-// 生态榜轮换记忆路径。与主榜 feed/published.json 分离:
-// 主记忆参与池内四榜的 90 天去重, 生态榜条目写进去会被主榜 dedupe 挡在门外。
-export const ECOSYSTEM_MEMORY_PATH = 'feed/published_ecosystem.json';
 
 // 粗排保留的候选倍数。完整评分需要 stargazers 账龄(只有 enrich 后才有),
 // 而 enrich 要为每个候选打一次 GraphQL; 先按增速粗排再截断, 把请求数
@@ -132,18 +105,11 @@ const CANDIDATE_MULTIPLIER = 3;
 // 候选硬上限。即使把 RELEASE_TOP_N_* 调到很大, enrich 请求数也不会失控。
 const MAX_CANDIDATES = 120;
 
-// 构建单个生态榜: topic 取数 -> ClickHouse 增速 -> 粗排截断 -> enrich
-// -> 复用 filter + rankAndSlice 排序取 top-N -> (可选)尾部轮换。
-//
-// rotationMemoryPath 省略 = 不轮换(稳态排序)。preview 走这条路: 只读不写,
-// 也不该把轮换效果算进预览。只有 run.ts 的 release 路径传入, 并在发布成功
-// 后由 persistEcosystemRotation 回写。
-//
-// fail-soft: 生态榜是主榜之外的增补段, 取数或排序失败只留空并 WARN,
-// 绝不中断整次发布(主榜与池内四榜才是主体)。
+// 两个生态榜与池内四榜共用发布记忆, 在截断候选之前排除已发布项目.
+// 取数失败仍只留空本段, 候选不足时不补回昨天的项目.
 export async function buildEcosystemBoard(
   config: EcosystemBoardConfig,
-  rotationMemoryPath?: string
+  memoryPath: string = PUBLISHED_MEMORY_PATH
 ): Promise<ScoredRepo[]> {
   const topN = parseInt(process.env[config.topNEnv] ?? String(config.topNDefault));
   const windowDays = parseInt(process.env.ECOSYSTEM_WINDOW_DAYS ?? '28');
@@ -159,7 +125,8 @@ export async function buildEcosystemBoard(
 
     // ①b 成员收窄(可选)。放在这一步而不是 enrich 之后, 是为了让泛用 topic
     //     带来的噪音候选连 ClickHouse 增速查询都省掉。
-    const candidates = config.refine ? searched.filter(config.refine) : searched;
+    const members = config.refine ? searched.filter(config.refine) : searched;
+    const candidates = dedupe(members, memoryPath);
     logInfo(
       'ecosystem',
       `${config.title}: topic 搜索 ${searched.length} -> 成员判定保留 ${candidates.length}`
@@ -199,46 +166,8 @@ export async function buildEcosystemBoard(
     // ⑤ 复用主榜的质量门槛与排序, 不为生态榜另立一套
     const filtered = filter(enriched);
 
-    // 排序深度与出榜条数分离: rankAndSlice 若直接按 topN 截断, 轮换就没有
-    // 替补可用(剔掉 2 条只能从剩下的 topN-2 里补, 等于回退原排序, 轮换失效)。
-    // 这里先排完整个粗排池(深度上限 MAX_CANDIDATES=120, 不增加 API 请求),
-    // 再由 rotateTail 截到 topN。不轮换时 rotateTail 等价于 rankAndSlice(topN)。
-    const ranked = rankAndSlice(filtered, filtered.length, windowDays);
-
-    const retentionDays = resolveRetentionDays(config);
-    const rotating = !!(config.rotation && rotationMemoryPath && retentionDays > 0);
-
-    const selected = rotating
-      ? rotateTail(
-          ranked,
-          topN,
-          { headSlots: config.rotation!.headSlots, retentionDays },
-          rotationMemoryPath!
-        )
-      : ranked.slice(0, topN);
-
-    logInfo(
-      'ecosystem',
-      `${config.title}: ${selected.length} selected (window ${windowDays}d${
-        rotating ? `, 尾部轮换 ${retentionDays}d` : ''
-      })`
-    );
-
-    // 可观测性: rankAndSlice 现按全池排序, 其 "missed the cut" 日志对生态榜失效
-    // (topN=池长, slice 恒为空), 且回退发生时 rotateTail 内部会 WARN。
-    // 这里补一条"尾部实际换了几条"—— 轮换是否真的生效, 在 CI 日志里一眼可见,
-    // 不必等用户反馈"榜单没变化"(DeepSeek 空榜排查的教训)。
-    if (rotating && selected.length > config.rotation!.headSlots) {
-      const headSlots = config.rotation!.headSlots;
-      const stableTail = new Set(ranked.slice(headSlots, topN).map(r => r.nameWithOwner));
-      const rotated = selected
-        .slice(headSlots)
-        .filter(r => !stableTail.has(r.nameWithOwner)).length;
-      logInfo(
-        'ecosystem',
-        `${config.title}: 尾部 ${selected.length - headSlots} 条中轮换 ${rotated} 条(池 ${ranked.length})`
-      );
-    }
+    const selected = rankAndSlice(filtered, topN, windowDays);
+    logInfo('ecosystem', `${config.title}: ${selected.length} selected (window ${windowDays}d)`);
     return selected;
   } catch (err) {
     logWarn('ecosystem', `${config.title} 生态榜构建失败, 本段留空: ${err}`);
@@ -255,34 +184,4 @@ function starsPerHour(growth: ClickHouseRepo, windowDays: number): number {
   const maxHours = windowDays * 24;
   const hours = clamp(hoursSince(growth.firstSeenAt), 1, maxHours);
   return parseInt(growth.starsWithin) / hours;
-}
-
-// 解析某个榜的轮换保留期天数; 未配置轮换时为 0。
-function resolveRetentionDays(config: EcosystemBoardConfig): number {
-  if (!config.rotation) return 0;
-  return parseInt(
-    process.env[config.rotation.retentionDaysEnv] ?? String(config.rotation.retentionDaysDefault)
-  );
-}
-
-// 发布成功后回写生态榜的**尾部**名单到轮换记忆。只处理配置了 rotation 的榜,
-// 只回写 headSlots 之后的尾部(头部稳态常驻, 记不记都会被下一次保留)。
-//
-// 与 run.ts 的 recordPublished 分离调用: 主记忆只收池内四榜, 生态榜记忆只收
-// 生态榜尾部, 两者互不干扰(见模块头注释)。boards 与 repos 按索引一一对应。
-export function persistEcosystemRotation(
-  boards: EcosystemBoardConfig[],
-  repos: ScoredRepo[][],
-  memoryPath: string,
-  now: Date = new Date()
-): void {
-  for (let i = 0; i < boards.length; i++) {
-    const config = boards[i]!;
-    const selected = repos[i] ?? [];
-    if (!config.rotation) continue;
-
-    const retentionDays = resolveRetentionDays(config);
-    const tailNames = selected.slice(config.rotation.headSlots).map(r => r.nameWithOwner);
-    recordRotation(tailNames, memoryPath, retentionDays, now);
-  }
 }

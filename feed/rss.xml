@@ -5,8 +5,127 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Oct 2026 05:04:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 04:57:20 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>Ebony-Vinyl/dsh-our-free-model</title>
+      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
+      <description>在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">Ebony-Vinyl/dsh-our-free-model</guid>
+    </item>
+    <item>
+      <title>google-research/harness2</title>
+      <link>https://github.com/google-research/harness2</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">google-research/harness2</guid>
+    </item>
+    <item>
+      <title>peach-mitao/peach</title>
+      <link>https://github.com/peach-mitao/peach</link>
+      <description>Peach 蜜桃：单用户、本地优先的个人媒体系统 · Single-user, local-first personal media system</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">peach-mitao/peach</guid>
+    </item>
+    <item>
+      <title>KnifeLemon/Filee</title>
+      <link>https://github.com/KnifeLemon/Filee</link>
+      <description>Free, open-source file converter. Convert 255 formats offline by drag &amp; drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">KnifeLemon/Filee</guid>
+    </item>
+    <item>
+      <title>xerj-org/xerj</title>
+      <link>https://github.com/xerj-org/xerj</link>
+      <description>Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">xerj-org/xerj</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/Turnitout-Humanizer</title>
+      <link>https://github.com/AhmadHassan-BTed/Turnitout-Humanizer</link>
+      <description>FREE FOREVER, NO LIMITS 100% Programmatic, Zero-AI Plagiarism Remover &amp; Similarity Evader. Bypass Turnitin, iThenticate, GPTZero, CopyLeaks, &amp; ZeroGPT for LaTeX, DOCX, &amp; Multi-Language Source Code.</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/Turnitout-Humanizer</guid>
+    </item>
+    <item>
+      <title>tangency-labs/solidcraft</title>
+      <link>https://github.com/tangency-labs/solidcraft</link>
+      <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">tangency-labs/solidcraft</guid>
+    </item>
+    <item>
+      <title>Fractal-Compute-Orchestrations/FractalWorkspace</title>
+      <link>https://github.com/Fractal-Compute-Orchestrations/FractalWorkspace</link>
+      <description>A unified ecosystem and workspace for large-scale federated learning, bridging the gap between centralized model evolution and decentralized edge intelligence.</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">Fractal-Compute-Orchestrations/FractalWorkspace</guid>
+    </item>
+    <item>
+      <title>ly05010419/MacNativeGames</title>
+      <link>https://github.com/ly05010419/MacNativeGames</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">ly05010419/MacNativeGames</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/Jantt</title>
+      <link>https://github.com/AhmadHassan-BTed/Jantt</link>
+      <description>The AI-native JSON Gantt chart engine. Dependency-free interactive timelines with React, script-tag, CLI, topological DAG solver, and formal JSON schema.</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/Jantt</guid>
+    </item>
+    <item>
+      <title>Gathin23/cleanyourtv</title>
+      <link>https://github.com/Gathin23/cleanyourtv</link>
+      <description>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">Gathin23/cleanyourtv</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/NaSuno</title>
+      <link>https://github.com/AhmadHassan-BTed/NaSuno</link>
+      <description>AI audio watermark removal &amp; forensic anti-attribution toolkit. Neutralizes Suno, Udio, and neural fingerprints with ISO 226 perceptual masking.</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/NaSuno</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/FractalWorkspace</title>
+      <link>https://github.com/AhmadHassan-BTed/FractalWorkspace</link>
+      <description>A unified ecosystem and workspace for large-scale federated learning, bridging the gap between centralized model evolution and decentralized edge intelligence.</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/FractalWorkspace</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/JinaClip</title>
+      <link>https://github.com/AhmadHassan-BTed/JinaClip</link>
+      <description>Professional-grade, local-first browser extension that transforms any webpage into high-fidelity, LLM-friendly Markdown entirely within the browser&apos;s runtime. Zero-cloud, privacy-centric, and designed specifically for AI workflows.</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/JinaClip</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/CursedTomorrow</title>
+      <link>https://github.com/AhmadHassan-BTed/CursedTomorrow</link>
+      <description>A 2D horror-survival and escape game built from scratch in C++. Navigate unsettling levels, survive the glitches, and escape the nightmare. Features a custom C++ game core, robust asset management, and comprehensive system architecture documentation.</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/CursedTomorrow</guid>
+    </item>
+    <item>
+      <title>Fractal-Compute-Orchestrations/FractalCore</title>
+      <link>https://github.com/Fractal-Compute-Orchestrations/FractalCore</link>
+      <description>The central nervous system and backend orchestrator for Fractal. It handles multi-tenant task scheduling, real-time TFLOPs budgeting, and federated weight aggregation using FedAvg.</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">Fractal-Compute-Orchestrations/FractalCore</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/MotionShot</title>
+      <link>https://github.com/AhmadHassan-BTed/MotionShot</link>
+      <description>Camera app that freezes fast motion sequences into a single stroboscopic photo; powered by on-device computer vision, 2D stabilization, and manual exposure controls</description>
+      <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/MotionShot</guid>
+    </item>
     <item>
       <title>Leonxlnx/earshot</title>
       <link>https://github.com/Leonxlnx/earshot</link>
@@ -566,286 +685,6 @@
       <description>A sleek, privacy-focused browser extension that brings a native dark mode experience to online documents. Built with clean UI/UX principles for Chromium and Opera browsers to reduce eye strain and improve readability.</description>
       <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
       <guid isPermaLink="false">AhmadHassan-BTed/Darkument</guid>
-    </item>
-    <item>
-      <title>fyzugx/DEsk</title>
-      <link>https://github.com/fyzugx/DEsk</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">fyzugx/DEsk</guid>
-    </item>
-    <item>
-      <title>morluto/awesome-reverse-engineering</title>
-      <link>https://github.com/morluto/awesome-reverse-engineering</link>
-      <description>Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">morluto/awesome-reverse-engineering</guid>
-    </item>
-    <item>
-      <title>marclou/mailcheap</title>
-      <link>https://github.com/marclou/mailcheap</link>
-      <description>Newsletters where you pay for the emails you send, not for dormant subscribers, at a fraction of the price of beehiiv and the like. Open source: self-host it, or use mailcheap.ai.</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">marclou/mailcheap</guid>
-    </item>
-    <item>
-      <title>artemchuikin/youtube-skills</title>
-      <link>https://github.com/artemchuikin/youtube-skills</link>
-      <description>YouTube transcript skills for Claude Code, Cursor and Codex. Agent Skills to get transcripts, search YouTube, read channels and playlists, and bulk export.</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">artemchuikin/youtube-skills</guid>
-    </item>
-    <item>
-      <title>ZhFkl/resumeworkflow</title>
-      <link>https://github.com/ZhFkl/resumeworkflow</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">ZhFkl/resumeworkflow</guid>
-    </item>
-    <item>
-      <title>rootSunc/CNEquity</title>
-      <link>https://github.com/rootSunc/CNEquity</link>
-      <description>中国 A 股数据基础设施。55个日更数据集：股票行情、基本面、期货数据、资金面、公告事件、指数行业、宏观与风险。行级溯源、PIT 语义、复权与历史成分内置，MCP 原生。自托管，零注册、零 API Token</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">rootSunc/CNEquity</guid>
-    </item>
-    <item>
-      <title>JetBrains/thinkrail</title>
-      <link>https://github.com/JetBrains/thinkrail</link>
-      <description>Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">JetBrains/thinkrail</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/B</title>
-      <link>https://github.com/AhmadHassan-BTed/B</link>
-      <description>An autonomous, context-aware AI desktop companion. Built with Python, featuring real-time screen vision, custom ONNX voice synthesis, active window tracking, and a dynamic floating UI with reactive facial expressions.</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/B</guid>
-    </item>
-    <item>
-      <title>nikgrbn/finder-menu</title>
-      <link>https://github.com/nikgrbn/finder-menu</link>
-      <description>Right-click menu for macOS Finder: New File, Open Terminal Here, Copy Path, Go to Parent Folder</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">nikgrbn/finder-menu</guid>
-    </item>
-    <item>
-      <title>ddoemonn/interior</title>
-      <link>https://github.com/ddoemonn/interior</link>
-      <description>micro-interactions for react, built for the half-second after a click</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">ddoemonn/interior</guid>
-    </item>
-    <item>
-      <title>NVlabs/ASPIRE</title>
-      <link>https://github.com/NVlabs/ASPIRE</link>
-      <description>ASPIRE: Agentic /Skills Discovery for Robotics</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">NVlabs/ASPIRE</guid>
-    </item>
-    <item>
-      <title>eyalgolan/statecraft-israel</title>
-      <link>https://github.com/eyalgolan/statecraft-israel</link>
-      <description>A Civilization-style strategy game about governing Israel from 15 May 1948. Real ministers, real map, every fact sourced. Unity + deterministic C# sim.</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">eyalgolan/statecraft-israel</guid>
-    </item>
-    <item>
-      <title>SimonSchubert/omalauncher</title>
-      <link>https://github.com/SimonSchubert/omalauncher</link>
-      <description>Agentic Android launcher: build your own apps and widgets with AI agents, Omarchy themes, Arch Linux without root</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">SimonSchubert/omalauncher</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/EQAI</title>
-      <link>https://github.com/AhmadHassan-BTed/EQAI</link>
-      <description>A highly specialized reverse-engineering pipeline designed to structurally transplant original Vanilla character models into the EverQuest Online Adventures: Frontiers (PS2) game engine, resolving complex Vector Unit 1 (VU1) shader bugs, Emotion Engine (EE) memory overflows, and PS2 CDVDman hardware faults.</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/EQAI</guid>
-    </item>
-    <item>
-      <title>icloudza/caplo</title>
-      <link>https://github.com/icloudza/caplo</link>
-      <description>macOS 屏幕录制工具</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">icloudza/caplo</guid>
-    </item>
-    <item>
-      <title>youke1686/FlyDisk</title>
-      <link>https://github.com/youke1686/FlyDisk</link>
-      <description>Windows 上的开源硬盘加速器 · Open-source hard drive accelerator for Windows</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">youke1686/FlyDisk</guid>
-    </item>
-    <item>
-      <title>yisier/rustgrid</title>
-      <link>https://github.com/yisier/rustgrid</link>
-      <description>Native database GUI. Built in Rust. No WebView</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">yisier/rustgrid</guid>
-    </item>
-    <item>
-      <title>osint-and-search/poiskovie_i_OSINT_instrumenti</title>
-      <link>https://github.com/osint-and-search/poiskovie_i_OSINT_instrumenti</link>
-      <description>Лучшие инструменты для OSINT, поиска информации, пробива и разведки в Интернете!</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">osint-and-search/poiskovie_i_OSINT_instrumenti</guid>
-    </item>
-    <item>
-      <title>Fractal-Compute-Orchestrations/FractalAndroid</title>
-      <link>https://github.com/Fractal-Compute-Orchestrations/FractalAndroid</link>
-      <description>A human-centric, resource-aware Android node for edge computing and federated learning. Orchestrates distributed intelligence with privacy-first localization and empathetic hardware management.</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">Fractal-Compute-Orchestrations/FractalAndroid</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/Noria</title>
-      <link>https://github.com/AhmadHassan-BTed/Noria</link>
-      <description>An agentic extractor for messaging platforms. Noria receives messages &amp; URLs via chat; scrapes web data to evaluate the content against custom scoring matrices (e.g., jobs, scholarships); and sends a structured summary with a calculated match score directly to the assigned messenger number.</description>
-      <pubDate>Sun, 18 Oct 2026 04:47:59 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/Noria</guid>
-    </item>
-    <item>
-      <title>t4t5/omdrop-owl</title>
-      <link>https://github.com/t4t5/omdrop-owl</link>
-      <description>airdrop for non-apple devices</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">t4t5/omdrop-owl</guid>
-    </item>
-    <item>
-      <title>SubmitGame/awesome-decomp-games</title>
-      <link>https://github.com/SubmitGame/awesome-decomp-games</link>
-      <description>Rated, auto-refreshed list of decompiled, recompiled &amp; reverse-engineered games: decomps, static recomps, source ports, engine remakes, browser ports.</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">SubmitGame/awesome-decomp-games</guid>
-    </item>
-    <item>
-      <title>aimod-cc/Agent2API</title>
-      <link>https://github.com/aimod-cc/Agent2API</link>
-      <description>本地反向代理 + OpenAI 兼容 AI 网关：复用桌面客户端登录态，一个 base_url 调用十余家模型额度 · Local OpenAI-compatible gateway for AI coding clients — WorkBuddy, Raccoon, CatPaw, AutoClaw, Qoder, Cline, Accio, ZCode, CodeArts, Trae and more.</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">aimod-cc/Agent2API</guid>
-    </item>
-    <item>
-      <title>wesbos/photo-frame-dashboard</title>
-      <link>https://github.com/wesbos/photo-frame-dashboard</link>
-      <description>Getting ADB, root, backups and custom apps onto locked-down Android photo frames (Skylight Calendar, BIUFRAME)</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">wesbos/photo-frame-dashboard</guid>
-    </item>
-    <item>
-      <title>n1tr00-10/tiktok-web-signature</title>
-      <link>https://github.com/n1tr00-10/tiktok-web-signature</link>
-      <description>tiktok web signature reverse engineer generates valid tiktok signatures for API requets</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">n1tr00-10/tiktok-web-signature</guid>
-    </item>
-    <item>
-      <title>ch6vip/fqapp</title>
-      <link>https://github.com/ch6vip/fqapp</link>
-      <description>内容聚合 Android 客户端：小说/短剧/漫剧/听书/漫画，Flutter UI + 进程内 Rust 核心，无自建服务器、无需 root</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">ch6vip/fqapp</guid>
-    </item>
-    <item>
-      <title>palemoky/chinese-poetry-api</title>
-      <link>https://github.com/palemoky/chinese-poetry-api</link>
-      <description>📜 诗泉：高性能中国古诗词 API 服务</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">palemoky/chinese-poetry-api</guid>
-    </item>
-    <item>
-      <title>zeusinsight/FinderSearch</title>
-      <link>https://github.com/zeusinsight/FinderSearch</link>
-      <description>A native macOS file browser with fast fuzzy filename search, powered by fsearch.</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">zeusinsight/FinderSearch</guid>
-    </item>
-    <item>
-      <title>zhouwei713/luobo-ppt</title>
-      <link>https://github.com/zhouwei713/luobo-ppt</link>
-      <description>生成和美化可编辑原生 PPT 的 Agent Skill</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">zhouwei713/luobo-ppt</guid>
-    </item>
-    <item>
-      <title>fayazara/robot-heads</title>
-      <link>https://github.com/fayazara/robot-heads</link>
-      <description>Animated 3D robot heads for React: TV-headed bots with LED faces that show what your agent is doing.</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">fayazara/robot-heads</guid>
-    </item>
-    <item>
-      <title>since2006/shell-rs</title>
-      <link>https://github.com/since2006/shell-rs</link>
-      <description>High-performance native SSH client in Rust, GPU-rendered with GPUI: host manager, terminal, WinSCP-style SFTP and port forwarding. Rust 编写、GPU 渲染的原生 SSH 客户端。</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">since2006/shell-rs</guid>
-    </item>
-    <item>
-      <title>maddada/Ghostex</title>
-      <link>https://github.com/maddada/Ghostex</link>
-      <description>The Best &amp; Most Powerful Native Agents Workspace. Fully Rust &amp; GPUI based. Mobile apps. 20+ agents. Ghostty.</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">maddada/Ghostex</guid>
-    </item>
-    <item>
-      <title>LordixDemon/apple_watch_connector</title>
-      <link>https://github.com/LordixDemon/apple_watch_connector</link>
-      <description>(no description)</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">LordixDemon/apple_watch_connector</guid>
-    </item>
-    <item>
-      <title>mrsarac/ff-tracking</title>
-      <link>https://github.com/mrsarac/ff-tracking</link>
-      <description>A virtual camera films an AI agent&apos;s screen while a tracker locks onto every glyph. Two fframes passes, one SkSL shader, all sound synthesized.</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">mrsarac/ff-tracking</guid>
-    </item>
-    <item>
-      <title>SkyworkAI/Matrix-Game</title>
-      <link>https://github.com/SkyworkAI/Matrix-Game</link>
-      <description>Matrix-Game 4.0: Streaming Neural Rendering for Playable Games</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">SkyworkAI/Matrix-Game</guid>
-    </item>
-    <item>
-      <title>CerealAxis/Nola-Translator</title>
-      <link>https://github.com/CerealAxis/Nola-Translator</link>
-      <description>Real-time captions and translation. 一款开源的实时字幕与翻译软件</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">CerealAxis/Nola-Translator</guid>
-    </item>
-    <item>
-      <title>adityaongit/pulse</title>
-      <link>https://github.com/adityaongit/pulse</link>
-      <description>your fitbit air, but it finally tells you why you feel like garbage. recovery, strain, sleep and a Pulse Age that judges you, all free and self-hosted.</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">adityaongit/pulse</guid>
-    </item>
-    <item>
-      <title>jasonwong1991/WonderBox</title>
-      <link>https://github.com/jasonwong1991/WonderBox</link>
-      <description>A native macOS system toolkit: honest memory optimization, deep cleanup that finds the real space hogs, fan control, keep-awake, disk analyzer.</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">jasonwong1991/WonderBox</guid>
-    </item>
-    <item>
-      <title>storytold/craft-libs</title>
-      <link>https://github.com/storytold/craft-libs</link>
-      <description>Rust libraries for the Craft Apps</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">storytold/craft-libs</guid>
-    </item>
-    <item>
-      <title>kevinluosl/deepbot</title>
-      <link>https://github.com/kevinluosl/deepbot</link>
-      <description>DeepBot is a system-level AI assistant built for both personal productivity and enterprise workflows — one-click setup, seamless experience, and native Feishu integration.</description>
-      <pubDate>Sat, 17 Oct 2026 04:42:41 GMT</pubDate>
-      <guid isPermaLink="false">kevinluosl/deepbot</guid>
     </item>
   </channel>
 </rss>

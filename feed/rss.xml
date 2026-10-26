@@ -5,8 +5,113 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Oct 2026 04:57:20 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 05:00:18 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>Zagitta/gpu-unlock</title>
+      <link>https://github.com/Zagitta/gpu-unlock</link>
+      <description>Unlock FP/BF16 instruction issue rate on Nvidia 3000&apos;s cards to their professional equivalents</description>
+      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
+      <guid isPermaLink="false">Zagitta/gpu-unlock</guid>
+    </item>
+    <item>
+      <title>yihui-dev/awesome-opus5-5-videos</title>
+      <link>https://github.com/yihui-dev/awesome-opus5-5-videos</link>
+      <description>A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.</description>
+      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
+      <guid isPermaLink="false">yihui-dev/awesome-opus5-5-videos</guid>
+    </item>
+    <item>
+      <title>seedds/nxnative</title>
+      <link>https://github.com/seedds/nxnative</link>
+      <description>Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)</description>
+      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
+      <guid isPermaLink="false">seedds/nxnative</guid>
+    </item>
+    <item>
+      <title>lemomo-ai/lemo-opuscar</title>
+      <link>https://github.com/lemomo-ai/lemo-opuscar</link>
+      <description>A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：59 种现成风格，也能做出你自己的</description>
+      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
+      <guid isPermaLink="false">lemomo-ai/lemo-opuscar</guid>
+    </item>
+    <item>
+      <title>gamedev-skills/awesome-gamedev-agent-skills</title>
+      <link>https://github.com/gamedev-skills/awesome-gamedev-agent-skills</link>
+      <description>74 game-dev skills for AI coding agents — Godot, Unity, Unreal, Phaser, PixiJS, three.js, Bevy, pygame, LÖVE, Roblox. Portable SKILL.md Agent Skills (the format Anthropic launched as Claude Skills), with a router that loads the right skill for your engine and task. Runs in Claude Code, Cursor, Kiro, Codex, Copilot, Gemini CLI and more.</description>
+      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
+      <guid isPermaLink="false">gamedev-skills/awesome-gamedev-agent-skills</guid>
+    </item>
+    <item>
+      <title>luongnv89/claude-howto</title>
+      <link>https://github.com/luongnv89/claude-howto</link>
+      <description>A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.</description>
+      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
+      <guid isPermaLink="false">luongnv89/claude-howto</guid>
+    </item>
+    <item>
+      <title>aicodeking/leanrea</title>
+      <link>https://github.com/aicodeking/leanrea</link>
+      <description>One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.</description>
+      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
+      <guid isPermaLink="false">aicodeking/leanrea</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/.github</title>
+      <link>https://github.com/AhmadHassan-BTed/.github</link>
+      <description>(no description)</description>
+      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/.github</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/AhmadHassan-BTed</title>
+      <link>https://github.com/AhmadHassan-BTed/AhmadHassan-BTed</link>
+      <description>Terminal-style developer runtime blueprint, interactive workspace statistics, and systems diagnostics cataloging the codebase footprint</description>
+      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/AhmadHassan-BTed</guid>
+    </item>
+    <item>
+      <title>Niiiiikiiiiii/McLife-Desk</title>
+      <link>https://github.com/Niiiiikiiiiii/McLife-Desk</link>
+      <description>忙碌了一天，回到家，你打开麦当劳，却突然纠结：今天吃了什么？这周点了几次？这个月花了多少钱？热量会不会超标？  于是有了 **McLife Desk 麦门人生工作台**。它记录每一次点麦：日期、餐品、金额与热量，生成专属点餐日历；按当月消费次数和金额解锁麦门等级，还能通过趣味测试发现自己的麦门消费人格。  它不劝你戒掉麦当劳，只陪你在忙碌、独处和奖励自己的时刻，看见自己的选择，管理预算与生活节奏。  **记录每一次点麦，也记录你的生活。**</description>
+      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
+      <guid isPermaLink="false">Niiiiikiiiiii/McLife-Desk</guid>
+    </item>
+    <item>
+      <title>harvard-edge/cs249r_book</title>
+      <link>https://github.com/harvard-edge/cs249r_book</link>
+      <description>Machine Learning Systems: Foundations, Scaling, Agentic AI, and Physical AI (Vols I–IV) • Harvard CS249r | https://mlsysbook.ai</description>
+      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
+      <guid isPermaLink="false">harvard-edge/cs249r_book</guid>
+    </item>
+    <item>
+      <title>zcbacxc/mcd-party-planner</title>
+      <link>https://github.com/zcbacxc/mcd-party-planner</link>
+      <description>麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill</description>
+      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
+      <guid isPermaLink="false">zcbacxc/mcd-party-planner</guid>
+    </item>
+    <item>
+      <title>obsidianmd/pele</title>
+      <link>https://github.com/obsidianmd/pele</link>
+      <description>Renders Mermaid diagrams faster than you&apos;d run from a volcano! 🌋 </description>
+      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
+      <guid isPermaLink="false">obsidianmd/pele</guid>
+    </item>
+    <item>
+      <title>Fractal-Compute-Orchestrations/Fractal-PrivacyPolicy</title>
+      <link>https://github.com/Fractal-Compute-Orchestrations/Fractal-PrivacyPolicy</link>
+      <description>(no description)</description>
+      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
+      <guid isPermaLink="false">Fractal-Compute-Orchestrations/Fractal-PrivacyPolicy</guid>
+    </item>
+    <item>
+      <title>sandbox-quantum/switch</title>
+      <link>https://github.com/sandbox-quantum/switch</link>
+      <description>Open-source AI teammates in Slack, Teams, Discord, Telegram and Mattermost. Self-host it, with any agent harness and any model.</description>
+      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
+      <guid isPermaLink="false">sandbox-quantum/switch</guid>
+    </item>
     <item>
       <title>Ebony-Vinyl/dsh-our-free-model</title>
       <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
@@ -545,146 +650,6 @@
       <description>A Game Boy, Game Boy Color and GBA player for Android handhelds with two screens or one, with a live companion for Pokémon games and ROM hacks.</description>
       <pubDate>Wed, 21 Oct 2026 05:03:05 GMT</pubDate>
       <guid isPermaLink="false">lidor30/pokedaisy</guid>
-    </item>
-    <item>
-      <title>liseami/CCBaga</title>
-      <link>https://github.com/liseami/CCBaga</link>
-      <description>(no description)</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">liseami/CCBaga</guid>
-    </item>
-    <item>
-      <title>shaongitbd/doory</title>
-      <link>https://github.com/shaongitbd/doory</link>
-      <description>Open source canva alternative</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">shaongitbd/doory</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/ThreadRace</title>
-      <link>https://github.com/AhmadHassan-BTed/ThreadRace</link>
-      <description>Quantifying the pulse of parallelism: A C++ concurrency telemetry framework measuring the human-perceived efficiency of concurrent execution strategies.</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/ThreadRace</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/LichArch</title>
-      <link>https://github.com/AhmadHassan-BTed/LichArch</link>
-      <description>Hyper-optimized dark theme suite, native KWin gesture engine, and automated setup launcher for KDE Plasma 6 on Arch Linux.</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/LichArch</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/RoseWish</title>
-      <link>https://github.com/AhmadHassan-BTed/RoseWish</link>
-      <description>A heartfelt, interactive narrative mini-game built in Python for Rose Day. Features custom entities, a dynamic dialogue system, animated particle effects, and integrated audio to deliver a unique, romantic digital experience.</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/RoseWish</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/VisioCraft</title>
-      <link>https://github.com/AhmadHassan-BTed/VisioCraft</link>
-      <description>An AI-powered web suite for advanced image processing and generation. VisioCraft integrates state-of-the-art computer vision models; including YOLO, SAM, and LaMa; to provide seamless object extraction, content-aware fill, and image generation through an interactive canvas UI.</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/VisioCraft</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/OpenOPC</title>
-      <link>https://github.com/AhmadHassan-BTed/OpenOPC</link>
-      <description>OpenOPC: Build Your Personal AI-Native Company — Self-Built, Self-Run, Self-Grown</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/OpenOPC</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/ShopifyAutoAuth</title>
-      <link>https://github.com/AhmadHassan-BTed/ShopifyAutoAuth</link>
-      <description>Enterprise-grade Shopify Admin API authentication adapter — OAuth 2.0 Client Credentials Grant with automatic token refresh.</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/ShopifyAutoAuth</guid>
-    </item>
-    <item>
-      <title>DSH-APP/DSHA</title>
-      <link>https://github.com/DSH-APP/DSHA</link>
-      <description>免 ROOT 免 Termux，在手机上跑 DeepSeek Harness。完整 Ubuntu 环境 + proroot 零 ptrace 开销 · AI 输出实时上屏 · ADB 直连 · 数据不丢</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">DSH-APP/DSHA</guid>
-    </item>
-    <item>
-      <title>openfilm/openfilm</title>
-      <link>https://github.com/openfilm/openfilm</link>
-      <description>The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">openfilm/openfilm</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/FormFilla</title>
-      <link>https://github.com/AhmadHassan-BTed/FormFilla</link>
-      <description>About A local-first browser extension that fills job-application forms from local JSON profile data and files. Matches are computed deterministically via multi-signal scoring, structural repeated-block detection, and bipartite optimization.</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/FormFilla</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/SilentSniffer</title>
-      <link>https://github.com/AhmadHassan-BTed/SilentSniffer</link>
-      <description>A professional, high-fidelity de-anonymization and vulnerability diagnostic framework. Features a zero-coupling modular architecture for browser-based intelligence gathering, hardware fingerprinting, and security research.</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/SilentSniffer</guid>
-    </item>
-    <item>
-      <title>anthropics/claude-quickstarts</title>
-      <link>https://github.com/anthropics/claude-quickstarts</link>
-      <description>A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">anthropics/claude-quickstarts</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/ScrollToPrompt</title>
-      <link>https://github.com/AhmadHassan-BTed/ScrollToPrompt</link>
-      <description>Navigation minimap extension for modern AI chat interfaces, injecting responsive scrollbar indicators via Shadow DOM isolation.</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/ScrollToPrompt</guid>
-    </item>
-    <item>
-      <title>NabilRFG12/Reverse-Engineer-anything</title>
-      <link>https://github.com/NabilRFG12/Reverse-Engineer-anything</link>
-      <description>Reverse engineer anything with agents, from app behavior down to native binaries.</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">NabilRFG12/Reverse-Engineer-anything</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/PortfolioWebsite</title>
-      <link>https://github.com/AhmadHassan-BTed/PortfolioWebsite</link>
-      <description>My personal website showcasing my work in Software Engineering and Graphic Design. A simple, multi-page static site built with HTML, CSS, and basic JavaScript. It’s designed to be a clean space where I can share my projects, my story, and my resume.</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/PortfolioWebsite</guid>
-    </item>
-    <item>
-      <title>Aletheore/Aletheore</title>
-      <link>https://github.com/Aletheore/Aletheore</link>
-      <description>Evidence-grounded repository audit CLI - deterministic scanner, MCP server, live dashboard, and a GitHub Action that posts PR diffs.</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">Aletheore/Aletheore</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/Attendify</title>
-      <link>https://github.com/AhmadHassan-BTed/Attendify</link>
-      <description>A human-centric Attendance &amp; Leave Management Portal built with PHP, MySQL, and ag-Grid. #php #mysql #javascript #css #aggrid</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/Attendify</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/yt-channels-DS-AI-ML-CS</title>
-      <link>https://github.com/AhmadHassan-BTed/yt-channels-DS-AI-ML-CS</link>
-      <description>A comprehensive list of 180+ YouTube Channels for Data Science,  Data Engineering, Machine Learning, Deep learning, Computer Science, programming, software engineering, etc.</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/yt-channels-DS-AI-ML-CS</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/Darkument</title>
-      <link>https://github.com/AhmadHassan-BTed/Darkument</link>
-      <description>A sleek, privacy-focused browser extension that brings a native dark mode experience to online documents. Built with clean UI/UX principles for Chromium and Opera browsers to reduce eye strain and improve readability.</description>
-      <pubDate>Mon, 19 Oct 2026 04:56:23 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/Darkument</guid>
     </item>
   </channel>
 </rss>

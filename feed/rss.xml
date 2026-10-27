@@ -5,8 +5,78 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2026 05:00:18 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 05:17:42 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>Renhuai123/ziwei-doushu</title>
+      <link>https://github.com/Renhuai123/ziwei-doushu</link>
+      <description>紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据</description>
+      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
+      <guid isPermaLink="false">Renhuai123/ziwei-doushu</guid>
+    </item>
+    <item>
+      <title>simbasjungles/free-my-tv</title>
+      <link>https://github.com/simbasjungles/free-my-tv</link>
+      <description>A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.</description>
+      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
+      <guid isPermaLink="false">simbasjungles/free-my-tv</guid>
+    </item>
+    <item>
+      <title>xiaoyang111222/cn-math-taxonomy</title>
+      <link>https://github.com/xiaoyang111222/cn-math-taxonomy</link>
+      <description>数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。</description>
+      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
+      <guid isPermaLink="false">xiaoyang111222/cn-math-taxonomy</guid>
+    </item>
+    <item>
+      <title>JoasASantos/REA-Prompts</title>
+      <link>https://github.com/JoasASantos/REA-Prompts</link>
+      <description>REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program</description>
+      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
+      <guid isPermaLink="false">JoasASantos/REA-Prompts</guid>
+    </item>
+    <item>
+      <title>kksimp/Mac.apk</title>
+      <link>https://github.com/kksimp/Mac.apk</link>
+      <description>Mac.apk: Run Android apps natively on Apple Silicon Macs</description>
+      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
+      <guid isPermaLink="false">kksimp/Mac.apk</guid>
+    </item>
+    <item>
+      <title>Sam-Hui-dot/mcd-budget-meal</title>
+      <link>https://github.com/Sam-Hui-dot/mcd-budget-meal</link>
+      <description>麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill</description>
+      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
+      <guid isPermaLink="false">Sam-Hui-dot/mcd-budget-meal</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/SilentSniffer</title>
+      <link>https://github.com/AhmadHassan-BTed/SilentSniffer</link>
+      <description>A professional, high-fidelity de-anonymization and vulnerability diagnostic framework. Features a zero-coupling modular architecture for browser-based intelligence gathering, hardware fingerprinting, and security research.</description>
+      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/SilentSniffer</guid>
+    </item>
+    <item>
+      <title>deepseek-ai/deepseek-recipe</title>
+      <link>https://github.com/deepseek-ai/deepseek-recipe</link>
+      <description>(no description)</description>
+      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
+      <guid isPermaLink="false">deepseek-ai/deepseek-recipe</guid>
+    </item>
+    <item>
+      <title>Fractal-Compute-Orchestrations/FractalAndroid</title>
+      <link>https://github.com/Fractal-Compute-Orchestrations/FractalAndroid</link>
+      <description>A human-centric, resource-aware Android node for edge computing and federated learning. Orchestrates distributed intelligence with privacy-first localization and empathetic hardware management.</description>
+      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
+      <guid isPermaLink="false">Fractal-Compute-Orchestrations/FractalAndroid</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/B</title>
+      <link>https://github.com/AhmadHassan-BTed/B</link>
+      <description>An autonomous, context-aware AI desktop companion. Built with Python, featuring real-time screen vision, custom ONNX voice synthesis, active window tracking, and a dynamic floating UI with reactive facial expressions.</description>
+      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/B</guid>
+    </item>
     <item>
       <title>Zagitta/gpu-unlock</title>
       <link>https://github.com/Zagitta/gpu-unlock</link>
@@ -94,7 +164,7 @@
     <item>
       <title>obsidianmd/pele</title>
       <link>https://github.com/obsidianmd/pele</link>
-      <description>Renders Mermaid diagrams faster than you&apos;d run from a volcano! 🌋 </description>
+      <description>Renders Mermaid diagrams faster than you&apos;d run from a volcano! 🌋</description>
       <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
       <guid isPermaLink="false">obsidianmd/pele</guid>
     </item>

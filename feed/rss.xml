@@ -5,8 +5,78 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Oct 2026 05:56:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 06:01:28 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>rddmwmddr/android-ad-cleaner</title>
+      <link>https://github.com/rddmwmddr/android-ad-cleaner</link>
+      <description>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。</description>
+      <pubDate>Thu, 29 Oct 2026 06:01:28 GMT</pubDate>
+      <guid isPermaLink="false">rddmwmddr/android-ad-cleaner</guid>
+    </item>
+    <item>
+      <title>JustAResearcher/gpu-unlock-ada</title>
+      <link>https://github.com/JustAResearcher/gpu-unlock-ada</link>
+      <description>GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally</description>
+      <pubDate>Thu, 29 Oct 2026 06:01:28 GMT</pubDate>
+      <guid isPermaLink="false">JustAResearcher/gpu-unlock-ada</guid>
+    </item>
+    <item>
+      <title>amosblomqvist/learnharness</title>
+      <link>https://github.com/amosblomqvist/learnharness</link>
+      <description>Agent harness for learning difficult things.</description>
+      <pubDate>Thu, 29 Oct 2026 06:01:28 GMT</pubDate>
+      <guid isPermaLink="false">amosblomqvist/learnharness</guid>
+    </item>
+    <item>
+      <title>hmjz100/LinkSwift</title>
+      <link>https://github.com/hmjz100/LinkSwift</link>
+      <description>一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘</description>
+      <pubDate>Thu, 29 Oct 2026 06:01:28 GMT</pubDate>
+      <guid isPermaLink="false">hmjz100/LinkSwift</guid>
+    </item>
+    <item>
+      <title>elayadesign/ai-design-skills</title>
+      <link>https://github.com/elayadesign/ai-design-skills</link>
+      <description>(no description)</description>
+      <pubDate>Thu, 29 Oct 2026 06:01:28 GMT</pubDate>
+      <guid isPermaLink="false">elayadesign/ai-design-skills</guid>
+    </item>
+    <item>
+      <title>pengchujin/aerial-tv</title>
+      <link>https://github.com/pengchujin/aerial-tv</link>
+      <description>给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.</description>
+      <pubDate>Thu, 29 Oct 2026 06:01:28 GMT</pubDate>
+      <guid isPermaLink="false">pengchujin/aerial-tv</guid>
+    </item>
+    <item>
+      <title>ai-job-search-dev/ai-job-search</title>
+      <link>https://github.com/ai-job-search-dev/ai-job-search</link>
+      <description>The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.</description>
+      <pubDate>Thu, 29 Oct 2026 06:01:28 GMT</pubDate>
+      <guid isPermaLink="false">ai-job-search-dev/ai-job-search</guid>
+    </item>
+    <item>
+      <title>google/elephant-goldfish-model</title>
+      <link>https://github.com/google/elephant-goldfish-model</link>
+      <description>Open-source skills for designing and reviewing software with AI agents</description>
+      <pubDate>Thu, 29 Oct 2026 06:01:28 GMT</pubDate>
+      <guid isPermaLink="false">google/elephant-goldfish-model</guid>
+    </item>
+    <item>
+      <title>cheaper-inference/OmniRoute</title>
+      <link>https://github.com/cheaper-inference/OmniRoute</link>
+      <description>Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline &amp; Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors</description>
+      <pubDate>Thu, 29 Oct 2026 06:01:28 GMT</pubDate>
+      <guid isPermaLink="false">cheaper-inference/OmniRoute</guid>
+    </item>
+    <item>
+      <title>SoMarkAI/OXR</title>
+      <link>https://github.com/SoMarkAI/OXR</link>
+      <description>An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training.</description>
+      <pubDate>Thu, 29 Oct 2026 06:01:28 GMT</pubDate>
+      <guid isPermaLink="false">SoMarkAI/OXR</guid>
+    </item>
     <item>
       <title>makecindy/cindy</title>
       <link>https://github.com/makecindy/cindy</link>
@@ -510,146 +580,6 @@
       <description>✨🪉 Liner is a desktop player for Windows and Linux that lets you pull your music and playlists from other platforms into one clean app. No ads and bloated features, just synced lyrics and your tracks without anything getting in the way.</description>
       <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
       <guid isPermaLink="false">tryliner/desktop</guid>
-    </item>
-    <item>
-      <title>Supermedo/uncharted_pc</title>
-      <link>https://github.com/Supermedo/uncharted_pc</link>
-      <description>Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">Supermedo/uncharted_pc</guid>
-    </item>
-    <item>
-      <title>Caho1/open-claude-ui</title>
-      <link>https://github.com/Caho1/open-claude-ui</link>
-      <description>基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">Caho1/open-claude-ui</guid>
-    </item>
-    <item>
-      <title>kuafuai/andee</title>
-      <link>https://github.com/kuafuai/andee</link>
-      <description>Install one APK and it operates any app on your phone — reads the screen, taps buttons, types. No integrations, no root. Runs on-device, swap any model, your data stays on the phone.</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">kuafuai/andee</guid>
-    </item>
-    <item>
-      <title>Ephemeral-AI-Lab/layerfs</title>
-      <link>https://github.com/Ephemeral-AI-Lab/layerfs</link>
-      <description>Ephemeral Workspaces, durable shared history. LayerFS gives every agent a complete, writable filesystem Workspace over shared committed history, without copying the base. Agents work in parallel, commit what changed as deduplicated checkpoints, then branch, rewind or merge. Try it with LayerFS × DSH.</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">Ephemeral-AI-Lab/layerfs</guid>
-    </item>
-    <item>
-      <title>Awakenchan/LanternEngine</title>
-      <link>https://github.com/Awakenchan/LanternEngine</link>
-      <description>Lantern Engine: run your own copy of Bloodborne on Windows. A launcher and engine where the game&apos;s code runs natively; bring your own game dump.</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">Awakenchan/LanternEngine</guid>
-    </item>
-    <item>
-      <title>xibushu/UniForge3D</title>
-      <link>https://github.com/xibushu/UniForge3D</link>
-      <description>Official implementation of “UniForge3D: Joint 3D Reconstruction and Generation in a Shared Anchor-Guided Space.”</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">xibushu/UniForge3D</guid>
-    </item>
-    <item>
-      <title>HayatoG/iss_pc</title>
-      <link>https://github.com/HayatoG/iss_pc</link>
-      <description>Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">HayatoG/iss_pc</guid>
-    </item>
-    <item>
-      <title>zcyoung2000/douban-backup</title>
-      <link>https://github.com/zcyoung2000/douban-backup</link>
-      <description>命令行备份豆瓣账号的书影音游剧标记（想看/在看/看过），导出为与「豆伴」结构一致的 Excel。</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">zcyoung2000/douban-backup</guid>
-    </item>
-    <item>
-      <title>samuelit0davila/fifa-street-pc-port</title>
-      <link>https://github.com/samuelit0davila/fifa-street-pc-port</link>
-      <description>ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">samuelit0davila/fifa-street-pc-port</guid>
-    </item>
-    <item>
-      <title>omnimind-ai/OmniInfer</title>
-      <link>https://github.com/omnimind-ai/OmniInfer</link>
-      <description>Unified, efficient, and easy-to-use inference infrastructure for edge AI || 面向端侧 AI 的统一、高效、易用的推理基础设施</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">omnimind-ai/OmniInfer</guid>
-    </item>
-    <item>
-      <title>Ryu7w7/OCTR-NitroFueled-PC</title>
-      <link>https://github.com/Ryu7w7/OCTR-NitroFueled-PC</link>
-      <description>Experimental Online Crash Team Racing: Nitro-Fueled (PS4) running natively on Windows 10/11. Windows fork of SacredFire, built on bbport and shadPS4. No game files included.</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">Ryu7w7/OCTR-NitroFueled-PC</guid>
-    </item>
-    <item>
-      <title>Spark198rus/black-pc</title>
-      <link>https://github.com/Spark198rus/black-pc</link>
-      <description>Unofficial native Windows port of BLACK (Xbox, NTSC-U). Runs your own copy of the game&apos;s code on the PC; no game data included.</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">Spark198rus/black-pc</guid>
-    </item>
-    <item>
-      <title>joeseesun/opus-video-prompts</title>
-      <link>https://github.com/joeseesun/opus-video-prompts</link>
-      <description>Claude Opus 5.5 用代码生成视频：全网案例与可直接复制的提示词 | Copy-ready prompts &amp; 54 cases of Opus 5.5 code-rendered videos</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">joeseesun/opus-video-prompts</guid>
-    </item>
-    <item>
-      <title>nevertoday/xiaoxiaodong-vps</title>
-      <link>https://github.com/nevertoday/xiaoxiaodong-vps</link>
-      <description>小小东 VPS：3x-ui、Xray、OpenClash、Shadowrocket、CLIProxyAPI 与自动升级部署蓝图</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">nevertoday/xiaoxiaodong-vps</guid>
-    </item>
-    <item>
-      <title>aboard-io/tinylittleoffice</title>
-      <link>https://github.com/aboard-io/tinylittleoffice</link>
-      <description>A free office suite where your document is inside the link and easy to share. There&apos;s no account and nothing saved unless you choose.</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">aboard-io/tinylittleoffice</guid>
-    </item>
-    <item>
-      <title>kota-zo/myspoti</title>
-      <link>https://github.com/kota-zo/myspoti</link>
-      <description>Native Android client for Spotify, built with Jetpack Compose</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">kota-zo/myspoti</guid>
-    </item>
-    <item>
-      <title>GabrieleLozupone/kokon</title>
-      <link>https://github.com/GabrieleLozupone/kokon</link>
-      <description>Like Nano Banana, but on your own computer: edit photos by describing the change. Free, private, no limits. One installer for Windows, Mac and Linux; Kokon picks and sets up the model (Qwen-Image 2.1). MCP server for AI agents.</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">GabrieleLozupone/kokon</guid>
-    </item>
-    <item>
-      <title>OpenPort-Labs/Galaxy-Android</title>
-      <link>https://github.com/OpenPort-Labs/Galaxy-Android</link>
-      <description>Native 100% ARM64 Android port of the 2007 cosmic gravity platformer with OpenGL ES 3.2, AAudio, Hor+ ultrawide, and touch controls.</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">OpenPort-Labs/Galaxy-Android</guid>
-    </item>
-    <item>
-      <title>ShisatoYano/AutonomousVehicleControlBeginnersGuide</title>
-      <link>https://github.com/ShisatoYano/AutonomousVehicleControlBeginnersGuide</link>
-      <description>Python sample codes and documents about Autonomous vehicle control algorithm. This project can be used as a technical guide book to study the algorithms and the software architectures for beginners.</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">ShisatoYano/AutonomousVehicleControlBeginnersGuide</guid>
-    </item>
-    <item>
-      <title>lokicorvus/crosspet</title>
-      <link>https://github.com/lokicorvus/crosspet</link>
-      <description>跨 AI 桌宠：跟着你用的 AI 换形象、跟着 AI 的工作状态做动作</description>
-      <pubDate>Thu, 22 Oct 2026 05:04:45 GMT</pubDate>
-      <guid isPermaLink="false">lokicorvus/crosspet</guid>
     </item>
   </channel>
 </rss>

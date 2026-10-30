@@ -5,8 +5,43 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2026 06:01:28 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 06:02:44 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>Nutlope/hallmark</title>
+      <link>https://github.com/Nutlope/hallmark</link>
+      <description>Anti-AI-slop design skill for Claude Code, Cursor, and Codex.</description>
+      <pubDate>Fri, 30 Oct 2026 06:02:44 GMT</pubDate>
+      <guid isPermaLink="false">Nutlope/hallmark</guid>
+    </item>
+    <item>
+      <title>togg53192-cmd/jailbreaks</title>
+      <link>https://github.com/togg53192-cmd/jailbreaks</link>
+      <description>LIST OF ALL MY JAILBREAKS</description>
+      <pubDate>Fri, 30 Oct 2026 06:02:44 GMT</pubDate>
+      <guid isPermaLink="false">togg53192-cmd/jailbreaks</guid>
+    </item>
+    <item>
+      <title>EthanArbuckle/fairplay-decrypt</title>
+      <link>https://github.com/EthanArbuckle/fairplay-decrypt</link>
+      <description>Offline FairPlay App Store IPA decryption with independent key derivation</description>
+      <pubDate>Fri, 30 Oct 2026 06:02:44 GMT</pubDate>
+      <guid isPermaLink="false">EthanArbuckle/fairplay-decrypt</guid>
+    </item>
+    <item>
+      <title>AienTech/dossier</title>
+      <link>https://github.com/AienTech/dossier</link>
+      <description>A self-hosted job search app that writes tailored resumes and cover letters from your profile.</description>
+      <pubDate>Fri, 30 Oct 2026 06:02:44 GMT</pubDate>
+      <guid isPermaLink="false">AienTech/dossier</guid>
+    </item>
+    <item>
+      <title>elysia395/dsh-wallpaper-engine</title>
+      <link>https://github.com/elysia395/dsh-wallpaper-engine</link>
+      <description>把本机 Wallpaper Engine 的壁纸搬进 DSH 网页界面：场景壁纸由内置 MIT 开源引擎 WebWallGL 实时 WebGL 渲染（粒子 / puppet 骨骼 / SceneScript / 音频反应 / 鼠标交互），失败自动降级内嵌 MP4 与场景静态帧；Web 壁纸严格沙箱 + WE API；iOS 风格液态玻璃 UI 高度自定义，遮挡暂停省电、ffmpeg 帧率上限转码、系统音频频谱与 Now Playing、自定义上传与自动轮播；设置存宿主端，对 agent 零 token 开销。Windows / macOS / Linux 三平台原生（同一个包、同一条命令）。</description>
+      <pubDate>Fri, 30 Oct 2026 06:02:44 GMT</pubDate>
+      <guid isPermaLink="false">elysia395/dsh-wallpaper-engine</guid>
+    </item>
     <item>
       <title>rddmwmddr/android-ad-cleaner</title>
       <link>https://github.com/rddmwmddr/android-ad-cleaner</link>
@@ -440,146 +475,6 @@
       <description>Camera app that freezes fast motion sequences into a single stroboscopic photo; powered by on-device computer vision, 2D stabilization, and manual exposure controls</description>
       <pubDate>Sun, 25 Oct 2026 04:57:20 GMT</pubDate>
       <guid isPermaLink="false">AhmadHassan-BTed/MotionShot</guid>
-    </item>
-    <item>
-      <title>Leonxlnx/earshot</title>
-      <link>https://github.com/Leonxlnx/earshot</link>
-      <description>Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">Leonxlnx/earshot</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/Ledgerify</title>
-      <link>https://github.com/AhmadHassan-BTed/Ledgerify</link>
-      <description>Shopify Excel Ledger intelligence platform with dark aesthetic, multi-sheet workbook analysis, 7 departmental dashboards, and live comparative benchmarking.</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/Ledgerify</guid>
-    </item>
-    <item>
-      <title>perplexityai/SPACE</title>
-      <link>https://github.com/perplexityai/SPACE</link>
-      <description>Sandboxed Platform for Agentic Code Execution: pluggable-runtime sandboxes for running agent and user code in isolation.</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">perplexityai/SPACE</guid>
-    </item>
-    <item>
-      <title>Ojhaharsh/30u30</title>
-      <link>https://github.com/Ojhaharsh/30u30</link>
-      <description>30 Days. 30 Papers. 90% of AI</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">Ojhaharsh/30u30</guid>
-    </item>
-    <item>
-      <title>domsvoboda/xodus-nexus</title>
-      <link>https://github.com/domsvoboda/xodus-nexus</link>
-      <description>Open-source Xbox-inspired desktop launcher for Xodus on Linux</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">domsvoboda/xodus-nexus</guid>
-    </item>
-    <item>
-      <title>mikufoxxx/Wenku8_Flutter</title>
-      <link>https://github.com/mikufoxxx/Wenku8_Flutter</link>
-      <description>轻小说文库 Flutter 客户端 · 奶白玻璃、立体书架、离线阅读与自然在线听书（Android）</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">mikufoxxx/Wenku8_Flutter</guid>
-    </item>
-    <item>
-      <title>OpenMOSS/MOSS-Image</title>
-      <link>https://github.com/OpenMOSS/MOSS-Image</link>
-      <description>Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning.</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">OpenMOSS/MOSS-Image</guid>
-    </item>
-    <item>
-      <title>Meloong-Git/PCL</title>
-      <link>https://github.com/Meloong-Git/PCL</link>
-      <description>Minecraft 启动器 Plain Craft Launcher（PCL）。</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">Meloong-Git/PCL</guid>
-    </item>
-    <item>
-      <title>raiyanyahya/how-to-train-your-gpt</title>
-      <link>https://github.com/raiyanyahya/how-to-train-your-gpt</link>
-      <description>Build a modern LLM from scratch. Every line commented. Explained like we are five.</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">raiyanyahya/how-to-train-your-gpt</guid>
-    </item>
-    <item>
-      <title>ctresb/leis</title>
-      <link>https://github.com/ctresb/leis</link>
-      <description>Todas as leis do Brasil</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">ctresb/leis</guid>
-    </item>
-    <item>
-      <title>voidzero-dev/void</title>
-      <link>https://github.com/voidzero-dev/void</link>
-      <description>Build with Vite. Deploy with Void.</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">voidzero-dev/void</guid>
-    </item>
-    <item>
-      <title>mistralai/timestral</title>
-      <link>https://github.com/mistralai/timestral</link>
-      <description>Repository for Timestral, the time-series foundation model by Mistral AI</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">mistralai/timestral</guid>
-    </item>
-    <item>
-      <title>sv3nbeast/agent-manager-lite</title>
-      <link>https://github.com/sv3nbeast/agent-manager-lite</link>
-      <description>macOS 上的 Codex、Claude Code CLI 与 Claude Desktop 多实例管理器，统一管理账号、供应商密钥、独立配置、会话与代理。 / A macOS manager for Codex, Claude Code CLI and Claude Desktop instances, accounts, provider keys, isolated configs, sessions and proxies.</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">sv3nbeast/agent-manager-lite</guid>
-    </item>
-    <item>
-      <title>zgsfsec/Full-Chain-Sentinel-System</title>
-      <link>https://github.com/zgsfsec/Full-Chain-Sentinel-System</link>
-      <description>【全链哨兵】全流程渗透测试 Agent 系统，支持 Web、小程序、安卓 APP、IOS app(测试中)。安全服务渗透测试辅助工具，禁止用于非法攻击。</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">zgsfsec/Full-Chain-Sentinel-System</guid>
-    </item>
-    <item>
-      <title>fspecii/LinPad</title>
-      <link>https://github.com/fspecii/LinPad</link>
-      <description>LinPad — Linux for iPad. A real Linux desktop on the iPad: native windowed desktop with tiling and workspaces, real Linux apps (Firefox, VS Code, Thunar, VLC) as native windows, ARM64 JIT, GPU via Venus/Metal, keyboard + trackpad + touch.</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">fspecii/LinPad</guid>
-    </item>
-    <item>
-      <title>XDTrees/dsh-xdpool</title>
-      <link>https://github.com/XDTrees/dsh-xdpool</link>
-      <description>把你能白嫖的模型额度接进 DSH 同一个池：WorkBuddy 多账号自动容错、十三家扫码登录、76 家免费额度聚合、用量看板、模型路由、本地 OpenAI 网关、积分自动化。</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">XDTrees/dsh-xdpool</guid>
-    </item>
-    <item>
-      <title>AstrBotDevs/astrbot-launcher</title>
-      <link>https://github.com/AstrBotDevs/astrbot-launcher</link>
-      <description>Desktop launcher for guided, isolated AstrBot setup and multi-instance management. / AstrBot 图形化启动器与多实例管理工具。</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">AstrBotDevs/astrbot-launcher</guid>
-    </item>
-    <item>
-      <title>ADWMC/helm-d</title>
-      <link>https://github.com/ADWMC/helm-d</link>
-      <description>DeepSeek Harness 破甲一体化安全分析插件：Android · Web · Native · Protocol · Malware · AI-Security 全领域聚合（9 bundle + 1 preset）</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">ADWMC/helm-d</guid>
-    </item>
-    <item>
-      <title>blendi-remade/dioramas</title>
-      <link>https://github.com/blendi-remade/dioramas</link>
-      <description>A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). 20 example sites.</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">blendi-remade/dioramas</guid>
-    </item>
-    <item>
-      <title>tryliner/desktop</title>
-      <link>https://github.com/tryliner/desktop</link>
-      <description>✨🪉 Liner is a desktop player for Windows and Linux that lets you pull your music and playlists from other platforms into one clean app. No ads and bloated features, just synced lyrics and your tracks without anything getting in the way.</description>
-      <pubDate>Fri, 23 Oct 2026 05:04:53 GMT</pubDate>
-      <guid isPermaLink="false">tryliner/desktop</guid>
     </item>
   </channel>
 </rss>

@@ -5,8 +5,71 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2026 06:02:44 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 05:57:43 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>Orkas-AI/Orkas</title>
+      <link>https://github.com/Orkas-AI/Orkas</link>
+      <description>Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS &amp; Windows; built-in models or your own keys.</description>
+      <pubDate>Sat, 31 Oct 2026 05:57:43 GMT</pubDate>
+      <guid isPermaLink="false">Orkas-AI/Orkas</guid>
+    </item>
+    <item>
+      <title>nightly-labs/openbot</title>
+      <link>https://github.com/nightly-labs/openbot</link>
+      <description>A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.</description>
+      <pubDate>Sat, 31 Oct 2026 05:57:43 GMT</pubDate>
+      <guid isPermaLink="false">nightly-labs/openbot</guid>
+    </item>
+    <item>
+      <title>microsoft/TokenEconomizer</title>
+      <link>https://github.com/microsoft/TokenEconomizer</link>
+      <description>Experience-Driven Black-Box Cost Control for Coding Agents</description>
+      <pubDate>Sat, 31 Oct 2026 05:57:43 GMT</pubDate>
+      <guid isPermaLink="false">microsoft/TokenEconomizer</guid>
+    </item>
+    <item>
+      <title>beenuar/AiSOC</title>
+      <link>https://github.com/beenuar/AiSOC</link>
+      <description>Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&amp;CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.</description>
+      <pubDate>Sat, 31 Oct 2026 05:57:43 GMT</pubDate>
+      <guid isPermaLink="false">beenuar/AiSOC</guid>
+    </item>
+    <item>
+      <title>microsoft/skill-recorder</title>
+      <link>https://github.com/microsoft/skill-recorder</link>
+      <description>Desktop app that records your on-screen work session and uses the GitHub Copilot SDK to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Autopilots like Scout, Microsoft Copilot Cowork, or Copilot Studio.</description>
+      <pubDate>Sat, 31 Oct 2026 05:57:43 GMT</pubDate>
+      <guid isPermaLink="false">microsoft/skill-recorder</guid>
+    </item>
+    <item>
+      <title>Revivedx/SavageWindRecomp</title>
+      <link>https://github.com/Revivedx/SavageWindRecomp</link>
+      <description>Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.</description>
+      <pubDate>Sat, 31 Oct 2026 05:57:43 GMT</pubDate>
+      <guid isPermaLink="false">Revivedx/SavageWindRecomp</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/AutoSwarm-Shadow-Adapter</title>
+      <link>https://github.com/AhmadHassan-BTed/AutoSwarm-Shadow-Adapter</link>
+      <description>Zero-modification Human-in-the-Loop adapter for OpenOPC&apos;s agentic DAG runtime.</description>
+      <pubDate>Sat, 31 Oct 2026 05:57:43 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/AutoSwarm-Shadow-Adapter</guid>
+    </item>
+    <item>
+      <title>Pomerado/pomerado</title>
+      <link>https://github.com/Pomerado/pomerado</link>
+      <description>YC F26. Turn any website into an API / MCP in minutes. Open source core integration minting harness. MIT.</description>
+      <pubDate>Sat, 31 Oct 2026 05:57:43 GMT</pubDate>
+      <guid isPermaLink="false">Pomerado/pomerado</guid>
+    </item>
+    <item>
+      <title>udhaykumarbala/cleanyourtv-app</title>
+      <link>https://github.com/udhaykumarbala/cleanyourtv-app</link>
+      <description>A community-built phone app for Clean Your TV: clean up an Android TV from your phone. No laptop, no coding agent, nothing uninstalled.</description>
+      <pubDate>Sat, 31 Oct 2026 05:57:43 GMT</pubDate>
+      <guid isPermaLink="false">udhaykumarbala/cleanyourtv-app</guid>
+    </item>
     <item>
       <title>Nutlope/hallmark</title>
       <link>https://github.com/Nutlope/hallmark</link>

@@ -5,8 +5,36 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2026 06:25:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 06:27:09 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>KnifeLemon/Filee</title>
+      <link>https://github.com/KnifeLemon/Filee</link>
+      <description>Free, open-source file converter. Convert 263 formats offline by drag &amp; drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.</description>
+      <pubDate>Mon, 02 Nov 2026 06:27:09 GMT</pubDate>
+      <guid isPermaLink="false">KnifeLemon/Filee</guid>
+    </item>
+    <item>
+      <title>unclebob/ub-mode</title>
+      <link>https://github.com/unclebob/ub-mode</link>
+      <description>(no description)</description>
+      <pubDate>Mon, 02 Nov 2026 06:27:09 GMT</pubDate>
+      <guid isPermaLink="false">unclebob/ub-mode</guid>
+    </item>
+    <item>
+      <title>t3dotgg/tstack</title>
+      <link>https://github.com/t3dotgg/tstack</link>
+      <description>The agent skills I use every day. Works with Claude Code and Codex.</description>
+      <pubDate>Mon, 02 Nov 2026 06:27:09 GMT</pubDate>
+      <guid isPermaLink="false">t3dotgg/tstack</guid>
+    </item>
+    <item>
+      <title>LNPANDY/NX2Apple</title>
+      <link>https://github.com/LNPANDY/NX2Apple</link>
+      <description>Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.</description>
+      <pubDate>Mon, 02 Nov 2026 06:27:09 GMT</pubDate>
+      <guid isPermaLink="false">LNPANDY/NX2Apple</guid>
+    </item>
     <item>
       <title>deepseek-ai/dsh-superagent-prototype</title>
       <link>https://github.com/deepseek-ai/dsh-superagent-prototype</link>
@@ -38,7 +66,7 @@
     <item>
       <title>InukaAsith/TwinDesk</title>
       <link>https://github.com/InukaAsith/TwinDesk</link>
-      <description> All your computers and your phone, working as one desk. Screens, apps, files, clipboard, calls, texts, notifications, mouse and keyboard, shared between Mac, Windows, Linux and Android. Free and open source. No account, no cloud, and now no shared network needed.</description>
+      <description>All your computers and your phone, working as one desk. Screens, apps, files, clipboard, calls, texts, notifications, mouse and keyboard, shared between Mac, Windows, Linux and Android. Free and open source. No account, no cloud, and now no shared network needed.</description>
       <pubDate>Sun, 01 Nov 2026 06:25:39 GMT</pubDate>
       <guid isPermaLink="false">InukaAsith/TwinDesk</guid>
     </item>
@@ -363,111 +391,6 @@
       <description>An autonomous, context-aware AI desktop companion. Built with Python, featuring real-time screen vision, custom ONNX voice synthesis, active window tracking, and a dynamic floating UI with reactive facial expressions.</description>
       <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
       <guid isPermaLink="false">AhmadHassan-BTed/B</guid>
-    </item>
-    <item>
-      <title>Zagitta/gpu-unlock</title>
-      <link>https://github.com/Zagitta/gpu-unlock</link>
-      <description>Unlock FP/BF16 instruction issue rate on Nvidia 3000&apos;s cards to their professional equivalents</description>
-      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
-      <guid isPermaLink="false">Zagitta/gpu-unlock</guid>
-    </item>
-    <item>
-      <title>yihui-dev/awesome-opus5-5-videos</title>
-      <link>https://github.com/yihui-dev/awesome-opus5-5-videos</link>
-      <description>A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.</description>
-      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
-      <guid isPermaLink="false">yihui-dev/awesome-opus5-5-videos</guid>
-    </item>
-    <item>
-      <title>seedds/nxnative</title>
-      <link>https://github.com/seedds/nxnative</link>
-      <description>Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)</description>
-      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
-      <guid isPermaLink="false">seedds/nxnative</guid>
-    </item>
-    <item>
-      <title>lemomo-ai/lemo-opuscar</title>
-      <link>https://github.com/lemomo-ai/lemo-opuscar</link>
-      <description>A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：59 种现成风格，也能做出你自己的</description>
-      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
-      <guid isPermaLink="false">lemomo-ai/lemo-opuscar</guid>
-    </item>
-    <item>
-      <title>gamedev-skills/awesome-gamedev-agent-skills</title>
-      <link>https://github.com/gamedev-skills/awesome-gamedev-agent-skills</link>
-      <description>74 game-dev skills for AI coding agents — Godot, Unity, Unreal, Phaser, PixiJS, three.js, Bevy, pygame, LÖVE, Roblox. Portable SKILL.md Agent Skills (the format Anthropic launched as Claude Skills), with a router that loads the right skill for your engine and task. Runs in Claude Code, Cursor, Kiro, Codex, Copilot, Gemini CLI and more.</description>
-      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
-      <guid isPermaLink="false">gamedev-skills/awesome-gamedev-agent-skills</guid>
-    </item>
-    <item>
-      <title>luongnv89/claude-howto</title>
-      <link>https://github.com/luongnv89/claude-howto</link>
-      <description>A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.</description>
-      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
-      <guid isPermaLink="false">luongnv89/claude-howto</guid>
-    </item>
-    <item>
-      <title>aicodeking/leanrea</title>
-      <link>https://github.com/aicodeking/leanrea</link>
-      <description>One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.</description>
-      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
-      <guid isPermaLink="false">aicodeking/leanrea</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/.github</title>
-      <link>https://github.com/AhmadHassan-BTed/.github</link>
-      <description>(no description)</description>
-      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/.github</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/AhmadHassan-BTed</title>
-      <link>https://github.com/AhmadHassan-BTed/AhmadHassan-BTed</link>
-      <description>Terminal-style developer runtime blueprint, interactive workspace statistics, and systems diagnostics cataloging the codebase footprint</description>
-      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/AhmadHassan-BTed</guid>
-    </item>
-    <item>
-      <title>Niiiiikiiiiii/McLife-Desk</title>
-      <link>https://github.com/Niiiiikiiiiii/McLife-Desk</link>
-      <description>忙碌了一天，回到家，你打开麦当劳，却突然纠结：今天吃了什么？这周点了几次？这个月花了多少钱？热量会不会超标？  于是有了 **McLife Desk 麦门人生工作台**。它记录每一次点麦：日期、餐品、金额与热量，生成专属点餐日历；按当月消费次数和金额解锁麦门等级，还能通过趣味测试发现自己的麦门消费人格。  它不劝你戒掉麦当劳，只陪你在忙碌、独处和奖励自己的时刻，看见自己的选择，管理预算与生活节奏。  **记录每一次点麦，也记录你的生活。**</description>
-      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
-      <guid isPermaLink="false">Niiiiikiiiiii/McLife-Desk</guid>
-    </item>
-    <item>
-      <title>harvard-edge/cs249r_book</title>
-      <link>https://github.com/harvard-edge/cs249r_book</link>
-      <description>Machine Learning Systems: Foundations, Scaling, Agentic AI, and Physical AI (Vols I–IV) • Harvard CS249r | https://mlsysbook.ai</description>
-      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
-      <guid isPermaLink="false">harvard-edge/cs249r_book</guid>
-    </item>
-    <item>
-      <title>zcbacxc/mcd-party-planner</title>
-      <link>https://github.com/zcbacxc/mcd-party-planner</link>
-      <description>麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill</description>
-      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
-      <guid isPermaLink="false">zcbacxc/mcd-party-planner</guid>
-    </item>
-    <item>
-      <title>obsidianmd/pele</title>
-      <link>https://github.com/obsidianmd/pele</link>
-      <description>Renders Mermaid diagrams faster than you&apos;d run from a volcano! 🌋</description>
-      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
-      <guid isPermaLink="false">obsidianmd/pele</guid>
-    </item>
-    <item>
-      <title>Fractal-Compute-Orchestrations/Fractal-PrivacyPolicy</title>
-      <link>https://github.com/Fractal-Compute-Orchestrations/Fractal-PrivacyPolicy</link>
-      <description>(no description)</description>
-      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
-      <guid isPermaLink="false">Fractal-Compute-Orchestrations/Fractal-PrivacyPolicy</guid>
-    </item>
-    <item>
-      <title>sandbox-quantum/switch</title>
-      <link>https://github.com/sandbox-quantum/switch</link>
-      <description>Open-source AI teammates in Slack, Teams, Discord, Telegram and Mattermost. Self-host it, with any agent harness and any model.</description>
-      <pubDate>Mon, 26 Oct 2026 05:00:18 GMT</pubDate>
-      <guid isPermaLink="false">sandbox-quantum/switch</guid>
     </item>
   </channel>
 </rss>

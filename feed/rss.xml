@@ -5,8 +5,50 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Nov 2026 06:27:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 06:42:52 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>interplains/Zero-Breach-Toolkit</title>
+      <link>https://github.com/interplains/Zero-Breach-Toolkit</link>
+      <description>Free, open-source check for traces of mercenary spyware (Pegasus, Predator, Graphite, Candiru and more) on computers, Android phones and iPhone backups. Double-click apps for Windows, Mac and Linux, in 27 languages.</description>
+      <pubDate>Wed, 04 Nov 2026 06:42:52 GMT</pubDate>
+      <guid isPermaLink="false">interplains/Zero-Breach-Toolkit</guid>
+    </item>
+    <item>
+      <title>OpenSelena/omniget</title>
+      <link>https://github.com/OpenSelena/omniget</link>
+      <description>Open-source download manager for courses (Udemy/Hotmart), YouTube, music &amp; 1,800+ sites. Built with Tauri 2.0, Rust &amp; Svelte.</description>
+      <pubDate>Wed, 04 Nov 2026 06:42:52 GMT</pubDate>
+      <guid isPermaLink="false">OpenSelena/omniget</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/PortfolioWebsite</title>
+      <link>https://github.com/AhmadHassan-BTed/PortfolioWebsite</link>
+      <description>My personal website showcasing my work in Software Engineering and Graphic Design. A simple, multi-page static site built with HTML, CSS, and basic JavaScript. It’s designed to be a clean space where I can share my projects, my story, and my resume.</description>
+      <pubDate>Wed, 04 Nov 2026 06:42:52 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/PortfolioWebsite</guid>
+    </item>
+    <item>
+      <title>Thysrael/Horizon</title>
+      <link>https://github.com/Thysrael/Horizon</link>
+      <description>📡 Your own AI-powered news radar. Generates daily briefings in English &amp; Chinese. | 用 AI 构建你专属的新闻雷达</description>
+      <pubDate>Wed, 04 Nov 2026 06:42:52 GMT</pubDate>
+      <guid isPermaLink="false">Thysrael/Horizon</guid>
+    </item>
+    <item>
+      <title>AhmadHassan-BTed/rain_generator</title>
+      <link>https://github.com/AhmadHassan-BTed/rain_generator</link>
+      <description>This repository will be used to develop a rain generator, actually it use white noises to simulate wind and have an integrated thunderstorm simulator.</description>
+      <pubDate>Wed, 04 Nov 2026 06:42:52 GMT</pubDate>
+      <guid isPermaLink="false">AhmadHassan-BTed/rain_generator</guid>
+    </item>
+    <item>
+      <title>D3voz/openjutsu</title>
+      <link>https://github.com/D3voz/openjutsu</link>
+      <description>One-click character swap for videos: an open-source, local Higgsfield Genjutsu alternative built on ComfyUI and MiniMax H3, with FLUX.3 Klein relighting.</description>
+      <pubDate>Wed, 04 Nov 2026 06:42:52 GMT</pubDate>
+      <guid isPermaLink="false">D3voz/openjutsu</guid>
+    </item>
     <item>
       <title>KnifeLemon/Filee</title>
       <link>https://github.com/KnifeLemon/Filee</link>
@@ -251,146 +293,6 @@
       <description>An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training.</description>
       <pubDate>Thu, 29 Oct 2026 06:01:28 GMT</pubDate>
       <guid isPermaLink="false">SoMarkAI/OXR</guid>
-    </item>
-    <item>
-      <title>makecindy/cindy</title>
-      <link>https://github.com/makecindy/cindy</link>
-      <description>Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。</description>
-      <pubDate>Wed, 28 Oct 2026 05:56:44 GMT</pubDate>
-      <guid isPermaLink="false">makecindy/cindy</guid>
-    </item>
-    <item>
-      <title>JetBrains/thinkrail</title>
-      <link>https://github.com/JetBrains/thinkrail</link>
-      <description>Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need</description>
-      <pubDate>Wed, 28 Oct 2026 05:56:44 GMT</pubDate>
-      <guid isPermaLink="false">JetBrains/thinkrail</guid>
-    </item>
-    <item>
-      <title>Jakeschincariol/replica-skill</title>
-      <link>https://github.com/Jakeschincariol/replica-skill</link>
-      <description>Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.</description>
-      <pubDate>Wed, 28 Oct 2026 05:56:44 GMT</pubDate>
-      <guid isPermaLink="false">Jakeschincariol/replica-skill</guid>
-    </item>
-    <item>
-      <title>Pal-AI-Lab/Coopanion</title>
-      <link>https://github.com/Pal-AI-Lab/Coopanion</link>
-      <description>Your tiny AI desktopet companion, built with Cortico 0 0)</description>
-      <pubDate>Wed, 28 Oct 2026 05:56:44 GMT</pubDate>
-      <guid isPermaLink="false">Pal-AI-Lab/Coopanion</guid>
-    </item>
-    <item>
-      <title>Jakeschincariol/day-trader-skill</title>
-      <link>https://github.com/Jakeschincariol/day-trader-skill</link>
-      <description>11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.</description>
-      <pubDate>Wed, 28 Oct 2026 05:56:44 GMT</pubDate>
-      <guid isPermaLink="false">Jakeschincariol/day-trader-skill</guid>
-    </item>
-    <item>
-      <title>horizon-rust/horizon</title>
-      <link>https://github.com/horizon-rust/horizon</link>
-      <description>Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.</description>
-      <pubDate>Wed, 28 Oct 2026 05:56:44 GMT</pubDate>
-      <guid isPermaLink="false">horizon-rust/horizon</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/Darkument</title>
-      <link>https://github.com/AhmadHassan-BTed/Darkument</link>
-      <description>A sleek, privacy-focused browser extension that brings a native dark mode experience to online documents. Built with clean UI/UX principles for Chromium and Opera browsers to reduce eye strain and improve readability.</description>
-      <pubDate>Wed, 28 Oct 2026 05:56:44 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/Darkument</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/OpenOPC</title>
-      <link>https://github.com/AhmadHassan-BTed/OpenOPC</link>
-      <description>OpenOPC: Build Your Personal AI-Native Company — Self-Built, Self-Run, Self-Grown</description>
-      <pubDate>Wed, 28 Oct 2026 05:56:44 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/OpenOPC</guid>
-    </item>
-    <item>
-      <title>openfilm/openfilm</title>
-      <link>https://github.com/openfilm/openfilm</link>
-      <description>The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.</description>
-      <pubDate>Wed, 28 Oct 2026 05:56:44 GMT</pubDate>
-      <guid isPermaLink="false">openfilm/openfilm</guid>
-    </item>
-    <item>
-      <title>Fractal-Compute-Orchestrations/.github</title>
-      <link>https://github.com/Fractal-Compute-Orchestrations/.github</link>
-      <description>(no description)</description>
-      <pubDate>Wed, 28 Oct 2026 05:56:44 GMT</pubDate>
-      <guid isPermaLink="false">Fractal-Compute-Orchestrations/.github</guid>
-    </item>
-    <item>
-      <title>Renhuai123/ziwei-doushu</title>
-      <link>https://github.com/Renhuai123/ziwei-doushu</link>
-      <description>紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据</description>
-      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
-      <guid isPermaLink="false">Renhuai123/ziwei-doushu</guid>
-    </item>
-    <item>
-      <title>simbasjungles/free-my-tv</title>
-      <link>https://github.com/simbasjungles/free-my-tv</link>
-      <description>A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.</description>
-      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
-      <guid isPermaLink="false">simbasjungles/free-my-tv</guid>
-    </item>
-    <item>
-      <title>xiaoyang111222/cn-math-taxonomy</title>
-      <link>https://github.com/xiaoyang111222/cn-math-taxonomy</link>
-      <description>数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。</description>
-      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
-      <guid isPermaLink="false">xiaoyang111222/cn-math-taxonomy</guid>
-    </item>
-    <item>
-      <title>JoasASantos/REA-Prompts</title>
-      <link>https://github.com/JoasASantos/REA-Prompts</link>
-      <description>REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program</description>
-      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
-      <guid isPermaLink="false">JoasASantos/REA-Prompts</guid>
-    </item>
-    <item>
-      <title>kksimp/Mac.apk</title>
-      <link>https://github.com/kksimp/Mac.apk</link>
-      <description>Mac.apk: Run Android apps natively on Apple Silicon Macs</description>
-      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
-      <guid isPermaLink="false">kksimp/Mac.apk</guid>
-    </item>
-    <item>
-      <title>Sam-Hui-dot/mcd-budget-meal</title>
-      <link>https://github.com/Sam-Hui-dot/mcd-budget-meal</link>
-      <description>麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill</description>
-      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
-      <guid isPermaLink="false">Sam-Hui-dot/mcd-budget-meal</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/SilentSniffer</title>
-      <link>https://github.com/AhmadHassan-BTed/SilentSniffer</link>
-      <description>A professional, high-fidelity de-anonymization and vulnerability diagnostic framework. Features a zero-coupling modular architecture for browser-based intelligence gathering, hardware fingerprinting, and security research.</description>
-      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/SilentSniffer</guid>
-    </item>
-    <item>
-      <title>deepseek-ai/deepseek-recipe</title>
-      <link>https://github.com/deepseek-ai/deepseek-recipe</link>
-      <description>(no description)</description>
-      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
-      <guid isPermaLink="false">deepseek-ai/deepseek-recipe</guid>
-    </item>
-    <item>
-      <title>Fractal-Compute-Orchestrations/FractalAndroid</title>
-      <link>https://github.com/Fractal-Compute-Orchestrations/FractalAndroid</link>
-      <description>A human-centric, resource-aware Android node for edge computing and federated learning. Orchestrates distributed intelligence with privacy-first localization and empathetic hardware management.</description>
-      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
-      <guid isPermaLink="false">Fractal-Compute-Orchestrations/FractalAndroid</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/B</title>
-      <link>https://github.com/AhmadHassan-BTed/B</link>
-      <description>An autonomous, context-aware AI desktop companion. Built with Python, featuring real-time screen vision, custom ONNX voice synthesis, active window tracking, and a dynamic floating UI with reactive facial expressions.</description>
-      <pubDate>Tue, 27 Oct 2026 05:17:42 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/B</guid>
     </item>
   </channel>
 </rss>

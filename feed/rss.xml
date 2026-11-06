@@ -5,8 +5,99 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Nov 2026 07:01:31 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 07:01:03 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>google/elephant-goldfish-model</title>
+      <link>https://github.com/google/elephant-goldfish-model</link>
+      <description>Open-source skills for designing and reviewing software with AI agents</description>
+      <pubDate>Fri, 06 Nov 2026 07:01:03 GMT</pubDate>
+      <guid isPermaLink="false">google/elephant-goldfish-model</guid>
+    </item>
+    <item>
+      <title>Renhuai123/ziwei-doushu</title>
+      <link>https://github.com/Renhuai123/ziwei-doushu</link>
+      <description>紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据</description>
+      <pubDate>Fri, 06 Nov 2026 07:01:03 GMT</pubDate>
+      <guid isPermaLink="false">Renhuai123/ziwei-doushu</guid>
+    </item>
+    <item>
+      <title>ai-job-search-dev/ai-job-search</title>
+      <link>https://github.com/ai-job-search-dev/ai-job-search</link>
+      <description>The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.</description>
+      <pubDate>Fri, 06 Nov 2026 07:01:03 GMT</pubDate>
+      <guid isPermaLink="false">ai-job-search-dev/ai-job-search</guid>
+    </item>
+    <item>
+      <title>patchy631/ai-engineering-hub</title>
+      <link>https://github.com/patchy631/ai-engineering-hub</link>
+      <description>In-depth tutorials on LLMs, RAGs and real-world AI agent applications.</description>
+      <pubDate>Fri, 06 Nov 2026 07:01:03 GMT</pubDate>
+      <guid isPermaLink="false">patchy631/ai-engineering-hub</guid>
+    </item>
+    <item>
+      <title>cheaper-inference/OmniRoute</title>
+      <link>https://github.com/cheaper-inference/OmniRoute</link>
+      <description>Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline &amp; Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors</description>
+      <pubDate>Fri, 06 Nov 2026 07:01:03 GMT</pubDate>
+      <guid isPermaLink="false">cheaper-inference/OmniRoute</guid>
+    </item>
+    <item>
+      <title>herdrdev/herdr-app</title>
+      <link>https://github.com/herdrdev/herdr-app</link>
+      <description>herdr desktop app</description>
+      <pubDate>Fri, 06 Nov 2026 07:01:03 GMT</pubDate>
+      <guid isPermaLink="false">herdrdev/herdr-app</guid>
+    </item>
+    <item>
+      <title>lexifina/global-law</title>
+      <link>https://github.com/lexifina/global-law</link>
+      <description>The world&apos;s law in git: any provision, any country, any date, and the law that wrote each word.</description>
+      <pubDate>Fri, 06 Nov 2026 07:01:03 GMT</pubDate>
+      <guid isPermaLink="false">lexifina/global-law</guid>
+    </item>
+    <item>
+      <title>Usagi-org/ai-goofish-monitor</title>
+      <link>https://github.com/Usagi-org/ai-goofish-monitor</link>
+      <description>基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。</description>
+      <pubDate>Fri, 06 Nov 2026 07:01:03 GMT</pubDate>
+      <guid isPermaLink="false">Usagi-org/ai-goofish-monitor</guid>
+    </item>
+    <item>
+      <title>amosblomqvist/learnharness</title>
+      <link>https://github.com/amosblomqvist/learnharness</link>
+      <description>Agent harness for learning difficult things.</description>
+      <pubDate>Fri, 06 Nov 2026 07:01:03 GMT</pubDate>
+      <guid isPermaLink="false">amosblomqvist/learnharness</guid>
+    </item>
+    <item>
+      <title>Pika-Labs/Pika-H3-Flex</title>
+      <link>https://github.com/Pika-Labs/Pika-H3-Flex</link>
+      <description>Pika H3 Flex: video and audio generation inference</description>
+      <pubDate>Fri, 06 Nov 2026 07:01:03 GMT</pubDate>
+      <guid isPermaLink="false">Pika-Labs/Pika-H3-Flex</guid>
+    </item>
+    <item>
+      <title>hyprwm/Hyprland</title>
+      <link>https://github.com/hyprwm/Hyprland</link>
+      <description>Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn&apos;t sacrifice on its looks.</description>
+      <pubDate>Fri, 06 Nov 2026 07:01:03 GMT</pubDate>
+      <guid isPermaLink="false">hyprwm/Hyprland</guid>
+    </item>
+    <item>
+      <title>ivankovic/omnidiff</title>
+      <link>https://github.com/ivankovic/omnidiff</link>
+      <description>Fast, robust, accurate diffing </description>
+      <pubDate>Fri, 06 Nov 2026 07:01:03 GMT</pubDate>
+      <guid isPermaLink="false">ivankovic/omnidiff</guid>
+    </item>
+    <item>
+      <title>The-PR-Agent/pr-agent</title>
+      <link>https://github.com/The-PR-Agent/pr-agent</link>
+      <description>🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.</description>
+      <pubDate>Fri, 06 Nov 2026 07:01:03 GMT</pubDate>
+      <guid isPermaLink="false">The-PR-Agent/pr-agent</guid>
+    </item>
     <item>
       <title>vercel-labs/agent-desktop</title>
       <link>https://github.com/vercel-labs/agent-desktop</link>
@@ -300,41 +391,6 @@
       <description>A community-built phone app for Clean Your TV: clean up an Android TV from your phone. No laptop, no coding agent, nothing uninstalled.</description>
       <pubDate>Sat, 31 Oct 2026 05:57:43 GMT</pubDate>
       <guid isPermaLink="false">udhaykumarbala/cleanyourtv-app</guid>
-    </item>
-    <item>
-      <title>Nutlope/hallmark</title>
-      <link>https://github.com/Nutlope/hallmark</link>
-      <description>Anti-AI-slop design skill for Claude Code, Cursor, and Codex.</description>
-      <pubDate>Fri, 30 Oct 2026 06:02:44 GMT</pubDate>
-      <guid isPermaLink="false">Nutlope/hallmark</guid>
-    </item>
-    <item>
-      <title>togg53192-cmd/jailbreaks</title>
-      <link>https://github.com/togg53192-cmd/jailbreaks</link>
-      <description>LIST OF ALL MY JAILBREAKS</description>
-      <pubDate>Fri, 30 Oct 2026 06:02:44 GMT</pubDate>
-      <guid isPermaLink="false">togg53192-cmd/jailbreaks</guid>
-    </item>
-    <item>
-      <title>EthanArbuckle/fairplay-decrypt</title>
-      <link>https://github.com/EthanArbuckle/fairplay-decrypt</link>
-      <description>Offline FairPlay App Store IPA decryption with independent key derivation</description>
-      <pubDate>Fri, 30 Oct 2026 06:02:44 GMT</pubDate>
-      <guid isPermaLink="false">EthanArbuckle/fairplay-decrypt</guid>
-    </item>
-    <item>
-      <title>AienTech/dossier</title>
-      <link>https://github.com/AienTech/dossier</link>
-      <description>A self-hosted job search app that writes tailored resumes and cover letters from your profile.</description>
-      <pubDate>Fri, 30 Oct 2026 06:02:44 GMT</pubDate>
-      <guid isPermaLink="false">AienTech/dossier</guid>
-    </item>
-    <item>
-      <title>elysia395/dsh-wallpaper-engine</title>
-      <link>https://github.com/elysia395/dsh-wallpaper-engine</link>
-      <description>把本机 Wallpaper Engine 的壁纸搬进 DSH 网页界面：场景壁纸由内置 MIT 开源引擎 WebWallGL 实时 WebGL 渲染（粒子 / puppet 骨骼 / SceneScript / 音频反应 / 鼠标交互），失败自动降级内嵌 MP4 与场景静态帧；Web 壁纸严格沙箱 + WE API；iOS 风格液态玻璃 UI 高度自定义，遮挡暂停省电、ffmpeg 帧率上限转码、系统音频频谱与 Now Playing、自定义上传与自动轮播；设置存宿主端，对 agent 零 token 开销。Windows / macOS / Linux 三平台原生（同一个包、同一条命令）。</description>
-      <pubDate>Fri, 30 Oct 2026 06:02:44 GMT</pubDate>
-      <guid isPermaLink="false">elysia395/dsh-wallpaper-engine</guid>
     </item>
   </channel>
 </rss>

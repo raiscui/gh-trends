@@ -5,8 +5,85 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Nov 2026 06:14:44 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 06:19:49 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>JuneYaooo/rea-video</title>
+      <link>https://github.com/JuneYaooo/rea-video</link>
+      <description>Reverse-engineer any video, shot by shot: tells whether each shot was filmed, AI-generated or coded, how the captions, cuts and audio were made, and how to remake it. 逆向一切视频，逐镜拆出制作方式并给出复刻方案。</description>
+      <pubDate>Sun, 08 Nov 2026 06:19:49 GMT</pubDate>
+      <guid isPermaLink="false">JuneYaooo/rea-video</guid>
+    </item>
+    <item>
+      <title>KKKKhazix/agent-autoloop</title>
+      <link>https://github.com/KKKKhazix/agent-autoloop</link>
+      <description>让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。</description>
+      <pubDate>Sun, 08 Nov 2026 06:19:49 GMT</pubDate>
+      <guid isPermaLink="false">KKKKhazix/agent-autoloop</guid>
+    </item>
+    <item>
+      <title>govijr/terminal-mac</title>
+      <link>https://github.com/govijr/terminal-mac</link>
+      <description>Entire MacOS running in your terminal.</description>
+      <pubDate>Sun, 08 Nov 2026 06:19:49 GMT</pubDate>
+      <guid isPermaLink="false">govijr/terminal-mac</guid>
+    </item>
+    <item>
+      <title>storytold/craft-anything</title>
+      <link>https://github.com/storytold/craft-anything</link>
+      <description>Craft Anything: understand how any software works, and craft your own.</description>
+      <pubDate>Sun, 08 Nov 2026 06:19:49 GMT</pubDate>
+      <guid isPermaLink="false">storytold/craft-anything</guid>
+    </item>
+    <item>
+      <title>anomalyco/rune</title>
+      <link>https://github.com/anomalyco/rune</link>
+      <description>Rune: Native UI framework</description>
+      <pubDate>Sun, 08 Nov 2026 06:19:49 GMT</pubDate>
+      <guid isPermaLink="false">anomalyco/rune</guid>
+    </item>
+    <item>
+      <title>deeplethe/sandstorm</title>
+      <link>https://github.com/deeplethe/sandstorm</link>
+      <description>Run thousands of AI agent sandboxes on the cheapest machines.</description>
+      <pubDate>Sun, 08 Nov 2026 06:19:49 GMT</pubDate>
+      <guid isPermaLink="false">deeplethe/sandstorm</guid>
+    </item>
+    <item>
+      <title>Verlintas/NOIR</title>
+      <link>https://github.com/Verlintas/NOIR</link>
+      <description>手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.</description>
+      <pubDate>Sun, 08 Nov 2026 06:19:49 GMT</pubDate>
+      <guid isPermaLink="false">Verlintas/NOIR</guid>
+    </item>
+    <item>
+      <title>benjitaylor/skills</title>
+      <link>https://github.com/benjitaylor/skills</link>
+      <description>Skills for AI coding agents.</description>
+      <pubDate>Sun, 08 Nov 2026 06:19:49 GMT</pubDate>
+      <guid isPermaLink="false">benjitaylor/skills</guid>
+    </item>
+    <item>
+      <title>hoochanlon/fq-book</title>
+      <link>https://github.com/hoochanlon/fq-book</link>
+      <description>📖《这本书能让你连接互联网》 详细阐述代理、隧道、VPN运作过程，并对GFW策略如：地址端口封锁、服务器缓存投毒、数字验证攻击、SSL连接阻断做相关的原理说明</description>
+      <pubDate>Sun, 08 Nov 2026 06:19:49 GMT</pubDate>
+      <guid isPermaLink="false">hoochanlon/fq-book</guid>
+    </item>
+    <item>
+      <title>microsoft/TokenEconomizer</title>
+      <link>https://github.com/microsoft/TokenEconomizer</link>
+      <description>Experience-Driven Black-Box Cost Control for Coding Agents</description>
+      <pubDate>Sun, 08 Nov 2026 06:19:49 GMT</pubDate>
+      <guid isPermaLink="false">microsoft/TokenEconomizer</guid>
+    </item>
+    <item>
+      <title>beenuar/AiSOC</title>
+      <link>https://github.com/beenuar/AiSOC</link>
+      <description>Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&amp;CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.</description>
+      <pubDate>Sun, 08 Nov 2026 06:19:49 GMT</pubDate>
+      <guid isPermaLink="false">beenuar/AiSOC</guid>
+    </item>
     <item>
       <title>DeanChensj/jiangshan-map</title>
       <link>https://github.com/DeanChensj/jiangshan-map</link>

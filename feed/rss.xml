@@ -5,8 +5,36 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Nov 2026 06:19:49 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 06:53:42 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>mromidev/claude-animated-shorts</title>
+      <link>https://github.com/mromidev/claude-animated-shorts</link>
+      <description>Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion</description>
+      <pubDate>Mon, 09 Nov 2026 06:53:42 GMT</pubDate>
+      <guid isPermaLink="false">mromidev/claude-animated-shorts</guid>
+    </item>
+    <item>
+      <title>DhvanilPatel/swarm-cursors</title>
+      <link>https://github.com/DhvanilPatel/swarm-cursors</link>
+      <description>(no description)</description>
+      <pubDate>Mon, 09 Nov 2026 06:53:42 GMT</pubDate>
+      <guid isPermaLink="false">DhvanilPatel/swarm-cursors</guid>
+    </item>
+    <item>
+      <title>scenario-labs/skills</title>
+      <link>https://github.com/scenario-labs/skills</link>
+      <description>Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.</description>
+      <pubDate>Mon, 09 Nov 2026 06:53:42 GMT</pubDate>
+      <guid isPermaLink="false">scenario-labs/skills</guid>
+    </item>
+    <item>
+      <title>kingcharleslzy-ai/dsh-purge</title>
+      <link>https://github.com/kingcharleslzy-ai/dsh-purge</link>
+      <description>dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。</description>
+      <pubDate>Mon, 09 Nov 2026 06:53:42 GMT</pubDate>
+      <guid isPermaLink="false">kingcharleslzy-ai/dsh-purge</guid>
+    </item>
     <item>
       <title>JuneYaooo/rea-video</title>
       <link>https://github.com/JuneYaooo/rea-video</link>
@@ -356,83 +384,6 @@
       <description>One-click character swap for videos: an open-source, local Higgsfield Genjutsu alternative built on ComfyUI and MiniMax H3, with FLUX.3 Klein relighting.</description>
       <pubDate>Wed, 04 Nov 2026 06:42:52 GMT</pubDate>
       <guid isPermaLink="false">D3voz/openjutsu</guid>
-    </item>
-    <item>
-      <title>KnifeLemon/Filee</title>
-      <link>https://github.com/KnifeLemon/Filee</link>
-      <description>Free, open-source file converter. Convert 263 formats offline by drag &amp; drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.</description>
-      <pubDate>Mon, 02 Nov 2026 06:27:09 GMT</pubDate>
-      <guid isPermaLink="false">KnifeLemon/Filee</guid>
-    </item>
-    <item>
-      <title>unclebob/ub-mode</title>
-      <link>https://github.com/unclebob/ub-mode</link>
-      <description>(no description)</description>
-      <pubDate>Mon, 02 Nov 2026 06:27:09 GMT</pubDate>
-      <guid isPermaLink="false">unclebob/ub-mode</guid>
-    </item>
-    <item>
-      <title>t3dotgg/tstack</title>
-      <link>https://github.com/t3dotgg/tstack</link>
-      <description>The agent skills I use every day. Works with Claude Code and Codex.</description>
-      <pubDate>Mon, 02 Nov 2026 06:27:09 GMT</pubDate>
-      <guid isPermaLink="false">t3dotgg/tstack</guid>
-    </item>
-    <item>
-      <title>LNPANDY/NX2Apple</title>
-      <link>https://github.com/LNPANDY/NX2Apple</link>
-      <description>Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.</description>
-      <pubDate>Mon, 02 Nov 2026 06:27:09 GMT</pubDate>
-      <guid isPermaLink="false">LNPANDY/NX2Apple</guid>
-    </item>
-    <item>
-      <title>deepseek-ai/dsh-superagent-prototype</title>
-      <link>https://github.com/deepseek-ai/dsh-superagent-prototype</link>
-      <description>Towards a More Autonomous Agent System</description>
-      <pubDate>Sun, 01 Nov 2026 06:25:39 GMT</pubDate>
-      <guid isPermaLink="false">deepseek-ai/dsh-superagent-prototype</guid>
-    </item>
-    <item>
-      <title>HeyPuter/everything</title>
-      <link>https://github.com/HeyPuter/everything</link>
-      <description>We&apos;re rebuilding and open-sourcing the world’s software from scratch.</description>
-      <pubDate>Sun, 01 Nov 2026 06:25:39 GMT</pubDate>
-      <guid isPermaLink="false">HeyPuter/everything</guid>
-    </item>
-    <item>
-      <title>enesozturk/dimensional-drawing</title>
-      <link>https://github.com/enesozturk/dimensional-drawing</link>
-      <description>Create Apple style dimensional drawings of UI components.</description>
-      <pubDate>Sun, 01 Nov 2026 06:25:39 GMT</pubDate>
-      <guid isPermaLink="false">enesozturk/dimensional-drawing</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/Ledgerify</title>
-      <link>https://github.com/AhmadHassan-BTed/Ledgerify</link>
-      <description>Shopify Excel Ledger intelligence platform with dark aesthetic, multi-sheet workbook analysis, 7 departmental dashboards, and live comparative benchmarking.</description>
-      <pubDate>Sun, 01 Nov 2026 06:25:39 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/Ledgerify</guid>
-    </item>
-    <item>
-      <title>InukaAsith/TwinDesk</title>
-      <link>https://github.com/InukaAsith/TwinDesk</link>
-      <description>All your computers and your phone, working as one desk. Screens, apps, files, clipboard, calls, texts, notifications, mouse and keyboard, shared between Mac, Windows, Linux and Android. Free and open source. No account, no cloud, and now no shared network needed.</description>
-      <pubDate>Sun, 01 Nov 2026 06:25:39 GMT</pubDate>
-      <guid isPermaLink="false">InukaAsith/TwinDesk</guid>
-    </item>
-    <item>
-      <title>l0ng-ai/openidea</title>
-      <link>https://github.com/l0ng-ai/openidea</link>
-      <description>The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.</description>
-      <pubDate>Sun, 01 Nov 2026 06:25:39 GMT</pubDate>
-      <guid isPermaLink="false">l0ng-ai/openidea</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/yt-channels-DS-AI-ML-CS</title>
-      <link>https://github.com/AhmadHassan-BTed/yt-channels-DS-AI-ML-CS</link>
-      <description>A comprehensive list of 180+ YouTube Channels for Data Science,  Data Engineering, Machine Learning, Deep learning, Computer Science, programming, software engineering, etc.</description>
-      <pubDate>Sun, 01 Nov 2026 06:25:39 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/yt-channels-DS-AI-ML-CS</guid>
     </item>
   </channel>
 </rss>

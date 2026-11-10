@@ -5,8 +5,71 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2026 06:53:42 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 07:31:02 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>sherlock-project/sherlock</title>
+      <link>https://github.com/sherlock-project/sherlock</link>
+      <description>Hunt down social media accounts by username across social networks</description>
+      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
+      <guid isPermaLink="false">sherlock-project/sherlock</guid>
+    </item>
+    <item>
+      <title>meta/astryx</title>
+      <link>https://github.com/meta/astryx</link>
+      <description>An open source design system that&apos;s fully customizable and agent ready</description>
+      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
+      <guid isPermaLink="false">meta/astryx</guid>
+    </item>
+    <item>
+      <title>Eglantine-Community/Eglantine</title>
+      <link>https://github.com/Eglantine-Community/Eglantine</link>
+      <description>VERY experimental Nintendo Switch 2 emulator</description>
+      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
+      <guid isPermaLink="false">Eglantine-Community/Eglantine</guid>
+    </item>
+    <item>
+      <title>reacher-z/Awesome-REA</title>
+      <link>https://github.com/reacher-z/Awesome-REA</link>
+      <description>Curated tools, case studies and papers for reverse engineering websites, games, apps, binaries, firmware and protocols. Source-reviewed, English and Chinese.</description>
+      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
+      <guid isPermaLink="false">reacher-z/Awesome-REA</guid>
+    </item>
+    <item>
+      <title>qybaihe/bla</title>
+      <link>https://github.com/qybaihe/bla</link>
+      <description>🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -&gt; Exhaust -&gt; Hallucinate.</description>
+      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
+      <guid isPermaLink="false">qybaihe/bla</guid>
+    </item>
+    <item>
+      <title>ranxianglei/billion-context</title>
+      <link>https://github.com/ranxianglei/billion-context</link>
+      <description>A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need</description>
+      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
+      <guid isPermaLink="false">ranxianglei/billion-context</guid>
+    </item>
+    <item>
+      <title>microsoft/VibeVoice</title>
+      <link>https://github.com/microsoft/VibeVoice</link>
+      <description>Open-Source Frontier Voice AI</description>
+      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
+      <guid isPermaLink="false">microsoft/VibeVoice</guid>
+    </item>
+    <item>
+      <title>shanselman/gputaskman</title>
+      <link>https://github.com/shanselman/gputaskman</link>
+      <description>A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).</description>
+      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
+      <guid isPermaLink="false">shanselman/gputaskman</guid>
+    </item>
+    <item>
+      <title>jacke-pp/open-yoki</title>
+      <link>https://github.com/jacke-pp/open-yoki</link>
+      <description>An AI live-stream host that runs on one server: voice, face, chat, memory, posts. The base yoki runs on. By Jacke_pp · contact: DM @Jacke_pp on X</description>
+      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
+      <guid isPermaLink="false">jacke-pp/open-yoki</guid>
+    </item>
     <item>
       <title>mromidev/claude-animated-shorts</title>
       <link>https://github.com/mromidev/claude-animated-shorts</link>

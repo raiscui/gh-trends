@@ -5,8 +5,57 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Nov 2026 07:31:02 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 06:47:50 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>Minireel/HGhub</title>
+      <link>https://github.com/Minireel/HGhub</link>
+      <description>YellowFruit third-party client</description>
+      <pubDate>Wed, 11 Nov 2026 06:47:50 GMT</pubDate>
+      <guid isPermaLink="false">Minireel/HGhub</guid>
+    </item>
+    <item>
+      <title>zortos293/Lichii</title>
+      <link>https://github.com/zortos293/Lichii</link>
+      <description>VERY experimental Nintendo Switch 2 emulator</description>
+      <pubDate>Wed, 11 Nov 2026 06:47:50 GMT</pubDate>
+      <guid isPermaLink="false">zortos293/Lichii</guid>
+    </item>
+    <item>
+      <title>anefzaoui/misterdownloadmanager</title>
+      <link>https://github.com/anefzaoui/misterdownloadmanager</link>
+      <description>misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux</description>
+      <pubDate>Wed, 11 Nov 2026 06:47:50 GMT</pubDate>
+      <guid isPermaLink="false">anefzaoui/misterdownloadmanager</guid>
+    </item>
+    <item>
+      <title>LNPANDY/NX2Apple</title>
+      <link>https://github.com/LNPANDY/NX2Apple</link>
+      <description>Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.</description>
+      <pubDate>Wed, 11 Nov 2026 06:47:50 GMT</pubDate>
+      <guid isPermaLink="false">LNPANDY/NX2Apple</guid>
+    </item>
+    <item>
+      <title>longbridge/nsh</title>
+      <link>https://github.com/longbridge/nsh</link>
+      <description>Native Shell is a native UI framework for iOS, Android, macOS, Windows, Linux and the web, built in Rust.</description>
+      <pubDate>Wed, 11 Nov 2026 06:47:50 GMT</pubDate>
+      <guid isPermaLink="false">longbridge/nsh</guid>
+    </item>
+    <item>
+      <title>toyxyz/toyxyz_RGBMocap</title>
+      <link>https://github.com/toyxyz/toyxyz_RGBMocap</link>
+      <description>Native Windows video motion capture with ExMR, FlowHMR and GVHMR, contact correction, humanoid retargeting, and FBX/VMD export.</description>
+      <pubDate>Wed, 11 Nov 2026 06:47:50 GMT</pubDate>
+      <guid isPermaLink="false">toyxyz/toyxyz_RGBMocap</guid>
+    </item>
+    <item>
+      <title>oinkvm/oink</title>
+      <link>https://github.com/oinkvm/oink</link>
+      <description>Your computers, working as one. Share keyboard, mouse, trackpad, clipboard, drag and drop and audio across Macs and PCs.</description>
+      <pubDate>Wed, 11 Nov 2026 06:47:50 GMT</pubDate>
+      <guid isPermaLink="false">oinkvm/oink</guid>
+    </item>
     <item>
       <title>sherlock-project/sherlock</title>
       <link>https://github.com/sherlock-project/sherlock</link>
@@ -405,48 +454,6 @@
       <description>11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.</description>
       <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
       <guid isPermaLink="false">Jakeschincariol/day-trader-skill</guid>
-    </item>
-    <item>
-      <title>interplains/Zero-Breach-Toolkit</title>
-      <link>https://github.com/interplains/Zero-Breach-Toolkit</link>
-      <description>Free, open-source check for traces of mercenary spyware (Pegasus, Predator, Graphite, Candiru and more) on computers, Android phones and iPhone backups. Double-click apps for Windows, Mac and Linux, in 27 languages.</description>
-      <pubDate>Wed, 04 Nov 2026 06:42:52 GMT</pubDate>
-      <guid isPermaLink="false">interplains/Zero-Breach-Toolkit</guid>
-    </item>
-    <item>
-      <title>OpenSelena/omniget</title>
-      <link>https://github.com/OpenSelena/omniget</link>
-      <description>Open-source download manager for courses (Udemy/Hotmart), YouTube, music &amp; 1,800+ sites. Built with Tauri 2.0, Rust &amp; Svelte.</description>
-      <pubDate>Wed, 04 Nov 2026 06:42:52 GMT</pubDate>
-      <guid isPermaLink="false">OpenSelena/omniget</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/PortfolioWebsite</title>
-      <link>https://github.com/AhmadHassan-BTed/PortfolioWebsite</link>
-      <description>My personal website showcasing my work in Software Engineering and Graphic Design. A simple, multi-page static site built with HTML, CSS, and basic JavaScript. It’s designed to be a clean space where I can share my projects, my story, and my resume.</description>
-      <pubDate>Wed, 04 Nov 2026 06:42:52 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/PortfolioWebsite</guid>
-    </item>
-    <item>
-      <title>Thysrael/Horizon</title>
-      <link>https://github.com/Thysrael/Horizon</link>
-      <description>📡 Your own AI-powered news radar. Generates daily briefings in English &amp; Chinese. | 用 AI 构建你专属的新闻雷达</description>
-      <pubDate>Wed, 04 Nov 2026 06:42:52 GMT</pubDate>
-      <guid isPermaLink="false">Thysrael/Horizon</guid>
-    </item>
-    <item>
-      <title>AhmadHassan-BTed/rain_generator</title>
-      <link>https://github.com/AhmadHassan-BTed/rain_generator</link>
-      <description>This repository will be used to develop a rain generator, actually it use white noises to simulate wind and have an integrated thunderstorm simulator.</description>
-      <pubDate>Wed, 04 Nov 2026 06:42:52 GMT</pubDate>
-      <guid isPermaLink="false">AhmadHassan-BTed/rain_generator</guid>
-    </item>
-    <item>
-      <title>D3voz/openjutsu</title>
-      <link>https://github.com/D3voz/openjutsu</link>
-      <description>One-click character swap for videos: an open-source, local Higgsfield Genjutsu alternative built on ComfyUI and MiniMax H3, with FLUX.3 Klein relighting.</description>
-      <pubDate>Wed, 04 Nov 2026 06:42:52 GMT</pubDate>
-      <guid isPermaLink="false">D3voz/openjutsu</guid>
     </item>
   </channel>
 </rss>

@@ -5,8 +5,50 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2026 06:47:50 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 07:26:11 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>vercel-labs/agent-browser</title>
+      <link>https://github.com/vercel-labs/agent-browser</link>
+      <description>Browser automation CLI for AI agents</description>
+      <pubDate>Thu, 12 Nov 2026 07:26:11 GMT</pubDate>
+      <guid isPermaLink="false">vercel-labs/agent-browser</guid>
+    </item>
+    <item>
+      <title>chadyi/StudyOnTV</title>
+      <link>https://github.com/chadyi/StudyOnTV</link>
+      <description>StudyOnTV (Tiledaoti TV) — open-source Android TV app where kids unlock screen time by answering questions. Runs fully on the TV: no server, no account. Parents scan a QR code and manage questions from the LAN. Learn first. Watch later.</description>
+      <pubDate>Thu, 12 Nov 2026 07:26:11 GMT</pubDate>
+      <guid isPermaLink="false">chadyi/StudyOnTV</guid>
+    </item>
+    <item>
+      <title>wquguru/cicada</title>
+      <link>https://github.com/wquguru/cicada</link>
+      <description>知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android.</description>
+      <pubDate>Thu, 12 Nov 2026 07:26:11 GMT</pubDate>
+      <guid isPermaLink="false">wquguru/cicada</guid>
+    </item>
+    <item>
+      <title>Murea-Labs/InWorld</title>
+      <link>https://github.com/Murea-Labs/InWorld</link>
+      <description>(no description)</description>
+      <pubDate>Thu, 12 Nov 2026 07:26:11 GMT</pubDate>
+      <guid isPermaLink="false">Murea-Labs/InWorld</guid>
+    </item>
+    <item>
+      <title>arjun988/blender-skills</title>
+      <link>https://github.com/arjun988/blender-skills</link>
+      <description>94 specialist Blender skills for Cursor, Claude Code, Kiro &amp; Codex -&gt; MCP-powered production pipeline from blockout to engine export.</description>
+      <pubDate>Thu, 12 Nov 2026 07:26:11 GMT</pubDate>
+      <guid isPermaLink="false">arjun988/blender-skills</guid>
+    </item>
+    <item>
+      <title>N1nEmAn/sapper-v2</title>
+      <link>https://github.com/N1nEmAn/sapper-v2</link>
+      <description>The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team champion, 8h unattended, 1B tokens beat 4.5B). Not just a tool: evolvable by design. Grow your own fruit on the Nüwa Foundation (Create/Language/History).</description>
+      <pubDate>Thu, 12 Nov 2026 07:26:11 GMT</pubDate>
+      <guid isPermaLink="false">N1nEmAn/sapper-v2</guid>
+    </item>
     <item>
       <title>Minireel/HGhub</title>
       <link>https://github.com/Minireel/HGhub</link>
@@ -342,118 +384,6 @@
       <description>🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.</description>
       <pubDate>Fri, 06 Nov 2026 07:01:03 GMT</pubDate>
       <guid isPermaLink="false">The-PR-Agent/pr-agent</guid>
-    </item>
-    <item>
-      <title>vercel-labs/agent-desktop</title>
-      <link>https://github.com/vercel-labs/agent-desktop</link>
-      <description>Computer use CLI for AI agents</description>
-      <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
-      <guid isPermaLink="false">vercel-labs/agent-desktop</guid>
-    </item>
-    <item>
-      <title>ccch1mneyyy/dsh-Go</title>
-      <link>https://github.com/ccch1mneyyy/dsh-Go</link>
-      <description>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。</description>
-      <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
-      <guid isPermaLink="false">ccch1mneyyy/dsh-Go</guid>
-    </item>
-    <item>
-      <title>heydamir/unslop</title>
-      <link>https://github.com/heydamir/unslop</link>
-      <description>A Claude skill that turns vibecoded, AI-looking UI into a designed interface</description>
-      <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
-      <guid isPermaLink="false">heydamir/unslop</guid>
-    </item>
-    <item>
-      <title>wangzan101/Mika</title>
-      <link>https://github.com/wangzan101/Mika</link>
-      <description>An on-device AI agent for Android that operates apps and the web to get things done for you.</description>
-      <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
-      <guid isPermaLink="false">wangzan101/Mika</guid>
-    </item>
-    <item>
-      <title>JiaFeiMiao-K-Cat/DiscImageStudio</title>
-      <link>https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio</link>
-      <description>(no description)</description>
-      <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
-      <guid isPermaLink="false">JiaFeiMiao-K-Cat/DiscImageStudio</guid>
-    </item>
-    <item>
-      <title>Djihads80/Eglantine</title>
-      <link>https://github.com/Djihads80/Eglantine</link>
-      <description>VERY experimental Nintendo Switch 2 emulator</description>
-      <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
-      <guid isPermaLink="false">Djihads80/Eglantine</guid>
-    </item>
-    <item>
-      <title>patch-gg/pixelfx</title>
-      <link>https://github.com/patch-gg/pixelfx</link>
-      <description>244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.</description>
-      <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
-      <guid isPermaLink="false">patch-gg/pixelfx</guid>
-    </item>
-    <item>
-      <title>BryceYuuu/RUN</title>
-      <link>https://github.com/BryceYuuu/RUN</link>
-      <description>RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）</description>
-      <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
-      <guid isPermaLink="false">BryceYuuu/RUN</guid>
-    </item>
-    <item>
-      <title>valentderah/totk-pc-recomp</title>
-      <link>https://github.com/valentderah/totk-pc-recomp</link>
-      <description>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.</description>
-      <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
-      <guid isPermaLink="false">valentderah/totk-pc-recomp</guid>
-    </item>
-    <item>
-      <title>pingdotgg/t3code</title>
-      <link>https://github.com/pingdotgg/t3code</link>
-      <description>(no description)</description>
-      <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
-      <guid isPermaLink="false">pingdotgg/t3code</guid>
-    </item>
-    <item>
-      <title>Donchitos/Claude-Code-Game-Studios</title>
-      <link>https://github.com/Donchitos/Claude-Code-Game-Studios</link>
-      <description>Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.</description>
-      <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
-      <guid isPermaLink="false">Donchitos/Claude-Code-Game-Studios</guid>
-    </item>
-    <item>
-      <title>NVIDIA/auto-ontology</title>
-      <link>https://github.com/NVIDIA/auto-ontology</link>
-      <description>Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.</description>
-      <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
-      <guid isPermaLink="false">NVIDIA/auto-ontology</guid>
-    </item>
-    <item>
-      <title>anomalyco/hex</title>
-      <link>https://github.com/anomalyco/hex</link>
-      <description>Local voice dictation for mac, windows and linux</description>
-      <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
-      <guid isPermaLink="false">anomalyco/hex</guid>
-    </item>
-    <item>
-      <title>anhao/ai-pose-gallery-zh</title>
-      <link>https://github.com/anhao/ai-pose-gallery-zh</link>
-      <description>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊</description>
-      <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
-      <guid isPermaLink="false">anhao/ai-pose-gallery-zh</guid>
-    </item>
-    <item>
-      <title>horizon-rust/horizon</title>
-      <link>https://github.com/horizon-rust/horizon</link>
-      <description>Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.</description>
-      <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
-      <guid isPermaLink="false">horizon-rust/horizon</guid>
-    </item>
-    <item>
-      <title>Jakeschincariol/day-trader-skill</title>
-      <link>https://github.com/Jakeschincariol/day-trader-skill</link>
-      <description>11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.</description>
-      <pubDate>Thu, 05 Nov 2026 07:01:31 GMT</pubDate>
-      <guid isPermaLink="false">Jakeschincariol/day-trader-skill</guid>
     </item>
   </channel>
 </rss>

@@ -5,8 +5,99 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2026 07:26:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 06:58:24 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>ccch1mneyyy/dsh-Go</title>
+      <link>https://github.com/ccch1mneyyy/dsh-Go</link>
+      <description>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。</description>
+      <pubDate>Fri, 13 Nov 2026 06:58:24 GMT</pubDate>
+      <guid isPermaLink="false">ccch1mneyyy/dsh-Go</guid>
+    </item>
+    <item>
+      <title>GoogleChrome/modern-web-guidance</title>
+      <link>https://github.com/GoogleChrome/modern-web-guidance</link>
+      <description>Keep your coding agent up to date with the latest web best practices</description>
+      <pubDate>Fri, 13 Nov 2026 06:58:24 GMT</pubDate>
+      <guid isPermaLink="false">GoogleChrome/modern-web-guidance</guid>
+    </item>
+    <item>
+      <title>we-promise/sure</title>
+      <link>https://github.com/we-promise/sure</link>
+      <description>The personal finance app for everyone (by everyone)</description>
+      <pubDate>Fri, 13 Nov 2026 06:58:24 GMT</pubDate>
+      <guid isPermaLink="false">we-promise/sure</guid>
+    </item>
+    <item>
+      <title>ppmpreetham/BUI</title>
+      <link>https://github.com/ppmpreetham/BUI</link>
+      <description>Blender&apos;s GPU Accelerated UI, Decoupled from it&apos;s original codebase. Supports Rust, Python, JS, Lua, C &amp; C++. Twice as good as GPUI</description>
+      <pubDate>Fri, 13 Nov 2026 06:58:24 GMT</pubDate>
+      <guid isPermaLink="false">ppmpreetham/BUI</guid>
+    </item>
+    <item>
+      <title>zed-industries/zed</title>
+      <link>https://github.com/zed-industries/zed</link>
+      <description>Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.</description>
+      <pubDate>Fri, 13 Nov 2026 06:58:24 GMT</pubDate>
+      <guid isPermaLink="false">zed-industries/zed</guid>
+    </item>
+    <item>
+      <title>shinyobjectz/raea</title>
+      <link>https://github.com/shinyobjectz/raea</link>
+      <description>Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.</description>
+      <pubDate>Fri, 13 Nov 2026 06:58:24 GMT</pubDate>
+      <guid isPermaLink="false">shinyobjectz/raea</guid>
+    </item>
+    <item>
+      <title>shadcn/improve</title>
+      <link>https://github.com/shadcn/improve</link>
+      <description>Use your most capable model to audit your codebase and write plans for cheaper models to execute.</description>
+      <pubDate>Fri, 13 Nov 2026 06:58:24 GMT</pubDate>
+      <guid isPermaLink="false">shadcn/improve</guid>
+    </item>
+    <item>
+      <title>kuafuai/andee</title>
+      <link>https://github.com/kuafuai/andee</link>
+      <description>Andee lives on your phone or Mac and uses any app like you do—no integrations, no root, any model; memory and passwords never leave your device | Andee 住进你的手机或 Mac，像你一样操作任何 App——无需集成、无需 Root、支持任意模型，记忆和密码绝不离开设备。</description>
+      <pubDate>Fri, 13 Nov 2026 06:58:24 GMT</pubDate>
+      <guid isPermaLink="false">kuafuai/andee</guid>
+    </item>
+    <item>
+      <title>sarpstar/cinecode</title>
+      <link>https://github.com/sarpstar/cinecode</link>
+      <description>Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.</description>
+      <pubDate>Fri, 13 Nov 2026 06:58:24 GMT</pubDate>
+      <guid isPermaLink="false">sarpstar/cinecode</guid>
+    </item>
+    <item>
+      <title>homeassistant-ai/ha-mcp</title>
+      <link>https://github.com/homeassistant-ai/ha-mcp</link>
+      <description>Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.</description>
+      <pubDate>Fri, 13 Nov 2026 06:58:24 GMT</pubDate>
+      <guid isPermaLink="false">homeassistant-ai/ha-mcp</guid>
+    </item>
+    <item>
+      <title>GoogleChrome/modern-web-guidance-src</title>
+      <link>https://github.com/GoogleChrome/modern-web-guidance-src</link>
+      <description>Keep your coding agent up to date with the latest web best practices</description>
+      <pubDate>Fri, 13 Nov 2026 06:58:24 GMT</pubDate>
+      <guid isPermaLink="false">GoogleChrome/modern-web-guidance-src</guid>
+    </item>
+    <item>
+      <title>google-deepmind/mujoco</title>
+      <link>https://github.com/google-deepmind/mujoco</link>
+      <description>Multi-Joint dynamics with Contact. A general purpose physics simulator.</description>
+      <pubDate>Fri, 13 Nov 2026 06:58:24 GMT</pubDate>
+      <guid isPermaLink="false">google-deepmind/mujoco</guid>
+    </item>
+    <item>
+      <title>FluentRead/FluentRead</title>
+      <link>https://github.com/FluentRead/FluentRead</link>
+      <description>An open-source browser extension for bilingual translation. 一款开源的浏览器双语翻译插件。</description>
+      <pubDate>Fri, 13 Nov 2026 06:58:24 GMT</pubDate>
+      <guid isPermaLink="false">FluentRead/FluentRead</guid>
+    </item>
     <item>
       <title>vercel-labs/agent-browser</title>
       <link>https://github.com/vercel-labs/agent-browser</link>

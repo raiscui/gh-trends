@@ -5,8 +5,64 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2026 06:49:42 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 08:09:17 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>janestreet/agent_skills</title>
+      <link>https://github.com/janestreet/agent_skills</link>
+      <description>Agent skills</description>
+      <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
+      <guid isPermaLink="false">janestreet/agent_skills</guid>
+    </item>
+    <item>
+      <title>backnotprop/plannotator</title>
+      <link>https://github.com/backnotprop/plannotator</link>
+      <description>The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. </description>
+      <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
+      <guid isPermaLink="false">backnotprop/plannotator</guid>
+    </item>
+    <item>
+      <title>NVIDIA/SkillEvaluator</title>
+      <link>https://github.com/NVIDIA/SkillEvaluator</link>
+      <description>Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.</description>
+      <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
+      <guid isPermaLink="false">NVIDIA/SkillEvaluator</guid>
+    </item>
+    <item>
+      <title>Tencent/LoopForge</title>
+      <link>https://github.com/Tencent/LoopForge</link>
+      <description>Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.</description>
+      <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
+      <guid isPermaLink="false">Tencent/LoopForge</guid>
+    </item>
+    <item>
+      <title>elder-plinius/CL4R1T4S</title>
+      <link>https://github.com/elder-plinius/CL4R1T4S</link>
+      <description>LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐</description>
+      <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
+      <guid isPermaLink="false">elder-plinius/CL4R1T4S</guid>
+    </item>
+    <item>
+      <title>ag-ui-protocol/ag-ui</title>
+      <link>https://github.com/ag-ui-protocol/ag-ui</link>
+      <description>AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.</description>
+      <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
+      <guid isPermaLink="false">ag-ui-protocol/ag-ui</guid>
+    </item>
+    <item>
+      <title>google-research/paper-orchestra</title>
+      <link>https://github.com/google-research/paper-orchestra</link>
+      <description>PaperOrchestra is a multi-agent framework for automated AI research paper writing.</description>
+      <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
+      <guid isPermaLink="false">google-research/paper-orchestra</guid>
+    </item>
+    <item>
+      <title>ayanprob/coreldraw-desktop-installer</title>
+      <link>https://github.com/ayanprob/coreldraw-desktop-installer</link>
+      <description>CorelDraw 2026 Professional Desktop Installer with Ready-to-Run Utility Configuration</description>
+      <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
+      <guid isPermaLink="false">ayanprob/coreldraw-desktop-installer</guid>
+    </item>
     <item>
       <title>JuneYaooo/rea-video</title>
       <link>https://github.com/JuneYaooo/rea-video</link>
@@ -363,97 +419,6 @@
       <description>Your computers, working as one. Share keyboard, mouse, trackpad, clipboard, drag and drop and audio across Macs and PCs.</description>
       <pubDate>Wed, 11 Nov 2026 06:47:50 GMT</pubDate>
       <guid isPermaLink="false">oinkvm/oink</guid>
-    </item>
-    <item>
-      <title>sherlock-project/sherlock</title>
-      <link>https://github.com/sherlock-project/sherlock</link>
-      <description>Hunt down social media accounts by username across social networks</description>
-      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
-      <guid isPermaLink="false">sherlock-project/sherlock</guid>
-    </item>
-    <item>
-      <title>meta/astryx</title>
-      <link>https://github.com/meta/astryx</link>
-      <description>An open source design system that&apos;s fully customizable and agent ready</description>
-      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
-      <guid isPermaLink="false">meta/astryx</guid>
-    </item>
-    <item>
-      <title>Eglantine-Community/Eglantine</title>
-      <link>https://github.com/Eglantine-Community/Eglantine</link>
-      <description>VERY experimental Nintendo Switch 2 emulator</description>
-      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
-      <guid isPermaLink="false">Eglantine-Community/Eglantine</guid>
-    </item>
-    <item>
-      <title>reacher-z/Awesome-REA</title>
-      <link>https://github.com/reacher-z/Awesome-REA</link>
-      <description>Curated tools, case studies and papers for reverse engineering websites, games, apps, binaries, firmware and protocols. Source-reviewed, English and Chinese.</description>
-      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
-      <guid isPermaLink="false">reacher-z/Awesome-REA</guid>
-    </item>
-    <item>
-      <title>qybaihe/bla</title>
-      <link>https://github.com/qybaihe/bla</link>
-      <description>🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -&gt; Exhaust -&gt; Hallucinate.</description>
-      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
-      <guid isPermaLink="false">qybaihe/bla</guid>
-    </item>
-    <item>
-      <title>ranxianglei/billion-context</title>
-      <link>https://github.com/ranxianglei/billion-context</link>
-      <description>A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need</description>
-      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
-      <guid isPermaLink="false">ranxianglei/billion-context</guid>
-    </item>
-    <item>
-      <title>microsoft/VibeVoice</title>
-      <link>https://github.com/microsoft/VibeVoice</link>
-      <description>Open-Source Frontier Voice AI</description>
-      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
-      <guid isPermaLink="false">microsoft/VibeVoice</guid>
-    </item>
-    <item>
-      <title>shanselman/gputaskman</title>
-      <link>https://github.com/shanselman/gputaskman</link>
-      <description>A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).</description>
-      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
-      <guid isPermaLink="false">shanselman/gputaskman</guid>
-    </item>
-    <item>
-      <title>jacke-pp/open-yoki</title>
-      <link>https://github.com/jacke-pp/open-yoki</link>
-      <description>An AI live-stream host that runs on one server: voice, face, chat, memory, posts. The base yoki runs on. By Jacke_pp · contact: DM @Jacke_pp on X</description>
-      <pubDate>Tue, 10 Nov 2026 07:31:02 GMT</pubDate>
-      <guid isPermaLink="false">jacke-pp/open-yoki</guid>
-    </item>
-    <item>
-      <title>mromidev/claude-animated-shorts</title>
-      <link>https://github.com/mromidev/claude-animated-shorts</link>
-      <description>Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion</description>
-      <pubDate>Mon, 09 Nov 2026 06:53:42 GMT</pubDate>
-      <guid isPermaLink="false">mromidev/claude-animated-shorts</guid>
-    </item>
-    <item>
-      <title>DhvanilPatel/swarm-cursors</title>
-      <link>https://github.com/DhvanilPatel/swarm-cursors</link>
-      <description>(no description)</description>
-      <pubDate>Mon, 09 Nov 2026 06:53:42 GMT</pubDate>
-      <guid isPermaLink="false">DhvanilPatel/swarm-cursors</guid>
-    </item>
-    <item>
-      <title>scenario-labs/skills</title>
-      <link>https://github.com/scenario-labs/skills</link>
-      <description>Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.</description>
-      <pubDate>Mon, 09 Nov 2026 06:53:42 GMT</pubDate>
-      <guid isPermaLink="false">scenario-labs/skills</guid>
-    </item>
-    <item>
-      <title>kingcharleslzy-ai/dsh-purge</title>
-      <link>https://github.com/kingcharleslzy-ai/dsh-purge</link>
-      <description>dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。</description>
-      <pubDate>Mon, 09 Nov 2026 06:53:42 GMT</pubDate>
-      <guid isPermaLink="false">kingcharleslzy-ai/dsh-purge</guid>
     </item>
   </channel>
 </rss>

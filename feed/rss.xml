@@ -5,8 +5,71 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Nov 2026 08:09:17 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 07:43:50 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>aws/aws-emulator</title>
+      <link>https://github.com/aws/aws-emulator</link>
+      <description>AWS Emulator is a local emulator of the AWS APIs.</description>
+      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
+      <guid isPermaLink="false">aws/aws-emulator</guid>
+    </item>
+    <item>
+      <title>RoutineMiku/apkstart</title>
+      <link>https://github.com/RoutineMiku/apkstart</link>
+      <description>Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时</description>
+      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
+      <guid isPermaLink="false">RoutineMiku/apkstart</guid>
+    </item>
+    <item>
+      <title>deepseek-ai/chat-demo</title>
+      <link>https://github.com/deepseek-ai/chat-demo</link>
+      <description>Chat Demo</description>
+      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
+      <guid isPermaLink="false">deepseek-ai/chat-demo</guid>
+    </item>
+    <item>
+      <title>zxsos/HGhubX</title>
+      <link>https://github.com/zxsos/HGhubX</link>
+      <description>Cross-platform short-drama client built with Tauri 2, React and Rust.</description>
+      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
+      <guid isPermaLink="false">zxsos/HGhubX</guid>
+    </item>
+    <item>
+      <title>dream-num/univer</title>
+      <link>https://github.com/dream-num/univer</link>
+      <description>Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.</description>
+      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
+      <guid isPermaLink="false">dream-num/univer</guid>
+    </item>
+    <item>
+      <title>meta/astryx</title>
+      <link>https://github.com/meta/astryx</link>
+      <description>An open source design system that&apos;s fully customizable and agent ready</description>
+      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
+      <guid isPermaLink="false">meta/astryx</guid>
+    </item>
+    <item>
+      <title>tylertms/Stela</title>
+      <link>https://github.com/tylertms/Stela</link>
+      <description>A translation-based Apple Silicon layer for x86-64 PCs</description>
+      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
+      <guid isPermaLink="false">tylertms/Stela</guid>
+    </item>
+    <item>
+      <title>expo/exact</title>
+      <link>https://github.com/expo/exact</link>
+      <description>Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.</description>
+      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
+      <guid isPermaLink="false">expo/exact</guid>
+    </item>
+    <item>
+      <title>martin-olivier/airgorah</title>
+      <link>https://github.com/martin-olivier/airgorah</link>
+      <description>A WiFi security auditing software</description>
+      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
+      <guid isPermaLink="false">martin-olivier/airgorah</guid>
+    </item>
     <item>
       <title>janestreet/agent_skills</title>
       <link>https://github.com/janestreet/agent_skills</link>
@@ -17,7 +80,7 @@
     <item>
       <title>backnotprop/plannotator</title>
       <link>https://github.com/backnotprop/plannotator</link>
-      <description>The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. </description>
+      <description>The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.</description>
       <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
       <guid isPermaLink="false">backnotprop/plannotator</guid>
     </item>
@@ -370,55 +433,6 @@
       <description>The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team champion, 8h unattended, 1B tokens beat 4.5B). Not just a tool: evolvable by design. Grow your own fruit on the Nüwa Foundation (Create/Language/History).</description>
       <pubDate>Thu, 12 Nov 2026 07:26:11 GMT</pubDate>
       <guid isPermaLink="false">N1nEmAn/sapper-v2</guid>
-    </item>
-    <item>
-      <title>Minireel/HGhub</title>
-      <link>https://github.com/Minireel/HGhub</link>
-      <description>YellowFruit third-party client</description>
-      <pubDate>Wed, 11 Nov 2026 06:47:50 GMT</pubDate>
-      <guid isPermaLink="false">Minireel/HGhub</guid>
-    </item>
-    <item>
-      <title>zortos293/Lichii</title>
-      <link>https://github.com/zortos293/Lichii</link>
-      <description>VERY experimental Nintendo Switch 2 emulator</description>
-      <pubDate>Wed, 11 Nov 2026 06:47:50 GMT</pubDate>
-      <guid isPermaLink="false">zortos293/Lichii</guid>
-    </item>
-    <item>
-      <title>anefzaoui/misterdownloadmanager</title>
-      <link>https://github.com/anefzaoui/misterdownloadmanager</link>
-      <description>misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux</description>
-      <pubDate>Wed, 11 Nov 2026 06:47:50 GMT</pubDate>
-      <guid isPermaLink="false">anefzaoui/misterdownloadmanager</guid>
-    </item>
-    <item>
-      <title>LNPANDY/NX2Apple</title>
-      <link>https://github.com/LNPANDY/NX2Apple</link>
-      <description>Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.</description>
-      <pubDate>Wed, 11 Nov 2026 06:47:50 GMT</pubDate>
-      <guid isPermaLink="false">LNPANDY/NX2Apple</guid>
-    </item>
-    <item>
-      <title>longbridge/nsh</title>
-      <link>https://github.com/longbridge/nsh</link>
-      <description>Native Shell is a native UI framework for iOS, Android, macOS, Windows, Linux and the web, built in Rust.</description>
-      <pubDate>Wed, 11 Nov 2026 06:47:50 GMT</pubDate>
-      <guid isPermaLink="false">longbridge/nsh</guid>
-    </item>
-    <item>
-      <title>toyxyz/toyxyz_RGBMocap</title>
-      <link>https://github.com/toyxyz/toyxyz_RGBMocap</link>
-      <description>Native Windows video motion capture with ExMR, FlowHMR and GVHMR, contact correction, humanoid retargeting, and FBX/VMD export.</description>
-      <pubDate>Wed, 11 Nov 2026 06:47:50 GMT</pubDate>
-      <guid isPermaLink="false">toyxyz/toyxyz_RGBMocap</guid>
-    </item>
-    <item>
-      <title>oinkvm/oink</title>
-      <link>https://github.com/oinkvm/oink</link>
-      <description>Your computers, working as one. Share keyboard, mouse, trackpad, clipboard, drag and drop and audio across Macs and PCs.</description>
-      <pubDate>Wed, 11 Nov 2026 06:47:50 GMT</pubDate>
-      <guid isPermaLink="false">oinkvm/oink</guid>
     </item>
   </channel>
 </rss>

@@ -5,8 +5,64 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 07:43:50 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 07:40:19 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>anefzaoui/misterdownloadmanager</title>
+      <link>https://github.com/anefzaoui/misterdownloadmanager</link>
+      <description>misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux</description>
+      <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
+      <guid isPermaLink="false">anefzaoui/misterdownloadmanager</guid>
+    </item>
+    <item>
+      <title>kingcharleslzy-ai/dsh-purge</title>
+      <link>https://github.com/kingcharleslzy-ai/dsh-purge</link>
+      <description>dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。</description>
+      <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
+      <guid isPermaLink="false">kingcharleslzy-ai/dsh-purge</guid>
+    </item>
+    <item>
+      <title>mdiri-ai/SoduWork</title>
+      <link>https://github.com/mdiri-ai/SoduWork</link>
+      <description>The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.</description>
+      <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
+      <guid isPermaLink="false">mdiri-ai/SoduWork</guid>
+    </item>
+    <item>
+      <title>apex-compute/ANR</title>
+      <link>https://github.com/apex-compute/ANR</link>
+      <description>Apex Neural Rendering (ANR) by Apex Compute</description>
+      <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
+      <guid isPermaLink="false">apex-compute/ANR</guid>
+    </item>
+    <item>
+      <title>ethanplusai/sellbird</title>
+      <link>https://github.com/ethanplusai/sellbird</link>
+      <description>Sellbird (formerly Harvey): the open-source outreach platform that runs on your Claude or ChatGPT plan. Finds companies and decision makers, verifies emails, writes personal cold email, sends it and handles the replies.</description>
+      <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
+      <guid isPermaLink="false">ethanplusai/sellbird</guid>
+    </item>
+    <item>
+      <title>sveltejs/svelte</title>
+      <link>https://github.com/sveltejs/svelte</link>
+      <description>web development for the rest of us</description>
+      <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
+      <guid isPermaLink="false">sveltejs/svelte</guid>
+    </item>
+    <item>
+      <title>elripalda/RecompLauncher</title>
+      <link>https://github.com/elripalda/RecompLauncher</link>
+      <description>PC recomps, all in one place. Find, install, update and play PC recomps from one launcher.</description>
+      <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
+      <guid isPermaLink="false">elripalda/RecompLauncher</guid>
+    </item>
+    <item>
+      <title>HolyArrs/HolyArrs</title>
+      <link>https://github.com/HolyArrs/HolyArrs</link>
+      <description>One self-hosted app for your shows, movies and music.</description>
+      <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
+      <guid isPermaLink="false">HolyArrs/HolyArrs</guid>
+    </item>
     <item>
       <title>aws/aws-emulator</title>
       <link>https://github.com/aws/aws-emulator</link>
@@ -391,48 +447,6 @@
       <description>An open-source browser extension for bilingual translation. 一款开源的浏览器双语翻译插件。</description>
       <pubDate>Fri, 13 Nov 2026 06:58:24 GMT</pubDate>
       <guid isPermaLink="false">FluentRead/FluentRead</guid>
-    </item>
-    <item>
-      <title>vercel-labs/agent-browser</title>
-      <link>https://github.com/vercel-labs/agent-browser</link>
-      <description>Browser automation CLI for AI agents</description>
-      <pubDate>Thu, 12 Nov 2026 07:26:11 GMT</pubDate>
-      <guid isPermaLink="false">vercel-labs/agent-browser</guid>
-    </item>
-    <item>
-      <title>chadyi/StudyOnTV</title>
-      <link>https://github.com/chadyi/StudyOnTV</link>
-      <description>StudyOnTV (Tiledaoti TV) — open-source Android TV app where kids unlock screen time by answering questions. Runs fully on the TV: no server, no account. Parents scan a QR code and manage questions from the LAN. Learn first. Watch later.</description>
-      <pubDate>Thu, 12 Nov 2026 07:26:11 GMT</pubDate>
-      <guid isPermaLink="false">chadyi/StudyOnTV</guid>
-    </item>
-    <item>
-      <title>wquguru/cicada</title>
-      <link>https://github.com/wquguru/cicada</link>
-      <description>知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android.</description>
-      <pubDate>Thu, 12 Nov 2026 07:26:11 GMT</pubDate>
-      <guid isPermaLink="false">wquguru/cicada</guid>
-    </item>
-    <item>
-      <title>Murea-Labs/InWorld</title>
-      <link>https://github.com/Murea-Labs/InWorld</link>
-      <description>(no description)</description>
-      <pubDate>Thu, 12 Nov 2026 07:26:11 GMT</pubDate>
-      <guid isPermaLink="false">Murea-Labs/InWorld</guid>
-    </item>
-    <item>
-      <title>arjun988/blender-skills</title>
-      <link>https://github.com/arjun988/blender-skills</link>
-      <description>94 specialist Blender skills for Cursor, Claude Code, Kiro &amp; Codex -&gt; MCP-powered production pipeline from blockout to engine export.</description>
-      <pubDate>Thu, 12 Nov 2026 07:26:11 GMT</pubDate>
-      <guid isPermaLink="false">arjun988/blender-skills</guid>
-    </item>
-    <item>
-      <title>N1nEmAn/sapper-v2</title>
-      <link>https://github.com/N1nEmAn/sapper-v2</link>
-      <description>The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team champion, 8h unattended, 1B tokens beat 4.5B). Not just a tool: evolvable by design. Grow your own fruit on the Nüwa Foundation (Create/Language/History).</description>
-      <pubDate>Thu, 12 Nov 2026 07:26:11 GMT</pubDate>
-      <guid isPermaLink="false">N1nEmAn/sapper-v2</guid>
     </item>
   </channel>
 </rss>

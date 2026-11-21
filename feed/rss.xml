@@ -5,8 +5,64 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2026 07:30:51 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 07:26:08 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>GoogleChrome/modern-web-guidance</title>
+      <link>https://github.com/GoogleChrome/modern-web-guidance</link>
+      <description>Keep your coding agent up to date with the latest web best practices</description>
+      <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
+      <guid isPermaLink="false">GoogleChrome/modern-web-guidance</guid>
+    </item>
+    <item>
+      <title>GoogleChrome/modern-web-guidance-src</title>
+      <link>https://github.com/GoogleChrome/modern-web-guidance-src</link>
+      <description>Keep your coding agent up to date with the latest web best practices</description>
+      <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
+      <guid isPermaLink="false">GoogleChrome/modern-web-guidance-src</guid>
+    </item>
+    <item>
+      <title>ZiChuanLan/freebie-radar</title>
+      <link>https://github.com/ZiChuanLan/freebie-radar</link>
+      <description>白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送</description>
+      <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
+      <guid isPermaLink="false">ZiChuanLan/freebie-radar</guid>
+    </item>
+    <item>
+      <title>duwqijlk/muse-protocol</title>
+      <link>https://github.com/duwqijlk/muse-protocol</link>
+      <description>muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）</description>
+      <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
+      <guid isPermaLink="false">duwqijlk/muse-protocol</guid>
+    </item>
+    <item>
+      <title>Immortal-Protocols/lastbook</title>
+      <link>https://github.com/Immortal-Protocols/lastbook</link>
+      <description>Offline knowledge AI, maps and videos for survival and rebuilding</description>
+      <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
+      <guid isPermaLink="false">Immortal-Protocols/lastbook</guid>
+    </item>
+    <item>
+      <title>obsidianmd/obsidian-skills</title>
+      <link>https://github.com/obsidianmd/obsidian-skills</link>
+      <description>Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.</description>
+      <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
+      <guid isPermaLink="false">obsidianmd/obsidian-skills</guid>
+    </item>
+    <item>
+      <title>Tracer-Cloud/opensre</title>
+      <link>https://github.com/Tracer-Cloud/opensre</link>
+      <description>The open-source agent for CI/CD reliability.</description>
+      <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
+      <guid isPermaLink="false">Tracer-Cloud/opensre</guid>
+    </item>
+    <item>
+      <title>ariamitchell54/cubase-studio-desktop</title>
+      <link>https://github.com/ariamitchell54/cubase-studio-desktop</link>
+      <description>Cubase Studio 2026 desktop setup with full plugin suite and complete feature set</description>
+      <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
+      <guid isPermaLink="false">ariamitchell54/cubase-studio-desktop</guid>
+    </item>
     <item>
       <title>vercel-labs/ui</title>
       <link>https://github.com/vercel-labs/ui</link>
@@ -356,69 +412,6 @@
       <description>Auslogics Audio Studio 2026 Desktop Edition: Pre-Activated Standalone Setup</description>
       <pubDate>Sun, 15 Nov 2026 06:49:48 GMT</pubDate>
       <guid isPermaLink="false">App-MonicaWEB/auslogics-audio-studio-desktop</guid>
-    </item>
-    <item>
-      <title>h4ckf0r0day/obscura</title>
-      <link>https://github.com/h4ckf0r0day/obscura</link>
-      <description>The headless browser for AI agents and web scraping</description>
-      <pubDate>Sat, 14 Nov 2026 06:45:00 GMT</pubDate>
-      <guid isPermaLink="false">h4ckf0r0day/obscura</guid>
-    </item>
-    <item>
-      <title>Lee-xeo/Claude-Cage</title>
-      <link>https://github.com/Lee-xeo/Claude-Cage</link>
-      <description>Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。</description>
-      <pubDate>Sat, 14 Nov 2026 06:45:00 GMT</pubDate>
-      <guid isPermaLink="false">Lee-xeo/Claude-Cage</guid>
-    </item>
-    <item>
-      <title>ZhuLinsen/daily_stock_analysis</title>
-      <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
-      <description>LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.</description>
-      <pubDate>Sat, 14 Nov 2026 06:45:00 GMT</pubDate>
-      <guid isPermaLink="false">ZhuLinsen/daily_stock_analysis</guid>
-    </item>
-    <item>
-      <title>tidain/YunX-Desktop</title>
-      <link>https://github.com/tidain/YunX-Desktop</link>
-      <description>YunX（云析）的官方 windows 桌面端</description>
-      <pubDate>Sat, 14 Nov 2026 06:45:00 GMT</pubDate>
-      <guid isPermaLink="false">tidain/YunX-Desktop</guid>
-    </item>
-    <item>
-      <title>AIScientists-Dev/academic-humanizer</title>
-      <link>https://github.com/AIScientists-Dev/academic-humanizer</link>
-      <description>Strip AI-writing tells from papers and grant proposals (NSF/NIH), while keeping scholarly voice and tying claims to evidence. A skill for Claude Code, Codex, and MorphMind.</description>
-      <pubDate>Sat, 14 Nov 2026 06:45:00 GMT</pubDate>
-      <guid isPermaLink="false">AIScientists-Dev/academic-humanizer</guid>
-    </item>
-    <item>
-      <title>libracoder/kiri</title>
-      <link>https://github.com/libracoder/kiri</link>
-      <description>A small, fast container runtime for macOS, Windows and Linux</description>
-      <pubDate>Sat, 14 Nov 2026 06:45:00 GMT</pubDate>
-      <guid isPermaLink="false">libracoder/kiri</guid>
-    </item>
-    <item>
-      <title>Fei2411/DS-Bot</title>
-      <link>https://github.com/Fei2411/DS-Bot</link>
-      <description>A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.</description>
-      <pubDate>Sat, 14 Nov 2026 06:45:00 GMT</pubDate>
-      <guid isPermaLink="false">Fei2411/DS-Bot</guid>
-    </item>
-    <item>
-      <title>BaaRai/ARTEX</title>
-      <link>https://github.com/BaaRai/ARTEX</link>
-      <description>ARTEX - AI autonomous penetration testing system (English translation)</description>
-      <pubDate>Sat, 14 Nov 2026 06:45:00 GMT</pubDate>
-      <guid isPermaLink="false">BaaRai/ARTEX</guid>
-    </item>
-    <item>
-      <title>QwenLM/qwen-code</title>
-      <link>https://github.com/QwenLM/qwen-code</link>
-      <description>An open-source AI coding agent that lives in your terminal.</description>
-      <pubDate>Sat, 14 Nov 2026 06:45:00 GMT</pubDate>
-      <guid isPermaLink="false">QwenLM/qwen-code</guid>
     </item>
   </channel>
 </rss>

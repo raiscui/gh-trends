@@ -5,8 +5,64 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2026 07:26:08 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 07:07:03 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>BaaRai/ARTEX</title>
+      <link>https://github.com/BaaRai/ARTEX</link>
+      <description>ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)</description>
+      <pubDate>Sun, 22 Nov 2026 07:07:03 GMT</pubDate>
+      <guid isPermaLink="false">BaaRai/ARTEX</guid>
+    </item>
+    <item>
+      <title>libracoder/kiri</title>
+      <link>https://github.com/libracoder/kiri</link>
+      <description>A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative</description>
+      <pubDate>Sun, 22 Nov 2026 07:07:03 GMT</pubDate>
+      <guid isPermaLink="false">libracoder/kiri</guid>
+    </item>
+    <item>
+      <title>simplexai-labs/linger</title>
+      <link>https://github.com/simplexai-labs/linger</link>
+      <description>Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.</description>
+      <pubDate>Sun, 22 Nov 2026 07:07:03 GMT</pubDate>
+      <guid isPermaLink="false">simplexai-labs/linger</guid>
+    </item>
+    <item>
+      <title>jingyaogong/minimind</title>
+      <link>https://github.com/jingyaogong/minimind</link>
+      <description>🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.</description>
+      <pubDate>Sun, 22 Nov 2026 07:07:03 GMT</pubDate>
+      <guid isPermaLink="false">jingyaogong/minimind</guid>
+    </item>
+    <item>
+      <title>zhouxiaoka/autoclip</title>
+      <link>https://github.com/zhouxiaoka/autoclip</link>
+      <description>AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping &amp; content repurposing.</description>
+      <pubDate>Sun, 22 Nov 2026 07:07:03 GMT</pubDate>
+      <guid isPermaLink="false">zhouxiaoka/autoclip</guid>
+    </item>
+    <item>
+      <title>mjmirza/app-store-compliance</title>
+      <link>https://github.com/mjmirza/app-store-compliance</link>
+      <description>Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 111 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.</description>
+      <pubDate>Sun, 22 Nov 2026 07:07:03 GMT</pubDate>
+      <guid isPermaLink="false">mjmirza/app-store-compliance</guid>
+    </item>
+    <item>
+      <title>imxieyi/Kernarium</title>
+      <link>https://github.com/imxieyi/Kernarium</link>
+      <description>Run real Linux kernel natively on iOS</description>
+      <pubDate>Sun, 22 Nov 2026 07:07:03 GMT</pubDate>
+      <guid isPermaLink="false">imxieyi/Kernarium</guid>
+    </item>
+    <item>
+      <title>toeverything/AFFiNE</title>
+      <link>https://github.com/toeverything/AFFiNE</link>
+      <description>There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. </description>
+      <pubDate>Sun, 22 Nov 2026 07:07:03 GMT</pubDate>
+      <guid isPermaLink="false">toeverything/AFFiNE</guid>
+    </item>
     <item>
       <title>GoogleChrome/modern-web-guidance</title>
       <link>https://github.com/GoogleChrome/modern-web-guidance</link>
@@ -349,69 +405,6 @@
       <description>A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.</description>
       <pubDate>Mon, 16 Nov 2026 06:49:42 GMT</pubDate>
       <guid isPermaLink="false">elementalsouls/Claude-BugHunter</guid>
-    </item>
-    <item>
-      <title>tangerineturtle1/NX2navi</title>
-      <link>https://github.com/tangerineturtle1/NX2navi</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 15 Nov 2026 06:49:48 GMT</pubDate>
-      <guid isPermaLink="false">tangerineturtle1/NX2navi</guid>
-    </item>
-    <item>
-      <title>jamesondh/chimera-vocal-synth</title>
-      <link>https://github.com/jamesondh/chimera-vocal-synth</link>
-      <description>the ultimate vocal synthesizer - sing, speak, beatbox, and more</description>
-      <pubDate>Sun, 15 Nov 2026 06:49:48 GMT</pubDate>
-      <guid isPermaLink="false">jamesondh/chimera-vocal-synth</guid>
-    </item>
-    <item>
-      <title>openai/codex-security</title>
-      <link>https://github.com/openai/codex-security</link>
-      <description>OpenAI&apos;s Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security</description>
-      <pubDate>Sun, 15 Nov 2026 06:49:48 GMT</pubDate>
-      <guid isPermaLink="false">openai/codex-security</guid>
-    </item>
-    <item>
-      <title>DIYgod/pinky</title>
-      <link>https://github.com/DIYgod/pinky</link>
-      <description>Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone.</description>
-      <pubDate>Sun, 15 Nov 2026 06:49:48 GMT</pubDate>
-      <guid isPermaLink="false">DIYgod/pinky</guid>
-    </item>
-    <item>
-      <title>Frizti/Fritchii</title>
-      <link>https://github.com/Frizti/Fritchii</link>
-      <description>Frontier GREEN HAT BOY ADVENTURE specialized Lichii fork, i&apos;m the goat</description>
-      <pubDate>Sun, 15 Nov 2026 06:49:48 GMT</pubDate>
-      <guid isPermaLink="false">Frizti/Fritchii</guid>
-    </item>
-    <item>
-      <title>OpenMontageInc/OpenMontage</title>
-      <link>https://github.com/OpenMontageInc/OpenMontage</link>
-      <description>World&apos;s first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.</description>
-      <pubDate>Sun, 15 Nov 2026 06:49:48 GMT</pubDate>
-      <guid isPermaLink="false">OpenMontageInc/OpenMontage</guid>
-    </item>
-    <item>
-      <title>JenkinWoo/sheeridVerify</title>
-      <link>https://github.com/JenkinWoo/sheeridVerify</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 15 Nov 2026 06:49:48 GMT</pubDate>
-      <guid isPermaLink="false">JenkinWoo/sheeridVerify</guid>
-    </item>
-    <item>
-      <title>SirBonney/scrcpy-mirror-control</title>
-      <link>https://github.com/SirBonney/scrcpy-mirror-control</link>
-      <description>Android Screen Mirroring and Control Workflow, Simplified</description>
-      <pubDate>Sun, 15 Nov 2026 06:49:48 GMT</pubDate>
-      <guid isPermaLink="false">SirBonney/scrcpy-mirror-control</guid>
-    </item>
-    <item>
-      <title>App-MonicaWEB/auslogics-audio-studio-desktop</title>
-      <link>https://github.com/App-MonicaWEB/auslogics-audio-studio-desktop</link>
-      <description>Auslogics Audio Studio 2026 Desktop Edition: Pre-Activated Standalone Setup</description>
-      <pubDate>Sun, 15 Nov 2026 06:49:48 GMT</pubDate>
-      <guid isPermaLink="false">App-MonicaWEB/auslogics-audio-studio-desktop</guid>
     </item>
   </channel>
 </rss>

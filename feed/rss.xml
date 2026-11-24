@@ -5,8 +5,50 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2026 07:07:03 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 10:07:25 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>Marvisak/VIctory</title>
+      <link>https://github.com/Marvisak/VIctory</link>
+      <description>An attempt at running GTA VI on PC</description>
+      <pubDate>Tue, 24 Nov 2026 10:07:25 GMT</pubDate>
+      <guid isPermaLink="false">Marvisak/VIctory</guid>
+    </item>
+    <item>
+      <title>Hut-hzf/ung220z-tool</title>
+      <link>https://github.com/Hut-hzf/ung220z-tool</link>
+      <description>ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。</description>
+      <pubDate>Tue, 24 Nov 2026 10:07:25 GMT</pubDate>
+      <guid isPermaLink="false">Hut-hzf/ung220z-tool</guid>
+    </item>
+    <item>
+      <title>kunkundi/crossdesk</title>
+      <link>https://github.com/kunkundi/crossdesk</link>
+      <description>A lightweight, cross-platform remote desktop software with support for Web Client access | 一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。</description>
+      <pubDate>Tue, 24 Nov 2026 10:07:25 GMT</pubDate>
+      <guid isPermaLink="false">kunkundi/crossdesk</guid>
+    </item>
+    <item>
+      <title>ChiefGyk3D/Clouds-Against-Humanity</title>
+      <link>https://github.com/ChiefGyk3D/Clouds-Against-Humanity</link>
+      <description>Learn cloud security by building it! An open-source homelab teaching Zero Trust, DevSecOps, IaC, and cloud architecture from the ground up.</description>
+      <pubDate>Tue, 24 Nov 2026 10:07:25 GMT</pubDate>
+      <guid isPermaLink="false">ChiefGyk3D/Clouds-Against-Humanity</guid>
+    </item>
+    <item>
+      <title>sybil-solutions/inference-optimisation-skill</title>
+      <link>https://github.com/sybil-solutions/inference-optimisation-skill</link>
+      <description>Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization</description>
+      <pubDate>Tue, 24 Nov 2026 10:07:25 GMT</pubDate>
+      <guid isPermaLink="false">sybil-solutions/inference-optimisation-skill</guid>
+    </item>
+    <item>
+      <title>atuizz/posewear</title>
+      <link>https://github.com/atuizz/posewear</link>
+      <description>姿势、服装、人像参考图库，附中英文提示词，可在浏览器里 AI 试穿 · Pose, outfit &amp; portrait reference library with bilingual prompts and in-browser AI try-on</description>
+      <pubDate>Tue, 24 Nov 2026 10:07:25 GMT</pubDate>
+      <guid isPermaLink="false">atuizz/posewear</guid>
+    </item>
     <item>
       <title>BaaRai/ARTEX</title>
       <link>https://github.com/BaaRai/ARTEX</link>
@@ -59,7 +101,7 @@
     <item>
       <title>toeverything/AFFiNE</title>
       <link>https://github.com/toeverything/AFFiNE</link>
-      <description>There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. </description>
+      <description>There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.</description>
       <pubDate>Sun, 22 Nov 2026 07:07:03 GMT</pubDate>
       <guid isPermaLink="false">toeverything/AFFiNE</guid>
     </item>
@@ -300,111 +342,6 @@
       <description>A WiFi security auditing software</description>
       <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
       <guid isPermaLink="false">martin-olivier/airgorah</guid>
-    </item>
-    <item>
-      <title>janestreet/agent_skills</title>
-      <link>https://github.com/janestreet/agent_skills</link>
-      <description>Agent skills</description>
-      <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
-      <guid isPermaLink="false">janestreet/agent_skills</guid>
-    </item>
-    <item>
-      <title>backnotprop/plannotator</title>
-      <link>https://github.com/backnotprop/plannotator</link>
-      <description>The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.</description>
-      <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
-      <guid isPermaLink="false">backnotprop/plannotator</guid>
-    </item>
-    <item>
-      <title>NVIDIA/SkillEvaluator</title>
-      <link>https://github.com/NVIDIA/SkillEvaluator</link>
-      <description>Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.</description>
-      <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
-      <guid isPermaLink="false">NVIDIA/SkillEvaluator</guid>
-    </item>
-    <item>
-      <title>Tencent/LoopForge</title>
-      <link>https://github.com/Tencent/LoopForge</link>
-      <description>Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.</description>
-      <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
-      <guid isPermaLink="false">Tencent/LoopForge</guid>
-    </item>
-    <item>
-      <title>elder-plinius/CL4R1T4S</title>
-      <link>https://github.com/elder-plinius/CL4R1T4S</link>
-      <description>LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐</description>
-      <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
-      <guid isPermaLink="false">elder-plinius/CL4R1T4S</guid>
-    </item>
-    <item>
-      <title>ag-ui-protocol/ag-ui</title>
-      <link>https://github.com/ag-ui-protocol/ag-ui</link>
-      <description>AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.</description>
-      <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
-      <guid isPermaLink="false">ag-ui-protocol/ag-ui</guid>
-    </item>
-    <item>
-      <title>google-research/paper-orchestra</title>
-      <link>https://github.com/google-research/paper-orchestra</link>
-      <description>PaperOrchestra is a multi-agent framework for automated AI research paper writing.</description>
-      <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
-      <guid isPermaLink="false">google-research/paper-orchestra</guid>
-    </item>
-    <item>
-      <title>ayanprob/coreldraw-desktop-installer</title>
-      <link>https://github.com/ayanprob/coreldraw-desktop-installer</link>
-      <description>CorelDraw 2026 Professional Desktop Installer with Ready-to-Run Utility Configuration</description>
-      <pubDate>Tue, 17 Nov 2026 08:09:17 GMT</pubDate>
-      <guid isPermaLink="false">ayanprob/coreldraw-desktop-installer</guid>
-    </item>
-    <item>
-      <title>JuneYaooo/rea-video</title>
-      <link>https://github.com/JuneYaooo/rea-video</link>
-      <description>Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。</description>
-      <pubDate>Mon, 16 Nov 2026 06:49:42 GMT</pubDate>
-      <guid isPermaLink="false">JuneYaooo/rea-video</guid>
-    </item>
-    <item>
-      <title>tradermonty/claude-trading-skills</title>
-      <link>https://github.com/tradermonty/claude-trading-skills</link>
-      <description>Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.</description>
-      <pubDate>Mon, 16 Nov 2026 06:49:42 GMT</pubDate>
-      <guid isPermaLink="false">tradermonty/claude-trading-skills</guid>
-    </item>
-    <item>
-      <title>ChromeDevTools/chrome-devtools-mcp</title>
-      <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
-      <description>Chrome DevTools for coding agents</description>
-      <pubDate>Mon, 16 Nov 2026 06:49:42 GMT</pubDate>
-      <guid isPermaLink="false">ChromeDevTools/chrome-devtools-mcp</guid>
-    </item>
-    <item>
-      <title>Likely7/Veyra-NRVideo</title>
-      <link>https://github.com/Likely7/Veyra-NRVideo</link>
-      <description>Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.</description>
-      <pubDate>Mon, 16 Nov 2026 06:49:42 GMT</pubDate>
-      <guid isPermaLink="false">Likely7/Veyra-NRVideo</guid>
-    </item>
-    <item>
-      <title>jhaizhou-ops/S2Arm</title>
-      <link>https://github.com/jhaizhou-ops/S2Arm</link>
-      <description>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。</description>
-      <pubDate>Mon, 16 Nov 2026 06:49:42 GMT</pubDate>
-      <guid isPermaLink="false">jhaizhou-ops/S2Arm</guid>
-    </item>
-    <item>
-      <title>modelflare-ai/AnyModelBot</title>
-      <link>https://github.com/modelflare-ai/AnyModelBot</link>
-      <description>🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.</description>
-      <pubDate>Mon, 16 Nov 2026 06:49:42 GMT</pubDate>
-      <guid isPermaLink="false">modelflare-ai/AnyModelBot</guid>
-    </item>
-    <item>
-      <title>elementalsouls/Claude-BugHunter</title>
-      <link>https://github.com/elementalsouls/Claude-BugHunter</link>
-      <description>A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.</description>
-      <pubDate>Mon, 16 Nov 2026 06:49:42 GMT</pubDate>
-      <guid isPermaLink="false">elementalsouls/Claude-BugHunter</guid>
     </item>
   </channel>
 </rss>

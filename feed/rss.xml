@@ -5,8 +5,120 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2026 10:07:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 08:52:37 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>erkamyaman/rust-anything</title>
+      <link>https://github.com/erkamyaman/rust-anything</link>
+      <description>Rewrite your whole app in Rust, one piece at a time, checked against the original&apos;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.</description>
+      <pubDate>Wed, 25 Nov 2026 08:52:37 GMT</pubDate>
+      <guid isPermaLink="false">erkamyaman/rust-anything</guid>
+    </item>
+    <item>
+      <title>google-research/paper-orchestra</title>
+      <link>https://github.com/google-research/paper-orchestra</link>
+      <description>PaperOrchestra is a multi-agent framework for automated AI research paper writing.</description>
+      <pubDate>Wed, 25 Nov 2026 08:52:37 GMT</pubDate>
+      <guid isPermaLink="false">google-research/paper-orchestra</guid>
+    </item>
+    <item>
+      <title>Tencent/LoopForge</title>
+      <link>https://github.com/Tencent/LoopForge</link>
+      <description>Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.</description>
+      <pubDate>Wed, 25 Nov 2026 08:52:37 GMT</pubDate>
+      <guid isPermaLink="false">Tencent/LoopForge</guid>
+    </item>
+    <item>
+      <title>shinyobjectz/raea</title>
+      <link>https://github.com/shinyobjectz/raea</link>
+      <description>Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.</description>
+      <pubDate>Wed, 25 Nov 2026 08:52:37 GMT</pubDate>
+      <guid isPermaLink="false">shinyobjectz/raea</guid>
+    </item>
+    <item>
+      <title>toyxyz/toyxyz_RGBMocap</title>
+      <link>https://github.com/toyxyz/toyxyz_RGBMocap</link>
+      <description>Native Windows video motion capture with ExMR, FlowHMR and GVHMR, contact correction, humanoid retargeting, and FBX/VMD export.</description>
+      <pubDate>Wed, 25 Nov 2026 08:52:37 GMT</pubDate>
+      <guid isPermaLink="false">toyxyz/toyxyz_RGBMocap</guid>
+    </item>
+    <item>
+      <title>diggerhq/opencomputer</title>
+      <link>https://github.com/diggerhq/opencomputer</link>
+      <description>An open-source, faster Devin alternative</description>
+      <pubDate>Wed, 25 Nov 2026 08:52:37 GMT</pubDate>
+      <guid isPermaLink="false">diggerhq/opencomputer</guid>
+    </item>
+    <item>
+      <title>nginx/nginx</title>
+      <link>https://github.com/nginx/nginx</link>
+      <description>The official NGINX Open Source repository.</description>
+      <pubDate>Wed, 25 Nov 2026 08:52:37 GMT</pubDate>
+      <guid isPermaLink="false">nginx/nginx</guid>
+    </item>
+    <item>
+      <title>heartleo/zlib</title>
+      <link>https://github.com/heartleo/zlib</link>
+      <description>A command-line tool for Z-Library. Search, download, send to Kindle and WeRead, and integrate with AI agents.</description>
+      <pubDate>Wed, 25 Nov 2026 08:52:37 GMT</pubDate>
+      <guid isPermaLink="false">heartleo/zlib</guid>
+    </item>
+    <item>
+      <title>google-gemini/gemini-api-cli</title>
+      <link>https://github.com/google-gemini/gemini-api-cli</link>
+      <description>An (experimental) CLI for the Gemini API</description>
+      <pubDate>Wed, 25 Nov 2026 08:52:37 GMT</pubDate>
+      <guid isPermaLink="false">google-gemini/gemini-api-cli</guid>
+    </item>
+    <item>
+      <title>appwrite/appwrite</title>
+      <link>https://github.com/appwrite/appwrite</link>
+      <description>The open-source cloud for agents &amp; devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more</description>
+      <pubDate>Wed, 25 Nov 2026 08:52:37 GMT</pubDate>
+      <guid isPermaLink="false">appwrite/appwrite</guid>
+    </item>
+    <item>
+      <title>helloHub1212/dsh-windows-mcp</title>
+      <link>https://github.com/helloHub1212/dsh-windows-mcp</link>
+      <description>Windows desktop automation for DeepSeek Harness: the in-box MCP client bridge mounted against CursorTouch/Windows-MCP, with an off-by-default Computer Use switch and an in-app dependency installer.</description>
+      <pubDate>Wed, 25 Nov 2026 08:52:37 GMT</pubDate>
+      <guid isPermaLink="false">helloHub1212/dsh-windows-mcp</guid>
+    </item>
+    <item>
+      <title>Augani/openreel-video</title>
+      <link>https://github.com/Augani/openreel-video</link>
+      <description>OpenReel Video - Professional browser-based video editor. Open source CapCut alternative. 100% browser-based, no installation, no cloud uploads, no watermarks.</description>
+      <pubDate>Wed, 25 Nov 2026 08:52:37 GMT</pubDate>
+      <guid isPermaLink="false">Augani/openreel-video</guid>
+    </item>
+    <item>
+      <title>FlorianBruniaux/claude-code-ultimate-guide</title>
+      <link>https://github.com/FlorianBruniaux/claude-code-ultimate-guide</link>
+      <description>The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines.</description>
+      <pubDate>Wed, 25 Nov 2026 08:52:37 GMT</pubDate>
+      <guid isPermaLink="false">FlorianBruniaux/claude-code-ultimate-guide</guid>
+    </item>
+    <item>
+      <title>FortoGraphy/prism-download-manager</title>
+      <link>https://github.com/FortoGraphy/prism-download-manager</link>
+      <description>Free, open-source IDM alternative for Windows, macOS and Linux — up to 32 connections, browser integration, video &amp; MP3 downloads, torrents, crash-safe resume.</description>
+      <pubDate>Wed, 25 Nov 2026 08:52:37 GMT</pubDate>
+      <guid isPermaLink="false">FortoGraphy/prism-download-manager</guid>
+    </item>
+    <item>
+      <title>antigravity-cn-community/Antigravity-Chinese-Localization</title>
+      <link>https://github.com/antigravity-cn-community/Antigravity-Chinese-Localization</link>
+      <description>antigravity一键汉化</description>
+      <pubDate>Wed, 25 Nov 2026 08:52:37 GMT</pubDate>
+      <guid isPermaLink="false">antigravity-cn-community/Antigravity-Chinese-Localization</guid>
+    </item>
+    <item>
+      <title>gulucaptain/Best-Paper-Writing-Skill</title>
+      <link>https://github.com/gulucaptain/Best-Paper-Writing-Skill</link>
+      <description>[Writing] Claude / Codex skill for drafting abstracts, introductions, methods and experiments in the style of CVPR/ICCV/NeurIPS best papers, distilled from 60 award-winning papers.</description>
+      <pubDate>Wed, 25 Nov 2026 08:52:37 GMT</pubDate>
+      <guid isPermaLink="false">gulucaptain/Best-Paper-Writing-Skill</guid>
+    </item>
     <item>
       <title>Marvisak/VIctory</title>
       <link>https://github.com/Marvisak/VIctory</link>
@@ -279,69 +391,6 @@
       <description>One self-hosted app for your shows, movies and music.</description>
       <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
       <guid isPermaLink="false">HolyArrs/HolyArrs</guid>
-    </item>
-    <item>
-      <title>aws/aws-emulator</title>
-      <link>https://github.com/aws/aws-emulator</link>
-      <description>AWS Emulator is a local emulator of the AWS APIs.</description>
-      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
-      <guid isPermaLink="false">aws/aws-emulator</guid>
-    </item>
-    <item>
-      <title>RoutineMiku/apkstart</title>
-      <link>https://github.com/RoutineMiku/apkstart</link>
-      <description>Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时</description>
-      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
-      <guid isPermaLink="false">RoutineMiku/apkstart</guid>
-    </item>
-    <item>
-      <title>deepseek-ai/chat-demo</title>
-      <link>https://github.com/deepseek-ai/chat-demo</link>
-      <description>Chat Demo</description>
-      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
-      <guid isPermaLink="false">deepseek-ai/chat-demo</guid>
-    </item>
-    <item>
-      <title>zxsos/HGhubX</title>
-      <link>https://github.com/zxsos/HGhubX</link>
-      <description>Cross-platform short-drama client built with Tauri 2, React and Rust.</description>
-      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
-      <guid isPermaLink="false">zxsos/HGhubX</guid>
-    </item>
-    <item>
-      <title>dream-num/univer</title>
-      <link>https://github.com/dream-num/univer</link>
-      <description>Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.</description>
-      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
-      <guid isPermaLink="false">dream-num/univer</guid>
-    </item>
-    <item>
-      <title>meta/astryx</title>
-      <link>https://github.com/meta/astryx</link>
-      <description>An open source design system that&apos;s fully customizable and agent ready</description>
-      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
-      <guid isPermaLink="false">meta/astryx</guid>
-    </item>
-    <item>
-      <title>tylertms/Stela</title>
-      <link>https://github.com/tylertms/Stela</link>
-      <description>A translation-based Apple Silicon layer for x86-64 PCs</description>
-      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
-      <guid isPermaLink="false">tylertms/Stela</guid>
-    </item>
-    <item>
-      <title>expo/exact</title>
-      <link>https://github.com/expo/exact</link>
-      <description>Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.</description>
-      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
-      <guid isPermaLink="false">expo/exact</guid>
-    </item>
-    <item>
-      <title>martin-olivier/airgorah</title>
-      <link>https://github.com/martin-olivier/airgorah</link>
-      <description>A WiFi security auditing software</description>
-      <pubDate>Wed, 18 Nov 2026 07:43:50 GMT</pubDate>
-      <guid isPermaLink="false">martin-olivier/airgorah</guid>
     </item>
   </channel>
 </rss>

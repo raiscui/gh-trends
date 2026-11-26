@@ -5,8 +5,50 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Nov 2026 08:52:37 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 08:37:56 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>elementalsouls/Claude-BugHunter</title>
+      <link>https://github.com/elementalsouls/Claude-BugHunter</link>
+      <description>A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.</description>
+      <pubDate>Thu, 26 Nov 2026 08:37:56 GMT</pubDate>
+      <guid isPermaLink="false">elementalsouls/Claude-BugHunter</guid>
+    </item>
+    <item>
+      <title>havenicec/google-qr-sms-helper</title>
+      <link>https://github.com/havenicec/google-qr-sms-helper</link>
+      <description>Chrome Extension (MV3) to switch Google&apos;s mandatory QR code verification back to standard 6-digit SMS verification via iPad Mini profile &amp; [3,null,4] RPC fallback.</description>
+      <pubDate>Thu, 26 Nov 2026 08:37:56 GMT</pubDate>
+      <guid isPermaLink="false">havenicec/google-qr-sms-helper</guid>
+    </item>
+    <item>
+      <title>XinaTian/MROffice</title>
+      <link>https://github.com/XinaTian/MROffice</link>
+      <description>MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.</description>
+      <pubDate>Thu, 26 Nov 2026 08:37:56 GMT</pubDate>
+      <guid isPermaLink="false">XinaTian/MROffice</guid>
+    </item>
+    <item>
+      <title>Likely7/Veyra-NRVideo</title>
+      <link>https://github.com/Likely7/Veyra-NRVideo</link>
+      <description>Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.</description>
+      <pubDate>Thu, 26 Nov 2026 08:37:56 GMT</pubDate>
+      <guid isPermaLink="false">Likely7/Veyra-NRVideo</guid>
+    </item>
+    <item>
+      <title>Flagsmith/flagsmith</title>
+      <link>https://github.com/Flagsmith/flagsmith</link>
+      <description>Flagsmith is an open-source feature flag platform with remote config and experimentation. Choose from self-hosted or cloud deployment options.</description>
+      <pubDate>Thu, 26 Nov 2026 08:37:56 GMT</pubDate>
+      <guid isPermaLink="false">Flagsmith/flagsmith</guid>
+    </item>
+    <item>
+      <title>Lemxy/WinRust</title>
+      <link>https://github.com/Lemxy/WinRust</link>
+      <description>Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.</description>
+      <pubDate>Thu, 26 Nov 2026 08:37:56 GMT</pubDate>
+      <guid isPermaLink="false">Lemxy/WinRust</guid>
+    </item>
     <item>
       <title>erkamyaman/rust-anything</title>
       <link>https://github.com/erkamyaman/rust-anything</link>
@@ -335,62 +377,6 @@
       <description>A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.</description>
       <pubDate>Fri, 20 Nov 2026 07:30:51 GMT</pubDate>
       <guid isPermaLink="false">google-labs-code/stitch-skills</guid>
-    </item>
-    <item>
-      <title>anefzaoui/misterdownloadmanager</title>
-      <link>https://github.com/anefzaoui/misterdownloadmanager</link>
-      <description>misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux</description>
-      <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
-      <guid isPermaLink="false">anefzaoui/misterdownloadmanager</guid>
-    </item>
-    <item>
-      <title>kingcharleslzy-ai/dsh-purge</title>
-      <link>https://github.com/kingcharleslzy-ai/dsh-purge</link>
-      <description>dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。</description>
-      <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
-      <guid isPermaLink="false">kingcharleslzy-ai/dsh-purge</guid>
-    </item>
-    <item>
-      <title>mdiri-ai/SoduWork</title>
-      <link>https://github.com/mdiri-ai/SoduWork</link>
-      <description>The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.</description>
-      <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
-      <guid isPermaLink="false">mdiri-ai/SoduWork</guid>
-    </item>
-    <item>
-      <title>apex-compute/ANR</title>
-      <link>https://github.com/apex-compute/ANR</link>
-      <description>Apex Neural Rendering (ANR) by Apex Compute</description>
-      <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
-      <guid isPermaLink="false">apex-compute/ANR</guid>
-    </item>
-    <item>
-      <title>ethanplusai/sellbird</title>
-      <link>https://github.com/ethanplusai/sellbird</link>
-      <description>Sellbird (formerly Harvey): the open-source outreach platform that runs on your Claude or ChatGPT plan. Finds companies and decision makers, verifies emails, writes personal cold email, sends it and handles the replies.</description>
-      <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
-      <guid isPermaLink="false">ethanplusai/sellbird</guid>
-    </item>
-    <item>
-      <title>sveltejs/svelte</title>
-      <link>https://github.com/sveltejs/svelte</link>
-      <description>web development for the rest of us</description>
-      <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
-      <guid isPermaLink="false">sveltejs/svelte</guid>
-    </item>
-    <item>
-      <title>elripalda/RecompLauncher</title>
-      <link>https://github.com/elripalda/RecompLauncher</link>
-      <description>PC recomps, all in one place. Find, install, update and play PC recomps from one launcher.</description>
-      <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
-      <guid isPermaLink="false">elripalda/RecompLauncher</guid>
-    </item>
-    <item>
-      <title>HolyArrs/HolyArrs</title>
-      <link>https://github.com/HolyArrs/HolyArrs</link>
-      <description>One self-hosted app for your shows, movies and music.</description>
-      <pubDate>Thu, 19 Nov 2026 07:40:19 GMT</pubDate>
-      <guid isPermaLink="false">HolyArrs/HolyArrs</guid>
     </item>
   </channel>
 </rss>

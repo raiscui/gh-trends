@@ -5,8 +5,57 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2026 08:37:56 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 08:49:43 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>AFK-surf/xnulinux</title>
+      <link>https://github.com/AFK-surf/xnulinux</link>
+      <description>XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)</description>
+      <pubDate>Fri, 27 Nov 2026 08:49:43 GMT</pubDate>
+      <guid isPermaLink="false">AFK-surf/xnulinux</guid>
+    </item>
+    <item>
+      <title>Belobug/VIctory-Belobug-AMD</title>
+      <link>https://github.com/Belobug/VIctory-Belobug-AMD</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 27 Nov 2026 08:49:43 GMT</pubDate>
+      <guid isPermaLink="false">Belobug/VIctory-Belobug-AMD</guid>
+    </item>
+    <item>
+      <title>mdiri-ai/SoduWork</title>
+      <link>https://github.com/mdiri-ai/SoduWork</link>
+      <description>The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.</description>
+      <pubDate>Fri, 27 Nov 2026 08:49:43 GMT</pubDate>
+      <guid isPermaLink="false">mdiri-ai/SoduWork</guid>
+    </item>
+    <item>
+      <title>scottsturrock/mate-wayland-desktop</title>
+      <link>https://github.com/scottsturrock/mate-wayland-desktop</link>
+      <description>MATE Wayland Desktop: the MATE desktop on Wayland with labwc, on an Ubuntu 26.04 base. Sources and build system.</description>
+      <pubDate>Fri, 27 Nov 2026 08:49:43 GMT</pubDate>
+      <guid isPermaLink="false">scottsturrock/mate-wayland-desktop</guid>
+    </item>
+    <item>
+      <title>INK-Q/agy-fast</title>
+      <link>https://github.com/INK-Q/agy-fast</link>
+      <description>Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.</description>
+      <pubDate>Fri, 27 Nov 2026 08:49:43 GMT</pubDate>
+      <guid isPermaLink="false">INK-Q/agy-fast</guid>
+    </item>
+    <item>
+      <title>perixtar/Tech-OA-Interview-Questions</title>
+      <link>https://github.com/perixtar/Tech-OA-Interview-Questions</link>
+      <description>Daily updated list of Tech Company OAs and Interview Problems. Save your time from finding them all over the internet.</description>
+      <pubDate>Fri, 27 Nov 2026 08:49:43 GMT</pubDate>
+      <guid isPermaLink="false">perixtar/Tech-OA-Interview-Questions</guid>
+    </item>
+    <item>
+      <title>phone-harness/phone-harness</title>
+      <link>https://github.com/phone-harness/phone-harness</link>
+      <description>let your agent control your phone</description>
+      <pubDate>Fri, 27 Nov 2026 08:49:43 GMT</pubDate>
+      <guid isPermaLink="false">phone-harness/phone-harness</guid>
+    </item>
     <item>
       <title>elementalsouls/Claude-BugHunter</title>
       <link>https://github.com/elementalsouls/Claude-BugHunter</link>
@@ -314,69 +363,6 @@
       <description>Cubase Studio 2026 desktop setup with full plugin suite and complete feature set</description>
       <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
       <guid isPermaLink="false">ariamitchell54/cubase-studio-desktop</guid>
-    </item>
-    <item>
-      <title>vercel-labs/ui</title>
-      <link>https://github.com/vercel-labs/ui</link>
-      <description>A library of behaviors for agents to build the next generation of user interfaces.</description>
-      <pubDate>Fri, 20 Nov 2026 07:30:51 GMT</pubDate>
-      <guid isPermaLink="false">vercel-labs/ui</guid>
-    </item>
-    <item>
-      <title>mvanhorn/last30days-skill</title>
-      <link>https://github.com/mvanhorn/last30days-skill</link>
-      <description>AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary</description>
-      <pubDate>Fri, 20 Nov 2026 07:30:51 GMT</pubDate>
-      <guid isPermaLink="false">mvanhorn/last30days-skill</guid>
-    </item>
-    <item>
-      <title>nexu-io/openmotion</title>
-      <link>https://github.com/nexu-io/openmotion</link>
-      <description>The open-source Claude Motion &amp; CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.</description>
-      <pubDate>Fri, 20 Nov 2026 07:30:51 GMT</pubDate>
-      <guid isPermaLink="false">nexu-io/openmotion</guid>
-    </item>
-    <item>
-      <title>kajisho5/ffmpeg-skill</title>
-      <link>https://github.com/kajisho5/ffmpeg-skill</link>
-      <description>Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.</description>
-      <pubDate>Fri, 20 Nov 2026 07:30:51 GMT</pubDate>
-      <guid isPermaLink="false">kajisho5/ffmpeg-skill</guid>
-    </item>
-    <item>
-      <title>ersinkoc/phonebox</title>
-      <link>https://github.com/ersinkoc/phonebox</link>
-      <description>Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.</description>
-      <pubDate>Fri, 20 Nov 2026 07:30:51 GMT</pubDate>
-      <guid isPermaLink="false">ersinkoc/phonebox</guid>
-    </item>
-    <item>
-      <title>arjun988/blender-skills</title>
-      <link>https://github.com/arjun988/blender-skills</link>
-      <description>94 specialist Blender skills for Cursor, Claude Code, Kiro &amp; Codex -&gt; MCP-powered production pipeline from blockout to engine export.</description>
-      <pubDate>Fri, 20 Nov 2026 07:30:51 GMT</pubDate>
-      <guid isPermaLink="false">arjun988/blender-skills</guid>
-    </item>
-    <item>
-      <title>cloudflare/kitesurf</title>
-      <link>https://github.com/cloudflare/kitesurf</link>
-      <description>Kitesurf is an experimental browser engine that runs on Cloudflare Workers.</description>
-      <pubDate>Fri, 20 Nov 2026 07:30:51 GMT</pubDate>
-      <guid isPermaLink="false">cloudflare/kitesurf</guid>
-    </item>
-    <item>
-      <title>XiaoYouChR/Ghost-Downloader-3</title>
-      <link>https://github.com/XiaoYouChR/Ghost-Downloader-3</link>
-      <description>The only downloader you need. 下载器的集大成者。</description>
-      <pubDate>Fri, 20 Nov 2026 07:30:51 GMT</pubDate>
-      <guid isPermaLink="false">XiaoYouChR/Ghost-Downloader-3</guid>
-    </item>
-    <item>
-      <title>google-labs-code/stitch-skills</title>
-      <link>https://github.com/google-labs-code/stitch-skills</link>
-      <description>A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.</description>
-      <pubDate>Fri, 20 Nov 2026 07:30:51 GMT</pubDate>
-      <guid isPermaLink="false">google-labs-code/stitch-skills</guid>
     </item>
   </channel>
 </rss>

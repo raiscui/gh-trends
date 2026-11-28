@@ -5,8 +5,57 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Nov 2026 08:49:43 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 08:06:07 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>xcl-dev/xcl</title>
+      <link>https://github.com/xcl-dev/xcl</link>
+      <description>Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL</description>
+      <pubDate>Sat, 28 Nov 2026 08:06:07 GMT</pubDate>
+      <guid isPermaLink="false">xcl-dev/xcl</guid>
+    </item>
+    <item>
+      <title>EL4CTEO/fast-anything</title>
+      <link>https://github.com/EL4CTEO/fast-anything</link>
+      <description>Don&apos;t rewrite it in Rust. Rewrite the 5% that&apos;s slow: profile your app, port the hot functions with your coding agent, prove they behave the same. Python, JS/TS, Ruby, Java, Kotlin, Go, PHP, C/C++, C#, R.</description>
+      <pubDate>Sat, 28 Nov 2026 08:06:07 GMT</pubDate>
+      <guid isPermaLink="false">EL4CTEO/fast-anything</guid>
+    </item>
+    <item>
+      <title>XiaoYouChR/Ghost-Downloader-3</title>
+      <link>https://github.com/XiaoYouChR/Ghost-Downloader-3</link>
+      <description>The only downloader you need. 下载器的集大成者。</description>
+      <pubDate>Sat, 28 Nov 2026 08:06:07 GMT</pubDate>
+      <guid isPermaLink="false">XiaoYouChR/Ghost-Downloader-3</guid>
+    </item>
+    <item>
+      <title>ersinkoc/phonebox</title>
+      <link>https://github.com/ersinkoc/phonebox</link>
+      <description>Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.</description>
+      <pubDate>Sat, 28 Nov 2026 08:06:07 GMT</pubDate>
+      <guid isPermaLink="false">ersinkoc/phonebox</guid>
+    </item>
+    <item>
+      <title>nexu-io/openmotion</title>
+      <link>https://github.com/nexu-io/openmotion</link>
+      <description>The open-source Claude Motion &amp; CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.</description>
+      <pubDate>Sat, 28 Nov 2026 08:06:07 GMT</pubDate>
+      <guid isPermaLink="false">nexu-io/openmotion</guid>
+    </item>
+    <item>
+      <title>LadybirdBrowser/ladybird</title>
+      <link>https://github.com/LadybirdBrowser/ladybird</link>
+      <description>Truly independent web browser</description>
+      <pubDate>Sat, 28 Nov 2026 08:06:07 GMT</pubDate>
+      <guid isPermaLink="false">LadybirdBrowser/ladybird</guid>
+    </item>
+    <item>
+      <title>WhiteBr1ck/agy-powertools</title>
+      <link>https://github.com/WhiteBr1ck/agy-powertools</link>
+      <description>Antigravity 2.0 原生界面增强插件：界面汉化、类 Codex 紧凑排版与阶段汇报、上下文与缓存监控、会话分支及本地用量面板</description>
+      <pubDate>Sat, 28 Nov 2026 08:06:07 GMT</pubDate>
+      <guid isPermaLink="false">WhiteBr1ck/agy-powertools</guid>
+    </item>
     <item>
       <title>AFK-surf/xnulinux</title>
       <link>https://github.com/AFK-surf/xnulinux</link>
@@ -307,62 +356,6 @@
       <description>There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.</description>
       <pubDate>Sun, 22 Nov 2026 07:07:03 GMT</pubDate>
       <guid isPermaLink="false">toeverything/AFFiNE</guid>
-    </item>
-    <item>
-      <title>GoogleChrome/modern-web-guidance</title>
-      <link>https://github.com/GoogleChrome/modern-web-guidance</link>
-      <description>Keep your coding agent up to date with the latest web best practices</description>
-      <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
-      <guid isPermaLink="false">GoogleChrome/modern-web-guidance</guid>
-    </item>
-    <item>
-      <title>GoogleChrome/modern-web-guidance-src</title>
-      <link>https://github.com/GoogleChrome/modern-web-guidance-src</link>
-      <description>Keep your coding agent up to date with the latest web best practices</description>
-      <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
-      <guid isPermaLink="false">GoogleChrome/modern-web-guidance-src</guid>
-    </item>
-    <item>
-      <title>ZiChuanLan/freebie-radar</title>
-      <link>https://github.com/ZiChuanLan/freebie-radar</link>
-      <description>白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送</description>
-      <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
-      <guid isPermaLink="false">ZiChuanLan/freebie-radar</guid>
-    </item>
-    <item>
-      <title>duwqijlk/muse-protocol</title>
-      <link>https://github.com/duwqijlk/muse-protocol</link>
-      <description>muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）</description>
-      <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
-      <guid isPermaLink="false">duwqijlk/muse-protocol</guid>
-    </item>
-    <item>
-      <title>Immortal-Protocols/lastbook</title>
-      <link>https://github.com/Immortal-Protocols/lastbook</link>
-      <description>Offline knowledge AI, maps and videos for survival and rebuilding</description>
-      <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
-      <guid isPermaLink="false">Immortal-Protocols/lastbook</guid>
-    </item>
-    <item>
-      <title>obsidianmd/obsidian-skills</title>
-      <link>https://github.com/obsidianmd/obsidian-skills</link>
-      <description>Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.</description>
-      <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
-      <guid isPermaLink="false">obsidianmd/obsidian-skills</guid>
-    </item>
-    <item>
-      <title>Tracer-Cloud/opensre</title>
-      <link>https://github.com/Tracer-Cloud/opensre</link>
-      <description>The open-source agent for CI/CD reliability.</description>
-      <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
-      <guid isPermaLink="false">Tracer-Cloud/opensre</guid>
-    </item>
-    <item>
-      <title>ariamitchell54/cubase-studio-desktop</title>
-      <link>https://github.com/ariamitchell54/cubase-studio-desktop</link>
-      <description>Cubase Studio 2026 desktop setup with full plugin suite and complete feature set</description>
-      <pubDate>Sat, 21 Nov 2026 07:26:08 GMT</pubDate>
-      <guid isPermaLink="false">ariamitchell54/cubase-studio-desktop</guid>
     </item>
   </channel>
 </rss>
